@@ -51,4 +51,4 @@ So she have to pull from origin
 lala has to use `git branch` and find the 
 7. lala has to use `git branch` and find the default
 8. Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch
-9. 
+9. Another words, manager want to merge **lala branch** into **master branch**. The manager can archive that by using ``
