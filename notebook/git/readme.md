@@ -1,27 +1,31 @@
-Create a new repo:  
+##### First, you thinking of create a project for your class so you need to create a repo:
 
-git init  
+1. Create a new repo:  
 
-Rename local branch:  
-https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch  
+```git init  
+git init
+```
+
+2. Rename local branch: 
+   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch  
 
 ```
 git branch -m <oldname> <newname>
 ```
 
-To check your local branch you can use
+3. To check your local branch you can use:
 
 ```
 git branch
 ```
 
-To check your remote branch
+4. To check your remote branch
 
 ```
 git branch -r
 ```
 
-Rename remote branch:
+##### The project is expand and you invite someone to work with you
 
 1. If you invite someone to work with you, they will use
 
@@ -54,14 +58,16 @@ lala has to use `git branch` and find the
 9. Another words, manager want to merge **lala branch** into **master branch**. To do it lala need to `git add <lala_works>` and `git commit -m "what does lala do"` 
 10. Then manager will `git checkout master` and then `git merge lulu`
 
-Another scenario:
+##### Another scenario:
 
 We assign lala  to work on PHP side only
 
-If you want it fast
 
-use this
+
+##### tips
+
+If you are tired of commit, add, push, you can try oneliner like this :
 
 ```
-git commit -a -m "commit" && git push origin HEAD:gh-pages
+git commit -a -m "commit" && git push
 ```
