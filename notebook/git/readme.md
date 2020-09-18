@@ -58,3 +58,10 @@ Another scenario:
 
 We assign lala  to work on PHP side only
 
+If you want it fast
+
+use this
+
+```
+git commit -a -m "commit" && git push
+```
