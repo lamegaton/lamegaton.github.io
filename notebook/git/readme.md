@@ -21,13 +21,7 @@ To check your remote branch
 git branch -r
 ```
 
-Rename remote branch
-
-```
-
-```
-
-
+Rename remote branch:
 
 1. If you invite someone to work with you, they will use
 
