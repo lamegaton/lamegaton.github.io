@@ -48,5 +48,7 @@ So she have to pull from origin
 
 5. Another coworker create a new branch as lala `git branch lala`
 6. lala  use `git pull` and have the same error
-7. lala has to use `git branch` and find the 
-
+lala has to use `git branch` and find the 
+7. lala has to use `git branch` and find the default
+8. Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch
+9. 
