@@ -54,3 +54,7 @@ lala has to use `git branch` and find the
 9. Another words, manager want to merge **lala branch** into **master branch**. To do it lala need to `git add <lala_works>` and `git commit -m "what does lala do"` 
 10. Then manager will `git checkout master` and then `git merge lulu`
 
+Another scenario:
+
+We assign lala  to work on PHP side only
+
