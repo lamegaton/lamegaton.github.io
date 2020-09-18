@@ -63,5 +63,5 @@ If you want it fast
 use this
 
 ```
-git commit -a -m "commit" && git push
+git commit -a -m "commit" && git push origin HEAD:gh-pages
 ```
