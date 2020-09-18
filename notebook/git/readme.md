@@ -2,7 +2,7 @@
 
 1. Create a new repo:  
 
-```git init  
+``` 
 git init
 ```
 
