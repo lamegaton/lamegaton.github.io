@@ -48,23 +48,21 @@ Please specify which branch you want to merge with.
 See git-pull(1) for details.
 ```
 
-So she have to pull from origin
+So she have to pull from origin `git pull origin <master branch>`
 
 5. Another coworker create a new branch as lala `git branch lala`
-6. lala  use `git pull` and have the same error
-lala has to use `git branch` and find the 
-7. lala has to use `git branch` and find the default
-8. Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch
-9. Another words, manager want to merge **lala branch** into **master branch**. To do it lala need to `git add <lala_works>` and `git commit -m "what does lala do"` 
-10. Then manager will `git checkout master` and then `git merge lulu`
+6. lala  use `git pull` and have the same error as lulu
+lala has to use `git branch` and find the  master branch. 
+7. Since working, lala has made many contributions, so a manager want to merge **lala branch** into **master branch**. To do it lala need to `git add <lala_works>` and `git commit -m "here I do this, I do that"` 
+10. Then manager will `git checkout master` and then `git merge lala`
 
 ##### Another scenario:
 
-We assign lala  to work on PHP side only
+We assign lulu to work on PHP side only
 
 
 
-##### tips
+##### Tips
 
 If you are tired of commit, add, push, you can try oneliner like this :
 
