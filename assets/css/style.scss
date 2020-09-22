@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "";
+@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
 .highlight pre {
     background-color: #ebf5ff;
 }
