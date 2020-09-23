@@ -7,3 +7,6 @@
 
 ### Contact
 sonpham995@gmail.com
+
+### My Repo  
+https://github.com/lamegaton/lamegaton.github.io
