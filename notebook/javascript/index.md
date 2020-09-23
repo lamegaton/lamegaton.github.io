@@ -1,7 +1,16 @@
 ## Basic 
 
 ### Edit a text   
-
+javascript
+```javascript
+document.<get what?>.value = "<new stuff>";
+getElementById
+getElementsByClassName
+getElementsByName
+getElementsByTagName
+getElementsByTagNameNS
+```
+jquery
 ```javascript
 $("<selector><put your class, id or type here>").html("<what do you want to change>");
 <selector>:
