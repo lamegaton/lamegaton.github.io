@@ -1,3 +1,8 @@
+---
+title: welcome
+layout: default
+---
+
 # Welcome to Sp Pages
 
 ### [Notebook](notebook/)
