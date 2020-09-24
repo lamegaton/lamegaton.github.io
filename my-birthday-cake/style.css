@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+
+.spacer {
+  position: relative;
+  display: block;
+  height: 50px;
+  margin: auto;
+}
+
+.cake {
+  background-color: pink;
+  display: block;
+  border-radius: 25px;
+  width: 200px;
+  height: 100px;
+  position: relative;
+  left: 45%;
+  right: 0;
+  top: 45%;
+}
+.candle {
+  background-color: red;
+  display: block;
+  width: 10px;
+  height: 40px;
+  position: relative;
+  left: 50%;
+  /*transform: rotate(-45deg);*/
+}
+.fire {
+  background-color: orange;
+  display: block;
+  width: 20px;
+  height: 10px;
+  left: 50%;
+  top: 30%;
+  position: relative;
+  animation: fireMove 1.25s infinite;
+}
+
+@keyframes fireMove{
+  0% {transform: scale(1.3);}
+  50% {transform: scale(1.4);}
+  75% {transform: scale(1.2);}
+}
