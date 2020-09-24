@@ -2,41 +2,32 @@ h1 {
   text-align: center;
 }
 
+.container {
+  display: grid;
+  justify-content: center;
+}
 .spacer {
-  position: relative;
-  display: block;
   height: 50px;
   margin: auto;
 }
 
 .cake {
   background-color: pink;
-  display: block;
   border-radius: 25px;
   width: 200px;
   height: 100px;
-  position: relative;
-  left: 50%;
-  right: 0;
-  top: 45%;
+  margin: auto;
 }
 .candle {
   background-color: red;
-  display: block;
   width: 10px;
   height: 40px;
-  position: relative;
-  left: 50%;
   /*transform: rotate(-45deg);*/
 }
 .fire {
   background-color: orange;
-  display: block;
   width: 20px;
   height: 10px;
-  left: 50%;
-  top: 30%;
-  position: relative;
   animation: fireMove 1.25s infinite;
 }
 
