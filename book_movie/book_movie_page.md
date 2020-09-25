@@ -1,6 +1,7 @@
 ---
+layout: default
 title: Books and Movies
-nav_order:2
+nav_order:1
 ---
 
 hello
