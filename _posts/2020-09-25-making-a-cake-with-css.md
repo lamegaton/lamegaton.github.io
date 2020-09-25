@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making an animated cake with HTML and CSS"
-categories: html_css
+categories: en notebook html_css
 author: "Son Pham"
 meta: "Springfield"
 ---
