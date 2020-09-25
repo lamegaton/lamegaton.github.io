@@ -1,3 +1,10 @@
+---
+type: post
+title: Basic Javascript
+category: /notebook/javascript
+---
+
+
 ### Edit a text   
 
 ```javascript
