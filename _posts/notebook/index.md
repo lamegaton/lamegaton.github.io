@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: page
 title: Notebook
-nav_order: 1
 ---
 
 ### [Tutorial on git](git/)
