@@ -1,3 +1,9 @@
+---
+layout: default
+title: Notebook
+nav_order: 1
+---
+
 ### [Tutorial on git](git/)
 ### [Tutorial on php](php/)
 ### [Tutorial on javascript](javascript/)
