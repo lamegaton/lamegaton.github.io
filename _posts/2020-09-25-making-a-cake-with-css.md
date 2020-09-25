@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making a cake with html and css"
+title: "Making an animated cake with HTML and CSS"
 categories: html_css
 author: "Son Pham"
 meta: "Springfield"
