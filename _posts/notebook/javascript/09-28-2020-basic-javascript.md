@@ -54,3 +54,16 @@ $(function() {
 ```
 
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object
+
+### next sibling
+
+### change display of an element
+```javascript
+document.getElementbyId(<ID>).style.display='none'; // or inherit
+```
+
+```
+<option selected disable value="">  </option>
+```
+
+
