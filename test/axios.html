@@ -1,0 +1,20 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<div id="result"></div>
+<script>
+//const axios = require('axios');
+
+// Make a request for a user with a given ID
+axios.get('https://youtube.com/get_video_info?video_id=AxI5r4_I5uA')
+  .then(function (response) {
+    // handle success
+   document.getElementById("result").innerText = "response";
+   document.getElementById("result").innerText += response;
+  })
+  .catch(function (error) {
+    // handle error
+    console.log("error");
+  })
+  .then(function () {
+    // always executed
+  });
+</script>
