@@ -1,0 +1,28 @@
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<div id="result">If you don't have one, try this: https://jsonplaceholder.typicode.com/users/1</div>
+<input type="text" placeholder="Please input the link" id="link_box">
+<button id="link_box_submit_btn">Okay, here you go</button>
+<div id="error_001">This is the error</div>
+
+<script>
+const url = "https://cors-anywhere.herokuapp.com/https://www.youtube.com/get_video_info?video_id=AxI5r4_I5uA";
+// Make a request for a user with a given ID
+axios.get({
+  method: 'get',
+  url: url,
+  responseType: 'stream'
+})
+  .then(function (response) {
+    // handle success
+    document.getElementById("result").innerText = JSON.stringify(response.data);
+    document.getElementById("error_001").innerText = response.data;
+    console.dir(response.data);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+  </script>
