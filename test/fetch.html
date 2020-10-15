@@ -24,8 +24,8 @@ fetch(url, {
                      response.headers;    //=> Headers
                      response.url;}        //=> String} // .json(), etc.
         // same as function(response) {return response.text();}
-    ).then({
-        result => $("#result").text(result);
+    ).then(result => {
+        var data = result;
         console.log(data);
     }).catch((error) => {
   console.error('Error:', error);
