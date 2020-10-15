@@ -2,7 +2,9 @@
 layout: post
 title: Basic Javascript
 categories: en notebook javascript
-author: Son Pham
+author: "Son Pham"
+meta: 
+description: "Basic javascript for a simple dynamic or static website"
 ---
 
 
@@ -66,5 +68,46 @@ document.getElementbyId(<ID>).style.display='none'; // or inherit
 ```
 <option selected disable value="">  </option>
 ```
+
+### Async 
+Asynchronous is used when user want to fetch data from server without refreshing the page.   
+IE5 and IE6 have different object name for async 
+```javascript
+function asynRequest(){
+	try {
+		var xhtml = new XMLHttpRequest()
+	} catch {
+		try {
+			something
+			} catch {
+				something different
+			}
+		}
+	}
+}
+```
+
+
+
+According to mozilla, XMHttpRequest doesn't need any parameters and return after open() and send() methods are executed. 
+
+A simple request will be as the following snippet:
+
+```javascript
+const request = new XMLHttpRequest();
+var url = 'https://jsonplaceholder.typicode.com/users/2';
+//XMLHttpRequest.open(method, url[, async[, user[, password]]])
+request.open('GET',url,true);
+// every time the readyState property change, this (callback) funtion will be executed
+request.onreadystatechange = function() {
+    let status = request.status;
+    if (status === 0 || (status >= 200 && status < 400)) {
+      // The request has been completed successfully
+		console.log(xhr.responseText);
+    } else {
+    	console.log("Error!");
+}
+```
+
 
 

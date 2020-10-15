@@ -5,3 +5,8 @@ categories: en notebook batch
 author: "Son Pham"
 meta: "batch dos cmd shell useful command"
 ---
+
+```
+TASKLIST /v /fo list /fi "imagename eq QXDM.exe" | find "Window Title:"
+```
+
