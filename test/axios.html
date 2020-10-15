@@ -4,7 +4,7 @@
 //const axios = require('axios');
 
 // Make a request for a user with a given ID
-axios.get('https://youtube.com/get_video_info?video_id=AxI5r4_I5uA')
+var ref = axios.get('https://youtube.com/get_video_info?video_id=AxI5r4_I5uA')
   .then(function (response) {
     // handle success
    document.getElementById("result").innerText = "response";
@@ -17,4 +17,5 @@ axios.get('https://youtube.com/get_video_info?video_id=AxI5r4_I5uA')
   .then(function () {
     // always executed
   });
+ console.log(ref.data);
 </script>
