@@ -1,9 +1,18 @@
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-<div id="result"></div>
-<script>
-//const axios = require('axios');
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<div id="result">This is the result</div>
 
-// Make a request for a user with a given ID
-var ref = axios.get('https://youtube.com/get_video_info?video_id=AxI5r4_I5uA');
-console.log(ref.data);
+<script>
+axios.get('https://jsonplaceholder.typicode.com/users/1')
+  .then(function (response) {
+    // handle success
+    document.getElementById("result").innerText = JSON.stringify(response.data);
+    console.dir(response.data);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
 </script>
