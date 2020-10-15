@@ -1,12 +1,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 
-<div class="result">This will be replace with the result</div>
+<div id="result">This will be replace with the result</div>
 
 <script>
 "use strict";
-window.onload = function() {
-const url2 = "";
-const url1 = "";
 const url = "https://jsonplaceholder.typicode.com/users/1";
 fetch(url, {
   method: 'GET',
@@ -17,17 +14,12 @@ fetch(url, {
     // 'Content-Type': 'application/x-www-form-urlencoded',
   }
 })
-    .then( response => {
-        response.text(); 
-        response.status;     //=> number 100–599 response.statusText; //=> String 
-        response.headers;    //=> Headers 
-        response.url;
-  }).then(result => {
-        var data = result;
-        $(".result").text(data);
-        console.log(data);
-    }).catch((error) => {
+    .then(
+        response => response.text() // .json(), etc.
+    ).then(
+        data => $("#result").text(data)
+    ).catch((error) => {
   console.error('Error:', error);
 });
-};
+
 </script>
