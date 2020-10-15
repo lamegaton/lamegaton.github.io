@@ -20,7 +20,7 @@ fetch(url, {
         response => response.text() // .json(), etc.
         // same as function(response) {return response.text();}
     ).then(
-        html => $("#result").text(html)
+        data => $("#result").text(data)
     ).catch((error) => {
   console.error('Error:', error);
 });
