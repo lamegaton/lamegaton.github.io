@@ -19,9 +19,10 @@ fetch(url, {
     .then(
         response => response.text() // .json(), etc.
         // same as function(response) {return response.text();}
-    ).then(
-        data => $("#result").text(data)
-    ).catch((error) => {
+    ).then({
+        result => $("#result").text(data);
+        console.log(data);
+    }).catch((error) => {
   console.error('Error:', error);
 });
 };
