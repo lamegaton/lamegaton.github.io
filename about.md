@@ -4,5 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Hi, my name is Son Pham. I'm an international student from Vietnam.
+Hi, my name is Son Pham. I'm an international student from Vietnam.  
+[01-17]: Have wonderful time with my family in Vietnam.  
+[17-18]: Join Lutheran highschoo, where I met great people such as Ms. Beyer, Mr. Meyer.  
+[18-21]: Went to Southwestern College  
+[21-24]:  
+[25-]:  
+
+
+
 
