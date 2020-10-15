@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Basic Javascript"
+title: Basic Javascript
 categories: en notebook javascript
-author: "Son Pham"
+author: Son Pham
 ---
 
 
