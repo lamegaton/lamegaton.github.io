@@ -16,7 +16,7 @@ This example implement jQuery. So we have an HTML file with div id="text" and we
 
 ```html
 <html>
-<div id="text">Hello</div>
+<div id="test">Hello</div>
 </html>
 ```
 
@@ -33,18 +33,25 @@ empty: for type
 "#": for id
 ```
 
-### Target parent elements:  
+### Target parent/child elements:  
+
+```html
+<div id="mom-dad">
+    <div id="son">
+    </div>
+</div>
+```
+
+#### Parent
 
 ```javascript
-div id="mom-dad"
-    div id="son"
 $("#son").parent().css("background-color", "blue")
 ```
 
-### Target children elements:  
+#### Child 
 
 ```javascript
-$("#left-well").children().css("color", "blue")
+$("#mom-dad").children().css("color", "blue")
 ```
 
 ### submit to another page  
