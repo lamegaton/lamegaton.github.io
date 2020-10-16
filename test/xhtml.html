@@ -15,7 +15,7 @@ function get_request_xhtml(url){
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
 		var success_response = decodeURIComponent(xhr.response);
 		if(document.getElementById("is_youtube_video").checked){
-			document.getElementById("result").innerText = get_text_only(success_response); 
+			document.getElementById("result").innerHTML = get_text_only(success_response); 
 		}else{
 			document.getElementById("result").innerText = success_response; 
 		}
