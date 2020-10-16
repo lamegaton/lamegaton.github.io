@@ -11,7 +11,8 @@
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function () {
   if (xhr.readyState == XMLHttpRequest.DONE) {
-    document.getElementById("result").innerText = decodeURI(xhr.response); 
+	var success_response = decodeURIComponent(xhr.response);
+    document.getElementById("result").innerText = success_response; 
     console.log(xhr.response);
   }
 };
