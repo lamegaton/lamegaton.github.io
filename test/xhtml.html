@@ -13,10 +13,10 @@ xhr.onreadystatechange = function () {
   if (xhr.readyState == XMLHttpRequest.DONE) {
 	var success_response = decodeURIComponent(xhr.response);
     document.getElementById("result").innerText = success_response; 
-    console.log(xhr.response);
+    //console.log(xhr.response);
   }
 };
-xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=o7w5r5PfBKo", true);
+xhr.open("GET", "https://jsonplaceholder.typicode.com/users/1", true);
 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
 xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
