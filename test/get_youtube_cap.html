@@ -8,14 +8,15 @@
 <div id="error_001">This is the error</div>
 
 <script>
-function xhttp_get_youtube_link(id){
+function xhttp_get_request(id){
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
-		var success_response = decodeURIComponent(xhr.response);
-		const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
-		var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-		document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
+		get_youtube_link(xhr.response);
+		//var success_response = decodeURIComponent(xhr.response);
+		//const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
+		//var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+		//document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
 	  }
 	};
 	const cors = "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=";
@@ -27,13 +28,19 @@ function xhttp_get_youtube_link(id){
 	xhr.send();
 }
 
+function get_youtube_link(response){
+	var success_response = decodeURIComponent(response);
+	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
+	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
+}
+
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	xhttp_get_youtube_link(video_id);
+	xhttp_get_youtube_request(video_id);
     event.preventDefault();
-  },
-  false
+  },false
 );
 /*
 // link that work:
