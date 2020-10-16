@@ -4,8 +4,8 @@
 <input type="text" name="url" id="link_box" placeholder="Please input the link" value="https://jsonplaceholder.typicode.com/users/1">
 <div class="spacer"></div>
 <button id="link_box_submit_btn">Okay, here you go</button>
-<label>Is youtube video<input type="checkbox" id="is_youtube_video"></label>
-<div id="error_001">This is the error</div>
+<label for="is_youtube_video">Is youtube video<input type="checkbox" id="is_youtube_video"></label>
+<div id="error_001"></div>
 <div id="result">If you don't have one, try this: https://jsonplaceholder.typicode.com/users/1</div>
 
 <script>
@@ -17,7 +17,7 @@ function get_request_xhtml(url){
 		if(document.getElementById("is_youtube_video").checked){
 			document.getElementById("result").innerHTML = get_text_only(success_response); 
 		}else{
-			document.getElementById("result").innerText = success_response; 
+			document.getElementById("result").innerHTML = success_response; 
 		}
 	  }
 	};
@@ -30,7 +30,7 @@ function get_request_xhtml(url){
 function get_text_only(str){
 	var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
 	var strip_the_tag = str.replace(pattern,'');
-	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, " </br> ");
+	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
 	return string_with_newline;
 }
 
