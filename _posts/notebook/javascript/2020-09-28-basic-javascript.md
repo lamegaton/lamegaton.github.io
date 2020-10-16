@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Basic JavaScript
+title: Basic JavaScript Part 1
 categories: en notebook javascript
 author: "Son Pham"
 meta: 
@@ -11,7 +11,7 @@ description: "Basic javascript for a simple dynamic or static website"
 
 This example implement jQuery. So we have an HTML file with div id="text" and we want to change Hello to  Hello, dolly. 
 
-<div id="test">Hello, this is wrapped with a div, you can open your console and test it.</div>
+<div id="test" style="background-color:#CCFFCC">Hello, this is wrapped with a div, you can open your console and test it.</div>
 
 
 ```html
@@ -33,12 +33,12 @@ empty: for type
 "#": for id
 ```
 
-### Target parent/child elements:  
+### Target other elements:  
 
 ```html
 <div id="mom-dad">
-    <div id="son">
-    </div>
+    <div id="son">Bob</div>
+    <div id="daughter">Allice</div>
 </div>
 ```
 
@@ -53,8 +53,14 @@ $("#son").parent().css("background-color", "blue")
 ```javascript
 $("#mom-dad").children().css("color", "blue")
 ```
+#### Next sibling
 
-### submit to another page  
+```javascript
+$("#son").nextSibling;
+```
+
+
+### Submit to another page  
 
 ```javascript
 $("#myform").attr('action', 'page1.php');
@@ -65,7 +71,9 @@ ref:
 2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submit
 ### add new item $().append
 
-### if else in jquery
+
+
+### if else in jQuery
 
 ```javascript
 $(function() {
@@ -80,8 +88,6 @@ $(function() {
 
 https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-object
 
-### next sibling
-
 ### change display of an element
 ```javascript
 document.getElementbyId(<ID>).style.display='none'; // or inherit
@@ -94,6 +100,7 @@ document.getElementbyId(<ID>).style.display='none'; // or inherit
 ### Async 
 Asynchronous is used when user want to fetch data from server without refreshing the page.   
 IE5 and IE6 have different object name for async 
+
 ```javascript
 function asynRequest(){
 	try {
@@ -111,7 +118,7 @@ function asynRequest(){
 
 
 
-According to mozilla, XMHttpRequest doesn't need any parameters and return after open() and send() methods are executed. 
+According to Mozilla, XMHttpRequest doesn't need any parameters and return after open() and send() methods are executed. 
 
 A simple request will be as the following snippet:
 
@@ -130,6 +137,5 @@ request.onreadystatechange = function() {
     	console.log("Error!");
 }
 ```
-
 
 

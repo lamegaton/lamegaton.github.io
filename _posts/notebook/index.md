@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notebook
+permalink: /en/Notebook/
 ---
 
 ### [Tutorial on git](git/)
