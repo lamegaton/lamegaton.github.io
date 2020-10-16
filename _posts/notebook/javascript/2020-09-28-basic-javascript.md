@@ -11,6 +11,8 @@ description: "Basic javascript for a simple dynamic or static website"
 
 This example implement jQuery. So we have an HTML file with div id="text" and we want to change Hello to  Hello, dolly. 
 
+<div id="test">Hello, this is wrapped with a div, you can open your console and test it.</div>
+
 
 ```html
 <html>
