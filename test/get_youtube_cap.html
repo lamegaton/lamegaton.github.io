@@ -17,16 +17,12 @@ function xhttp_get_request(id,option){
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
-		switch (option){
-			case "link":
-				return get_youtube_link(xhr.response);
-				break;
-			case "content":
-				var success_response = decodeURIComponent(xhr.response);
-				var content = get_text_only(success_response);
-				return content;
-				break;
-			default:
+		if (option === 'link')
+			return get_youtube_link(xhr.response);
+		else if(option === 'content'){
+			var success_response = decodeURIComponent(xhr.response);
+			var content = get_text_only(success_response);
+			return content;
 		}
 	  }
 	};
@@ -55,19 +51,19 @@ function get_text_only(str){
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	var yt_link = xhttp_get_request(video_id,"link");
-	var yt_content = xhttp_get_request(video_id,"content");
+	var yt_link = xhttp_get_request(video_id,'link');
+	var yt_content = xhttp_get_request(video_id,'content');
 	document.getElementById("result").innerHTML = yt_link;
 	document.getElementById("yt_content").innerHTML = yt_content;
     event.preventDefault();
   },false
 );
+
 /*
 // link that work:
 https://jsonplaceholder.typicode.com/users/1
 link that wont work:
 https://postman-echo.com/get?foo1=bar1&foo2=bar2
 https://youtube.com/get_video_info?video_id=AxI5r4_I5uA
-
 */
 </script>
