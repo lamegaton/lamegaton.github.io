@@ -12,7 +12,7 @@ rss: rss
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jekyll
-# linkedin_username: jekyll
+linkedin_username: sphamee
 # pinterest_username: jekyll
 # youtube_username: jekyll
 # googleplus_username: +jekyll
@@ -43,3 +43,7 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+# This will allow user to use tag or categories link
+permalink: /:categories/:title/
+
