@@ -30,7 +30,7 @@ function get_request_xhtml(url){
 function get_text_only(str){
 	var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
 	var strip_the_tag = str.replace(pattern,'');
-	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
+	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, " </br> ");
 	return string_with_newline;
 }
 

@@ -1,14 +1,12 @@
 #result{
   padding: 10px;
 }
-#link_box, #link_box_submit_btn, #result, #error_001{
+#link_box, #link_box_submit_btn, #result, #error_001, #is_youtube_video{
   display: block;
   margin: auto;
   padding: 5px;
   text-align: center;
 }
-#result{
-  width: 500px;
 }
 .spacer {
   padding:5px;
