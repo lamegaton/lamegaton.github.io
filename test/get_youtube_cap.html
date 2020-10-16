@@ -14,7 +14,7 @@ xhr.onreadystatechange = function () {
 	var success_response = decodeURIComponent(xhr.response);
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-    document.getElementById("result").innerText = youtube_url; 
+    document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
   }
 };
 xhr.open("GET", "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=o7w5r5PfBKo", true);
