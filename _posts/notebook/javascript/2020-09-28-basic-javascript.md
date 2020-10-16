@@ -1,17 +1,30 @@
 ---
 layout: post
-title: Basic Javascript
+title: Basic JavaScript
 categories: en notebook javascript
 author: "Son Pham"
 meta: 
 description: "Basic javascript for a simple dynamic or static website"
 ---
 
+### Edit a text or HTML via jQuery  
 
-### Edit a text   
+This example implement jQuery. So we have an HTML file with div id="text" and we want to change Hello to  Hello, dolly. 
+
+
+```html
+<html>
+<div id="text">Hello</div>
+</html>
+```
+
+|JavaScript|jQuery|
+|--|--|
+| `document.getElementById("text").innerText = "Hello, dolly";` |`$(#text).text("Hello, dolly");`|
+
 
 ```javascript
-$("<selector><put your class, id or type here>").html("<what do you want to change>");
+$("<selector><put your class, id or type here>").text("<what do you want to change>");
 <selector>:
 "." : for class
 empty: for type
