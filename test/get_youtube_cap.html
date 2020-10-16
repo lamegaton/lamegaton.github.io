@@ -23,7 +23,8 @@ function xhttp_get_request(id,option){
 				break;
 			case "content":
 				var success_response = decodeURIComponent(xhr.response);
-				return get_text_only(success_response);
+				var content = get_text_only(success_response);
+				return content;
 				break;
 			default:
 		}
