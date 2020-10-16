@@ -8,21 +8,27 @@
 <div class="spacer"></div>
 <button id="link_box_submit_btn">Okay, here you go mate!</button>
 <div id="error_001"></div>
+<div id="yt_content"><div>
 
 <script>
-function xhttp_get_request(id){
+function xhttp_get_request(id,option){
+	const cors = "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=";
+	var bypass_cors_link = cors + id;
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
-		get_youtube_link(xhr.response);
-		//var success_response = decodeURIComponent(xhr.response);
-		//const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
-		//var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-		//document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
+		switch (option){
+			case "link":
+				return get_youtube_link(xhr.response);
+				break;
+			case "content":
+				var success_response = decodeURIComponent(xhr.response);
+				return get_text_only(success_response);
+				break;
+			default:
+		}
 	  }
 	};
-	const cors = "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=";
-	var bypass_cors_link = cors + id;
 	xhr.open("GET", bypass_cors_link , true);
 	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
@@ -34,13 +40,29 @@ function get_youtube_link(response){
 	var success_response = decodeURIComponent(response);
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
+	return "<a href="+youtube_url+">Youtube Link</a>";
+	//document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
 }
+
+function get_text_only(str){
+	var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
+	var strip_the_tag = str.replace(pattern,'');
+	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
+	return string_with_newline.replace("&#39;","'");
+}
+
+function display(){
+
+}
+
 
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	xhttp_get_request(video_id);
+	var yt_link = xhttp_get_request(video_id,"link");
+	var yt_content = xhttp_get_request(video_id,"content");
+	document.getElementById("result").innerHTML = yt_link;
+	document.getElementById("yt_content").innerHTML = yt_content;
     event.preventDefault();
   },false
 );
