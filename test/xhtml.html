@@ -4,7 +4,10 @@
 <input type="text" name="url" id="link_box" placeholder="Please input the link" value="https://jsonplaceholder.typicode.com/users/1">
 <div class="spacer"></div>
 <button id="link_box_submit_btn">Okay, here you go</button>
-<label for="is_youtube_video">Is youtube video<input type="checkbox" id="is_youtube_video"></label>
+<div id="is_youtube_video_box"></div>
+	<input type="checkbox" id="is_youtube_video">
+	<label for="is_youtube_video">Is youtube video</label>
+</div>
 <div id="error_001"></div>
 <div id="result">If you don't have one, try this: https://jsonplaceholder.typicode.com/users/1</div>
 
@@ -21,6 +24,9 @@ function get_request_xhtml(url){
 		}
 	  }
 	};
+	if(document.getElementById("is_youtube_video").checked){
+		var url = "https://cors-anywhere.herokuapp.com/" + url;
+	}
 	xhr.open("GET", url, true);
 	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 	xhr.setRequestHeader('Access-Control-Allow-Origin', '*');

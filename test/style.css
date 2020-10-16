@@ -1,8 +1,8 @@
 #result{
   padding: 10px;
-  
+  margin: auto;
 }
-#link_box, #link_box_submit_btn, #error_001, #is_youtube_video{
+#link_box, #link_box_submit_btn, #error_001, #is_youtube_video_box{
   display: block;
   margin: auto;
   padding: 5px;
