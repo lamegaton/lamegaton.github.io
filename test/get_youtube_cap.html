@@ -38,7 +38,7 @@ function get_youtube_link(response){
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	xhttp_get_youtube_request(video_id);
+	xhttp_get_request(video_id);
     event.preventDefault();
   },false
 );
