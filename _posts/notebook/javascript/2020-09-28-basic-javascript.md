@@ -67,13 +67,14 @@ $("#myform").attr('action', 'page1.php');
 ```
 
 ref:
-1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action
-2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submit
-### add new item $().append
+1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action  
+2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submit  
+
+### Add new item $().append
 
 
 
-### if else in jQuery
+### If else in jQuery
 
 ```javascript
 $(function() {
