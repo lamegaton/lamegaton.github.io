@@ -20,7 +20,8 @@ document.querySelector("#link_box_submit_btn").addEventListener("click",
 );
 
 function xhttp_get_request(id,option){
-	const cors = "https://cors-anywhere.herokuapp.com/";
+	//const cors = "https://cors-anywhere.herokuapp.com/";
+	const cors = "https://api.codetabs.com/v1/proxy?quest="
 	var yt_id = "https://youtube.com/get_video_info?video_id=";
 	if (option === 'link')
 		var bypass_cors_link = cors + yt_id + id;
