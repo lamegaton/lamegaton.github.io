@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <h1>hi reader, i'll get you something to read soon.</h1>
 <h2>please input youtube id (ex: AFr4z1kvGBw)</h2>
 <div style="text-align:center;" id="result"></div>
@@ -53,7 +53,7 @@ function get_youtube_link(response){
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
 	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
-	//xhttp_get_request(video_id,'content');
+	xhttp_get_request(video_id,'content');
 }
 
 function get_text_only(str){
