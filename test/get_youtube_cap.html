@@ -10,8 +10,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
-<h1>hi reader, i'll get you something to read soon.</h1>
-<h2>please input youtube id (ex: AFr4z1kvGBw)</h2>
+<h1>hi reader,</h1>
+<h2>please input youtube id (ex: AFr4z1kvGBw, JrT3NTKU8y4, jxpL0v2WqSM)</h2>
 <div style="text-align:center;" id="result"></div>
 <input type="text" name="url" id="link_box" placeholder="Please input the Youtube ID" value="AFr4z1kvGBw">
 <div class="spacer"></div>
@@ -72,6 +72,7 @@
 					xhttp_get_request(youtube_url, 'content');
 				}catch(error){
 					document.getElementById("result").innerHTML = "<p>Transcript is not available in this video.</p>";
+					document.getElementById("yt_content").innerHTML = "";
 				}
 				//document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
 				//xhttp_get_request(youtube_url, 'content');
