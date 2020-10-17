@@ -4,7 +4,7 @@
 }
 #link_box, #link_box_submit_btn, #error_001, #is_youtube_video_box{
   display: block;
-  margin: auto;
+  margin: 5px auto;
   padding: 5px;
   text-align: center;
 }
