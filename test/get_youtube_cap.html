@@ -14,7 +14,7 @@
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	xhttp_get_request_youtube(video_id,'link');
+	xhttp_get_request(video_id,'link');
     event.preventDefault();
   },false
 );
