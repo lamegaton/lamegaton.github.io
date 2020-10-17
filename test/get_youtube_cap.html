@@ -11,13 +11,13 @@
 </head>
 <body>
 <h1>hi reader,</h1>
-<h2>please input youtube id (ex: AFr4z1kvGBw, JrT3NTKU8y4, jxpL0v2WqSM)</h2>
+<h2>please input an youtube id (ex: AFr4z1kvGBw, JrT3NTKU8y4, jxpL0v2WqSM)</h2>
 <div style="text-align:center;" id="result"></div>
 <input type="text" name="url" id="link_box" placeholder="Please input the Youtube ID" value="AFr4z1kvGBw">
 <div class="spacer"></div>
 <button id="link_box_submit_btn">Okay, here you go mate!</button>
 <div id="error_001"></div>
-<div id="yt_content">
+<div id="yt_content" style="margin: auto; max-width: fit-content; text-align: center;">
 	<div>
 		<script>
 			document.querySelector("#link_box_submit_btn").addEventListener("click",
@@ -86,7 +86,8 @@
 				var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
 				var strip_the_tag = str.replace(pattern, '');
 				var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
-				document.getElementById("yt_content").innerHTML = string_with_newline.replace("&#39;", "'");
+				string_with_newline = string_with_newline.replace("&#39;", "'")
+				document.getElementById("yt_content").innerHTML = string_with_newline;
 			}
 /*
 			// link that work:
