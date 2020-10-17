@@ -12,6 +12,17 @@
 
 <script>
 var yt_link;
+document.querySelector("#link_box_submit_btn").addEventListener("click",
+  function (event) {
+	const video_id = document.getElementById("link_box").value;
+	xhttp_get_request(video_id,'link');
+	console.log(yt_link);
+	xhttp_get_request(yt_link,'content');
+    event.preventDefault();
+  },false
+);
+
+
 function xhttp_get_request(id,option){
 	const cors = "https://cors-anywhere.herokuapp.com/";
 	var yt_id = "https://youtube.com/get_video_info?video_id=";
@@ -52,17 +63,6 @@ function get_text_only(str){
 	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
 	document.getElementById("yt_content").innerHTML = string_with_newline.replace("&#39;","'");
 }
-
-document.querySelector("#link_box_submit_btn").addEventListener("click",
-  function (event) {
-	const video_id = document.getElementById("link_box").value;
-	xhttp_get_request(video_id,'link');
-	console.log(yt_link);
-	xhttp_get_request(yt_link,'content');
-    event.preventDefault();
-  },false
-);
-
 /*
 // link that work:
 https://jsonplaceholder.typicode.com/users/1
