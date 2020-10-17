@@ -29,14 +29,20 @@ function xhttp_get_request(id,option){
 		var bypass_cors_link = cors + yt_id + id;
 	else if(option === 'content')
 		var bypass_cors_link = cors + id;
-		
+
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
 		if (option === 'link')
 			get_youtube_link(id,xhr.response);
 		else if(option === 'content'){
-			var success_response = decodeURIComponent(xhr.response);
+			try {
+				var success_response = decodeURIComponent(xhr.response);
+			}
+			catch(err) {
+				document.getElementById("demo").innerHTML = err.message;
+				var success_response = decodeQueryParam(xhr.response);
+			}
 			get_text_only(success_response);
 		}
 	  }
@@ -54,6 +60,10 @@ function get_youtube_link(id,response){
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
 	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
 	xhttp_get_request(youtube_url,'content');
+}
+
+function decodeQueryParam(p) {
+	return decodeURIComponent(p.replace(/\+/g, ' '));
 }
 
 function get_text_only(str){
