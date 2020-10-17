@@ -11,17 +11,13 @@
 <div id="yt_content"><div>
 
 <script>
-var yt_link;
 document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
-	xhttp_get_request(video_id,'link');
-	console.log(yt_link);
-	xhttp_get_request(yt_link,'content');
+	xhttp_get_request_youtube(video_id,'link');
     event.preventDefault();
   },false
 );
-
 
 function xhttp_get_request(id,option){
 	const cors = "https://cors-anywhere.herokuapp.com/";
@@ -54,7 +50,7 @@ function get_youtube_link(response){
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
 	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
-	yt_link = youtube_url;
+	xhttp_get_request(video_id,'content');
 }
 
 function get_text_only(str){
