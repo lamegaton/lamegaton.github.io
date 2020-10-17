@@ -14,7 +14,7 @@
 function xhttp_get_request(id,option){
 	const cors = "https://cors-anywhere.herokuapp.com/";
 	var yt_id = "https://youtube.com/get_video_info?video_id=";
-	if (id.length > 12)
+	if (option === 'link')
 		var bypass_cors_link = cors + yt_id + id;
 	else
 		var bypass_cors_link = cors + id;
@@ -56,6 +56,7 @@ document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
 	var yt_link = xhttp_get_request(video_id,'link');
+	console.log(yt_link);
 	xhttp_get_request(yt_link,'content');
     event.preventDefault();
   },false
