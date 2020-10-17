@@ -50,7 +50,7 @@ function get_youtube_link(response){
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
 	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
-	xhttp_get_request(video_id,'content');
+	//xhttp_get_request(video_id,'content');
 }
 
 function get_text_only(str){
