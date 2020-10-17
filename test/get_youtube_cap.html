@@ -57,6 +57,7 @@ document.querySelector("#link_box_submit_btn").addEventListener("click",
   function (event) {
 	const video_id = document.getElementById("link_box").value;
 	xhttp_get_request(video_id,'link');
+	console.log(yt_link);
 	xhttp_get_request(yt_link,'content');
     event.preventDefault();
   },false
