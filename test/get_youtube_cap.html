@@ -1,6 +1,15 @@
-<link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Get youtube transcript">
+	<meta name="keywords" content="youtube captions, youtube transcript, get youtube transcript">
+	<meta name="author" content="Son Pham">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
 <h1>hi reader, i'll get you something to read soon.</h1>
 <h2>please input youtube id (ex: AFr4z1kvGBw)</h2>
 <div style="text-align:center;" id="result"></div>
@@ -8,75 +17,77 @@
 <div class="spacer"></div>
 <button id="link_box_submit_btn">Okay, here you go mate!</button>
 <div id="error_001"></div>
-<div id="yt_content"><div>
+<div id="yt_content">
+	<div>
+		<script>
+			document.querySelector("#link_box_submit_btn").addEventListener("click",
+				function (event) {
+					const video_id = document.getElementById("link_box").value;
+					xhttp_get_request(video_id, 'link');
+					event.preventDefault();
+				}, false
+			);
 
-<script>
-document.querySelector("#link_box_submit_btn").addEventListener("click",
-  function (event) {
-	const video_id = document.getElementById("link_box").value;
-	xhttp_get_request(video_id,'link');
-    event.preventDefault();
-  },false
-);
+			function xhttp_get_request(id, option) {
+				const cors = "https://salty-reaches-51660.herokuapp.com/";
+				//const cors = "https://api.codetabs.com/v1/proxy?quest="
+				//https://salty-reaches-51660.herokuapp.com/
+				//https://cors-anywhere.herokuapp.com/
+				var yt_id = "https://youtube.com/get_video_info?video_id=";
+				if (option === 'link')
+					var bypass_cors_link = cors + yt_id + id;
+				else if (option === 'content')
+					var bypass_cors_link = cors + id;
 
-function xhttp_get_request(id,option){
-	const cors = "https://salty-reaches-51660.herokuapp.com/";
-	//const cors = "https://api.codetabs.com/v1/proxy?quest="
-	//https://salty-reaches-51660.herokuapp.com/
-	//https://cors-anywhere.herokuapp.com/
-	var yt_id = "https://youtube.com/get_video_info?video_id=";
-	if (option === 'link')
-		var bypass_cors_link = cors + yt_id + id;
-	else if(option === 'content')
-		var bypass_cors_link = cors + id;
-
-	var xhr = new XMLHttpRequest();
-	xhr.onreadystatechange = function () {
-	  if (xhr.readyState == XMLHttpRequest.DONE) {
-		if (option === 'link')
-			get_youtube_link(id,xhr.response);
-		else if(option === 'content'){
-			try {
-				var success_response = decodeURIComponent(xhr.response);
+				var xhr = new XMLHttpRequest();
+				xhr.onreadystatechange = function () {
+					if (xhr.readyState == XMLHttpRequest.DONE) {
+						if (option === 'link')
+							get_youtube_link(id, xhr.response);
+						else if (option === 'content') {
+							try {
+								var success_response = decodeURIComponent(xhr.response);
+							}
+							catch (err) {
+								document.getElementById("demo").innerHTML = err.message;
+								var success_response = decodeQueryParam(xhr.response);
+							}
+							get_text_only(success_response);
+						}
+					}
+				};
+				xhr.open("GET", bypass_cors_link, true);
+				xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+				xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+				xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+				xhr.send();
 			}
-			catch(err) {
-				document.getElementById("demo").innerHTML = err.message;
-				var success_response = decodeQueryParam(xhr.response);
+
+			function get_youtube_link(id, response) {
+				var success_response = decodeURIComponent(response);
+				const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
+				var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+				document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
+				xhttp_get_request(youtube_url, 'content');
 			}
-			get_text_only(success_response);
-		}
-	  }
-	};
-	xhr.open("GET", bypass_cors_link , true);
-	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-	xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-	xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
-	xhr.send();
-}
 
-function get_youtube_link(id,response){
-	var success_response = decodeURIComponent(response);
-	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
-	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
-	xhttp_get_request(youtube_url,'content');
-}
+			function decodeQueryParam(p) {
+				return decodeURIComponent(p.replace(/\+/g, ' '));
+			}
 
-function decodeQueryParam(p) {
-	return decodeURIComponent(p.replace(/\+/g, ' '));
-}
-
-function get_text_only(str){
-	var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
-	var strip_the_tag = str.replace(pattern,'');
-	var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
-	document.getElementById("yt_content").innerHTML = string_with_newline.replace("&#39;","'");
-}
+			function get_text_only(str) {
+				var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
+				var strip_the_tag = str.replace(pattern, '');
+				var string_with_newline = strip_the_tag.replace(/<\/text>/gm, "</br>");
+				document.getElementById("yt_content").innerHTML = string_with_newline.replace("&#39;", "'");
+			}
 /*
-// link that work:
-https://jsonplaceholder.typicode.com/users/1
-link that wont work:
-https://postman-echo.com/get?foo1=bar1&foo2=bar2
-https://youtube.com/get_video_info?video_id=AxI5r4_I5uA
-*/
-</script>
+			// link that work:
+			https://jsonplaceholder.typicode.com/users/1
+			link that wont work:
+			https://postman-echo.com/get?foo1=bar1&foo2=bar2
+			https://youtube.com/get_video_info?video_id=AxI5r4_I5uA
+			*/
+		</script>
+</body>
+</html>
