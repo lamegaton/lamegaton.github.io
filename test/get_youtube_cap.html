@@ -34,7 +34,7 @@ function xhttp_get_request(id,option){
 	xhr.onreadystatechange = function () {
 	  if (xhr.readyState == XMLHttpRequest.DONE) {
 		if (option === 'link')
-			get_youtube_link(xhr.response);
+			get_youtube_link(id,xhr.response);
 		else if(option === 'content'){
 			var success_response = decodeURIComponent(xhr.response);
 			get_text_only(success_response);
@@ -48,12 +48,12 @@ function xhttp_get_request(id,option){
 	xhr.send();
 }
 
-function get_youtube_link(response){
+function get_youtube_link(id,response){
 	var success_response = decodeURIComponent(response);
 	const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
 	var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
 	document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>";
-	xhttp_get_request(video_id,'content');
+	xhttp_get_request(id,'content');
 }
 
 function get_text_only(str){
