@@ -66,9 +66,15 @@
 			function get_youtube_link(id, response) {
 				var success_response = decodeURIComponent(response);
 				const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
-				var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
-				document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
-				xhttp_get_request(youtube_url, 'content');
+				try{
+					var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+					document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
+					xhttp_get_request(youtube_url, 'content');
+				}catch(error){
+					document.getElementById("result").innerHTML = "<p>Transcript is not available in this video.</p>";
+				}
+				//document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
+				//xhttp_get_request(youtube_url, 'content');
 			}
 
 			function decodeQueryParam(p) {
