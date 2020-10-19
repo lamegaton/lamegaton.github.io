@@ -6,6 +6,9 @@
 	<meta name="keywords" content="youtube captions, youtube transcript, get youtube transcript">
 	<meta name="author" content="Son Pham">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property='og:title' content='Lamegaton - Get Youtube Transcript' />
+	<meta property='og:description' content='lamegaton.github.io provides tools to learn better. This is Get Youtube Transcript page, where you can read content instead of watching youtube video.' />
+	<meta property='og:url' content='https://lamegaton.github.io/test/get_youtube_cap.html' />
 	<link rel="stylesheet" href="style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 	<title>Lamegaton - Get Youtube Transcript</title>
@@ -22,9 +25,9 @@
 	<div id="yt_content"></div>
 	<footer>
 		Author: Son Pham<br>
-			sonpham995@gmail.com<br>
-			Credit to: https://ytdl-org.github.io/youtube-dl/index.html, and <br>
-			https://github.com/algolia/youtube-captions-scraper
+			<a href="mailto:sonpham995@gmail.com">sonpham995@gmail.com</a><br>
+			Credit to: <a href="https://ytdl-org.github.io/youtube-dl/index.html">youtube-dl</a>, and <br>
+			<a href="https://github.com/algolia/youtube-captions-scraper">algolia</a>
 	</footer>
 </div>
 <script>
@@ -33,19 +36,27 @@
 			event.preventDefault();
 			var link_pattern = /(?:https?:)?(?:\/\/)?(?:[0-9A-Z-]+\.)?(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/\S*?[^\w\s-])((?!videoseries)[\w-]{11})(?=[^\w-]|$)(?![?=&+%\w.-]*(?:['"][^<>]*>|<\/a>))[?=&+%\w.-]*/gim;
 			var link = document.getElementById("link_box").value;
-			if(link === ''){
-				document.getElementById("error_001").style.display = "block";
-				document.getElementById("error_001").innerText = "Please copy and paste an Youtube link above!";
-			} else if(link.includes("youtube") || link.includes("youtu.be")) {
-				document.getElementById("error_001").innerText = "";
-				document.getElementById("error_001").style.display = "none";
-				document.getElementById("loader").innerHTML =`<img src="ajax-loader.gif" alt="loading">`;
-				document.getElementById("loader").style.display="inherit";
-				const video_id = link_pattern.exec(link)[1];
-				xhttp_get_request(video_id, 'link');
-			} else {
-				document.getElementById("error_001").style.display = "block";
-				document.getElementById("error_001").innerText = "Sorry, the link is not supported. We only support link with either subfix youtube or youtu.be.";
+			try{
+				const regex_result = link_pattern.exec(link);
+				const video_id = regex_result[1];
+				const is_youtube = regex_result[0];
+				
+				if (is_youtube.includes("youtube") || is_youtube.includes("youtu.be")) {
+					document.getElementById("error_001").innerText = "";
+					document.getElementById("error_001").style.display = "none";
+					document.getElementById("loader").innerHTML = `<img src="ajax-loader.gif" alt="loading">`;
+					document.getElementById("loader").style.display = "inherit";
+					//const video_id = link_pattern.exec(link)[1];
+					xhttp_get_request(video_id, 'link');
+				}
+			}catch(err){
+				if (link === '') {
+					document.getElementById("error_001").style.display = "block";
+					document.getElementById("error_001").innerText = "Please copy and paste an Youtube link above!";
+				} else {
+					document.getElementById("error_001").style.display = "block";
+					document.getElementById("error_001").innerText = "Sorry, the link is not supported. We only support link with either subfix youtube or youtu.be.";
+				}
 			}
 		}, false
 	);
