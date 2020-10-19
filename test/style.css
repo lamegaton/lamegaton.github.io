@@ -46,7 +46,7 @@ input#link_box {
 	line-height: normal;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   input#link_box {
 	width: 300px;
 	height: 30px;
@@ -55,13 +55,13 @@ input#link_box {
 }
 @media screen and (max-width: 400px) {
   input#link_box {
-	width: 200px;
-	height: 35px;
+	width: 80vw;
+	height: 12vw;
 	padding: 0 2px;
 	box-shadow: 1px 1px 5px #888888;
 	}
 	::-webkit-input-placeholder {
-		font-size: 14px;
+		font-size: 16px;
 		line-height: normal;
 	}
 }
