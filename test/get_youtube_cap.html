@@ -60,7 +60,7 @@
 						var success_response = decodeURIComponent(xhr.response);
 					}
 					catch (err) {
-						document.getElementById("demo").innerHTML = err.message;
+						document.getElementById("error_001").innerHTML = err.message;
 						var success_response = decodeQueryParam(xhr.response);
 					}
 					get_text_only(success_response);
