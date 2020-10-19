@@ -1,3 +1,6 @@
+body {
+	background-color: AliceBlue;
+}
 #result, #yt_content{
   padding: 10px;
   margin: auto;
@@ -8,12 +11,24 @@
   padding: 5px;
   text-align: center;
 }
+input#link_box {
+	border-radius: 20px;
+	width: 80%;
+	box-shadow: 1px 2px 10px #888888;
+	border-color: transparent;
+}
+#link_box_submit_btn {
+	width: 60px;
+	box-shadow: 2px 4px 10px #888888;
+	border-color: transparent;
+	border-radius: 20px;
+	background-color: SeaShell;
 }
 .spacer {
 	display: block;
-  margin-bottom:5px;
+  margin-bottom: 15px;
 }
-h1,h2 {
+h1,h2, h3, p {
   text-align: center;
   font-weight: 400;
 	
