@@ -60,7 +60,8 @@
 						var success_response = decodeURIComponent(xhr.response);
 					}
 					catch (err) {
-						document.getElementById("error_001").innerHTML = err.message + ": URI is decoded.";
+						//document.getElementById("error_001").innerHTML = err.message + ": URI is decoded.";
+						console.log(err.message);
 						try{
 							var success_response = decodeQueryParam(xhr.response);
 						}
