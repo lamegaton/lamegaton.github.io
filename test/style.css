@@ -1,5 +1,19 @@
 -webkit-appearance: none;
-.container {
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+body {
+	margin:0;
+}
+h2{ margin-block-start:0;}
+
+#page-container {
+	display: block;
+	position: relative;
+  min-height: 100vh;
 	background-color: AliceBlue;
 }
 
@@ -81,6 +95,9 @@ h1,h2, h3, p {
 }
 
 footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
   padding: 5px;
   background-color: LightSteelBlue;
   color: white;

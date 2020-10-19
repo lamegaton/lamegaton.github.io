@@ -11,22 +11,22 @@
 	<title>Lamegaton - Get Youtube Transcript</title>
 </head>
 <body>
-<div class="container">
-<h2 style="padding-top: 20px;">Get Youtube Transcript</h2>
-<div style="text-align:center;" id="result"></div>
-<input type="text" name="url" id="link_box" placeholder="Please input an Youtube link" value="">
-<div class="spacer"></div>
-<button id="link_box_submit_btn">Enter</button>
-<div id="error_001"></div>
-<div id="yt_content"></div>
+<div id="page-container">
+	<h2 style="padding-top: 20px;">Get Youtube Transcript</h2>
+	<div style="text-align:center;" id="result"></div>
+	<input type="text" name="url" id="link_box" placeholder="Please input an Youtube link" value="">
+	<div class="spacer"></div>
+	<button id="link_box_submit_btn">Enter</button>
+	<div id="error_001"></div>
+	<div id="yt_content"></div>
+	<footer>
+		<p>Author: Son Pham<br>
+			sonpham995@gmail.com<br>
+			Credit to: https://ytdl-org.github.io/youtube-dl/index.html, and <br>
+			https://github.com/algolia/youtube-captions-scraper
+		</p>
+	</footer>
 </div>
-<footer>
-	<p>Author: Son Pham<br>
-		sonpham995@gmail.com<br>
-		Credit to: https://ytdl-org.github.io/youtube-dl/index.html, and <br>
-		https://github.com/algolia/youtube-captions-scraper
-	</p>
-</footer>
 <script>
 	document.querySelector("#link_box_submit_btn").addEventListener("click",
 		function (event) {
