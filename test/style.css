@@ -44,6 +44,7 @@ input#link_box {
 ::-webkit-input-placeholder {
 	font-size: 18px;
 	line-height: normal;
+	overflow: visible;
 }
 
 @media screen and (max-width: 650px) {
@@ -57,8 +58,7 @@ input#link_box {
   input#link_box {
 	width: 80vw;
 	height: 12vw;
-	padding: 0 2px;
-	box-shadow: 1px 1px 5px #888888;
+	box-shadow: 1px 4px 10px #888888;
 	}
 	::-webkit-input-placeholder {
 		font-size: 16px;
