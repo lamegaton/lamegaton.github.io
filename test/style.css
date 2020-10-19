@@ -33,6 +33,14 @@ h1,h2, h3, p {
   padding: 5px;
   text-align: center;
 }
+#link_box_submit_btn {
+	width: 100px;
+	box-shadow: 2px 4px 10px #888888;
+	border-color: transparent;
+	border-radius: 20px;
+	background-color: SeaShell;
+	font-size: 18px;
+}
 input#link_box {
 	border-radius: 20px;
 	width: 600px;
@@ -66,13 +74,7 @@ input#link_box,
 		line-height: normal;
 	}
 }
-#link_box_submit_btn {
-	width: 60px;
-	box-shadow: 2px 4px 10px #888888;
-	border-color: transparent;
-	border-radius: 20px;
-	background-color: SeaShell;
-}
+
 .spacer {
 	display: block;
   margin-bottom: 15px;
