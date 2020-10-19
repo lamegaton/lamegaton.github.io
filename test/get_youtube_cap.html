@@ -30,12 +30,16 @@
 <script>
 	document.querySelector("#link_box_submit_btn").addEventListener("click",
 		function (event) {
+			event.preventDefault();
 			var link_pattern = /(?:https?:)?(?:\/\/)?(?:[0-9A-Z-]+\.)?(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/\S*?[^\w\s-])((?!videoseries)[\w-]{11})(?=[^\w-]|$)(?![?=&+%\w.-]*(?:['"][^<>]*>|<\/a>))[?=&+%\w.-]*/gim;
 			var link = document.getElementById("link_box").value;
-			//const video_id = document.getElementById("link_box").value;
-			const video_id = link_pattern.exec(link)[1];
-			xhttp_get_request(video_id, 'link');
-			event.preventDefault();
+			if(link === ''){
+				document.getElementById("error_001").innerText = "Please copy and paste an Youtube link above!";
+			} else {
+				document.getElementById("error_001").innerText = "";
+				const video_id = link_pattern.exec(link)[1];
+				xhttp_get_request(video_id, 'link');
+			}
 		}, false
 	);
 
