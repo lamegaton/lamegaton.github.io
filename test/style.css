@@ -42,6 +42,18 @@ input#link_box {
 	width: 200px;
 	height: 30px;
 	padding: 2px;
+	box-shadow: 1px 1px 5px #888888;
+	}
+	::-webkit-input-placeholder { /* Edge */
+		font-size: 14px;
+	}
+
+	:-ms-input-placeholder { /* Internet Explorer */
+		font-size: 14px;
+	}
+
+	::placeholder {
+		font-size: 14px;
 	}
 }
 #link_box_submit_btn {
