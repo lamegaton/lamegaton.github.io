@@ -11,6 +11,11 @@ body {
 }
 
 h2{ margin-block-start:0;}
+h1,h2, h3, p {
+  text-align: center;
+  font-weight: 400;
+	
+}
 
 #page-container {
 	display: block;
@@ -37,8 +42,8 @@ input#link_box {
 }
 
 ::-webkit-input-placeholder {
-    font-size: 18px;
-    line-height: 3;
+	font-size: 18px;
+	line-height: normal;
 }
 
 @media screen and (max-width: 600px) {
@@ -56,8 +61,8 @@ input#link_box {
 	box-shadow: 1px 1px 5px #888888;
 	}
 	::-webkit-input-placeholder {
-			font-size: 14px;
-			line-height: 3;
+		font-size: 14px;
+		line-height: normal;
 	}
 }
 #link_box_submit_btn {
@@ -71,11 +76,7 @@ input#link_box {
 	display: block;
   margin-bottom: 15px;
 }
-h1,h2, h3, p {
-  text-align: center;
-  font-weight: 400;
-	
-}
+
 #yt_content {
 	max-width: fit-content; 
 	text-align: center;
