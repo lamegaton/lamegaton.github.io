@@ -41,6 +41,7 @@ input#link_box {
 	border-color: transparent;
 }
 
+input#link_box, 
 ::-webkit-input-placeholder {
 	font-size: 18px;
 	line-height: normal;
@@ -60,7 +61,8 @@ input#link_box {
 	height: 12vw;
 	box-shadow: 1px 4px 10px #888888;
 	}
-	::-webkit-input-placeholder {
+	input#link_box,
+	webkit-input-placeholder {
 		font-size: 16px;
 		line-height: normal;
 	}
