@@ -58,8 +58,7 @@ input#link_box,
   input#link_box {
 	width: 80vw;
 	height: 12vw;
-	border-color: Azure;
-	border-width: 2px;
+	box-shadow: 1px 2px 20px #A9A9A9;
 	}
 	input#link_box,
 	webkit-input-placeholder {
