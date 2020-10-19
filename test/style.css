@@ -52,14 +52,12 @@ input#link_box,
   input#link_box {
 	width: 300px;
 	height: 30px;
-	box-shadow: 1px 1px 5px #888888;
 	}
 }
 @media screen and (max-width: 400px) {
   input#link_box {
 	width: 80vw;
 	height: 12vw;
-	box-shadow: 1px 4px 10px #888888;
 	}
 	input#link_box,
 	webkit-input-placeholder {
