@@ -18,13 +18,13 @@
 	<div class="spacer"></div>
 	<button id="link_box_submit_btn">Enter</button>
 	<div id="error_001"></div>
+	<div id="loader"></div>
 	<div id="yt_content"></div>
 	<footer>
-		<p>Author: Son Pham<br>
+		Author: Son Pham<br>
 			sonpham995@gmail.com<br>
 			Credit to: https://ytdl-org.github.io/youtube-dl/index.html, and <br>
 			https://github.com/algolia/youtube-captions-scraper
-		</p>
 	</footer>
 </div>
 <script>
@@ -39,6 +39,8 @@
 			} else if(link.includes("youtube") || link.includes("youtu.be")) {
 				document.getElementById("error_001").innerText = "";
 				document.getElementById("error_001").style.display = "none";
+				document.getElementById("loader").innerHTML =`<img src="ajax-loader.gif" alt="loading">`;
+				document.getElementById("loader").style.display="inherit";
 				const video_id = link_pattern.exec(link)[1];
 				xhttp_get_request(video_id, 'link');
 			} else {
@@ -78,6 +80,7 @@
 							var success_response = xhr.response;
 						}
 					}
+					document.querySelector('footer').style.position = "relative";
 					get_text_only(success_response);
 				}
 			}
@@ -115,6 +118,7 @@
 		document.getElementById("yt_content").innerHTML = string_with_newline;
 		string_with_newline = document.getElementById("yt_content").textContent;
 		//string_with_newline = string_with_newline.replace(/<\/text>/gm, "</br>")
+		document.getElementById("loader").style.display = "none";
 		document.getElementById("yt_content").innerHTML = string_with_newline.replace(/-nlxd-/gm, "<br>");
 	}
 /*
