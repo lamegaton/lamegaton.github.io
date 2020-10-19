@@ -60,8 +60,13 @@
 						var success_response = decodeURIComponent(xhr.response);
 					}
 					catch (err) {
-						document.getElementById("error_001").innerHTML = err.message;
-						var success_response = decodeQueryParam(xhr.response);
+						document.getElementById("error_001").innerHTML = err.message + ": URI is decoded.";
+						try{
+							var success_response = decodeQueryParam(xhr.response);
+						}
+						catch(err1){
+							var success_response = xhr.response;
+						}
 					}
 					get_text_only(success_response);
 				}
@@ -90,7 +95,7 @@
 	}
 
 	function decodeQueryParam(p) {
-		return decodeURIComponent(p.replace(/\+/g, ' '));
+		return decodeURIComponent(p.replace(/\+/gm, ' '));
 	}
 
 	function get_text_only(str) {
