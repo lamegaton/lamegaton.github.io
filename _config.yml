@@ -39,7 +39,7 @@ minima:
 # - \test\get_youtube_cap.html
 
 # Build settings
-theme: minima
+theme: Type Theme
 
 plugins:
  - jekyll-feed
