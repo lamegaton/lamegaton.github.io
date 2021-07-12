@@ -5,8 +5,11 @@ permalink: /about/
 feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hi, my name is Son Pham. I'm an international student from Vietnam.   
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
-
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+[01-17] : Have wonderful time with my family in Vietnam.  
+[17-18] : Join Lutheran highschool, where I met great people such as Ms. Beyer, Mr. Meyer.  
+[18-21] : Went to Southwestern College  
+[21-24] : Join couple clubs and meet people from different walks of life.  
+          Work at a company for the first time.  
+          Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl...

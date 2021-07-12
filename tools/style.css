@@ -1,0 +1,113 @@
+
+html,
+body {
+ position: relative;
+}
+
+body {
+    background-color: aliceblue;
+		margin: 0px;
+}
+
+h2{ margin-block-start:0;}
+h1,h2, h3, p {
+  text-align: center;
+  font-weight: 400;
+	
+}
+
+#page-container {
+	display: block;
+	position: relative;
+  min-height: 100vh;
+}
+
+#result, #yt_content{
+  padding: 10px;
+  margin: auto;
+}
+#link_box, #link_box_submit_btn, #error_001, #is_youtube_video_box, #loader{
+  display: block;
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+}
+
+#link_box_submit_btn {
+	width: 100px;
+	box-shadow: 2px 4px 10px #888888;
+	border-color: transparent;
+	border-radius: 20px;
+	background-color: SeaShell;
+	font-size: 18px;
+}
+input#link_box {
+	-webkit-appearance: none;
+	border-radius: 20px;
+	width: 600px;
+	height: 32px;
+	box-shadow: 1px 2px 10px #888888;
+	border-color: transparent;
+}
+
+input#link_box, 
+::-webkit-input-placeholder {
+	font-size: 18px;
+	line-height: normal;
+	overflow: visible;
+}
+
+@media screen and (max-width: 650px) {
+  input#link_box {
+	width: 300px;
+	height: 30px;
+	border-color: #A9A9A9;
+	border-width: 2px;
+	}
+}
+@media screen and (max-width: 400px) {
+  input#link_box {
+	width: 80vw;
+	height: 12vw;
+	border-color: #A9A9A9;
+	border-width: 2px;
+	}
+	input#link_box,
+	webkit-input-placeholder {
+		font-size: 16px;
+		line-height: normal;
+	}
+}
+
+#error_001 {
+	width: 80vw;
+	border-style: solid;
+	border-width: 2px;
+	border-color: coral;
+	display: none;
+	margin-top: 20px;
+}
+
+#loader {
+	display: none;
+}
+
+.spacer {
+	display: block;
+  margin-bottom: 15px;
+}
+
+#yt_content {
+	max-width: fit-content; 
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+  background-color: LightSteelBlue;
+  color: white;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}

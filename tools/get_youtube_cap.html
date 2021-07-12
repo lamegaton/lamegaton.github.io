@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="lamegaton.github.io provides tools to learn better. This is Get Youtube Transcript page, where you can read content instead of watching youtube video.">
+	<meta name="keywords" content="youtube captions, youtube transcript, get youtube transcript">
+	<meta name="author" content="Son Pham">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property='og:title' content='Lamegaton - Get Youtube Transcript' />
+	<meta property='og:description' content='lamegaton.github.io provides tools to learn better. This is Get Youtube Transcript page, where you can read content instead of watching youtube video.' />
+	<meta property='og:url' content='https://lamegaton.github.io/test/get_youtube_cap.html' />
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<title>Lamegaton - Get Youtube Transcript</title>
+</head>
+<body>
+<div id="page-container">
+	<h2 style="padding-top: 20px;">Get Youtube Transcript</h2>
+	<div style="text-align:center;" id="result"></div>
+	<input type="text" name="url" id="link_box" placeholder="Please input an Youtube link" value="">
+	<div class="spacer"></div>
+	<button id="link_box_submit_btn">Enter</button>
+	<div id="error_001"></div>
+	<div id="loader"></div>
+	<div id="yt_content"></div>
+	<footer>
+		Author: Son Pham<br>
+			<a href="mailto:sonpham995@gmail.com">sonpham995@gmail.com</a><br>
+			<a href="https://lamegaton.github.io/">Lamegaton.github.io</a>
+			Credit to: <a href="https://ytdl-org.github.io/youtube-dl/index.html">youtube-dl</a>, and <br>
+			<a href="https://github.com/algolia/youtube-captions-scraper">algolia</a>
+	</footer>
+</div>
+<script>
+	document.querySelector("#link_box_submit_btn").addEventListener("click",
+		function (event) {
+			event.preventDefault();
+			var link_pattern = /(?:https?:)?(?:\/\/)?(?:[0-9A-Z-]+\.)?(?:youtu\.be\/|youtube(?:-nocookie)?\.com\/\S*?[^\w\s-])((?!videoseries)[\w-]{11})(?=[^\w-]|$)(?![?=&+%\w.-]*(?:['"][^<>]*>|<\/a>))[?=&+%\w.-]*/gim;
+			var link = document.getElementById("link_box").value;
+			try{
+				const regex_result = link_pattern.exec(link);
+				const video_id = regex_result[1];
+				const is_youtube = regex_result[0];
+				
+				if (is_youtube.includes("youtube") || is_youtube.includes("youtu.be")) {
+					document.getElementById("error_001").innerText = "";
+					document.getElementById("error_001").style.display = "none";
+					document.getElementById("loader").innerHTML = `<img src="ajax-loader.gif" alt="loading">`;
+					document.getElementById("loader").style.display = "inherit";
+					//const video_id = link_pattern.exec(link)[1];
+					xhttp_get_request(video_id, 'link');
+				}
+			}catch(err){
+				if (link === '') {
+					document.getElementById("error_001").style.display = "block";
+					document.getElementById("error_001").innerText = "Please copy and paste an Youtube link above!";
+				} else {
+					document.getElementById("error_001").style.display = "block";
+					document.getElementById("error_001").innerText = "Sorry, the link is not supported. We only support link with either subfix youtube or youtu.be.";
+				}
+			}
+		}, false
+	);
+
+	function xhttp_get_request(id, option) {
+		const cors = "https://salty-reaches-51660.herokuapp.com/";
+		//const cors = "https://api.codetabs.com/v1/proxy?quest="
+		//https://salty-reaches-51660.herokuapp.com/
+		//https://cors-anywhere.herokuapp.com/
+		var yt_id = "https://youtube.com/get_video_info?video_id=";
+		if (option === 'link')
+			var bypass_cors_link = cors + yt_id + id;
+		else if (option === 'content')
+			var bypass_cors_link = cors + id;
+
+		var xhr = new XMLHttpRequest();
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == XMLHttpRequest.DONE) {
+				if (option === 'link')
+					get_youtube_link(id, xhr.response);
+				else if (option === 'content') {
+					try {
+						var success_response = decodeURIComponent(xhr.response);
+					}
+					catch (err) {
+						//document.getElementById("error_001").innerHTML = err.message + ": URI is decoded.";
+						console.log(err.message);
+						try{
+							var success_response = decodeQueryParam(xhr.response);
+						}
+						catch(err1){
+							var success_response = xhr.response;
+						}
+					}
+					document.querySelector('footer').style.position = "relative";
+					get_text_only(success_response);
+				}
+			}
+		};
+		xhr.open("GET", bypass_cors_link, true);
+		xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+		xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+		xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+		xhr.send();
+	}
+
+	function get_youtube_link(id, response) {
+		var success_response = decodeURIComponent(response);
+		const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
+		try{
+			var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+			document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Video's Info Link</a>";
+			xhttp_get_request(youtube_url, 'content');
+		}catch(error){
+			document.getElementById("result").innerHTML = "<p>Transcript is not available in this video.</p>";
+			document.getElementById("yt_content").innerHTML = "";
+		}
+		//document.getElementById("result").innerHTML = "<a href=" + youtube_url + ">Youtube Link</a>";
+		//xhttp_get_request(youtube_url, 'content');
+	}
+
+	function decodeQueryParam(p) {
+		return decodeURIComponent(p.replace(/\+/gm, ' '));
+	}
+
+	function get_text_only(str) {
+		var pattern = /<text\b[^>]*>|<transcript>|<\?xml version="1\.0" encoding="utf-8" \?>|<\/transcript>/gm;
+		var string_with_newline = str.replace(pattern, '').replace(/<\/text>/gm, "-nlxd-");
+		//string_with_newline = string_with_newline.replace(/&/g, "&amp;").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+		document.getElementById("yt_content").innerHTML = string_with_newline;
+		string_with_newline = document.getElementById("yt_content").textContent;
+		//string_with_newline = string_with_newline.replace(/<\/text>/gm, "</br>")
+		document.getElementById("loader").style.display = "none";
+		document.getElementById("yt_content").innerHTML = string_with_newline.replace(/-nlxd-/gm, "<br>");
+	}
+/*
+	// link that work:
+	https://jsonplaceholder.typicode.com/users/1
+	link that wont work:
+	https://postman-echo.com/get?foo1=bar1&foo2=bar2
+	https://youtube.com/get_video_info?video_id=AxI5r4_I5uA
+	*/
+</script>
+</body>
+</html>
