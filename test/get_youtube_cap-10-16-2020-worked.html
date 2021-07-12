@@ -1,0 +1,46 @@
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<div id="result">If you don't have one, try this: https://jsonplaceholder.typicode.com/users/1</div>
+<input type="text" name="url" id="link_box" placeholder="Please input the Youtube ID" value="https://jsonplaceholder.typicode.com/users/1">
+<div class="spacer"></div>
+<button id="link_box_submit_btn">Okay, here you go mate!</button>
+<div id="error_001">This is the error</div>
+
+<script>
+function xhttp_get_youtube_link(id){
+	var xhr = new XMLHttpRequest();
+	xhr.onreadystatechange = function () {
+	  if (xhr.readyState == XMLHttpRequest.DONE) {
+		var success_response = decodeURIComponent(xhr.response);
+		const regex = /({"captionTracks":.*isTranslatable":(true|false)}])/;
+		var youtube_url = JSON.parse(regex.exec(success_response)[0] + "}")["captionTracks"][0]["baseUrl"];
+		document.getElementById("result").innerHTML = "<a href="+youtube_url+">Youtube Link</a>"; 
+	  }
+	};
+	const cors = "https://cors-anywhere.herokuapp.com/https://youtube.com/get_video_info?video_id=";
+	var bypass_cors_link = cors + id;
+	xhr.open("GET", bypass_cors_link , true);
+	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+	xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+	xhr.setRequestHeader('X-Requested-With','XMLHttpRequest');
+	xhr.send();
+}
+
+document.querySelector("#link_box_submit_btn").addEventListener("click",
+  function (event) {
+	const video_id = document.getElementById("link_box").value;
+	xhttp_get_youtube_link(video_id);
+    event.preventDefault();
+  },
+  false
+);
+/*
+// link that work:
+https://jsonplaceholder.typicode.com/users/1
+link that wont work:
+https://postman-echo.com/get?foo1=bar1&foo2=bar2
+https://youtube.com/get_video_info?video_id=AxI5r4_I5uA
+
+*/
+</script>
