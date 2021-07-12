@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Search | Type Theme</title>
+	<meta name="description"
+		content="A website with blog posts and pages">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/search.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Type Theme"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Type Theme</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:sonpham995@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/lamegaton/" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+            <li>
+            <form action="/search.html" method="get">
+                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+                <button type="submit" class="">
+                    <i class="fa fa-fw fa-search"></i>
+                </button>
+            </form>
+            </li>
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Search</h1>
+    
+  </header>
+  <section class="post-content"><div class="search">
+    <div id="search-results"></div>
+    <p id="not-found" style="display: none">
+        No results found.
+    </p>
+</div>
+
+
+<script>
+  window.store = {
+    
+      "2021-07-12-welcome-html": {
+        "title": "Welcome to Jekyll!",
+        "tags": "",
+        "date": "July 12, 2021",
+        "author": "",
+        "category": "",
+        "content": "WelcomeHello world, this is my first Jekyll blog post.I hope you like it!",
+        "url": "//2021/07/12/welcome.html"
+      }
+      ,
+    
+      "en-notebook-php-2020-10-15-basic-php-html": {
+        "title": "Basic PHP",
+        "tags": "",
+        "date": "October 15, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "Useful tipsuse printf and echoprintf(\"Please answer the call from %d\", 6199999999);Please answer the call from 6199999999printf(\"&lt;div class='%s'&gt;%s&lt;/div&gt;\", new_ideas, $new_ideas_items );https://www.php.net/printf",
+        "url": "//en/notebook/php/2020/10/15/Basic-php.html"
+      }
+      ,
+    
+      "en-notebook-javascript-2020-10-15-basic-javascript-part-2-html": {
+        "title": "Basic JavaScript Part 2",
+        "tags": "",
+        "date": "October 15, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "Processing Form",
+        "url": "//en/notebook/javascript/2020/10/15/basic-javascript-part-2.html"
+      }
+      ,
+    
+      "en-notebook-git-2020-10-15-using-ajax-xhttp-and-axios-to-fetch-html": {
+        "title": "Using Ajax, Xhttp, Fetch, and Axios to get page content",
+        "tags": "",
+        "date": "October 15, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "Axiosaxios.get({  method: 'get',  url: url,  responseType: 'stream'})  .then(function (response) {    // handle success    document.getElementById(\"result\").innerText = JSON.stringify(response.data);    document.getElementById(\"error_001\").innerText = response.data;    console.dir(response.data);  })  .catch(function (error) {    // handle error    console.log(error);  })  .then(function () {    // always executed  });    event.preventDefault();}, false);FetchHTML&lt;script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"&gt;&lt;/script&gt;&lt;div id=\"result\"&gt;If you don't have one, try this: https://jsonplaceholder.typicode.com/users/1&lt;/div&gt;&lt;input type=\"text\" name=\"url\" id=\"link_box\" placeholder=\"Please input the link\" value=\"https://jsonplaceholder.typicode.com/users/1\"&gt;&lt;div class=\"spacer\"&gt;&lt;/div&gt;&lt;button id=\"link_box_submit_btn\"&gt;Okay, here you go&lt;/button&gt;&lt;div id=\"error_001\"&gt;This is the error&lt;/div&gt;CSS#result{  padding: 10px;}#link_box, #link_box_submit_btn, #result, #error_001{  display: block;  margin: auto;  padding: 5px;  text-align: center;}#result{  width: 500px;}.spacer {  padding:5px;}JSdocument.querySelector(\"#link_box_submit_btn\").addEventListener(\"click\",  function (event) {    const url = document.getElementById(\"link_box\").value;    console.log(url);    document.getElementById(\"error_001\").innerText = url;    fetch(url, {      method: \"GET\",      mode: \"cors\",      headers: {        \"Content-Type\": \"application/json\"      }    })      .then((response) =&gt; response.json())      .then((data) =&gt; $(\"#result\").text(JSON.stringify(data)))      .catch((error) =&gt; console.log(\"Error:\",error));    event.preventDefault();  },  false);",
+        "url": "//en/notebook/git/2020/10/15/Using-ajax,-xhttp-and-axios-to-fetch.html"
+      }
+      ,
+    
+      "en-notebook-html-css-2020-10-15-what-the-web-html": {
+        "title": "What the web",
+        "tags": "",
+        "date": "October 15, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "Hi guys,What is the web actually? How do our browsers show us a webpage?As you already known, web browsers  are based on WebKit.The browser is like the middle man (Browser Engine). When we type www.google.com and hit enter (User Interface), the browser will go to google server and ask for HTML-CSS files. Google server will hand those files to that middle man. Then the middle man will give it to a cook (Rendering Engine). Finally, the cook will display the dish back to middle man, then to us.(to be cont. when I get wiser…)",
+        "url": "//en/notebook/html-css/2020/10/15/What-the-web.html"
+      }
+      ,
+    
+      "2020-09-29-git-flow-html": {
+        "title": "Git Flow",
+        "tags": "",
+        "date": "September 29, 2020",
+        "author": "",
+        "category": "",
+        "content": "How to use git flowHi guys/girls, today I’ll show you how to use git flow.First, Johnny has a new project called project-nano and he wants to create a new git repository.Johnny  needs to cd to the",
+        "url": "//2020/09/29/git-flow.html"
+      }
+      ,
+    
+      "en-notebook-javascript-2020-09-28-basic-javascript-part-1-html": {
+        "title": "Basic JavaScript Part 1",
+        "tags": "",
+        "date": "September 28, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "Edit a text or HTML via jQueryThis example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.Hello, this is wrapped with a div, you can open your console and test it.&lt;html&gt;&lt;div id=\"test\"&gt;Hello&lt;/div&gt;&lt;/html&gt;            JavaScript      jQuery                  document.getElementById(\"text\").innerText = \"Hello, dolly\";      $(#text).text(\"Hello, dolly\");      $(\"&lt;selector&gt;&lt;put your class, id or type here&gt;\").text(\"&lt;what do you want to change&gt;\");&lt;selector&gt;:\".\" : for classempty: for type\"#\": for idTarget other elements:&lt;div id=\"mom-dad\"&gt;    &lt;div id=\"son\"&gt;Bob&lt;/div&gt;    &lt;div id=\"daughter\"&gt;Allice&lt;/div&gt;&lt;/div&gt;Parent$(\"#son\").parent().css(\"background-color\", \"blue\")Child$(\"#mom-dad\").children().css(\"color\", \"blue\")Next sibling$(\"#son\").nextSibling;Submit to another page$(\"#myform\").attr('action', 'page1.php');ref:1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submitAdd new item $().appendIf else in jQuery$(function() {    $(\"#reg\").click(function () {        if ($(\"#frm01\").is(\":visible\"))            $(\"#frm01\").slideUp(1000);        else            $(\"#frm01\").slideDown(1000);    });});https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-objectchange display of an elementdocument.getElementbyId(&lt;ID&gt;).style.display='none'; // or inherit&lt;option selected disable value=\"\"&gt;  &lt;/option&gt;AsyncAsynchronous is used when user want to fetch data from server without refreshing the page. IE5 and IE6 have different object name for asyncfunction asynRequest(){\ttry {\t\tvar xhtml = new XMLHttpRequest()\t} catch {\t\ttry {\t\t\tsomething\t\t\t} catch {\t\t\t\tsomething different\t\t\t}\t\t}\t}}According to Mozilla, XMHttpRequest doesn’t need any parameters and return after open() and send() methods are executed.A simple request will be as the following snippet:const request = new XMLHttpRequest();var url = 'https://jsonplaceholder.typicode.com/users/2';//XMLHttpRequest.open(method, url[, async[, user[, password]]])request.open('GET',url,true);// every time the readyState property change, this (callback) funtion will be executedrequest.onreadystatechange = function() {    let status = request.status;    if (status === 0 || (status &gt;= 200 &amp;&amp; status &lt; 400)) {      // The request has been completed successfully\t\tconsole.log(xhr.responseText);    } else {    \tconsole.log(\"Error!\");}",
+        "url": "//en/notebook/javascript/2020/09/28/basic-javascript-part-1.html"
+      }
+      ,
+    
+      "en-notebook-html-css-2020-09-25-making-a-cake-with-css-html": {
+        "title": "Making an animated cake with HTML and CSS",
+        "tags": "",
+        "date": "September 25, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.Jekyll also offers powerful support for code snippets:def print_hi(name)  puts \"Hi, #{name}\"endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT.Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.",
+        "url": "//en/notebook/html_css/2020/09/25/making-a-cake-with-css.html"
+      }
+      ,
+    
+      "en-notebook-git-2020-09-25-basic-git-html": {
+        "title": "Basic Git commands",
+        "tags": "",
+        "date": "September 25, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "First, you thinking of create a project for your class so you need to create a repo:  Create a new repo:    git init        Rename local branch:   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch    git branch -m &lt;oldname&gt; &lt;newname&gt;        To check your local branch you can use:    git branch        To check your remote branch    git branch -r      The project is expand and you invite someone to work with you  If you invite someone to work with you, they will usegit clone &lt;https://link_to_your_repo&gt;  They can create a new branch usinggit branch &lt;lulu&gt;  Then switch to lulu usinggit check out lulu  When lulu trying to pull using git pull,  she’ll have a problem like this$ git pullThere is no tracking information for the current branch.Please specify which branch you want to merge with.See git-pull(1) for details.So she have to pull from origin  Another coworker create a new branch as lala git branch lala  lala  use git pull and have the same error, lala has to use git branch and find the master branch.  lala has to use git branch and find the default.  Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch.  Another words, manager want to merge lala branch into master branch. To do it lala need to git add &lt;lala_works&gt; and git commit -m \"what does lala do\"  Then manager will git checkout master and then git merge luluAnother scenario:We assign lala  to work on PHP side onlytipsIf you are tired of commit, add, push, you can try oneliner like this :git commit -a -m \"commit\" &amp;&amp; git push",
+        "url": "//en/notebook/git/2020/09/25/basic-git.html"
+      }
+      ,
+    
+      "en-notebook-batch-2020-09-25-useful-batch-commands-html": {
+        "title": "Useful batch commands",
+        "tags": "",
+        "date": "September 25, 2020",
+        "author": "Son Pham",
+        "category": "",
+        "content": "TASKLIST /v /fo list /fi \"imagename eq QXDM.exe\" | find \"Window Title:\"",
+        "url": "//en/notebook/batch/2020/09/25/useful-batch-commands.html"
+      }
+      ,
+    
+      "2020-09-05-setup-theme-html": {
+        "title": "Setup Theme",
+        "tags": "",
+        "date": "September 5, 2020",
+        "author": "",
+        "category": "",
+        "content": "This is a good reference to setup jekyll on github pagehttps://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll",
+        "url": "//2020/09/05/setup-Theme.html"
+      }
+      ,
+    
+      "2014-11-30-sample-post-html": {
+        "title": "Sample post",
+        "tags": "test, sample",
+        "date": "November 30, 2014",
+        "author": "",
+        "category": "",
+        "content": "Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.  Consectetur adipiscing elit  Donec a diam lectus  Sed sit amet ipsum maurisUt turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.  Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis nequeEtiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.",
+        "url": "//2014/11/30/sample-post.html"
+      }
+      ,
+    
+      "2014-11-29-feature-images-html": {
+        "title": "Feature images",
+        "tags": "",
+        "date": "November 29, 2014",
+        "author": "",
+        "category": "",
+        "content": "This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.",
+        "url": "//2014/11/29/feature-images.html"
+      }
+      ,
+    
+      "2014-11-28-markdown-and-html-html": {
+        "title": "Markdown and HTML",
+        "tags": "",
+        "date": "November 28, 2014",
+        "author": "",
+        "category": "",
+        "content": "Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.Tables have also been extended from Markdown:            First Header      Second Header                  Content Cell      Content Cell              Content Cell      Content Cell      Here’s an example of an image, which is included using Markdown:Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.// count to tenfor (var i = 1; i &lt;= 10; i++) {    console.log(i);}// count to twentyvar j = 0;while (j &lt; 20) {    j++;    console.log(j);}Type Theme uses KaTeX to display maths. Equations such as \\(S_n = a \\times \\frac{1-r^n}{1-r}\\) can be displayed inline.Alternatively, they can be shown on a new line:\\[f(x) = \\int \\frac{2x^2+4x+6}{x-2}\\]",
+        "url": "//2014/11/28/markdown-and-html.html"
+      }
+      
+    
+  };
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.6/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script></section>
+</article>
+
+    </div>
+    
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+</p>
+</footer>
+
+
+  </body>
+</html>
