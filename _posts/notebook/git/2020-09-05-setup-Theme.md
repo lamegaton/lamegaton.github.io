@@ -3,7 +3,7 @@ layout: post
 title: "Setup Jekyll"
 categories: en notebook jekyll
 author: "Son Pham"
-published: hidden
+published: false
 ---
 
 This is a good reference to setup jekyll on github page
