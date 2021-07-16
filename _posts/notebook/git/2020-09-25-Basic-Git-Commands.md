@@ -8,7 +8,7 @@ author: "Son Pham"
 #### First, you thinking of create a project for your class so you need to create a repo:  
 
 1.  Create a new repo:  
-``` git
+```git
 git init
 ```
 
