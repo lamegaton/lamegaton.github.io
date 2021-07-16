@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic JavaScript Part 1
-categories: en notebook javascript
+categories: en javascript
 author: "Son Pham"
 meta: 
 description: "Basic javascript for a simple dynamic or static website"

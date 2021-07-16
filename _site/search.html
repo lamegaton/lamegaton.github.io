@@ -63,6 +63,14 @@
 			
 			
 			
+			<li>
+				<a class="page-link" href="/categories/">
+					Categories
+				</a>
+			</li>
+			
+			
+			
 			
 			
 			
@@ -199,25 +207,14 @@
       }
       ,
     
-      "en-notebook-javascript-2020-09-28-basic-javascript-part-1-html": {
+      "en-javascript-2020-09-28-basic-javascript-part-1-html": {
         "title": "Basic JavaScript Part 1",
         "tags": "",
         "date": "September 28, 2020",
         "author": "Son Pham",
         "category": "",
         "content": "Edit a text or HTML via jQueryThis example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.Hello, this is wrapped with a div, you can open your console and test it.&lt;html&gt;&lt;div id=\"test\"&gt;Hello&lt;/div&gt;&lt;/html&gt;            JavaScript      jQuery                  document.getElementById(\"text\").innerText = \"Hello, dolly\";      $(#text).text(\"Hello, dolly\");      $(\"&lt;selector&gt;&lt;put your class, id or type here&gt;\").text(\"&lt;what do you want to change&gt;\");&lt;selector&gt;:\".\" : for classempty: for type\"#\": for idTarget other elements:&lt;div id=\"mom-dad\"&gt;    &lt;div id=\"son\"&gt;Bob&lt;/div&gt;    &lt;div id=\"daughter\"&gt;Allice&lt;/div&gt;&lt;/div&gt;Parent$(\"#son\").parent().css(\"background-color\", \"blue\")Child$(\"#mom-dad\").children().css(\"color\", \"blue\")Next sibling$(\"#son\").nextSibling;Submit to another page$(\"#myform\").attr('action', 'page1.php');ref:1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submitAdd new item $().appendIf else in jQuery$(function() {    $(\"#reg\").click(function () {        if ($(\"#frm01\").is(\":visible\"))            $(\"#frm01\").slideUp(1000);        else            $(\"#frm01\").slideDown(1000);    });});https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-objectchange display of an elementdocument.getElementbyId(&lt;ID&gt;).style.display='none'; // or inherit&lt;option selected disable value=\"\"&gt;  &lt;/option&gt;AsyncAsynchronous is used when user want to fetch data from server without refreshing the page. IE5 and IE6 have different object name for asyncfunction asynRequest(){\ttry {\t\tvar xhtml = new XMLHttpRequest()\t} catch {\t\ttry {\t\t\tsomething\t\t\t} catch {\t\t\t\tsomething different\t\t\t}\t\t}\t}}According to Mozilla, XMHttpRequest doesn’t need any parameters and return after open() and send() methods are executed.A simple request will be as the following snippet:const request = new XMLHttpRequest();var url = 'https://jsonplaceholder.typicode.com/users/2';//XMLHttpRequest.open(method, url[, async[, user[, password]]])request.open('GET',url,true);// every time the readyState property change, this (callback) funtion will be executedrequest.onreadystatechange = function() {    let status = request.status;    if (status === 0 || (status &gt;= 200 &amp;&amp; status &lt; 400)) {      // The request has been completed successfully\t\tconsole.log(xhr.responseText);    } else {    \tconsole.log(\"Error!\");}",
-        "url": "//en/notebook/javascript/2020/09/28/basic-javascript-part-1.html"
-      }
-      ,
-    
-      "en-notebook-html-css-2020-09-25-making-a-cake-with-css-html": {
-        "title": "Making an animated cake with HTML and CSS",
-        "tags": "",
-        "date": "September 25, 2020",
-        "author": "Son Pham",
-        "category": "",
-        "content": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.Jekyll also offers powerful support for code snippets:def print_hi(name)  puts \"Hi, #{name}\"endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT.Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk.",
-        "url": "//en/notebook/html_css/2020/09/25/making-a-cake-with-css.html"
+        "url": "//en/javascript/2020/09/28/basic-javascript-part-1.html"
       }
       ,
     
@@ -227,7 +224,7 @@
         "date": "September 25, 2020",
         "author": "Son Pham",
         "category": "",
-        "content": "First, you thinking of create a project for your class so you need to create a repo:  Create a new repo:    git init        Rename local branch:   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch    git branch -m &lt;oldname&gt; &lt;newname&gt;        To check your local branch you can use:    git branch        To check your remote branch    git branch -r      The project is expand and you invite someone to work with you  If you invite someone to work with you, they will usegit clone &lt;https://link_to_your_repo&gt;  They can create a new branch usinggit branch &lt;lulu&gt;  Then switch to lulu usinggit check out lulu  When lulu trying to pull using git pull,  she’ll have a problem like this$ git pullThere is no tracking information for the current branch.Please specify which branch you want to merge with.See git-pull(1) for details.So she have to pull from origin  Another coworker create a new branch as lala git branch lala  lala  use git pull and have the same error, lala has to use git branch and find the master branch.  lala has to use git branch and find the default.  Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch.  Another words, manager want to merge lala branch into master branch. To do it lala need to git add &lt;lala_works&gt; and git commit -m \"what does lala do\"  Then manager will git checkout master and then git merge luluAnother scenario:We assign lala  to work on PHP side onlytipsIf you are tired of commit, add, push, you can try oneliner like this :git commit -a -m \"commit\" &amp;&amp; git push",
+        "content": "First, you thinking of create a project for your class so you need to create a repo:  Create a new repo:    git init    Rename local branch:   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch    git branch -m &lt;oldname&gt; &lt;newname&gt;        To check your local branch you can use:    git branch        To check your remote branch    git branch -r      The project is expand and you invite someone to work with you  If you invite someone to work with you, they will usegit clone &lt;https://link_to_your_repo&gt;  They can create a new branch usinggit branch &lt;lulu&gt;  Then switch to lulu usinggit check out lulu  When lulu trying to pull using git pull,  she’ll have a problem like this$ git pullThere is no tracking information for the current branch.Please specify which branch you want to merge with.See git-pull(1) for details.So she have to pull from origin  Another coworker create a new branch as lala git branch lala  lala  use git pull and have the same error, lala has to use git branch and find the master branch.  lala has to use git branch and find the default.  Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch.  Another words, manager want to merge lala branch into master branch. To do it lala need to git add &lt;lala_works&gt; and git commit -m \"what does lala do\"  Then manager will git checkout master and then git merge luluAnother scenario:We assign lala  to work on PHP side onlytipsIf you are tired of commit, add, push, you can try oneliner like this :git commit -a -m \"commit\" &amp;&amp; git push",
         "url": "//en/notebook/git/2020/09/25/Basic-Git-Commands.html"
       }
       ,
@@ -265,14 +262,14 @@
       }
       ,
     
-      "2014-11-28-markdown-and-html-html": {
+      "tech-2014-11-28-markdown-and-html-html": {
         "title": "Markdown and HTML",
         "tags": "",
         "date": "November 28, 2014",
         "author": "",
         "category": "",
         "content": "Jekyll supports the use of Markdown with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.Tables have also been extended from Markdown:            First Header      Second Header                  Content Cell      Content Cell              Content Cell      Content Cell      Here’s an example of an image, which is included using Markdown:Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.// count to tenfor (var i = 1; i &lt;= 10; i++) {    console.log(i);}// count to twentyvar j = 0;while (j &lt; 20) {    j++;    console.log(j);}Type Theme uses KaTeX to display maths. Equations such as \\(S_n = a \\times \\frac{1-r^n}{1-r}\\) can be displayed inline.Alternatively, they can be shown on a new line:\\[f(x) = \\int \\frac{2x^2+4x+6}{x-2}\\]",
-        "url": "//2014/11/28/markdown-and-html.html"
+        "url": "//tech/2014/11/28/markdown-and-html.html"
       }
       
     

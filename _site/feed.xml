@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Mon, 12 Jul 2021 11:24:01 -0700</pubDate>
+    <pubDate>Fri, 16 Jul 2021 12:05:47 -0700</pubDate>
     
       <item>
         <title>Using Ajax, Xhttp, Fetch, and Axios to get page content</title>
@@ -121,8 +121,8 @@ The browser is like the middle man (Browser Engine). When we type www.google.com
     
       <item>
         <title>Basic JavaScript Part 1</title>
-        <link>/en/notebook/javascript/2020/09/28/basic-javascript-part-1.html</link>
-        <guid isPermaLink="true">/en/notebook/javascript/2020/09/28/basic-javascript-part-1.html</guid>
+        <link>/en/javascript/2020/09/28/basic-javascript-part-1.html</link>
+        <guid isPermaLink="true">/en/javascript/2020/09/28/basic-javascript-part-1.html</guid>
         <description>&lt;h3 id=&quot;edit-a-text-or-html-via-jquery&quot;&gt;Edit a text or HTML via jQuery&lt;/h3&gt;
 
 &lt;p&gt;This example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.&lt;/p&gt;
@@ -252,28 +252,6 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
       </item>
     
       <item>
-        <title>Making an animated cake with HTML and CSS</title>
-        <link>/en/notebook/html_css/2020/09/25/making-a-cake-with-css.html</link>
-        <guid isPermaLink="true">/en/notebook/html_css/2020/09/25/making-a-cake-with-css.html</guid>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
-      </item>
-    
-      <item>
         <title>Basic Git commands</title>
         <link>/en/notebook/git/2020/09/25/Basic-Git-Commands.html</link>
         <guid isPermaLink="true">/en/notebook/git/2020/09/25/Basic-Git-Commands.html</guid>
@@ -281,8 +259,8 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Create a new repo:
-    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;git init
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;Rename local branch:&lt;br /&gt;
    https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch
@@ -392,8 +370,8 @@ See git-pull(1) for details.
     
       <item>
         <title>Markdown and HTML</title>
-        <link>/2014/11/28/markdown-and-html.html</link>
-        <guid isPermaLink="true">/2014/11/28/markdown-and-html.html</guid>
+        <link>/tech/2014/11/28/markdown-and-html.html</link>
+        <guid isPermaLink="true">/tech/2014/11/28/markdown-and-html.html</guid>
         <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
 
 &lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
