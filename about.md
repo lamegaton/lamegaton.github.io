@@ -12,4 +12,5 @@ Hi, my name is Son Pham. I'm an international student from Vietnam.
 [18-21] : Went to Southwestern College  
 [21-24] : Join couple clubs and meet people from different walks of life.  
           Work at a company for the first time.  
-          Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl...
+          Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl...  
+[24-25] : Quit my job at Samsung and keep learning to find a challenged one.
