@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Fri, 16 Jul 2021 12:05:47 -0700</pubDate>
+    <pubDate>Fri, 16 Jul 2021 12:57:22 -0700</pubDate>
     
       <item>
         <title>Using Ajax, Xhttp, Fetch, and Axios to get page content</title>
