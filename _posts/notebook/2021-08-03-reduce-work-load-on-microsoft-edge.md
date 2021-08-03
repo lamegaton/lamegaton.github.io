@@ -22,5 +22,5 @@ The laptop was running well, but I thought CPU's temps also cause the laptop to 
 
 With Gadget, you can add all temperature sensor like this  
 
-![Gadget 1](/assets/OHM_gadget_1.png)
+![Gadget 1](/_posts/notebook/assets/OHM_gadget_1.png)
 

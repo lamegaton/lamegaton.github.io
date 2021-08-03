@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 11:29:52 -0700</pubDate>
+    <pubDate>Tue, 03 Aug 2021 11:37:58 -0700</pubDate>
     
       <item>
         <title>Basic JavaScript Part 1</title>
@@ -177,7 +177,7 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
 
 &lt;p&gt;With Gadget, you can add all temperature sensor like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/OHM_gadget_1.png&quot; alt=&quot;Gadget 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/_posts/notebook/assets/OHM_gadget_1.png&quot; alt=&quot;Gadget 1&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
