@@ -9,12 +9,11 @@ theme_settings:
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "notes on PHP, Batch, shell, web development, test engineer" # used by search engines
+  description: "notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Welcome to my notebook where I share everything that I have learned as 
-     a way to give back</p>
+     <p>Notebook 2020 - 2021</p>
   header_text_feature_image:
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
@@ -32,7 +31,7 @@ theme_settings:
   gitter:
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: https://www.linkedin.com/in/sphamee/
   pinterest:
   reddit:
   soundcloud:

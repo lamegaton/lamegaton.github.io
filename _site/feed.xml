@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 11:37:58 -0700</pubDate>
+    <pubDate>Tue, 03 Aug 2021 11:52:58 -0700</pubDate>
     
       <item>
         <title>Basic JavaScript Part 1</title>
@@ -177,7 +177,9 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
 
 &lt;p&gt;With Gadget, you can add all temperature sensor like this&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/_posts/notebook/assets/OHM_gadget_1.png&quot; alt=&quot;Gadget 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/OHM_gadget_1.png&quot; alt=&quot;Gadget 1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Hardware Monitor also lets you to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run a remote server&lt;/code&gt; and monitor over the internet.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
@@ -402,69 +404,6 @@ See git-pull(1) for details.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
-      </item>
-    
-      <item>
-        <title>Feature images</title>
-        <link>/2014/11/29/feature-images.html</link>
-        <guid isPermaLink="true">/2014/11/29/feature-images.html</guid>
-        <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 -0800</pubDate>
-      </item>
-    
-      <item>
-        <title>Markdown and HTML</title>
-        <link>/tech/2014/11/28/markdown-and-html.html</link>
-        <guid isPermaLink="true">/tech/2014/11/28/markdown-and-html.html</guid>
-        <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
-
-&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as \(S_n = a \times \frac{1-r^n}{1-r}\) can be displayed inline.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
-
-\[f(x) = \int \frac{2x^2+4x+6}{x-2}\]
-</description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
   </channel>

@@ -3,7 +3,7 @@ layout: post
 title: Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor
 categories: en tip
 author: "Son Pham"
-meta: 
+meta: How to reduce workload in Microsoft Edge and avoid suddenly shutdown
 description: "How to reduce workload in Microsoft Edge and avoid suddenly shutdown"
 ---
 
@@ -22,5 +22,7 @@ The laptop was running well, but I thought CPU's temps also cause the laptop to 
 
 With Gadget, you can add all temperature sensor like this  
 
-![Gadget 1](/_posts/notebook/assets/OHM_gadget_1.png)
+![Gadget 1](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/OHM_gadget_1.png)
+
+Open Hardware Monitor also lets you to `Run a remote server` and monitor over the internet.
 
