@@ -2,9 +2,9 @@
 <html class="no-js">
   <head>
 	<meta charset="utf-8">
-	<title>Useful batch commands | Son's NoteBook</title>
+	<title>Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor | Son's NoteBook</title>
 	<meta name="description"
-		content="TASKLIST /v /fo list /fi "imagename eq QXDM.exe" | find "Window Title:"">
+		content="Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature i...">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS -->
@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
 
 	<!-- Canonical -->
-	<link rel="canonical" href="/en/notebook/batch/2020/09/25/useful-batch-commands.html">
+	<link rel="canonical" href="/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge.html">
 
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="Son's NoteBook"
@@ -167,22 +167,30 @@
     <div class="content">
       <article >
   <header style="background-image: url('/')">
-    <h1 class="title">Useful batch commands</h1>
+    <h1 class="title">Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor</h1>
     
     <p class="meta">
-      September 25, 2020
+      August 3, 2021
        - Son Pham
     </p>
   </header>
-  <section class="post-content"><div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TASKLIST /v /fo list /fi "imagename eq QXDM.exe" | find "Window Title:"
-</code></pre></div></div>
+  <section class="post-content"><p>Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature is over 85.</p>
 
-<h3 id="run-microsoft-edge-wit-cmd">Run Microsoft Edge wit cmd</h3>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start msedge.exe lamegaton.github.io
-</code></pre></div></div>
-<p>You can also open a webpage in private mode by adding ‘- inprivate’ at the end</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>start msedge.exe lamegaton.github.io -inprivate
-</code></pre></div></div>
+<p>So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.</p>
+
+<p>Something was wrong with MS Edge, so I did a little research and solve problem with these steps.</p>
+
+<ol>
+  <li>On MS Edge access <code class="language-plaintext highlighter-rouge">edge://settings/system</code></li>
+  <li>Disable <code class="language-plaintext highlighter-rouge">Use hardware accleration when available</code></li>
+</ol>
+
+<p>The laptop was running well, but I thought CPU’s temps also cause the laptop to shutdown. So I installed Open Hardware Monitor <a href="[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)">here</a>. This is an open source software, and has great features such as gadget.</p>
+
+<p>With Gadget, you can add all temperature sensor like this</p>
+
+<p><img src="/assets/OHM_gadget_1.png" alt="Gadget 1" /></p>
+
 </section>
   
 

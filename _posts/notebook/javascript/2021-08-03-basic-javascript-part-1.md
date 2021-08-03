@@ -11,7 +11,9 @@ description: "Basic javascript for a simple dynamic or static website"
 
 In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.
 
-* Do not remove this line (it will not be displayed)
+Table of Contents:
+
+* Placeholder for Table of Content (Must not be removed)
 {:toc}
 
 ### Edit a text or HTML via jQuery  
