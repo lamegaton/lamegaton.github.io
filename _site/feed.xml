@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 09:57:21 -0700</pubDate>
+    <pubDate>Tue, 03 Aug 2021 10:15:43 -0700</pubDate>
     
       <item>
         <title>Using Ajax, Xhttp, Fetch, and Axios to get page content</title>
@@ -136,8 +136,6 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
         <link>/en/javascript/2020/09/28/basic-javascript-part-1.html</link>
         <guid isPermaLink="true">/en/javascript/2020/09/28/basic-javascript-part-1.html</guid>
         <description>&lt;p&gt;In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.&lt;/p&gt;
-
-&lt;p&gt;[TOC]&lt;/p&gt;
 
 &lt;h3 id=&quot;edit-a-text-or-html-via-jquery&quot;&gt;Edit a text or HTML via jQuery&lt;/h3&gt;
 
@@ -362,17 +360,6 @@ See git-pull(1) for details.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
-      </item>
-    
-      <item>
-        <title>Setup Theme</title>
-        <link>/2020/09/05/setup-Theme.html</link>
-        <guid isPermaLink="true">/2020/09/05/setup-Theme.html</guid>
-        <description>&lt;p&gt;This is a good reference to setup jekyll on github page&lt;/p&gt;
-
-&lt;p&gt;https://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Sep 2020 00:00:00 -0700</pubDate>
       </item>
     
       <item>

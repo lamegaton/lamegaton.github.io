@@ -90,8 +90,6 @@
 			
 			
 			
-			
-			
 			<!-- Social icons from Font Awesome, if enabled  -->
 			
 
@@ -213,7 +211,7 @@
         "date": "September 28, 2020",
         "author": "Son Pham",
         "category": "",
-        "content": "In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.[TOC]Edit a text or HTML via jQueryThis example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.Hello, this is wrapped with a div, you can open your console and test it.&lt;html&gt;&lt;div id=\"test\"&gt;Hello&lt;/div&gt;&lt;/html&gt;            JavaScript      jQuery                  document.getElementById(\"text\").innerText = \"Hello, dolly\";      $(#text).text(\"Hello, dolly\");      $(\"&lt;selector&gt;&lt;put your class, id or type here&gt;\").text(\"&lt;what do you want to change&gt;\");&lt;selector&gt;:\".\" : for classempty: for type\"#\": for idTarget other elements:&lt;div id=\"mom-dad\"&gt;    &lt;div id=\"son\"&gt;Bob&lt;/div&gt;    &lt;div id=\"daughter\"&gt;Allice&lt;/div&gt;&lt;/div&gt;Parent$(\"#son\").parent().css(\"background-color\", \"blue\")Child$(\"#mom-dad\").children().css(\"color\", \"blue\")Next sibling$(\"#son\").nextSibling;Submit to another page$(\"#myform\").attr('action', 'page1.php');ref:1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submitAdd new item $().appendIf else in jQuery$(function() {    $(\"#reg\").click(function () {        if ($(\"#frm01\").is(\":visible\"))            $(\"#frm01\").slideUp(1000);        else            $(\"#frm01\").slideDown(1000);    });});https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-objectchange display of an elementdocument.getElementbyId(&lt;ID&gt;).style.display='none'; // or inherit&lt;option selected disable value=\"\"&gt;  &lt;/option&gt;AsyncAsynchronous is used when user want to fetch data from server without refreshing the page. IE5 and IE6 have different object name for asyncfunction asynRequest(){\ttry {\t\tvar xhtml = new XMLHttpRequest()\t} catch {\t\ttry {\t\t\tsomething\t\t\t} catch {\t\t\t\tsomething different\t\t\t}\t\t}\t}}According to Mozilla, XMHttpRequest doesn’t need any parameters and return after open() and send() methods are executed.A simple request will be as the following snippet:const request = new XMLHttpRequest();var url = 'https://jsonplaceholder.typicode.com/users/2';//XMLHttpRequest.open(method, url[, async[, user[, password]]])request.open('GET',url,true);// every time the readyState property change, this (callback) funtion will be executedrequest.onreadystatechange = function() {    let status = request.status;    if (status === 0 || (status &gt;= 200 &amp;&amp; status &lt; 400)) {      // The request has been completed successfully\t\tconsole.log(xhr.responseText);    } else {    \tconsole.log(\"Error!\");}",
+        "content": "In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.Edit a text or HTML via jQueryThis example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.Hello, this is wrapped with a div, you can open your console and test it.&lt;html&gt;&lt;div id=\"test\"&gt;Hello&lt;/div&gt;&lt;/html&gt;            JavaScript      jQuery                  document.getElementById(\"text\").innerText = \"Hello, dolly\";      $(#text).text(\"Hello, dolly\");      $(\"&lt;selector&gt;&lt;put your class, id or type here&gt;\").text(\"&lt;what do you want to change&gt;\");&lt;selector&gt;:\".\" : for classempty: for type\"#\": for idTarget other elements:&lt;div id=\"mom-dad\"&gt;    &lt;div id=\"son\"&gt;Bob&lt;/div&gt;    &lt;div id=\"daughter\"&gt;Allice&lt;/div&gt;&lt;/div&gt;Parent$(\"#son\").parent().css(\"background-color\", \"blue\")Child$(\"#mom-dad\").children().css(\"color\", \"blue\")Next sibling$(\"#son\").nextSibling;Submit to another page$(\"#myform\").attr('action', 'page1.php');ref:1 https://stackoverflow.com/questions/5451600/jquery-to-change-form-action2 https://stackoverflow.com/questions/15308017/save-data-through-ajax-jquery-post-with-form-submitAdd new item $().appendIf else in jQuery$(function() {    $(\"#reg\").click(function () {        if ($(\"#frm01\").is(\":visible\"))            $(\"#frm01\").slideUp(1000);        else            $(\"#frm01\").slideDown(1000);    });});https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming/create-a-basic-javascript-objectchange display of an elementdocument.getElementbyId(&lt;ID&gt;).style.display='none'; // or inherit&lt;option selected disable value=\"\"&gt;  &lt;/option&gt;AsyncAsynchronous is used when user want to fetch data from server without refreshing the page. IE5 and IE6 have different object name for asyncfunction asynRequest(){\ttry {\t\tvar xhtml = new XMLHttpRequest()\t} catch {\t\ttry {\t\t\tsomething\t\t\t} catch {\t\t\t\tsomething different\t\t\t}\t\t}\t}}According to Mozilla, XMHttpRequest doesn’t need any parameters and return after open() and send() methods are executed.A simple request will be as the following snippet:const request = new XMLHttpRequest();var url = 'https://jsonplaceholder.typicode.com/users/2';//XMLHttpRequest.open(method, url[, async[, user[, password]]])request.open('GET',url,true);// every time the readyState property change, this (callback) funtion will be executedrequest.onreadystatechange = function() {    let status = request.status;    if (status === 0 || (status &gt;= 200 &amp;&amp; status &lt; 400)) {      // The request has been completed successfully\t\tconsole.log(xhr.responseText);    } else {    \tconsole.log(\"Error!\");}",
         "url": "//en/javascript/2020/09/28/basic-javascript-part-1.html"
       }
       ,
@@ -237,17 +235,6 @@
         "category": "",
         "content": "TASKLIST /v /fo list /fi \"imagename eq QXDM.exe\" | find \"Window Title:\"Run Microsoft Edge wit cmdstart msedge.exe lamegaton.github.ioYou can also open a webpage in private mode by adding ‘- inprivate’ at the endstart msedge.exe lamegaton.github.io -inprivate",
         "url": "//en/notebook/batch/2020/09/25/useful-batch-commands.html"
-      }
-      ,
-    
-      "2020-09-05-setup-theme-html": {
-        "title": "Setup Theme",
-        "tags": "",
-        "date": "September 5, 2020",
-        "author": "",
-        "category": "",
-        "content": "This is a good reference to setup jekyll on github pagehttps://docs.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll",
-        "url": "//2020/09/05/setup-Theme.html"
       }
       ,
     
