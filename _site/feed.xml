@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 10:20:32 -0700</pubDate>
+    <pubDate>Tue, 03 Aug 2021 10:24:18 -0700</pubDate>
     
       <item>
         <title>Using Ajax, Xhttp, Fetch, and Axios to get page content</title>
@@ -137,8 +137,19 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
         <guid isPermaLink="true">/en/javascript/2020/09/28/basic-javascript-part-1.html</guid>
         <description>&lt;p&gt;In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.&lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;TOC {:toc}&lt;/li&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#edit-a-text-or-html-via-jquery&quot; id=&quot;markdown-toc-edit-a-text-or-html-via-jquery&quot;&gt;Edit a text or HTML via jQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#target-other-elements&quot; id=&quot;markdown-toc-target-other-elements&quot;&gt;Target other elements:&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#parent&quot; id=&quot;markdown-toc-parent&quot;&gt;Parent&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#child&quot; id=&quot;markdown-toc-child&quot;&gt;Child&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#next-sibling&quot; id=&quot;markdown-toc-next-sibling&quot;&gt;Next sibling&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#submit-to-another-page&quot; id=&quot;markdown-toc-submit-to-another-page&quot;&gt;Submit to another page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#add-new-item-append&quot; id=&quot;markdown-toc-add-new-item-append&quot;&gt;Add new item $().append&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#if-else-in-jquery&quot; id=&quot;markdown-toc-if-else-in-jquery&quot;&gt;If else in jQuery&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#change-display-of-an-element&quot; id=&quot;markdown-toc-change-display-of-an-element&quot;&gt;change display of an element&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#async&quot; id=&quot;markdown-toc-async&quot;&gt;Async&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;edit-a-text-or-html-via-jquery&quot;&gt;Edit a text or HTML via jQuery&lt;/h3&gt;
