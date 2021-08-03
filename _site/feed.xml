@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 11:52:58 -0700</pubDate>
+    <pubDate>Tue, 03 Aug 2021 11:56:46 -0700</pubDate>
     
       <item>
         <title>Basic JavaScript Part 1</title>
@@ -292,21 +292,6 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
 
 </description>
         <pubDate>Thu, 15 Oct 2020 00:00:00 -0700</pubDate>
-      </item>
-    
-      <item>
-        <title>Git Flow</title>
-        <link>/2020/09/29/git-flow.html</link>
-        <guid isPermaLink="true">/2020/09/29/git-flow.html</guid>
-        <description>&lt;h2 id=&quot;how-to-use-git-flow&quot;&gt;How to use git flow&lt;/h2&gt;
-
-&lt;p&gt;Hi guys/girls, today I’ll show you how to use git flow.&lt;/p&gt;
-
-&lt;p&gt;First, Johnny has a new project called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;project-nano&lt;/code&gt; and he wants to create a new git repository.&lt;/p&gt;
-
-&lt;p&gt;Johnny  needs to cd to the&lt;/p&gt;
-</description>
-        <pubDate>Tue, 29 Sep 2020 00:00:00 -0700</pubDate>
       </item>
     
       <item>
