@@ -122,6 +122,10 @@ $font-family-headings: 'Playfair Display', Helvetica, Arial, sans-serif;
 
 Mozilla's [ColorPicker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool) is a helpful tool to get your preferred colours in hexadecimal or RGBA form for use in `_variables.scss`.
 
+Modify CSS here:
+
+`\_sass\base`
+
 ### Customize style when using the remote_theme
 
 If you're using Type Theme as a `remote_theme`, you can override variables and styles.

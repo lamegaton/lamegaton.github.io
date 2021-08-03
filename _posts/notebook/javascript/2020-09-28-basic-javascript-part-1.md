@@ -7,6 +7,12 @@ meta:
 description: "Basic javascript for a simple dynamic or static website"
 ---
 
+
+
+In this tutorial, I will introduce a few steps to access and edit elements in JavaScript. Mastering and understanding these steps can help you make a simple form, handling submission, and change the outlook of your website.
+
+[TOC]
+
 ### Edit a text or HTML via jQuery  
 
 This example implement jQuery. So we have an HTML file with div id="text" and we want to change Hello to  Hello, dolly. 
@@ -138,5 +144,4 @@ request.onreadystatechange = function() {
     	console.log("Error!");
 }
 ```
-
 
