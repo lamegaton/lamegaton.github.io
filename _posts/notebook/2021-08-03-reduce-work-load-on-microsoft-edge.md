@@ -5,6 +5,7 @@ categories: en tip
 author: "Son Pham"
 meta: How to reduce workload in Microsoft Edge and avoid suddenly shutdown
 description: "How to reduce workload in Microsoft Edge and avoid suddenly shutdown"
+comments: true
 ---
 
 
