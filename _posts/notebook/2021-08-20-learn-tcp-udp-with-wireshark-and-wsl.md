@@ -12,42 +12,42 @@ Many of the interviewers have asked me if I understood TCP and UDP, and what are
 
 # Setup TCP client and server with NetCat
 
-1. Install netcat
+1. Install netcat  
 
 In WSL
 	> sudo apt-get install netcat
-
-To know the argument for netcat or nc you can use
+  
+To know the argument for netcat or nc you can use  
 	> man netcat
 
-2. Install Wireshark
+2. Install Wireshark  
 
-3. Setting up Wireshark
+3. Setting up Wireshark  
 
-Open Wireshark and select 'Adapter for loopback traffic capture'
-In the 'Apply a display filter' box type 'tcp.port == 5000' because we will use port 5000 for transmitting and receiving.
+Open Wireshark and select 'Adapter for loopback traffic capture'  
+In the 'Apply a display filter' box type 'tcp.port == 5000' because we will use port 5000 for transmitting and receiving.  
+  
+3. Setting up TCP/UDP server and client  
+  
+You can open 2 WSL windows, one for client and the other for server  
 
-3. Setting up TCP/UDP server and client
+TCP:  
+server  
+	> nc -l localhost 5000  
+  
+This means listen with TCP at port 5000 on localhost  
+  
+client  
+	> nc -v localhost 5000 <<< 'sup buddy'  
+If it is successful, it will show  
+	> Connection to localhost 5000 port [tcp/*] succeeded!  
 
-You can open 2 WSL windows, one for client and the other for server
+UDP:  
+server  
+	> nc -l -u localhost 5000  
+client  
+	> nc -v -u localhost 5000 <<< 'sup buddy'  
 
-TCP:
-server
-	> nc -l localhost 5000
+4. Checking Result on Wireshark  
 
-This means listen with TCP at port 5000 on localhost
-
-client
-	> nc -v localhost 5000 <<< 'sup buddy'
-If it is successful, it will show
-	> Connection to localhost 5000 port [tcp/*] succeeded!
-
-UDP:
-server
-	> nc -l -u localhost 5000
-client
-	> nc -v -u localhost 5000 <<< 'sup buddy'
-
-4. Checking Result on Wireshark
-
-If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it. 
+If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.   
