@@ -8,11 +8,9 @@ description: "Learn TCP or UDP flow by using Wireshark and Windows Subsystem for
 comments: true
 ---
 
-# Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
-
 Many of the interviewers have asked me if I understood TCP and UDP, and what are the differences between them. The only thing that I know is that TCP has an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.
 
-## Setup TCP client and server with NetCat
+# Setup TCP client and server with NetCat
 
 1. Install netcat
 
