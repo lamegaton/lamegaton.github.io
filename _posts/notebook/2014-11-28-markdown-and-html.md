@@ -41,5 +41,11 @@ Alternatively, they can be shown on a new line:
 $$ f(x) = \frac{2x^2+4x+6}{x-2} $$
   
 $$
-X = 10*\log(\frac{P2}{P1})
+  X = 10*\log(\frac{P2}{P1})
+$$
+
+Type math within a sentence $$2x^2 + x + c$$ to display inline  
+
+$$
+  \bar{y} = {1 \over n} \sum_{i = 1}^{n}y_i
 $$
