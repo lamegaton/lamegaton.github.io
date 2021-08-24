@@ -4,8 +4,67 @@
     <title>Son's NoteBook</title>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
-    <description>notes on PHP, Batch, shell, web development, test engineer</description>
-    <pubDate>Tue, 03 Aug 2021 11:56:46 -0700</pubDate>
+    <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
+    <pubDate>Tue, 24 Aug 2021 11:12:49 -0700</pubDate>
+    
+      <item>
+        <title>Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux</title>
+        <link>/en/tip/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html</link>
+        <guid isPermaLink="true">/en/tip/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html</guid>
+        <description>&lt;p&gt;Many of the interviewers have asked me if I understood TCP and UDP, and what are the differences between them. The only thing that I know is that TCP has an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.&lt;/p&gt;
+
+&lt;p&gt;Table of Contents:&lt;/p&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#setup-tcp-client-and-server-with-netcat&quot; id=&quot;markdown-toc-setup-tcp-client-and-server-with-netcat&quot;&gt;Setup TCP client and server with NetCat&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#1-install-netcat&quot; id=&quot;markdown-toc-1-install-netcat&quot;&gt;1. Install netcat&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#2-install-wireshark&quot; id=&quot;markdown-toc-2-install-wireshark&quot;&gt;2. Install Wireshark&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#3-setting-up-wireshark&quot; id=&quot;markdown-toc-3-setting-up-wireshark&quot;&gt;3. Setting up Wireshark&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#4-setting-up-tcpudp-server-and-client&quot; id=&quot;markdown-toc-4-setting-up-tcpudp-server-and-client&quot;&gt;4. Setting up TCP/UDP server and client&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#5-checking-result-on-wireshark&quot; id=&quot;markdown-toc-5-checking-result-on-wireshark&quot;&gt;5. Checking Result on Wireshark&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;setup-tcp-client-and-server-with-netcat&quot;&gt;Setup TCP client and server with NetCat&lt;/h1&gt;
+&lt;h2 id=&quot;1-install-netcat&quot;&gt;1. Install netcat&lt;/h2&gt;
+&lt;p&gt;In WSL&lt;br /&gt;
+	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sudo apt-get install netcat&lt;/code&gt;&lt;br /&gt;
+To know the argument for netcat or nc you can use&lt;br /&gt;
+	&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;man netcat&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;2-install-wireshark&quot;&gt;2. Install Wireshark&lt;/h4&gt;
+
+&lt;h4 id=&quot;3-setting-up-wireshark&quot;&gt;3. Setting up Wireshark&lt;/h4&gt;
+&lt;p&gt;Open Wireshark and select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Adapter for loopback traffic capture&lt;/code&gt;&lt;br /&gt;
+In the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Apply a display filter&lt;/code&gt; box type &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tcp.port == 5000&lt;/code&gt; because we will use port 5000 for transmitting and receiving.&lt;/p&gt;
+
+&lt;h4 id=&quot;4-setting-up-tcpudp-server-and-client&quot;&gt;4. Setting up TCP/UDP server and client&lt;/h4&gt;
+&lt;p&gt;You can open 2 WSL windows, one for client and the other for server&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;TCP:&lt;br /&gt;
+server&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nc -l localhost 5000&lt;/code&gt;&lt;br /&gt;
+This means listen with TCP at port 5000 on localhost&lt;br /&gt;
+client&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nc -v localhost 5000 &amp;lt;&amp;lt;&amp;lt; 'sup buddy' &lt;/code&gt;&lt;br /&gt;
+If it is successful, it will show&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Connection to localhost 5000 port [tcp/*] succeeded! &lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;UDP:&lt;br /&gt;
+server&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nc -l -u localhost 5000 &lt;/code&gt;&lt;br /&gt;
+client&lt;br /&gt;
+  &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nc -v -u localhost 5000 &amp;lt;&amp;lt;&amp;lt; 'sup buddy' &lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;5-checking-result-on-wireshark&quot;&gt;5. Checking Result on Wireshark&lt;/h4&gt;
+&lt;p&gt;If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Aug 2021 00:00:00 -0700</pubDate>
+      </item>
     
       <item>
         <title>Basic JavaScript Part 1</title>
@@ -160,8 +219,8 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
     
       <item>
         <title>Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor</title>
-        <link>/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge.html</link>
-        <guid isPermaLink="true">/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge.html</guid>
+        <link>/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</link>
+        <guid isPermaLink="true">/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</guid>
         <description>&lt;p&gt;Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature is over 85.&lt;/p&gt;
 
 &lt;p&gt;So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.&lt;/p&gt;
@@ -389,6 +448,60 @@ See git-pull(1) for details.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
+      </item>
+    
+      <item>
+        <title>Markdown and HTML</title>
+        <link>/tech/2014/11/28/markdown-and-html.html</link>
+        <guid isPermaLink="true">/tech/2014/11/28/markdown-and-html.html</guid>
+        <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
+
+&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+      &lt;td&gt;Content Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as \(S_n = a \times \frac{1-r^n}{1-r}\) can be displayed inline.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
+
+\[f(x) = \int \frac{2x^2+4x+6}{x-2}\]
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
       </item>
     
   </channel>
