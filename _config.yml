@@ -47,7 +47,6 @@ theme_settings:
   disqus_shortname: lamegaton
   katex: true # Enable if using math markup
   search: false # Enable the search feature
-  math_engine: mathjax
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -74,6 +73,8 @@ paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
+kramdown:
+    math_engine: katex
 highlighter: rouge
 sass:
   sass_dir: _sass
