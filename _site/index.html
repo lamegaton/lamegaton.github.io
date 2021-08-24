@@ -172,6 +172,53 @@
     <div class="post-teaser">
       <header>
         <h1>
+          <a class="post-link" href="/en/tip/2021/08/24/quick-note-db-dbm.html">
+            Quick Note - Decibel dB vs dBm
+          </a>
+        </h1>
+        <p class="meta">
+          August 24, 2021
+        </p>
+      </header>
+      <div class="excerpt">
+        <p>Most of us have heard about decibel in our daily life. It can be used to describe
+ the loundness of your speaker, the strengh of your antenna. Or can be the signal strenght from
+ transceiver. So what is decibel (dB) and dBm.</p>
+<h1 id="explaination">Explaination</h1>
+<p>Deci-bel is ten time of a Bel (10 x Bel)<br />
+Bel is named after an inventor Alexander Graham Bell, in Bell Lab.<br />
+It is an unit of a ratio on base 10 logarithm scale<br />
+Bel is defined as \(X = \log\frac{P2}{P1}\)</p>
+<ul>
+  <li>P1: Reference Power</li>
+  <li>P2: Measured Power</li>
+</ul>
+
+<p>Now we have 
+\(Decibel = 10 Bel = 10\log\frac{P2}{P1}\)</p>
+
+<p>So what is the difference between dB and dBm?</p>
+
+<p>dBm stands for decibel in miliwat. That means, our Reference Power will be 1 mW</p>
+
+\[Y = 10 \log\frac{P2}{P1} = 10 \log\frac{P2}{1 mW}\]
+
+<p>We can find Y by raise them to the power of 10</p>
+
+\[10^{\frac{Y}{10}} = 10^{\log\frac{P2}{1 mW}} =&gt; P2 = 10^{\frac{Y}{10}} 1 mW\]
+
+<p>So in communication, we usually use dBm because we know the reference power which is 1 mW.</p>
+
+
+        <a class="button" href="/en/tip/2021/08/24/quick-note-db-dbm.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
           <a class="post-link" href="/en/tip/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html">
             Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
           </a>
@@ -285,27 +332,6 @@ Finally, the cook will display the dish back to middle man, then to us.</p>
 
 
         <a class="button" href="/en/notebook/html-css/2020/10/15/What-the-web.html">
-          Continue reading
-        </a>
-      </div>
-    </div>
-    
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="/en/notebook/git/2020/09/25/Basic-Git-Commands.html">
-            Basic Git commands
-          </a>
-        </h1>
-        <p class="meta">
-          September 25, 2020
-        </p>
-      </header>
-      <div class="excerpt">
-        <h4 id="first-you-thinking-of-create-a-project-for-your-class-so-you-need-to-create-a-repo">First, you thinking of create a project for your class so you need to create a repo:</h4>
-
-
-        <a class="button" href="/en/notebook/git/2020/09/25/Basic-Git-Commands.html">
           Continue reading
         </a>
       </div>

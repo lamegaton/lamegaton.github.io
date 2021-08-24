@@ -5,7 +5,54 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Tue, 24 Aug 2021 11:56:26 -0700</pubDate>
+    <pubDate>Tue, 24 Aug 2021 13:24:05 -0700</pubDate>
+    
+      <item>
+        <title>Quick Note - Decibel dB vs dBm</title>
+        <link>/en/tip/2021/08/24/quick-note-db-dbm.html</link>
+        <guid isPermaLink="true">/en/tip/2021/08/24/quick-note-db-dbm.html</guid>
+        <description>&lt;p&gt;Most of us have heard about decibel in our daily life. It can be used to describe
+ the loundness of your speaker, the strengh of your antenna. Or can be the signal strenght from
+ transceiver. So what is decibel (dB) and dBm.&lt;/p&gt;
+&lt;h1 id=&quot;explaination&quot;&gt;Explaination&lt;/h1&gt;
+&lt;p&gt;Deci-bel is ten time of a Bel (10 x Bel)&lt;br /&gt;
+Bel is named after an inventor Alexander Graham Bell, in Bell Lab.&lt;br /&gt;
+It is an unit of a ratio on base 10 logarithm scale&lt;br /&gt;
+Bel is defined as \(X = \log\frac{P2}{P1}\)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;P1: Reference Power&lt;/li&gt;
+  &lt;li&gt;P2: Measured Power&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Now we have 
+\(Decibel = 10 Bel = 10\log\frac{P2}{P1}\)&lt;/p&gt;
+
+&lt;p&gt;So what is the difference between dB and dBm?&lt;/p&gt;
+
+&lt;p&gt;dBm stands for decibel in miliwat. That means, our Reference Power will be 1 mW&lt;/p&gt;
+
+\[Y = 10 \log\frac{P2}{P1} = 10 \log\frac{P2}{1 mW}\]
+
+&lt;p&gt;We can find Y by raise them to the power of 10&lt;/p&gt;
+
+\[10^{\frac{Y}{10}} = 10^{\log\frac{P2}{1 mW}} =&amp;gt; P2 = 10^{\frac{Y}{10}} 1 mW\]
+
+&lt;p&gt;So in communication, we usually use dBm because we know the reference power which is 1 mW.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Notice:&lt;br /&gt;
+Sometime, you will see SNR = 20&lt;/em&gt;log10(RMS(signal)/RMS(noise))&lt;br /&gt;
+So why do we have 20 here instead of 10?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;As I understand, RMS is a amplitude value, and in this case we want to see the ratio in power.&lt;/li&gt;
+  &lt;li&gt;Because power proprotional to amplitude square so if we square both (RMS(signal)/RMS(noise)) we will get 20
+    &lt;h1 id=&quot;in-summary&quot;&gt;In Summary:&lt;/h1&gt;
+    &lt;p&gt;dB, decibel is any ratio in term of base-10-logarithm, dimentionless unit.&lt;br /&gt;
+dBm, decibel-miliwat is any ratio wiht 1 mW as a reference power, dimentioned unit.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 -0700</pubDate>
+      </item>
     
       <item>
         <title>Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux</title>
