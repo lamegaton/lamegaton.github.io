@@ -41,5 +41,5 @@ Alternatively, they can be shown on a new line:
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
   
 $$
-X = 10*log(\frac{P2}{P1})
+X = 10*\log(\frac{P2}{P1})
 $$
