@@ -34,11 +34,11 @@ while (j < 20) {
 }
 {% endhighlight %}
 
-Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac{1-r^n}{1-r}$$ can be displayed inline.
+Type Theme uses KaTeX to display maths. Equations such as $$ S_n = a \times \frac{1-r^n}{1-r} $$ can be displayed inline.
 
 Alternatively, they can be shown on a new line:
 
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+$$ f(x) = \frac{2x^2+4x+6}{x-2} $$
   
 $$
 X = 10*\log(\frac{P2}{P1})
