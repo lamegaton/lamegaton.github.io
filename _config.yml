@@ -47,6 +47,7 @@ theme_settings:
   disqus_shortname: lamegaton
   katex: true # Enable if using math markup
   search: false # Enable the search feature
+  math_engine: nil
 
   # Localization strings
   str_follow_on: "Follow on"
