@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Tue, 24 Aug 2021 11:16:37 -0700</pubDate>
+    <pubDate>Tue, 24 Aug 2021 11:27:13 -0700</pubDate>
     
       <item>
         <title>Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux</title>
@@ -451,7 +451,7 @@ See git-pull(1) for details.
       </item>
     
       <item>
-        <title>Markdown and HTML</title>
+        <title>Test Markdown and HTML</title>
         <link>/tech/2014/11/28/markdown-and-html.html</link>
         <guid isPermaLink="true">/tech/2014/11/28/markdown-and-html.html</guid>
         <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
@@ -516,6 +516,45 @@ See git-pull(1) for details.
 &lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
 
 \[f(x) = \int \frac{2x^2+4x+6}{x-2}\]
+</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
+      </item>
+    
+      <item>
+        <title>Test Markdown and HTML 2</title>
+        <link>/tech/2014/11/28/markdown-and-html-2.html</link>
+        <guid isPermaLink="true">/tech/2014/11/28/markdown-and-html-2.html</guid>
+        <description>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css&quot; integrity=&quot;sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn&quot; crossorigin=&quot;anonymous&quot; /&gt;
+
+&lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js&quot; integrity=&quot;sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+
+&lt;script defer=&quot;&quot; src=&quot;https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js&quot; integrity=&quot;sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl&quot; crossorigin=&quot;anonymous&quot; onload=&quot;renderMathInElement(document.body);&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as \(S_n = a \times \frac{1-r^n}{1-r}\) can be displayed inline.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
+
+\[f(x) = \frac{2x^2+4x+6}{x-2}\]
+
+\[X = 10 \log(\frac{P2}{P1})\]
+
+&lt;p&gt;Type math within a sentence \(2x^2 + x + c\) to display inline&lt;/p&gt;
+
+\[\bar{y} = {1 \over n} \sum_{i = 1}^{n}y_i\]
+
+&lt;p&gt;\[ \frac{1}{n^{2}} \]&lt;/p&gt;
+
+&lt;p&gt;\(a^2 + b^2 = c^2\) –&amp;gt; note that all equations between these tags will not need escaping!&lt;/p&gt;
+
+&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as \(S_n = a \times \frac{1-r^n}{1-r}\) can be displayed inline.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
+
+\[f(x) = \int \frac{2x^2+4x+6}{x-2}\]
+
+&lt;p&gt;\(\LaTeX code\)   (for display)&lt;br /&gt;
+\[\LaTeX code\] (also for display)&lt;br /&gt;
+\(\LaTeX code\) (for inline)&lt;/p&gt;
 </description>
         <pubDate>Fri, 28 Nov 2014 00:00:00 -0800</pubDate>
       </item>
