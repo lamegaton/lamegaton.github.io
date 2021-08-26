@@ -43,6 +43,7 @@ server
 	```nc -l -u localhost 5000  ```  
 client  
 	```nc -v -u localhost 5000 <<< 'sup buddy'  ```  
+Alternatively, you can also try the command `cat textfile > /dev/tcp/HOST/PORT` to send message to the server  
   
 #### 5. Checking Result on Wireshark  
 If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.  
