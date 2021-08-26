@@ -45,5 +45,7 @@ client
 	```nc -v -u localhost 5000 <<< 'sup buddy'  ```  
   
 #### 5. Checking Result on Wireshark  
-If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.   
+If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.  
+![2021-08-25 22 23 18](https://user-images.githubusercontent.com/5988492/130905620-9c1b2282-4a92-40d6-abc6-d342e71d66f1.png)  
+
   
