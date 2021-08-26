@@ -47,5 +47,8 @@ client
 #### 5. Checking Result on Wireshark  
 If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.  
 ![2021-08-25 22 23 18](https://user-images.githubusercontent.com/5988492/130905620-9c1b2282-4a92-40d6-abc6-d342e71d66f1.png)  
+  
+Also, you can go to **Statistics > Flow Graph** under **Flow Type** select **TCP** to see the flow of traffic  
+![2021-08-25 22 27 29](https://user-images.githubusercontent.com/5988492/130905976-423568fc-8111-4e90-82d5-2571addac235.png)
 
   
