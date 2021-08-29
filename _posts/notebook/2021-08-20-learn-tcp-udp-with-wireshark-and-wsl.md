@@ -10,6 +10,8 @@ comments: true
 
 Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.
 
+----
+
 Table of Contents:
 
 * Placeholder for Table of Content (Must not be removed)
