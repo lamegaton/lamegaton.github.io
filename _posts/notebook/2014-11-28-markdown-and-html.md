@@ -2,7 +2,7 @@
 layout: post
 title: Test Markdown and HTML
 categories: tech
-published: false
+published: true
 ---
 
 Jekyll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
@@ -62,3 +62,21 @@ Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac
 Alternatively, they can be shown on a new line:
 
 $$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+
+Let test with order
+
+1. hello this is the first table
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+2. hello this is the second table
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+3. is it working?
