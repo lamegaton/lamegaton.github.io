@@ -7,7 +7,7 @@ meta: Simple way to pick a monitor
 description: "Simple way to pick a monitor"
 comments: true
 ---
-1.  First let look at the size:  
+1. First let look at the size:  
 Usually, I will stick with 24" which has enough room for web browsing   
 
 2. Resolution:  
@@ -16,7 +16,7 @@ The higher resolution, the more expensive
 ![monitor](https://user-images.githubusercontent.com/5988492/131260585-dcb18eae-2420-42dd-9aad-e97cca4f29be.png)
 
 
-3. Types of panel:  
+3.Types of panel:  
 
    | IPS                                              | TN                                                           | VA             | OLED     |
    | ------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------- |
