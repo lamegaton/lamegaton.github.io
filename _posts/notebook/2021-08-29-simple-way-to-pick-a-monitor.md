@@ -14,10 +14,12 @@ Have you ever felt anxious and spent many hours on looking for an electronic pro
 
 1. First let look at the size  
 Usually, I will stick with 24" which has enough room for web browsing   
+  
 2. Resolution  
 I used 1920 x 1080 on 24" screen which is consider Full HD and it's great  
 The higher resolution, the more expensive  
 ![monitor](https://user-images.githubusercontent.com/5988492/131260585-dcb18eae-2420-42dd-9aad-e97cca4f29be.png)  
+  
 3. Types of panel  
 
    | IPS                                              | TN                                                           | VA             | OLED     |
