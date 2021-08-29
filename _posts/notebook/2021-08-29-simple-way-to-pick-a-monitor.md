@@ -5,7 +5,6 @@ categories: en tip
 author: "Son Pham"
 meta: Simple way to pick a monitor
 description: "Simple way to pick a monitor"
-feature-img: "assets/img/monitor2.png"
 comments: true
 ---
 Have you ever felt anxious and spent many hours on looking for an electronic product? I have the same issue. One of the reason is because of the emerging technology and marketing strategy. But do we really need all of the new features? Actually not. To limit your options, please ask yourself "What do I really want from a <product>?". For a monitor, I will need a size big enough so I can code on one side and browsing web on the other side to search for solutions. I also want the resolution high enough so I don't see the big pixel. The last thing is HDMI port over older ports such as DVI or VGA  
