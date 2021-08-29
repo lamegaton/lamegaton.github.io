@@ -22,6 +22,7 @@ Have you ever felt anxious and spent many hours on looking for an electronic pro
    | IPS                                              | TN                                                           | VA             | OLED     |
    | ------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------- |
    | Recommended, if possible get higher refresh rate | Cheap, high refreshing rate for gamming but not good in generall | better than TN | the best |
+
 - **Refresh rate**: 60Hz is good enough
 - **Response time**: equal or less than 4ms
 - **Ports**: HDMI
