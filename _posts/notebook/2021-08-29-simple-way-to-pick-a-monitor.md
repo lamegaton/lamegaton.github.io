@@ -19,7 +19,6 @@ I used 1920 x 1080 on 24" screen which is consider Full HD and it's great
 The higher resolution, the more expensive  
 ![monitor](https://user-images.githubusercontent.com/5988492/131260585-dcb18eae-2420-42dd-9aad-e97cca4f29be.png)  
 3. Types of panel  
-  
    | IPS                                              | TN                                                           | VA             | OLED     |
    | ------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------- |
    | Recommended, if possible get higher refresh rate | Cheap, high refreshing rate for gamming but not good in generall | better than TN | the best |
