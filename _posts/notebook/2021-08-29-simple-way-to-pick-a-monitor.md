@@ -12,15 +12,14 @@ Have you ever felt anxious and spent many hours on looking for an electronic pro
    ![dvi-hdmi](https://user-images.githubusercontent.com/5988492/131261114-8a6c4aee-e63a-453e-b70b-e1afbceb1da4.png)
 ----
 1. First let look at the size  
-   Usually, I will stick with 24" which has enough room for web browsing   
+Usually, I will stick with 24" which has enough room for web browsing   
 
 2. Resolution  
-   I used 1920 x 1080 on 24" screen which is consider Full HD and it's great  
+I used 1920 x 1080 on 24" screen which is consider Full HD and it's great  
 The higher resolution, the more expensive  
 ![monitor](https://user-images.githubusercontent.com/5988492/131260585-dcb18eae-2420-42dd-9aad-e97cca4f29be.png)
 
 3. Types of panel  
-
    | IPS                                              | TN                                                           | VA             | OLED     |
    | ------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------- |
    | Recommended, if possible get higher refresh rate | Cheap, high refreshing rate for gamming but not good in generall | better than TN | the best |
