@@ -3,8 +3,17 @@
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
 	<meta name="description"
 		content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.theme_settings.description }}{% endif %}">
+	<meta property="og:site_name" content="{{ site.title }}">
+  {% if page.title %}
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+  {% else %}
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ site.description }}">
+  {% endif %}
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
