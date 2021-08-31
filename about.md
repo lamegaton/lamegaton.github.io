@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+description: Hi, my name is Son Pham. One of my hobby is learning new things. I make this blog to share with you my long journey.
 ---
 
 Hi, my name is Son Pham. I'm an international student from Vietnam.   
