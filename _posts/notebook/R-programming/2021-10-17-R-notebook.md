@@ -1,5 +1,10 @@
 ---
 layout: null
+title: R Notebook
+categories: en tip
+author: "Son Pham, Truc Pham"
+meta: R notebook
+description: "Essential R"
 ---
 
 <!DOCTYPE html>
