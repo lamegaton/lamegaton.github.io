@@ -7,8 +7,6 @@ meta: R notebook
 description: "Essential R"
 ---
 
-<!DOCTYPE html>
-
 <html>
 
 <head>
