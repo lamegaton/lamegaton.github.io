@@ -18,7 +18,7 @@ also, we can combine select with one_of()
 
 
 
-```{r}
+```{r }
 > names(flights)
  [1] "year"           "month"          "day"           
  [4] "dep_time"       "sched_dep_time" "dep_delay"     
@@ -53,7 +53,7 @@ also, we can combine select with one_of()
 Like filter in excel, if you want to look at specific value in one or a few
 of the columns, you can filter out by using
 
-```{r}
+```{r }
 df <- flights
 filter(df,
        month == 9,
@@ -63,7 +63,7 @@ filter(df,
 
 what if I want to filter more months?
 
-```{r}
+```{r }
 filter(df,
        month %in% c(9,10,11),
        day == 24
