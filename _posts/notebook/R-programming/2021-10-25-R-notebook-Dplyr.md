@@ -9,14 +9,9 @@ description: "Essential R"
 <html>
 
 <head>
-
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
-
 <title>Learn R from lecture notes</title>
 
 <script src="data:application/javascript;base64,Ly8gUGFuZG9jIDIuOSBhZGRzIGF0dHJpYnV0ZXMgb24gYm90aCBoZWFkZXIgYW5kIGRpdi4gV2UgcmVtb3ZlIHRoZSBmb3JtZXIgKHRvCi8vIGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgYmVoYXZpb3Igb2YgUGFuZG9jIDwgMi44KS4KZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsIGZ1bmN0aW9uKGUpIHsKICB2YXIgaHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYuc2VjdGlvbltjbGFzcyo9J2xldmVsJ10gPiA6Zmlyc3QtY2hpbGQiKTsKICB2YXIgaSwgaCwgYTsKICBmb3IgKGkgPSAwOyBpIDwgaHMubGVuZ3RoOyBpKyspIHsKICAgIGggPSBoc1tpXTsKICAgIGlmICghL15oWzEtNl0kL2kudGVzdChoLnRhZ05hbWUpKSBjb250aW51ZTsgIC8vIGl0IHNob3VsZCBiZSBhIGhlYWRlciBoMS1oNgogICAgYSA9IGguYXR0cmlidXRlczsKICAgIHdoaWxlIChhLmxlbmd0aCA+IDApIGgucmVtb3ZlQXR0cmlidXRlKGFbMF0ubmFtZSk7CiAgfQp9KTsK"></script>
@@ -333,8 +328,33 @@ sets %&gt;%
 </div>
 <div id="count" class="section level1">
 <h1>count()</h1>
+<p>count(x, …, wt = NULL, sort = FALSE, name = NULL)<br />
+- wt stands for weight</p>
+<p>In #A, it will count how many occurrence for each carrier in a dataset<br />
+#B, it will count how many flights for each carrier</p>
 <pre class="r"><code># using lego sets
-# we can download and read_csv function</code></pre>
+# we can download and read_csv function
+count(flights, carrier)                                                     #A
+# A tibble: 16 x 2
+   carrier     n
+   &lt;chr&gt;   &lt;int&gt;
+ 1 9E      18460
+ 2 AA      32729
+ 3 AS        714
+ 4 B6      54635
+ 5 DL      48110
+ 6 EV      54173
+ 
+count(flights, carrier, wt = flight, sort = TRUE) #B
+# A tibble: 16 x 2
+   carrier         n
+   &lt;chr&gt;       &lt;int&gt;
+ 1 EV      250500399
+ 2 MQ      101761406
+ 3 DL       66141518
+ 4 9E       65847885
+ 5 UA       56289091
+ 6 B6       36669259</code></pre>
 </div>
 <div id="joining-their-children" class="section level1">
 <h1>joining their children</h1>
