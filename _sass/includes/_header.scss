@@ -59,7 +59,7 @@
         border: 0;
         border-bottom: 2px solid $search-color;
         outline: 0;
-
+				display: inline-block;
         *:focus {
             outline: none;
         }
