@@ -21,7 +21,7 @@ hide: true
         "date": "{{ post.date | date: '%B %-d, %Y' }}",
         "author": "{{ post.author | xml_escape }}",
         "category": "{{ post.category | xml_escape }}",
-        "content": "{{ post.content | strip_html | strip_newlines | jsonify }}",
+        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
         "url": "{{ site.baseurl }}/{{ post.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
