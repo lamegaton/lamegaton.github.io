@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor | Son's NoteBook</title>
+	<meta name="description"
+		content="Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature i...">
+	<meta property="og:site_name" content="lamegaton.github.io">
+  
+  <meta property="og:title" content="Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature is over 85.
+
+"/>
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Son's NoteBook"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+	
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Son's NoteBook</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/categories/">
+					Categories
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/tools/">
+					Get Youtube Transcript
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:sonpham995@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/lamegaton/" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sphamee/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+            <li>
+            <form action="/search.html" method="get">
+                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+                <button type="submit" class="">
+                    <i class="fa fa-fw fa-search"></i>
+                </button>
+            </form>
+            </li>
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor</h1>
+    
+    <p class="meta">
+      August 3, 2021
+       - Son Pham
+    </p>
+  </header>
+  <section class="post-content"><p>Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature is over 85.</p>
+
+<p>So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.</p>
+
+<p>Something was wrong with MS Edge, so I did a little research and solve problem with these steps.</p>
+
+<ol>
+  <li>On MS Edge access <code class="language-plaintext highlighter-rouge">edge://settings/system</code></li>
+  <li>Disable <code class="language-plaintext highlighter-rouge">Use hardware accleration when available</code></li>
+</ol>
+
+<p>The laptop was running well, but I thought CPU’s temps also cause the laptop to shutdown. So I installed Open Hardware Monitor <a href="[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)">here</a>. This is an open source software, and has great features such as gadget.</p>
+
+<p>With Gadget, you can add all temperature sensor like this</p>
+
+<p><img src="https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/OHM_gadget_1.png" alt="Gadget 1" /></p>
+
+<p>Open Hardware Monitor also lets you to <code class="language-plaintext highlighter-rouge">Run a remote server</code> and monitor over the internet.</p>
+
+</section>
+  
+
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'lamegaton';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a> by Son Pham
+</p>
+</footer>
+
+
+  </body>
+</html>

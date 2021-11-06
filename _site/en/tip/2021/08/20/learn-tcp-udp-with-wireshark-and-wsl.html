@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux | Son's NoteBook</title>
+	<meta name="description"
+		content="Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had a...">
+	<meta property="og:site_name" content="lamegaton.github.io">
+  
+  <meta property="og:title" content="Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux">
+  <meta property="og:type" content="article">
+  <meta property="og:description" content="Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.
+
+"/>
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/en/tip/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Son's NoteBook"
+		href="/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+	
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<a href="/">
+			<img class="avatar" src="/assets/img/avatar.png" alt=""/>
+		</a>
+		
+		<h1 class="site-title">
+			<a href="/">Son's NoteBook</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/about/">
+					About
+				</a>
+			</li>
+			
+			
+			
+			<li>
+				<a class="page-link" href="/categories/">
+					Categories
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<li>
+				<a class="page-link" href="/tools/">
+					Get Youtube Transcript
+				</a>
+			</li>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+
+
+<li>
+	<a href="mailto:sonpham995@gmail.com" title="Email">
+		<i class="fas fa-fw fa-envelope"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li>
+	<a href="https://github.com/lamegaton/" title="Follow on GitHub">
+		<i class="fab fa-fw fa-github"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+<li>
+	<a href="https://www.linkedin.com/in/sphamee/" title="Follow on LinkedIn">
+		<i class="fab fa-fw fa-linkedin"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+            <li>
+            <form action="/search.html" method="get">
+                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+                <button type="submit" class="">
+                    <i class="fa fa-fw fa-search"></i>
+                </button>
+            </form>
+            </li>
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/')">
+    <h1 class="title">Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux</h1>
+    
+    <p class="meta">
+      August 20, 2021
+       - Son Pham
+    </p>
+  </header>
+  <section class="post-content"><p>Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.</p>
+
+<hr />
+
+<p>Table of Contents:</p>
+
+<ul id="markdown-toc">
+  <li><a href="#setup-tcp-client-and-server-with-netcat" id="markdown-toc-setup-tcp-client-and-server-with-netcat">Setup TCP client and server with NetCat</a>    <ul>
+      <li><a href="#1-install-netcat" id="markdown-toc-1-install-netcat">1. Install netcat</a>        <ul>
+          <li><a href="#2-install-wireshark" id="markdown-toc-2-install-wireshark">2. Install Wireshark</a></li>
+          <li><a href="#3-setting-up-wireshark" id="markdown-toc-3-setting-up-wireshark">3. Setting up Wireshark</a></li>
+          <li><a href="#4-setting-up-tcpudp-server-and-client" id="markdown-toc-4-setting-up-tcpudp-server-and-client">4. Setting up TCP/UDP server and client</a></li>
+          <li><a href="#5-checking-result-on-wireshark" id="markdown-toc-5-checking-result-on-wireshark">5. Checking Result on Wireshark</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="setup-tcp-client-and-server-with-netcat">Setup TCP client and server with NetCat</h1>
+<h2 id="1-install-netcat">1. Install netcat</h2>
+<p>In WSL<br />
+	<code class="language-plaintext highlighter-rouge">sudo apt-get install netcat</code><br />
+To know the argument for netcat or nc you can use<br />
+	<code class="language-plaintext highlighter-rouge">man netcat</code></p>
+
+<h4 id="2-install-wireshark">2. Install Wireshark</h4>
+
+<h4 id="3-setting-up-wireshark">3. Setting up Wireshark</h4>
+<p>Open Wireshark and select <code class="language-plaintext highlighter-rouge">Adapter for loopback traffic capture</code><br />
+In the <code class="language-plaintext highlighter-rouge">Apply a display filter</code> box type <code class="language-plaintext highlighter-rouge">tcp.port == 5000</code> because we will use port 5000 for transmitting and receiving.</p>
+
+<h4 id="4-setting-up-tcpudp-server-and-client">4. Setting up TCP/UDP server and client</h4>
+<p>You can open 2 WSL windows, one for client and the other for server</p>
+<ul>
+  <li>TCP:<br />
+server<br />
+  <code class="language-plaintext highlighter-rouge">nc -l localhost 5000</code><br />
+This means listen with TCP at port 5000 on localhost<br />
+client<br />
+  <code class="language-plaintext highlighter-rouge">nc -v localhost 5000 &lt;&lt;&lt; 'sup buddy' </code><br />
+If it is successful, it will show<br />
+  <code class="language-plaintext highlighter-rouge">Connection to localhost 5000 port [tcp/*] succeeded! </code></li>
+  <li>UDP:<br />
+server<br />
+  <code class="language-plaintext highlighter-rouge">nc -l -u localhost 5000 </code><br />
+client<br />
+  <code class="language-plaintext highlighter-rouge">nc -v -u localhost 5000 &lt;&lt;&lt; 'sup buddy' </code><br />
+Alternatively, you can also try the command <code class="language-plaintext highlighter-rouge">cat textfile &gt; /dev/tcp/HOST/PORT</code> to send message to the server</li>
+</ul>
+
+<h4 id="5-checking-result-on-wireshark">5. Checking Result on Wireshark</h4>
+<p>If you follow all of the steps correctly, you will see 3 ways handshake and all the payloads that come with it.<br />
+<img src="https://user-images.githubusercontent.com/5988492/130905620-9c1b2282-4a92-40d6-abc6-d342e71d66f1.png" alt="2021-08-25 22 23 18" /></p>
+
+<p>Also, you can go to <strong>Statistics &gt; Flow Graph</strong> under <strong>Flow Type</strong> select <strong>TCP</strong> to see the flow of traffic<br />
+<img src="https://user-images.githubusercontent.com/5988492/130905976-423568fc-8111-4e90-82d5-2571addac235.png" alt="2021-08-25 22 27 29" /></p>
+
+</section>
+  
+
+</article>
+
+<!-- Disqus -->
+
+<div class="comments">
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+	var disqus_shortname = 'lamegaton';
+	(function() {
+		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view comments.</noscript>
+
+</div>
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/assets/js/katex_init.js"></script>
+
+
+
+<footer class="site-footer">
+	<p class="text">Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a> by Son Pham
+</p>
+</footer>
+
+
+  </body>
+</html>
