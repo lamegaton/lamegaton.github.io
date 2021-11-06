@@ -5,8 +5,13 @@
 	<title> Son's NoteBook</title>
 	<meta name="description"
 		content="notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton">
+	<meta property="og:site_name" content="lamegaton.github.io">
+  
+  <meta property="og:title" content="lamegaton.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="This is my personal website where I share code, books, and other things.">
+  
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<!-- CSS -->
 	<link rel="stylesheet" href="/assets/css/main.css">
 
@@ -92,6 +97,10 @@
 			
 			
 			
+			
+			
+			
+			
 			<!-- Social icons from Font Awesome, if enabled  -->
 			
 
@@ -158,6 +167,15 @@
 
             <!-- Search bar -->
             
+            <li>
+            <form action="/search.html" method="get">
+                <input type="text" id="search-box" name="query" placeholder="Search" class="">
+                <button type="submit" class="">
+                    <i class="fa fa-fw fa-search"></i>
+                </button>
+            </form>
+            </li>
+            
 		</ul>
 	</nav>
 
@@ -172,6 +190,93 @@
     <div class="post-teaser">
       <header>
         <h1>
+          <a class="post-link" href="/en/tip/2021/10/25/R-notebook-Dplyr.html">
+            R Notebook - dplyr
+          </a>
+        </h1>
+        <p class="meta">
+          October 25, 2021
+        </p>
+      </header>
+      <div class="excerpt">
+        <html>
+
+</html>
+
+        <a class="button" href="/en/tip/2021/10/25/R-notebook-Dplyr.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/en/tip/2021/10/17/R-notebook.html">
+            R Notebook
+          </a>
+        </h1>
+        <p class="meta">
+          October 17, 2021
+        </p>
+      </header>
+      <div class="excerpt">
+        <html>
+
+</html>
+
+        <a class="button" href="/en/tip/2021/10/17/R-notebook.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/en/tip/2021/08/29/simple-way-to-pick-a-monitor.html">
+            Simple way to pick a monitor
+          </a>
+        </h1>
+        <p class="meta">
+          August 29, 2021
+        </p>
+      </header>
+      <div class="excerpt">
+        <p>Have you ever felt anxious and spent many hours on looking for an electronic product? I have the same issue. One of the reason is because of the emerging technology and marketing strategy. But do we really need all of the new features? Actually not. To limit your options, please ask yourself “What do I really want from a &lt;product&gt;?”. For a monitor, I will need a size big enough so I can code on one side and browsing web on the other side to search for solutions. I also want the resolution high enough so I don’t see the big pixel. The last thing is HDMI port over older ports such as DVI or VGA<br />
+<img src="https://user-images.githubusercontent.com/5988492/131261114-8a6c4aee-e63a-453e-b70b-e1afbceb1da4.png" alt="dvi-hdmi" /></p>
+
+
+        <a class="button" href="/en/tip/2021/08/29/simple-way-to-pick-a-monitor.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="/en/tip/2021/08/27/explaining-tcp-flows.html">
+            Explaining TCP flows
+          </a>
+        </h1>
+        <p class="meta">
+          August 27, 2021
+        </p>
+      </header>
+      <div class="excerpt">
+        <p>Couple days ago, I wrote a note showing how to set up a simple TCP client and server using netcat. Today, I have captured the packets from Wireshark and explained them step by step so everyone can have a general idea on how TCP flow works. Let’s look at the table below.</p>
+
+
+        <a class="button" href="/en/tip/2021/08/27/explaining-tcp-flows.html">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    
+    <div class="post-teaser">
+      <header>
+        <h1>
           <a class="post-link" href="/en/tip/2021/08/24/quick-note-db-dbm.html">
             Quick Note - Decibel dB vs dBm
           </a>
@@ -181,33 +286,11 @@
         </p>
       </header>
       <div class="excerpt">
-        <p>Most of us have heard about decibel in our daily life. It can be used to describe
- the loundness of your speaker, the strengh of your antenna. Or can be the signal strenght from
- transceiver. So what is decibel (dB) and dBm.</p>
-<h2 id="explaination">Explaination</h2>
-<p>Deci-bel is ten time of a Bel (10 x Bel)<br />
-Bel is named after an inventor Alexander Graham Bell, in Bell Lab.<br />
-It is an unit of a ratio on base 10 logarithm scale<br />
-Bel is defined as \(X = \log\frac{P2}{P1}\)</p>
-<ul>
-  <li>P1: Reference Power</li>
-  <li>P2: Measured Power</li>
-</ul>
+        <p>Most of us have heard about decibels in our daily life. It can be used to describe
+ the loudness of your speaker, the strength of your antenna. Or can be the signal strength from
+ transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!</p>
 
-<p>Now we have 
-\(Decibel = 10 Bel = 10\log\frac{P2}{P1}\)</p>
-
-<p>So what is the difference between dB and dBm?</p>
-
-<p>dBm stands for decibel in miliwat. That means, our Reference Power will be 1 mW</p>
-
-\[Y = 10 \log\frac{P2}{P1} = 10 \log\frac{P2}{1 mW}\]
-
-<p>We can find Y by raise them to the power of 10</p>
-
-\[10^{\frac{Y}{10}} = 10^{\log\frac{P2}{1 mW}} =&gt; P2 = 10^{\frac{Y}{10}} 1 mW\]
-
-<p>So in communication, we usually use dBm because we know the reference power which is 1 mW.</p>
+<hr />
 
 
         <a class="button" href="/en/tip/2021/08/24/quick-note-db-dbm.html">
@@ -274,64 +357,6 @@ Bel is defined as \(X = \log\frac{P2}{P1}\)</p>
 
 
         <a class="button" href="/en/tip/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html">
-          Continue reading
-        </a>
-      </div>
-    </div>
-    
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="/en/notebook/git/2020/10/15/Using-ajax,-xhttp-and-axios-to-fetch.html">
-            Using Ajax, Xhttp, Fetch, and Axios to get page content
-          </a>
-        </h1>
-        <p class="meta">
-          October 15, 2020
-        </p>
-      </header>
-      <div class="excerpt">
-        <h2 id="axios">Axios</h2>
-
-
-        <a class="button" href="/en/notebook/git/2020/10/15/Using-ajax,-xhttp-and-axios-to-fetch.html">
-          Continue reading
-        </a>
-      </div>
-    </div>
-    
-    <div class="post-teaser">
-      <header>
-        <h1>
-          <a class="post-link" href="/en/notebook/html-css/2020/10/15/What-the-web.html">
-            What the web
-          </a>
-        </h1>
-        <p class="meta">
-          October 15, 2020
-        </p>
-      </header>
-      <div class="excerpt">
-        <p>What is the web actually? How do our browsers show us a webpage?<br />
-As you already known, web browsers  are based on WebKit.
-The browser is like the middle man (Browser Engine). 
-When we type www.google.com and hit enter (User Interface), 
-the browser will go to Google’s server and ask for HTML-CSS files. 
-The server will hand those files to that middle man. 
-Then the middle man will give it to a cook (Rendering Engine). 
-Finally, the cook will display the dish back to middle man, then to us.</p>
-
-<p>There are couple things to explore:</p>
-<ol>
-  <li>WebKit</li>
-  <li>Browser Engine</li>
-  <li>Server</li>
-  <li>User Interface</li>
-  <li>Rendering Engines</li>
-</ol>
-
-
-        <a class="button" href="/en/notebook/html-css/2020/10/15/What-the-web.html">
           Continue reading
         </a>
       </div>
