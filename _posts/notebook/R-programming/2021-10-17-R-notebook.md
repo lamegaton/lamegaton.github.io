@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: post
 title: R Notebook
 categories: en tip
 author: "Son Pham, Truc Pham"
@@ -14,9 +14,6 @@ description: "Essential R"
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
-
-
-
 
 <title>Learning R from lecture notes</title>
 
