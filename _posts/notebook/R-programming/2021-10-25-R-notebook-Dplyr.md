@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: post
 title: R Notebook - dplyr 
 categories: en tip
 author: "Son Pham, Truc Pham"
