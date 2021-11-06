@@ -6,9 +6,11 @@ author: "Son Pham, Truc Pham"
 meta: R notebook
 description: "Essential R"
 ---
+
 <html>
 
 <head>
+
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
@@ -156,25 +158,353 @@ pre code {
 
 <div class="container-fluid main-container">
 
-
-
-
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">Learn R from lecture notes</h1>
-
-</div>
-
-
 <div id="dplyr" class="section level1">
 <h1>Dplyr</h1>
+<p>We are gonna go through filter(), arrange(), select(), mutate(), summarise(),<br />
+group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()</p>
+<p>dplyr:<br />
+* first argument is a data frame<br />
+* function<br />
+* result is a new data frame<br />
+## Pipe %&gt;% is pronounced THEN</p>
+<div id="all-in-one-example" class="section level2">
+<h2>All-in-one Example</h2>
+<pre class="r"><code>manager &lt;- c(1, 2, 3, 4, 5) 
+date &lt;- c(&quot;10/24/08&quot;, &quot;10/28/08&quot;, &quot;10/1/08&quot;, &quot;10/12/08&quot;, &quot;5/1/09&quot;) 
+country &lt;- c(&quot;US&quot;, &quot;US&quot;, &quot;UK&quot;, &quot;UK&quot;, &quot;UK&quot;) 
+gender &lt;- c(&quot;M&quot;, &quot;F&quot;, &quot;F&quot;, &quot;M&quot;, &quot;F&quot;) 
+age &lt;- c(32, 45, 25, 39, 99) 
+q1 &lt;- c(5, 3, 3, 0, 2) 
+q2 &lt;- c(4, 5, 0, 3, 2) 
+q3 &lt;- c(5, 2, 5, 4, 1) 
+q4 &lt;- c(5, 0, 5, NA, 2) 
+q5 &lt;- c(5, 5, 2, NA, 1) 
+leadership &lt;- data.frame(manager, date, country, gender, age, 
+                         q1, q2, q3, q4, q5, stringsAsFactors=FALSE)
+&gt; leadership
+leadership &lt;- leadership %&gt;%
+    mutate()
+
+  manager     date country gender age q1 q2 q3 q4 q5
+1       1 10/24/08      US      M  32  5  4  5  5  5
+2       2 10/28/08      US      F  45  3  5  2  5  5
+3       3  10/1/08      UK      F  25  3  5  5  5  2
+4       4 10/12/08      UK      M  39  3  3  4 NA NA
+5       5   5/1/09      UK      F  99  2  2  1  2  1
+library(dplyr) #A 
+# add total_score and mean_score columns
+leadership &lt;- mutate(leadership, #B 
+                     total_score = q1 + q2 + q3 + q4 + q5, #B 
+                     mean_score = total_score / 5) #B 
+&gt; leadership
+  manager     date country gender age q1 q2 q3 q4 q5 total_score mean_score
+1       1 10/24/08      US      M  32  5  4  5  5  5          24        4.8
+2       2 10/28/08      US      F  45  3  5  2  5  5          20        4.0
+3       3  10/1/08      UK      F  25  3  5  5  5  2          20        4.0
+4       4 10/12/08      UK      M  39  3  3  4 NA NA          NA         NA
+5       5   5/1/09      UK      F  99  2  2  1  2  1           8        1.6
+# recode or change item in variable gender to M::male, F::female
+# this is similar to search and replace
+leadership$gender &lt;- recode(leadership$gender, #C 
+                            &quot;M&quot; = &quot;male&quot;, &quot;F&quot; = &quot;female&quot;) #C 
+&gt; leadership
+  manager     date country gender age q1 q2 q3 q4 q5 total_score mean_score
+1       1 10/24/08      US   male  32  5  4  5  5  5          24        4.8
+2       2 10/28/08      US female  45  3  5  2  5  5          20        4.0
+3       3  10/1/08      UK female  25  3  5  5  5  2          20        4.0
+4       4 10/12/08      UK   male  39  3  3  4 NA NA          NA         NA
+5       5   5/1/09      UK female  99  2  2  1  2  1           8        1.6                                                     
+# recode is similar to renaming the row, and rename is for columns
+# right to left
+leadership &lt;- rename(leadership, ID = &quot;manager&quot;, sex = &quot;gender&quot;)#D
+&gt; leadership
+  ID     date country    sex age q1 q2 q3 q4 q5 total_score mean_score
+1  1 10/24/08      US   male  32  5  4  5  5  5          24        4.8
+2  2 10/28/08      US female  45  3  5  2  5  5          20        4.0
+3  3  10/1/08      UK female  25  3  5  5  5  2          20        4.0
+4  4 10/12/08      UK   male  39  3  3  4 NA NA          NA         NA
+5  5   5/1/09      UK female  99  2  2  1  2  1           8        1.6
+
+leadership &lt;- arrange(leadership, sex, total_score) #E 
+&gt; leadership
+  ID     date country    sex age q1 q2 q3 q4 q5 total_score mean_score
+1  5   5/1/09      UK female  99  2  2  1  2  1           8        1.6
+2  2 10/28/08      US female  45  3  5  2  5  5          20        4.0
+3  3  10/1/08      UK female  25  3  5  5  5  2          20        4.0
+4  1 10/24/08      US   male  32  5  4  5  5  5          24        4.8
+5  4 10/12/08      UK   male  39  3  3  4 NA NA          NA         NA
+&gt; leadership &lt;- arrange(leadership, sex, desc(total_score)) #E
+&gt; leadership
+  ID     date country    sex age q1 q2 q3 q4 q5 total_score mean_score
+1  2 10/28/08      US female  45  3  5  2  5  5          20        4.0
+2  3  10/1/08      UK female  25  3  5  5  5  2          20        4.0
+3  5   5/1/09      UK female  99  2  2  1  2  1           8        1.6
+4  1 10/24/08      US   male  32  5  4  5  5  5          24        4.8
+5  4 10/12/08      UK   male  39  3  3  4 NA NA          NA         NA
+
+&gt; leadership_ratings &lt;- select(leadership, ID, mean_score) #F
+&gt; leadership_ratings
+  ID mean_score
+1  2        4.0
+2  3        4.0
+3  5        1.6
+4  1        4.8
+5  4         NA
+leadership_men_high &lt;- filter(leadership, #G
+                              sex == &quot;male&quot; &amp; total_score &gt; 10) #G 
+&gt; leadership_men_high &lt;- filter(leadership, #G
++                               sex == &quot;male&quot; &amp; total_score &gt; 10) #G
+&gt; leadership_men_high
+  ID     date country  sex age q1 q2 q3 q4 q5 total_score mean_score
+1  1 10/24/08      US male  32  5  4  5  5  5          24        4.8                                                            </code></pre>
+</div>
+<div id="filter" class="section level2">
+<h2>filter()</h2>
+<pre class="r"><code>library(&#39;nycflights13&#39;)
+library(&#39;dplyr&#39;)
+filter(flights, month == 1, day == 1, dep_delay &gt;= 15)
+
+flights[flights$month == 1 &amp; flights$day == 1 &amp; flights$dep_delay &gt;= 15, ]
+
+# this is similar 
+subset(flights, month == 1 &amp; day == 1 &amp; dep_delay &gt;= 15)
+# better </code></pre>
+<p>filter(), with %in%, select specific values in a col</p>
+<pre class="r"><code>filter(flights, month %in% c(6,7,8))</code></pre>
+</div>
+<div id="slice" class="section level2">
+<h2>slice()</h2>
+<p>slice() will cut by user input</p>
+<pre class="r"><code>slice(flights, c(1:3, 5200, 9000:9100))</code></pre>
+</div>
+<div id="arrange-order-data" class="section level2">
+<h2>arrange(): order data</h2>
+<pre class="r"><code>arrange(flights, year, month, day)</code></pre>
+<div id="arrange-in-descending-order" class="section level3">
+<h3>arrange in descending order</h3>
+<pre class="r"><code>arrange(flights, desc(dep_delay))</code></pre>
+</div>
+<div id="sorting-missing-value" class="section level3">
+<h3>sorting missing value</h3>
+<pre class="r"><code>df &lt;- tibble(x = c(5, 2, NA))
+arrange(df, x)</code></pre>
+</div>
+<div id="select" class="section level3">
+<h3>select()</h3>
+<pre class="r"><code># select columns by name
+select(flights, year, month, day)
+
+head(dplyr::select(flights, &#39;year&#39;, &#39;month&#39;, &#39;day&#39;),5)
+
+# Select all columns between year and day (inclusive)
+head(dplyr::select(flights, year:day),2)
+
+# the reason, dplyr::select is used because it may clash with other packages
+
+# Select all columns except those from year to day (inclusive)
+head(dplyr::select(flights, -(year:day)),3)</code></pre>
+<p>If the column names are stored quoted in a variable, they should be passed to the one_of argument.</p>
+<pre class="r"><code>theCols &lt;- c(&#39;flights&#39;, &#39;year&#39;, &#39;month&#39;,&#39;day&#39;)
+select(flights, one_of(theCols))</code></pre>
+<p>We can also use everything() helper with select to move the selected columns to<br />
+the beginning of a dataframe Ex: Flights has 19 columns from year, month, day … time_hour. If we want to move<br />
+time_hour to the first column we can use select and everything()</p>
+<pre class="r"><code>select(flights, time_hour, day, month, year, everything())
+# A tibble: 336,776 x 19
+   time_hour             day month  year dep_time sched_dep_time dep_delay
+   &lt;dttm&gt;              &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;
+ 1 2013-01-01 05:00:00     1     1  2013      517            515         2
+ 2 2013-01-01 05:00:00     1     1  2013      533            529         4
+ 3 2013-01-01 05:00:00     1     1  2013      542            540         2
+ 4 2013-01-01 05:00:00     1     1  2013      544            545        -1</code></pre>
+</div>
+<div id="rename-a-variable-column" class="section level3">
+<h3>Rename a variable (column)</h3>
+<p>select(df, something, name_to_be_change = current_name)<br />
+Lets change tailnum to tail_num</p>
+<pre class="r"><code>select(flights, flight, tail_num = tailnum)
+   flight tail_num
+    &lt;int&gt; &lt;chr&gt;
+ 1   1545 N14228
+ 2   1714 N24211
+ 3   1141 N619AA
+ 4    725 N804JB
+ 5    461 N668DN</code></pre>
+<p>Or if you want to keep every variable, you can use rename() function rename(df, name_to_be_change = current_name)</p>
+<pre class="r"><code>rename(flights, tail_num = tailnum)
+    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+ 1  2013     1     1      517            515         2      830            819
+ 2  2013     1     1      533            529         4      850            830
+ 3  2013     1     1      542            540         2      923            850</code></pre>
+</div>
+<div id="select-with-other-helper-functions" class="section level3">
+<h3>Select with other helper functions</h3>
+<ul>
+<li>starts_with(“abc”): matches names that begin with “abc”.</li>
+<li>ends_with(“xyz”): matches names that end with “xyz”.</li>
+<li>contains(“ijk”): matches names that contain “ijk”.</li>
+<li>matches(“(.)\1”): selects variables that match a regular expression. This one matches any variables that contain repeated characters.</li>
+<li>num_range(“x”, 1:3) matches x1, x2 and x3.</li>
+</ul>
+<pre class="r"><code>select(flights, contains(arr))
+   arr_time sched_arr_time arr_delay carrier
+      &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt; &lt;chr&gt;
+ 1      830            819        11 UA
+ 2      850            830        20 UA
+ 3      923            850        33 AA</code></pre>
+</div>
+</div>
+<div id="group_by" class="section level2">
+<h2>Group_by()</h2>
+<ul>
+<li>.by_group = TRUE for arrange()</li>
+<li>sample_n(), sample_frac()</li>
+</ul>
+<p>In the example below, we group dest to 105 group<br />
+Then, we use</p>
+<pre class="r"><code>&gt; by_dest &lt;- group_by(flights, dest)
+&gt; by_dest
+# A tibble: 336,776 x 19
+# Groups:   dest [105]
+    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+ 1  2013     1     1      517            515         2      830            819
+ 2  2013     1     1      533            529         4      850            830
+ 
+&gt; delay &lt;- summarise(by_dest,
++   count = n(),
++   dist = mean(distance, na.rm = TRUE),
++   delay = mean(arr_delay, na.rm = TRUE))
+&gt; delay
+# A tibble: 105 x 4
+   dest  count  dist delay
+   &lt;chr&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;
+ 1 ABQ     254 1826   4.38
+ 2 ACK     265  199   4.85
+ 3 ALB     439  143  14.4
+ 4 ANC       8 3370  -2.5
+ 5 ATL   17215  757. 11.3
+ 6 AUS    2439 1514.  6.02
+ 7 AVL     275  584.  8.00
+ 
+# Subset the data to only include frequently flown planes
+# and distances &lt; 3000
+delay &lt;- filter(delay, count &gt; 20, dist &lt; 3000)
+delay
+   dest  count  dist delay
+   &lt;chr&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt;
+ 1 ABQ     254 1826   4.38
+ 2 ACK     265  199   4.85
+ 3 ALB     439  143  14.4
+ 4 ATL   17215  757. 11.3
+ 5 AUS    2439 1514.  6.02</code></pre>
+</div>
+<div id="other-useful-functions-for-r" class="section level2">
+<h2>Other useful functions for R</h2>
+<ul>
+<li>n(): number of items in a group (observations)</li>
+<li>n_distinct(x): find distinct value in x</li>
+<li>first(x) = x[1]</li>
+<li>last(x) = x[n] = x[length(x)]</li>
+</ul>
+<pre class="r"><code>&gt; destinations &lt;- group_by(flights, dest)
+&gt; destinations
+# Groups:   dest [105]
+    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+ 1  2013     1     1      517            515         2      830            819
+ 2  2013     1     1      533            529         4      850            830
+ 3  2013     1     1      542            540         2      923            850
+ 4  2013     1     1      544            545        -1     1004           1022
+ 5  2013     1     1      554            600        -6      812            837
+ 6  2013     1     1      554            558        -4      740            728
+ 7  2013     1     1      555            600        -5      913            854
+ 
+&gt; summarise(destinations,
++   planes = n_distinct(tailnum),
++   flights = n() # this will count how many thing in a group
++ )
+   dest  planes flights
+   &lt;chr&gt;  &lt;int&gt;   &lt;int&gt;
+ 1 ABQ      108     254
+ 2 ACK       58     265
+ 3 ALB      172     439
+ 4 ANC        6       8
+ 5 ATL     1180   17215
+ 6 AUS      993    2439
+ 7 AVL      159     275
+ 8 BDL      186     443
+ 9 BGR       46     375
+10 BHM       45     297
+
+# we can verify by using 
+count(filter(destinations, dest == &quot;AUS&quot;))
+# Groups:   dest [1]
+  dest      n
+  &lt;chr&gt; &lt;int&gt;
+1 AUS    2439</code></pre>
+</div>
+<div id="merging-base-r" class="section level2">
+<h2>Merging (base R)</h2>
+<pre class="r"><code># merge option
+flights.df &lt;- merge(flights.df, cor, by.x=c(&quot;origin&quot;), by.y=c(&quot;faa&quot;))
+flights.df &lt;- merge(flights.df, cor, by.x=c(&quot;dest&quot;), by.y=c(&quot;faa&quot;),suffixes=c(&quot;.origin&quot;,&quot;.dest&quot;))</code></pre>
+</div>
+<div id="remove-cols-in-r" class="section level2">
+<h2>remove col/s in R</h2>
+<pre class="r"><code>N0EGMQ         
+#find value in a col
+flights %&gt;% filter_all(any_vars(. %in% c(&#39;N0EGMQ&#39;, &#39;N10156&#39;)))
+
+
+
+
+# sum them up by year
+
+
+# this is NA: N267AT
+planes %&gt;% filter_all(any_vars(. %in% c(&#39;N267AT&#39;)))
+
+# find values
+flights %&gt;% filter_all(any_vars(. %in% c(&#39;N0EGMQ&#39;, &#39;N10156&#39;)))
+# because we just want to know the relation between 
+
+#
+
+planes_delay %&gt;% data.frame(row.names = planes_delay$tailnum)
+
+cor(select(planes_delay,!(arr_delay)), select(planes_delay,!(year)))
+
+cor(arrange(select(planes,c(tailnum,year)),tailnum), arrange(select(flights,c(tailnum,arr_delay)),tailnum))
+
+planes.delay &lt;- planes.delay %&gt;%   filter(across(everything(),~ !is.na(.)))</code></pre>
+</div>
+</div>
+<div id="pull-all-of-the-departure-related-columns" class="section level1">
+<h1>Pull all of the departure-related columns</h1>
+<p>select(flights, contains(“dep”))</p>
+</div>
+<div id="pull-all-of-the-arrival-and-departure-related-columns" class="section level1">
+<h1>Pull all of the arrival and departure related columns</h1>
+<p>select(flights, contains(“dep”), contains(“arr”))</p>
+<pre class="r"><code># Correlation matrix from mtcars
+# with mpg, cyl, and disp as rows
+# and hp, drat, and wt as columns
+x &lt;- mtcars[1:3]
+y &lt;- mtcars[4:6]
+cor(x, y)</code></pre>
+<pre class="r"><code>by_dest &lt;- group_by(flights, dest)
+delay &lt;- summarise(by_dest,
+  count = n(),
+  dist = mean(distance, na.rm = TRUE),
+  delay = mean(arr_delay, na.rm = TRUE))
+
+head(delay,3)</code></pre>
 <div id="inner_join" class="section level2">
 <h2>inner_join</h2>
 <p>Joining three tables with the same variable</p>
 <pre class="r"><code>sets
-# A tibble: 4,977 x 4
    set_num   name                                                  year theme_id
    &lt;chr&gt;     &lt;chr&gt;                                                &lt;dbl&gt;    &lt;dbl&gt;
  1 700.3-1   Medium Gift Set (ABB)                                 1949      365
@@ -182,13 +512,11 @@ pre code {
  3 700.B.2-1 Single 1 x 2 x 3 Window without Glass (ABB)           1950      371
  
 inventories
-# A tibble: 15,174 x 3
       id version set_num 
    &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;   
  1     1       1 7922-1  
 
 inventory_parts
-# A tibble: 258,958 x 4
    inventory_id part_num             color_id quantity
           &lt;dbl&gt; &lt;chr&gt;                   &lt;dbl&gt;    &lt;dbl&gt;
  1           21 3009                        7       50
@@ -201,7 +529,6 @@ sets %&gt;%
     inner_join(inventory_parts, by = c(&quot;id&quot; = &quot;inventory_id&quot;))
 
 sets
-# A tibble: 258,958 x 9
    set_num name           year theme_id    id version part_num color_id quantity
    &lt;chr&gt;   &lt;chr&gt;         &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt; &lt;chr&gt;       &lt;dbl&gt;    &lt;dbl&gt;
  1 700.3-1 Medium Gift ~  1949      365 24197       1 bdoor01         2        2
@@ -238,6 +565,8 @@ inner_join(part_categories, by = c(&quot;part_cat_id&quot; = &quot;id&quot;))
 </div>
 <div id="left_join" class="section level2">
 <h2>left_join</h2>
+<p>In this example we merge star_destroyer to millennium_falcon by both<br />
+color_id and part_num</p>
 <pre class="r"><code>millennium_falcon
 # A tibble: 263 x 4
    set_num part_num color_id quantity
@@ -357,16 +686,40 @@ count(flights, carrier, wt = flight, sort = TRUE) #B
 </div>
 <div id="joining-their-children" class="section level1">
 <h1>joining their children</h1>
-<p>We can represent hirachy in table format by using number example:</p>
-<p>Car- Honda |- Toyota |- Ford - Bronco |- F150</p>
+<p>We can represent hirachy in table format by using number<br />
+example:</p>
+<p>Car- Honda<br />
+|- Toyota<br />
+|- Ford - Bronco<br />
+|- F150</p>
 <pre class="r"><code>            id name           parent_id
    &lt;dbl&gt; &lt;chr&gt;              &lt;dbl&gt;
  1     1 Car                    NA
- 2     2 Honda                        1
- 3     3 Toyota                     1
- 4     4 Ford                           1
- 5     5 Bronco                     4
- 6     6 F150                       4</code></pre>
+ 2     2 Honda                              1
+ 3     3 Toyota                             1
+ 4     4 Ford                                   1
+ 5     5 Bronco                             4
+ 6     6 F150                                   4</code></pre>
+<div id="nycflights13" class="section level2">
+<h2>nycflights13</h2>
+<pre class="r"><code>&gt; flights
+# A tibble: 336,776 x 19
+    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay carrier flight tailnum origin dest  air_time distance  hour minute time_hour          
+   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt; &lt;chr&gt;    &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt; &lt;dttm&gt;             
+ 1  2013     1     1      517            515         2      830            819        11 UA        1545 N14228  EWR    IAH        227     1400     5     15 2013-01-01 05:00:00
+ 2  2013     1     1      533            529         4      850            830        20 UA        1714 N24211  LGA    IAH        227     1416     5     29 2013-01-01 05:00:00
+ 3  2013     1     1      542            540         2      923            850        33 AA        1141 N619AA  JFK    MIA        160     1089     5     40 2013-01-01 05:00:00
+ 4  2013     1     1      544            545        -1     1004           1022       -18 B6         725 N804JB  JFK    BQN        183     1576     5     45 2013-01-01 05:00:00
+ 
+ 
+&gt; nycflights13::weather
+# A tibble: 26,115 x 15
+   origin  year month   day  hour  temp  dewp humid wind_dir wind_speed wind_gust precip pressure visib time_hour          
+   &lt;chr&gt;  &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;    &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;  &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt; &lt;dttm&gt;             
+ 1 EWR     2013     1     1     1  39.0  26.1  59.4      270      10.4         NA      0    1012     10 2013-01-01 01:00:00
+ 2 EWR     2013     1     1     2  39.0  27.0  61.6      250       8.06        NA      0    1012.    10 2013-01-01 02:00:00
+ 3 EWR     2013     1     1     3  39.0  28.0  64.4      240      11.5         NA      0    1012.    10 2013-01-01 03:00:00</code></pre>
+</div>
 </div>
 
 
