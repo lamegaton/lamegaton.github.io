@@ -20,7 +20,7 @@ dplyr:
 %>% is pronounced THEN
 
 ## All-in-one Example
-```{r}
+```r
 manager <- c(1, 2, 3, 4, 5) 
 date <- c("10/24/08", "10/28/08", "10/1/08", "10/12/08", "5/1/09") 
 country <- c("US", "US", "UK", "UK", "UK") 
@@ -112,7 +112,7 @@ leadership_men_high <- filter(leadership, #G
 ```
 
 ## filter()
-```{r}
+```r
 library('nycflights13')
 library('dplyr')
 filter(flights, month == 1, day == 1, dep_delay >= 15)
@@ -125,31 +125,31 @@ subset(flights, month == 1 & day == 1 & dep_delay >= 15)
 ```
 filter(), with %in%, select specific values in a col 
 
-```{r}
+```r
 filter(flights, month %in% c(6,7,8))
 ```
 ## slice()  
 slice() will cut by user input  
-```{r}
+```r
 slice(flights, c(1:3, 5200, 9000:9100))
 ```
 
 ## arrange(): order data
-```{r}
+```r
 arrange(flights, year, month, day)
 ```
 ### arrange in descending order
-```{r}
+```r
 arrange(flights, desc(dep_delay))
 ```
 
 ### sorting missing value
-```{r}
+```r
 df <- tibble(x = c(5, 2, NA))
 arrange(df, x)
 ```
 ### select()
-```{r}
+```r
 # select columns by name
 select(flights, year, month, day)
 
@@ -165,7 +165,7 @@ head(dplyr::select(flights, -(year:day)),3)
 ```
 If the column names are stored quoted in a variable, they should be passed to the one_of argument.
 
-```{r}
+```r
 
 theCols <- c('flights', 'year', 'month','day')
 select(flights, one_of(theCols))
@@ -176,7 +176,7 @@ the beginning of a dataframe
 Ex: Flights has 19 columns from year, month, day ... time_hour. If we want to move  
 time_hour to the first column we can use select and everything()
 
-```{r}
+```r
 select(flights, time_hour, day, month, year, everything())
 # A tibble: 336,776 x 19
    time_hour             day month  year dep_time sched_dep_time dep_delay
@@ -190,7 +190,7 @@ select(flights, time_hour, day, month, year, everything())
 select(df, something, name_to_be_change = current_name)  
 Lets change tailnum to tail_num
 
-```{r}
+```r
 select(flights, flight, tail_num = tailnum)
    flight tail_num
     <int> <chr>
@@ -203,7 +203,7 @@ select(flights, flight, tail_num = tailnum)
 Or if you want to keep every variable, you can use rename() function
 rename(df, name_to_be_change = current_name) 
  
-```{r}
+```r
 rename(flights, tail_num = tailnum)
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
    <int> <int> <int>    <int>          <int>     <dbl>    <int>          <int>
@@ -219,7 +219,7 @@ rename(flights, tail_num = tailnum)
 one matches any variables that contain repeated characters.
 - num_range("x", 1:3) matches x1, x2 and x3.
 
-```{r}
+```r
 select(flights, contains(arr))
    arr_time sched_arr_time arr_delay carrier
       <int>          <int>     <dbl> <chr>
@@ -235,7 +235,7 @@ select(flights, contains(arr))
 In the example below, we group dest to 105 group  
 Then, we use 
 
-```{r}
+```r
 > by_dest <- group_by(flights, dest)
 > by_dest
 # A tibble: 336,776 x 19
@@ -280,7 +280,7 @@ delay
 - first(x) = x[1]
 - last(x) = x[n] = x[length(x)]
 
-```{r}
+```r
 > destinations <- group_by(flights, dest)
 > destinations
 # Groups:   dest [105]
@@ -321,14 +321,14 @@ count(filter(destinations, dest == "AUS"))
 
 
 ## Merging (base R)
-```{r}
+```r
 # merge option
 flights.df <- merge(flights.df, cor, by.x=c("origin"), by.y=c("faa"))
 flights.df <- merge(flights.df, cor, by.x=c("dest"), by.y=c("faa"),suffixes=c(".origin",".dest"))
 ```
 
 ## remove col/s in R
-```{r}
+```r
 N0EGMQ         
 #find value in a col
 flights %>% filter_all(any_vars(. %in% c('N0EGMQ', 'N10156')))
@@ -366,7 +366,7 @@ select(flights,
        contains("dep"),
        contains("arr"))
 
-```{r}
+```r
 # Correlation matrix from mtcars
 # with mpg, cyl, and disp as rows
 # and hp, drat, and wt as columns
@@ -375,7 +375,7 @@ y <- mtcars[4:6]
 cor(x, y)
 ```
 
-```{r}
+```r
 by_dest <- group_by(flights, dest)
 delay <- summarise(by_dest,
   count = n(),
@@ -388,7 +388,7 @@ head(delay,3)
 ## inner_join
 Joining three tables with the same variable
 
-```{r}
+```r
 sets
    set_num   name                                                  year theme_id
    <chr>     <chr>                                                <dbl>    <dbl>
@@ -431,7 +431,7 @@ inner_join(part_categories, by = c("part_cat_id" = "id"))`
 All parts columns will be the input of inner_join, when we state part_cat_id = id
 inner_join will take the name on the left to be the name of final column
 
-```{r}
+```r
 parts
 # A tibble: 17,501 x 3
    part_num   name                                                      part_cat_id
@@ -461,7 +461,7 @@ inner_join(part_categories, by = c("part_cat_id" = "id"))
 ## left_join
 In this example we merge star_destroyer to millennium_falcon by both  
 color_id and part_num
-```{r}
+```r
 millennium_falcon
 # A tibble: 263 x 4
    set_num part_num color_id quantity
@@ -493,7 +493,7 @@ left_join(star_destroyer, by = c("color_id", "part_num"), suffix = c("_falcon", 
 # group_by() and summarise()
 In this example we will count how many thing in a group
 
-```{r}
+```r
 # Aggregate Millennium Falcon for the total quantity in each part
 millennium_falcon
 
@@ -523,7 +523,7 @@ millennium_falcon_colors
 Na is important for statistic because sometime our function will not work if we 
 dont treat or ignore NA values
 
-```{r}
+```r
 inventory_version_1 <- inventories %>%
   filter(version == 1)
 head(inventory_version_1,3)
@@ -561,7 +561,7 @@ count(x, ..., wt = NULL, sort = FALSE, name = NULL)
 In 	#A, it will count how many occurrence for each carrier in a dataset  
 		#B, it will count how many flights for each carrier  
 
-```{r}
+```r
 # using lego sets
 # we can download and read_csv function
 count(flights, carrier) 													#A
@@ -595,7 +595,7 @@ Car- Honda
 	|- Toyota  
 	|- Ford - Bronco  
 				 |- F150  
-```{r} 
+```r 
 			id name           parent_id
    <dbl> <chr>              <dbl>
  1     1 Car           		    NA
@@ -608,7 +608,7 @@ Car- Honda
 
 ## nycflights13
 
-```{r}
+```r
 > flights
 # A tibble: 336,776 x 19
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay carrier flight tailnum origin dest  air_time distance  hour minute time_hour          
