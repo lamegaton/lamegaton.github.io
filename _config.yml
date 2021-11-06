@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "https://lamegaton.github.io/"
+baseurl: ""
 url: "https://lamegaton.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
