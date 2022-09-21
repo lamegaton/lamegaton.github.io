@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 title: "Using Ajax, Xhttp, Fetch, and Axios to get page content"
-categories: git
+categories: javascript
 author: "Son Pham"
 ---
 
