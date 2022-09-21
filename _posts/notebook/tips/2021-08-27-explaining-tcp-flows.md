@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Explaining TCP flows
-categories: en tip
+categories: tips
 author: "Son Pham"
 meta: Explaining TCP flows
 description: "Explaining TCP flows"

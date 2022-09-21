@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick Note - Decibel dB vs dBm
-categories: tip
+categories: tips
 author: "Son Pham"
 meta: what are the difference between dbm and db
 description: "what are the difference between dbm and db"

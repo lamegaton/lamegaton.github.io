@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What the web"
-categories: en notebook html-css
+categories: tips
 author: "Son Pham"
 ---
 

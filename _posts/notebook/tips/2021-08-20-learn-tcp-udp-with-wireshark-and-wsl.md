@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
-categories: tip
+categories: tips
 author: "Son Pham"
 meta: Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
 description: "Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux"

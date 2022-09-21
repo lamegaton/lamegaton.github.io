@@ -1,7 +1,7 @@
 ---
 layout: post
 title: R Notebook
-categories: tip
+categories: tips
 author: "Son Pham, Truc Pham"
 meta: R
 description: "Essential R"
