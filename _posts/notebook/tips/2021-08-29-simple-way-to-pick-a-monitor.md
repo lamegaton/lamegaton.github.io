@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple way to pick a monitor
-categories: en tip
+categories: tip
 author: "Son Pham"
 meta: Simple way to pick a monitor
 description: "Simple way to pick a monitor"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful batch commands"
-categories: en notebook batch
+categories: tip
 author: "Son Pham"
 meta: "batch dos cmd shell useful command"
 comments: false
