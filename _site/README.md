@@ -1,5 +1,9 @@
 # Type Theme
 
+
+## Note  
+Disqus is TRUE on all layout: post
+
 ## Usage
 
 1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
