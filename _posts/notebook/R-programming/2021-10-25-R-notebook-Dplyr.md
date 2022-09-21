@@ -5,6 +5,7 @@ categories: R
 author: "Son Pham, Truc Pham"
 meta: R
 description: "Essential R"
+comments: false
 ---
 
 
@@ -17,7 +18,7 @@ dplyr:
 * function  
 * result is a new data frame  
 ## Pipe
-%>% is pronounced THEN
+`%>%` is pronounced THEN
 
 ## All-in-one Example
 ```r

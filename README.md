@@ -3,6 +3,9 @@
 
 ## Note  
 Disqus is TRUE on all layout: post
+https://github.com/guard/guard-livereload/issues/87
+https://shopify.github.io/liquid/
+https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
 
 ## Usage
 
