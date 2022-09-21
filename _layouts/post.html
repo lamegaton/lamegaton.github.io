@@ -15,8 +15,7 @@ layout: default
 </article>
 
 <!-- Disqus -->
-{% if site.theme_settings.disqus_shortname %}
-<p>{{ site.theme_settings.disqus_shortname }}</p>
+{% if page.comments %}
 <div class="comments">
   {% include disqus.html %}
 </div>
