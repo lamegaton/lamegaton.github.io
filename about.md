@@ -15,5 +15,6 @@ Hi, my name is Son Pham. I'm an international student from Vietnam.
 **[21-24]** : Join couple clubs and meet people from different walks of life.  
           Work at a company for the first time.  
           Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl...  
-**[24-25]** : Left my job at Samsung and keep learning to find a challenged one.
+**[24-25]** : Left my job at Samsung and keep learning to find a challenged one.  
+**[25-27]** : Quiet years to live in the moment.
 
