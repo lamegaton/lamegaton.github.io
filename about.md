@@ -5,6 +5,8 @@ permalink: /about/
 description: Hi, my name is Son Pham. One of my hobby is learning new things. I make this blog to share with you my long journey.
 ---
 
+![Moutain Tree](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/tree_n_mt.png)
+
 Hi, my name is Son Pham. I'm an international student from Vietnam.   
 
 **[01-17]** : Have wonderful time with my family in Vietnam.  
