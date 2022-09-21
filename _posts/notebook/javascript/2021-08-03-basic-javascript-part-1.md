@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Basic JavaScript Part 1
 categories: javascript
 author: "Son Pham"

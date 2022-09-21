@@ -1,7 +1,7 @@
 ---
 layout: post
 title: R Notebook - dplyr 
-categories: tips
+categories: R
 author: "Son Pham, Truc Pham"
 meta: R
 description: "Essential R"
