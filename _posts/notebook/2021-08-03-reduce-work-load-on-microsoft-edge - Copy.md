@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor
-categories: en tip
+categories: tip
 author: "Son Pham"
 meta: How to reduce workload in Microsoft Edge and avoid suddenly shutdown
 description: "How to reduce workload in Microsoft Edge and avoid suddenly shutdown"
-comments: true
+comments: false
 ---
 
 

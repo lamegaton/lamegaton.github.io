@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Basic JavaScript Part 1
-categories: en javascript
+categories: javascript
 author: "Son Pham"
-meta: 
+meta: Javascript tutorial
 description: "Basic javascript for a simple dynamic or static website"
 ---
 

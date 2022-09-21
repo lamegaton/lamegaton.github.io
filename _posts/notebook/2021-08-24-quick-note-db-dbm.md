@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Quick Note - Decibel dB vs dBm
-categories: en tip
+categories: tip
 author: "Son Pham"
 meta: what are the difference between dbm and db
 description: "what are the difference between dbm and db"
-comments: true
+comments: false
 ---
 Most of us have heard about decibels in our daily life. It can be used to describe
  the loudness of your speaker, the strength of your antenna. Or can be the signal strength from

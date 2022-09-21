@@ -6,7 +6,7 @@ author: "Son Pham"
 meta: Explaining TCP flows
 description: "Explaining TCP flows"
 feature-img: "assets/img/wireshark.png"
-comments: true
+comments: false
 ---
 
 Couple days ago, I wrote a note showing how to set up a simple TCP client and server using netcat. Today, I have captured the packets from Wireshark and explained them step by step so everyone can have a general idea on how TCP flow works. Let's look at the table below.  

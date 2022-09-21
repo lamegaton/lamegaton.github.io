@@ -3,7 +3,7 @@ layout: post
 title: R Notebook
 categories: en tip
 author: "Son Pham, Truc Pham"
-meta: R notebook
+meta: R
 description: "Essential R"
 ---
 

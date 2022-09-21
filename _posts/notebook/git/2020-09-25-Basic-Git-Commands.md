@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basic Git commands"
-categories: en notebook git
+categories: git
 author: "Son Pham"
 ---
 
