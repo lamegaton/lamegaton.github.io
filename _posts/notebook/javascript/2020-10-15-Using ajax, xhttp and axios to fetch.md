@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: post
 title: "Using Ajax, Xhttp, Fetch, and Axios to get page content"
 categories: javascript
+comments: false
 author: "Son Pham"
 ---
 

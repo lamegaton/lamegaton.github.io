@@ -1,10 +1,11 @@
 ---
-layout: default
+layout: post
 title: Basic JavaScript Part 1
 categories: javascript
 author: "Son Pham"
 meta: Javascript tutorial
 description: "Basic javascript for a simple dynamic or static website"
+comments: false
 ---
 
 
