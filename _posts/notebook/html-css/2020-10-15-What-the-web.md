@@ -3,6 +3,7 @@ layout: post
 title: "What the web"
 categories: tips
 author: "Son Pham"
+comments: true
 ---
 
 What is the web actually? How do our browsers show us a webpage?  
