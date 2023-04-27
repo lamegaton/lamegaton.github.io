@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Wed, 21 Sep 2022 11:40:36 -0700</pubDate>
+    <pubDate>Wed, 26 Apr 2023 20:31:30 -0400</pubDate>
     
       <item>
         <title>R Notebook - dplyr</title>
@@ -615,7 +615,7 @@ example:&lt;/p&gt;
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
-        <pubDate>Mon, 25 Oct 2021 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 25 Oct 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1010,7 +1010,7 @@ $(document).ready(function () {
 &lt;/body&gt;
 &lt;/html&gt;
 </description>
-        <pubDate>Sun, 17 Oct 2021 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 17 Oct 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1054,7 +1054,7 @@ $(document).ready(function () {
 
 &lt;p&gt;&lt;img src=&quot;https://user-images.githubusercontent.com/5988492/131260640-83e6b517-6aae-46ed-817a-fa4017a1d122.png&quot; alt=&quot;hdmi&quot; /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 29 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 29 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1126,7 +1126,7 @@ $(document).ready(function () {
 &lt;/table&gt;
 
 </description>
-        <pubDate>Fri, 27 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 27 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1176,7 +1176,7 @@ dBm, decibel-milliwatt is any ratio with 1 mW as a reference power, dimensioned 
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 24 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1242,25 +1242,25 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 &lt;img src=&quot;https://user-images.githubusercontent.com/5988492/130905976-423568fc-8111-4e90-82d5-2571addac235.png&quot; alt=&quot;2021-08-25 22 27 29&quot; /&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 20 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 20 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
         <title>Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor</title>
         <link>/tips/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</link>
         <guid isPermaLink="true">/tips/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</guid>
-        <description>&lt;p&gt;Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature is over 85.&lt;/p&gt;
+        <description>&lt;p&gt;Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature was over 85.&lt;/p&gt;
 
 &lt;p&gt;So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.&lt;/p&gt;
 
-&lt;p&gt;Something was wrong with MS Edge, so I did a little research and solve problem with these steps.&lt;/p&gt;
+&lt;p&gt;Something was wrong with MS Edge, so I did a little research and solved problem with these steps.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;On MS Edge access &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edge://settings/system&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Disable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use hardware accleration when available&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The laptop was running well, but I thought CPU’s temps also cause the laptop to shutdown. So I installed Open Hardware Monitor &lt;a href=&quot;[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)&quot;&gt;here&lt;/a&gt;. This is an open source software, and has great features such as gadget.&lt;/p&gt;
+&lt;p&gt;The laptop was running well, but I thought CPU’s temps causing the laptop to shutdown. So, I installed Open Hardware Monitor &lt;a href=&quot;[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)&quot;&gt;here&lt;/a&gt;. This is an open source software, and has great features such as gadget.&lt;/p&gt;
 
 &lt;p&gt;With Gadget, you can add all temperature sensor like this&lt;/p&gt;
 
@@ -1269,7 +1269,7 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 &lt;p&gt;Open Hardware Monitor also lets you to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run a remote server&lt;/code&gt; and monitor over the internet.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1420,7 +1420,7 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </description>
-        <pubDate>Tue, 03 Aug 2021 00:00:00 -0700</pubDate>
+        <pubDate>Tue, 03 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1448,7 +1448,7 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
 &lt;p&gt;(to be cont. when I get wiser…)&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 Oct 2020 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 15 Oct 2020 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1529,7 +1529,7 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
 &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Thu, 15 Oct 2020 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 15 Oct 2020 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1546,7 +1546,7 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;start msedge.exe lamegaton.github.io -inprivate
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 25 Sep 2020 00:00:00 -0400</pubDate>
       </item>
     
       <item>
@@ -1626,7 +1626,7 @@ See git-pull(1) for details.
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -a -m &quot;commit&quot; &amp;amp;&amp;amp; git push
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
-        <pubDate>Fri, 25 Sep 2020 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 25 Sep 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
