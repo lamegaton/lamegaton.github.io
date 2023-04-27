@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
+title: TCP/UDP Flow Analysis with Wireshark and Windows Subsystem for Linux
 categories: tips
 author: "Son Pham"
 meta: Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux
@@ -8,7 +8,7 @@ description: "Learn TCP or UDP flow by using Wireshark and Windows Subsystem for
 comments: false
 ---
 
-Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.
+During many of my interviews, I have been asked whether I understood TCP and UDP, and how they differed from each other. While I knew that TCP had an error-checking procedure that made the protocol more reliable but slower than UDP, my understanding was limited. Although I had learned about the detailed structure of these protocols in school, I didn't have a chance to get hands-on experience with them. However, I later discovered an easy way to explore TCP and UDP packets using Windows Subsystem for Linux (WSL) and WireShark. As a result, I would like to share what I have learned today.
 
 ----
 

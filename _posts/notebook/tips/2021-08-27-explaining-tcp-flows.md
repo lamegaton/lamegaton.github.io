@@ -9,7 +9,7 @@ feature-img: "assets/img/wireshark.png"
 comments: false
 ---
 
-Couple days ago, I wrote a note showing how to set up a simple TCP client and server using netcat. Today, I have captured the packets from Wireshark and explained them step by step so everyone can have a general idea on how TCP flow works. Let's look at the table below.  
+A few days ago, I wrote a note detailing how to set up a simple TCP client and server using netcat. Today, I have taken things a step further by capturing packets in Wireshark and providing a step-by-step explanation of how the TCP flow works. In the table below, you can find a general overview of this process.  
 
 | Flow                       |                              Packet captured from Wireshark                                | Explaination                                                 |
 | -------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |

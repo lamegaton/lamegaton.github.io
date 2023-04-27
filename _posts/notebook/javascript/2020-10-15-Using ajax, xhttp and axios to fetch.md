@@ -10,6 +10,12 @@ author: "Son Pham"
 
 ## Axios
 
+Axios is a popular JavaScript library used for making HTTP requests from a browser or Node.js. It provides a simple and elegant way to make asynchronous HTTP requests to a server, and handle responses in a clean and efficient manner.
+
+One common use case for Axios is to retrieve the content of a web page from a server. This can be achieved by sending a GET request to the server using Axios, and handling the response in the form of a promise.
+
+In this way, you can fetch data from a web page and use it in your application. Whether you need to retrieve data for a single page or multiple pages, Axios can simplify the process and help you manage your data more efficiently.
+
 ```javascript
 axios.get({
   method: 'get',
@@ -38,6 +44,14 @@ axios.get({
 
 
 ## Fetch
+
+Fetch is a built-in web API in modern browsers that allows you to make HTTP requests to a server and retrieve data in a simple and straightforward way. It provides an alternative to the traditional XMLHttpRequest (XHR) API, and is designed to be easy to use and flexible.
+
+Fetch can retrieve the content of a web page from a server by sending a GET request to the server using the fetch() function, and handling the response in the form of a promise.
+
+It's important to note that Fetch only works in modern browsers, and may not be supported in older versions. However, it offers several advantages over the XHR API, including a simpler API, support for Promises and async/await, and better handling of errors and response types.
+
+
 HTML
 ```html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

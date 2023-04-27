@@ -5,67 +5,72 @@ categories: git
 author: "Son Pham"
 ---
 
-#### First, you thinking of create a project for your class so you need to create a repo:  
+## Creating and Managing Git Repositories
 
-1.  Create a new repo:  
-```git
+If you're thinking of creating a project for your class, you'll need to create a Git repository. Here are the steps:
+
+1. Create a new repo:
+```bash
 git init
 ```
 
-1.  Rename local branch:  
-   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch  
+2. Rename local branch:
 ```
 git branch -m <oldname> <newname>
 ```
-1.  To check your local branch you can use:  
+
+3. To check your local branch, you can use:
 ```
 git branch
 ```
 
-1.  To check your remote branch  
+4. To check your remote branch, use:
 ```
 git branch -r
 ```
 
-#### The project is expand and you invite someone to work with you  
-
-1.  If you invite someone to work with you, they will use  
-
-`git clone <https://link_to_your_repo>`
-
-2.  They can create a new branch using  
-
-`git branch <lulu>`
-
-3.  Then switch to **lulu** using  
-
-`git check out lulu`
-
-4.  When **lulu** trying to pull using `git pull`,  she'll have a problem like this  
-
+If you invite someone to work with you on the project, they can clone your repo using:
 ```
-$ git pull
+git clone <https://link_to_your_repo>
+```
+
+They can create a new branch using:
+```
+git branch <lulu>
+```
+
+Then switch to the new branch using:
+```
+git checkout lulu
+```
+
+When "lulu" tries to pull using "git pull", they may encounter an error message like:
+```
 There is no tracking information for the current branch.
 Please specify which branch you want to merge with.
 See git-pull(1) for details.
 ```
+In that case, they need to pull from "origin".
 
-So she have to pull from origin
+Another coworker creates a new branch called "lala":
+```
+git branch lala
+```
 
-5.  Another coworker create a new branch as lala `git branch lala`  
-6.  lala  use `git pull` and have the same error, lala has to use `git branch` and find the master branch.  
-7.  lala has to use `git branch` and find the default.  
-8.  Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch.  
-9.  Another words, manager want to merge **lala branch** into **master branch**. To do it lala need to `git add <lala_works>` and `git commit -m "what does lala do"`   
-10.  Then manager will `git checkout master` and then `git merge lulu`  
+When "lala" tries to pull and encounters the same error, they need to use "git branch" to find the default branch.
 
-#### Another scenario:  
+Since working on the project, "lala" has made many contributions, so the manager wants to make the "lala" branch the default or "master" branch. To do this, "lala" needs to:
+- git add <lala_works>
+- git commit -m "what does lala do"
 
-We assign lala  to work on PHP side only  
+Then the manager will:
+- git checkout master
+- git merge lulu
 
-#### tips  
+Another scenario is if we assign "lala" to work on PHP side only.
 
-If you are tired of commit, add, push, you can try oneliner like this :  
+Tips:
+- If you're tired of typing out commit, add, push separately, you can use a one-liner like this:
 ```
 git commit -a -m "commit" && git push
 ```

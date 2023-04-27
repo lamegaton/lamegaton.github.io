@@ -7,7 +7,9 @@ meta: Simple way to pick a monitor
 description: "Simple way to pick a monitor"
 comments: false
 ---
-Have you ever felt anxious and spent many hours on looking for an electronic product? I have the same issue. One of the reason is because of the emerging technology and marketing strategy. But do we really need all of the new features? Actually not. To limit your options, please ask yourself "What do I really want from a \<product\>?". For a monitor, I will need a size big enough so I can code on one side and browsing web on the other side to search for solutions. I also want the resolution high enough so I don't see the big pixel. The last thing is HDMI port over older ports such as DVI or VGA  
+Have you ever found yourself feeling anxious and spending countless hours researching an electronic product? I know the feeling all too well. The emergence of new technology and marketing strategies can make it challenging to determine what we really need in a product. However, it's important to ask ourselves, "What do I truly want from this product?" to help limit our options.  
+  
+For instance, when selecting a monitor, I require a size that's big enough to enable me to code on one side and browse the web on the other to search for solutions. Additionally, I prefer a high enough resolution that prevents me from seeing pixelation. Lastly, I prefer having HDMI ports instead of older ports such as DVI or VGA.
 ![dvi-hdmi](https://user-images.githubusercontent.com/5988492/131261114-8a6c4aee-e63a-453e-b70b-e1afbceb1da4.png)  
 
 ----
@@ -19,9 +21,10 @@ Have you ever felt anxious and spent many hours on looking for an electronic pro
 
 **Types of panel**
 
-   | IPS                                              | TN                                                           | VA             | OLED     |
-   | ------------------------------------------------ | ------------------------------------------------------------ | -------------- | -------- |
-   | Recommended, if possible get higher refresh rate | Cheap, high refreshing rate for gamming but not good in generall | better than TN | the best |
+**IPS**: Recommended, if possible get higher refresh rate  
+**TN**: Cheap, high refreshing rate for gamming but not good in generall  
+**VA**: better than TN  
+**OLED**: the best  
 
 **Refresh rate**: 60Hz is good enough
 **Response time**: equal or less than 4ms

@@ -20,7 +20,11 @@ Table of Contents:
 
 ### Edit a text or HTML via jQuery  
 
-This example implement jQuery. So we have an HTML file with div id="text" and we want to change Hello to  Hello, dolly. 
+This example implement jQuery. 
+
+jQuery is a popular JavaScript library that simplifies DOM manipulation and event handling in web development. One of its key strengths is its ability to quickly and easily edit the content of text or HTML elements on a web page.
+
+So we have an HTML file with div id="text." 
 
 <div id="test" style="background-color:#CCFFCC">Hello, this is wrapped with a div, you can open your console and test it.</div>
 
@@ -30,6 +34,9 @@ This example implement jQuery. So we have an HTML file with div id="text" and we
 <div id="test">Hello</div>
 </html>
 ```
+
+To change "Hello" to "Hello, dolly" using jQuery, you can use the `text()` method as follows:
+
 
 |JavaScript|jQuery|
 |--|--|
@@ -54,6 +61,8 @@ empty: for type
 ```
 
 #### Parent
+
+The code will change the background color of the `div` element with `id="mom-dad"` to blue.
 
 ```javascript
 $("#son").parent().css("background-color", "blue")
@@ -110,8 +119,9 @@ document.getElementbyId(<ID>).style.display='none'; // or inherit
 ```
 
 ### Async 
-Asynchronous is used when user want to fetch data from server without refreshing the page.   
-IE5 and IE6 have different object name for async 
+Asynchronous requests are commonly used when a user wants to fetch data from a server without having to refresh the page. This allows for a smoother user experience and faster loading times. 
+
+It's important to note that different web browsers may have different object names for handling asynchronous requests. For example, IE5 and IE6 use the `ActiveXObject` object, while modern browsers use the `XMLHttpRequest` object. Therefore, it's important to use feature detection and check for the availability of these objects before making an asynchronous request to ensure compatibility across different browsers.
 
 ```javascript
 function asynRequest(){
@@ -128,11 +138,9 @@ function asynRequest(){
 }
 ```
 
+According to Mozilla, the `XMLHttpRequest` object does not require any parameters and will return after the `open()` and `send()` methods have been executed.
 
-
-According to Mozilla, XMHttpRequest doesn't need any parameters and return after open() and send() methods are executed. 
-
-A simple request will be as the following snippet:
+Here's a simple example of how to make an `XMLHttpRequest`:
 
 ```javascript
 const request = new XMLHttpRequest();

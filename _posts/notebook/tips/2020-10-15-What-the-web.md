@@ -6,15 +6,10 @@ author: "Son Pham"
 comments: false
 ---
 
-What is the web actually? How do our browsers show us a webpage?  
-As you already known, web browsers  are based on WebKit.
-The browser is like the middle man (Browser Engine). 
-When we type www.google.com and hit enter (User Interface), 
-the browser will go to Google's server and ask for HTML-CSS files. 
-The server will hand those files to that middle man. 
-Then the middle man will give it to a cook (Rendering Engine). 
-Finally, the cook will display the dish back to middle man, then to us.  
-  
+Most web browsers are based on WebKit. When we type in a website URL such as `www.google.com` and hit enter, the browser acts as a middleman or a browser engine. It communicates with the Google server and requests the HTML-CSS files necessary for displaying the webpage.
+
+Once the server hands over the necessary files, the browser engine passes them on to a rendering engine, which is like a cook. The rendering engine processes the files and creates a visual representation of the webpage. Finally, the rendering engine sends the completed webpage back to the browser engine, which then displays it to us.
+
 There are couple things to explore:  
 1. WebKit  
 2. Browser Engine  

@@ -84,8 +84,14 @@ kbd,
 pre,
 samp {
   margin: 1em 0;
-	background:whitesmoke;
+	background:#f2f2ff;
 }
+//adding pre css
+pre.highlight {
+  border-radius: 15px;
+  padding: 10px;
+}
+
 dt {
   font-weight: bold;
 }

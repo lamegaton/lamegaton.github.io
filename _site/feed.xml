@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Thu, 27 Apr 2023 10:46:18 -0400</pubDate>
+    <pubDate>Thu, 27 Apr 2023 18:05:24 -0400</pubDate>
     
       <item>
         <title>R Notebook - dplyr</title>
@@ -1016,7 +1016,9 @@ $(document).ready(function () {
         <title>Simple way to pick a monitor</title>
         <link>/tips/2021/08/29/simple-way-to-pick-a-monitor.html</link>
         <guid isPermaLink="true">/tips/2021/08/29/simple-way-to-pick-a-monitor.html</guid>
-        <description>&lt;p&gt;Have you ever felt anxious and spent many hours on looking for an electronic product? I have the same issue. One of the reason is because of the emerging technology and marketing strategy. But do we really need all of the new features? Actually not. To limit your options, please ask yourself “What do I really want from a &amp;lt;product&amp;gt;?”. For a monitor, I will need a size big enough so I can code on one side and browsing web on the other side to search for solutions. I also want the resolution high enough so I don’t see the big pixel. The last thing is HDMI port over older ports such as DVI or VGA&lt;br /&gt;
+        <description>&lt;p&gt;Have you ever found yourself feeling anxious and spending countless hours researching an electronic product? I know the feeling all too well. The emergence of new technology and marketing strategies can make it challenging to determine what we really need in a product. However, it’s important to ask ourselves, “What do I truly want from this product?” to help limit our options.&lt;/p&gt;
+
+&lt;p&gt;For instance, when selecting a monitor, I require a size that’s big enough to enable me to code on one side and browse the web on the other to search for solutions. Additionally, I prefer a high enough resolution that prevents me from seeing pixelation. Lastly, I prefer having HDMI ports instead of older ports such as DVI or VGA.
 &lt;img src=&quot;https://user-images.githubusercontent.com/5988492/131261114-8a6c4aee-e63a-453e-b70b-e1afbceb1da4.png&quot; alt=&quot;dvi-hdmi&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -1028,24 +1030,10 @@ $(document).ready(function () {
 
 &lt;p&gt;&lt;strong&gt;Types of panel&lt;/strong&gt;&lt;/p&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;IPS&lt;/th&gt;
-      &lt;th&gt;TN&lt;/th&gt;
-      &lt;th&gt;VA&lt;/th&gt;
-      &lt;th&gt;OLED&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Recommended, if possible get higher refresh rate&lt;/td&gt;
-      &lt;td&gt;Cheap, high refreshing rate for gamming but not good in generall&lt;/td&gt;
-      &lt;td&gt;better than TN&lt;/td&gt;
-      &lt;td&gt;the best&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;IPS&lt;/strong&gt;: Recommended, if possible get higher refresh rate&lt;br /&gt;
+&lt;strong&gt;TN&lt;/strong&gt;: Cheap, high refreshing rate for gamming but not good in generall&lt;br /&gt;
+&lt;strong&gt;VA&lt;/strong&gt;: better than TN&lt;br /&gt;
+&lt;strong&gt;OLED&lt;/strong&gt;: the best&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Refresh rate&lt;/strong&gt;: 60Hz is good enough
 &lt;strong&gt;Response time&lt;/strong&gt;: equal or less than 4ms
@@ -1060,7 +1048,7 @@ $(document).ready(function () {
         <title>Explaining TCP flows</title>
         <link>/tips/2021/08/27/explaining-tcp-flows.html</link>
         <guid isPermaLink="true">/tips/2021/08/27/explaining-tcp-flows.html</guid>
-        <description>&lt;p&gt;Couple days ago, I wrote a note showing how to set up a simple TCP client and server using netcat. Today, I have captured the packets from Wireshark and explained them step by step so everyone can have a general idea on how TCP flow works. Let’s look at the table below.&lt;/p&gt;
+        <description>&lt;p&gt;A few days ago, I wrote a note detailing how to set up a simple TCP client and server using netcat. Today, I have taken things a step further by capturing packets in Wireshark and providing a step-by-step explanation of how the TCP flow works. In the table below, you can find a general overview of this process.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -1132,7 +1120,7 @@ $(document).ready(function () {
         <title>Quick Note - Decibel dB vs dBm</title>
         <link>/tips/2021/08/24/quick-note-db-dbm.html</link>
         <guid isPermaLink="true">/tips/2021/08/24/quick-note-db-dbm.html</guid>
-        <description>&lt;p&gt;Most of us have heard about decibels in our daily life. It can be used to describe the loudness of your speaker, the strength of your antenna. Or can be the signal strength from transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!&lt;/p&gt;
+        <description>&lt;p&gt;Many of us have heard about decibel unit in our daily lives, as it can be used to describe the loudness of our speakers, the strength of our antennas, or the signal strength from a transceiver. But what exactly are decibels (dB) and dBm? In this discussion, let’s explore these concepts and expand our understanding.&lt;/p&gt;
 
 &lt;h2 id=&quot;explanation&quot;&gt;Explanation&lt;/h2&gt;
 &lt;p&gt;Deci-bel is ten time of a Bel (10 x Bel)&lt;br /&gt;
@@ -1175,10 +1163,10 @@ dBm, decibel-milliwatt is any ratio with 1 mW as a reference power, dimensioned 
       </item>
     
       <item>
-        <title>Learn TCP or UDP flow by using Wireshark and Windows Subsystem for Linux</title>
+        <title>TCP/UDP Flow Analysis with Wireshark and Windows Subsystem for Linux</title>
         <link>/tips/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html</link>
         <guid isPermaLink="true">/tips/2021/08/20/learn-tcp-udp-with-wireshark-and-wsl.html</guid>
-        <description>&lt;p&gt;Many of the interviewers have asked me if I understood TCP and UDP, and what were the differences between them. The only thing that I know was that TCP had an error-checking procedure which makes the protocol more reliable and slower than UDP. At school, I was taught the detailed structure but did not have a chance to hand-on. Later, I figured out an easy way to explore TCP and UDP packets with Windows Subsystem for Linux (WSL) and WireShark. So today, I will share what I have learned here.&lt;/p&gt;
+        <description>&lt;p&gt;During many of my interviews, I have been asked whether I understood TCP and UDP, and how they differed from each other. While I knew that TCP had an error-checking procedure that made the protocol more reliable but slower than UDP, my understanding was limited. Although I had learned about the detailed structure of these protocols in school, I didn’t have a chance to get hands-on experience with them. However, I later discovered an easy way to explore TCP and UDP packets using Windows Subsystem for Linux (WSL) and WireShark. As a result, I would like to share what I have learned today.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1244,24 +1232,20 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
         <title>Reduce workload in Microsoft Edge and Monitor PC with Open Hardware Monitor</title>
         <link>/tips/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</link>
         <guid isPermaLink="true">/tips/2021/08/03/reduce-work-load-on-microsoft-edge-Copy.html</guid>
-        <description>&lt;p&gt;Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature was over 85.&lt;/p&gt;
+        <description>&lt;p&gt;A few days ago, while browsing on MS Edge, my laptop suddenly shut down. I didn’t notice anything out of the ordinary except that the fan was running loudly and the room temperature was over 85 degrees Fahrenheit.&lt;/p&gt;
 
-&lt;p&gt;So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.&lt;/p&gt;
+&lt;p&gt;After rebooting my laptop and checking the hard drive and RAM, everything seemed to be fine. I opened MS Edge again and restored the tabs that were open. However, I quickly realized that the fan was running faster and the laptop shut down again suddenly.&lt;/p&gt;
 
-&lt;p&gt;Something was wrong with MS Edge, so I did a little research and solved problem with these steps.&lt;/p&gt;
+&lt;p&gt;I suspected there was an issue with MS Edge, so I conducted some research and found a solution by following these steps:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;On MS Edge access &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edge://settings/system&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;On MS Edge, access &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;edge://settings/system&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Disable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Use hardware accleration when available&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;The laptop was running well, but I thought CPU’s temps causing the laptop to shutdown. So, I installed Open Hardware Monitor &lt;a href=&quot;[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)&quot;&gt;here&lt;/a&gt;. This is an open source software, and has great features such as gadget.&lt;/p&gt;
-
-&lt;p&gt;With Gadget, you can add all temperature sensor like this&lt;/p&gt;
+&lt;p&gt;After making these changes, my laptop was running well. However, I still thought that the CPU’s temperature was causing the laptop to shut down. So, I installed Open Hardware Monitor &lt;a href=&quot;[Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)&quot;&gt;here&lt;/a&gt;, an open source software with great features such as a gadget that allows you to add all temperature sensors. Open Hardware Monitor also lets you to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run a remote server&lt;/code&gt; and monitor over the internet.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/OHM_gadget_1.png&quot; alt=&quot;Gadget 1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Open Hardware Monitor also lets you to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Run a remote server&lt;/code&gt; and monitor over the internet.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 03 Aug 2021 00:00:00 -0400</pubDate>
@@ -1292,7 +1276,11 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 
 &lt;h3 id=&quot;edit-a-text-or-html-via-jquery&quot;&gt;Edit a text or HTML via jQuery&lt;/h3&gt;
 
-&lt;p&gt;This example implement jQuery. So we have an HTML file with div id=”text” and we want to change Hello to  Hello, dolly.&lt;/p&gt;
+&lt;p&gt;This example implement jQuery.&lt;/p&gt;
+
+&lt;p&gt;jQuery is a popular JavaScript library that simplifies DOM manipulation and event handling in web development. One of its key strengths is its ability to quickly and easily edit the content of text or HTML elements on a web page.&lt;/p&gt;
+
+&lt;p&gt;So we have an HTML file with div id=”text.”&lt;/p&gt;
 
 &lt;div id=&quot;test&quot; style=&quot;background-color:#CCFFCC&quot;&gt;Hello, this is wrapped with a div, you can open your console and test it.&lt;/div&gt;
 
@@ -1300,6 +1288,8 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;test&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Hello&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To change “Hello” to “Hello, dolly” using jQuery, you can use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text()&lt;/code&gt; method as follows:&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -1332,6 +1322,8 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;parent&quot;&gt;Parent&lt;/h4&gt;
+
+&lt;p&gt;The code will change the background color of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;div&lt;/code&gt; element with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;id=&quot;mom-dad&quot;&lt;/code&gt; to blue.&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#son&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -1378,8 +1370,9 @@ Alternatively, you can also try the command &lt;code class=&quot;language-plaint
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h3 id=&quot;async&quot;&gt;Async&lt;/h3&gt;
-&lt;p&gt;Asynchronous is used when user want to fetch data from server without refreshing the page. &lt;br /&gt;
-IE5 and IE6 have different object name for async&lt;/p&gt;
+&lt;p&gt;Asynchronous requests are commonly used when a user wants to fetch data from a server without having to refresh the page. This allows for a smoother user experience and faster loading times.&lt;/p&gt;
+
+&lt;p&gt;It’s important to note that different web browsers may have different object names for handling asynchronous requests. For example, IE5 and IE6 use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ActiveXObject&lt;/code&gt; object, while modern browsers use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XMLHttpRequest&lt;/code&gt; object. Therefore, it’s important to use feature detection and check for the availability of these objects before making an asynchronous request to ensure compatibility across different browsers.&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;asynRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
 	&lt;span class=&quot;k&quot;&gt;try&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
@@ -1395,9 +1388,9 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;According to Mozilla, XMHttpRequest doesn’t need any parameters and return after open() and send() methods are executed.&lt;/p&gt;
+&lt;p&gt;According to Mozilla, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XMLHttpRequest&lt;/code&gt; object does not require any parameters and will return after the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;open()&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;send()&lt;/code&gt; methods have been executed.&lt;/p&gt;
 
-&lt;p&gt;A simple request will be as the following snippet:&lt;/p&gt;
+&lt;p&gt;Here’s a simple example of how to make an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;XMLHttpRequest&lt;/code&gt;:&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;XMLHttpRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;https://jsonplaceholder.typicode.com/users/2&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1422,14 +1415,9 @@ IE5 and IE6 have different object name for async&lt;/p&gt;
         <title>What the web</title>
         <link>/tips/2020/10/15/What-the-web.html</link>
         <guid isPermaLink="true">/tips/2020/10/15/What-the-web.html</guid>
-        <description>&lt;p&gt;What is the web actually? How do our browsers show us a webpage?&lt;br /&gt;
-As you already known, web browsers  are based on WebKit.
-The browser is like the middle man (Browser Engine). 
-When we type www.google.com and hit enter (User Interface), 
-the browser will go to Google’s server and ask for HTML-CSS files. 
-The server will hand those files to that middle man. 
-Then the middle man will give it to a cook (Rendering Engine). 
-Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt;
+        <description>&lt;p&gt;Most web browsers are based on WebKit. When we type in a website URL such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www.google.com&lt;/code&gt; and hit enter, the browser acts as a middleman or a browser engine. It communicates with the Google server and requests the HTML-CSS files necessary for displaying the webpage.&lt;/p&gt;
+
+&lt;p&gt;Once the server hands over the necessary files, the browser engine passes them on to a rendering engine, which is like a cook. The rendering engine processes the files and creates a visual representation of the webpage. Finally, the rendering engine sends the completed webpage back to the browser engine, which then displays it to us.&lt;/p&gt;
 
 &lt;p&gt;There are couple things to explore:&lt;/p&gt;
 &lt;ol&gt;
@@ -1451,6 +1439,12 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
         <link>/javascript/2020/10/15/Using-ajax,-xhttp-and-axios-to-fetch.html</link>
         <guid isPermaLink="true">/javascript/2020/10/15/Using-ajax,-xhttp-and-axios-to-fetch.html</guid>
         <description>&lt;h2 id=&quot;axios&quot;&gt;Axios&lt;/h2&gt;
+
+&lt;p&gt;Axios is a popular JavaScript library used for making HTTP requests from a browser or Node.js. It provides a simple and elegant way to make asynchronous HTTP requests to a server, and handle responses in a clean and efficient manner.&lt;/p&gt;
+
+&lt;p&gt;One common use case for Axios is to retrieve the content of a web page from a server. This can be achieved by sending a GET request to the server using Axios, and handling the response in the form of a promise.&lt;/p&gt;
+
+&lt;p&gt;In this way, you can fetch data from a web page and use it in your application. Whether you need to retrieve data for a single page or multiple pages, Axios can simplify the process and help you manage your data more efficiently.&lt;/p&gt;
 
 &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;axios&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
@@ -1477,6 +1471,13 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;fetch&quot;&gt;Fetch&lt;/h2&gt;
+
+&lt;p&gt;Fetch is a built-in web API in modern browsers that allows you to make HTTP requests to a server and retrieve data in a simple and straightforward way. It provides an alternative to the traditional XMLHttpRequest (XHR) API, and is designed to be easy to use and flexible.&lt;/p&gt;
+
+&lt;p&gt;Fetch can retrieve the content of a web page from a server by sending a GET request to the server using the fetch() function, and handling the response in the form of a promise.&lt;/p&gt;
+
+&lt;p&gt;It’s important to note that Fetch only works in modern browsers, and may not be supported in older versions. However, it offers several advantages over the XHR API, including a simpler API, support for Promises and async/await, and better handling of errors and response types.&lt;/p&gt;
+
 &lt;p&gt;HTML&lt;/p&gt;
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;result&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;If you don&apos;t have one, try this: https://jsonplaceholder.typicode.com/users/1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
@@ -1548,78 +1549,75 @@ Finally, the cook will display the dish back to middle man, then to us.&lt;/p&gt
         <title>Basic Git commands</title>
         <link>/git/2020/09/25/Basic-Git-Commands.html</link>
         <guid isPermaLink="true">/git/2020/09/25/Basic-Git-Commands.html</guid>
-        <description>&lt;h4 id=&quot;first-you-thinking-of-create-a-project-for-your-class-so-you-need-to-create-a-repo&quot;&gt;First, you thinking of create a project for your class so you need to create a repo:&lt;/h4&gt;
+        <description>&lt;h2 id=&quot;creating-and-managing-git-repositories&quot;&gt;Creating and Managing Git Repositories&lt;/h2&gt;
+
+&lt;p&gt;If you’re thinking of creating a project for your class, you’ll need to create a Git repository. Here are the steps:&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;Create a new repo:
-    &lt;pre&gt;&lt;code class=&quot;language-git&quot;&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;Rename local branch:&lt;br /&gt;
-   https://stackoverflow.com/questions/6591213/how-do-i-rename-a-local-git-branch
+  &lt;li&gt;Rename local branch:
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch -m &amp;lt;oldname&amp;gt; &amp;lt;newname&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;To check your local branch you can use:
+  &lt;li&gt;To check your local branch, you can use:
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
-  &lt;li&gt;To check your remote branch
+  &lt;li&gt;To check your remote branch, use:
     &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch -r
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id=&quot;the-project-is-expand-and-you-invite-someone-to-work-with-you&quot;&gt;The project is expand and you invite someone to work with you&lt;/h4&gt;
+&lt;p&gt;If you invite someone to work with you on the project, they can clone your repo using:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone &amp;lt;https://link_to_your_repo&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;If you invite someone to work with you, they will use&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;They can create a new branch using:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch &amp;lt;lulu&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git clone &amp;lt;https://link_to_your_repo&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then switch to the new branch using:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout lulu
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;They can create a new branch using&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch &amp;lt;lulu&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Then switch to &lt;strong&gt;lulu&lt;/strong&gt; using&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git check out lulu&lt;/code&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;When &lt;strong&gt;lulu&lt;/strong&gt; trying to pull using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pull&lt;/code&gt;,  she’ll have a problem like this&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git pull
-There is no tracking information for the current branch.
+&lt;p&gt;When “lulu” tries to pull using “git pull”, they may encounter an error message like:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There is no tracking information for the current branch.
 Please specify which branch you want to merge with.
 See git-pull(1) for details.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;In that case, they need to pull from “origin”.&lt;/p&gt;
 
-&lt;p&gt;So she have to pull from origin&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Another coworker create a new branch as lala &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch lala&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;lala  use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git pull&lt;/code&gt; and have the same error, lala has to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch&lt;/code&gt; and find the master branch.&lt;/li&gt;
-  &lt;li&gt;lala has to use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git branch&lt;/code&gt; and find the default.&lt;/li&gt;
-  &lt;li&gt;Since working, lala has made many contributions, so a manager want to make lala branch as a default branch or master branch.&lt;/li&gt;
-  &lt;li&gt;Another words, manager want to merge &lt;strong&gt;lala branch&lt;/strong&gt; into &lt;strong&gt;master branch&lt;/strong&gt;. To do it lala need to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git add &amp;lt;lala_works&amp;gt;&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git commit -m &quot;what does lala do&quot;&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Then manager will &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git checkout master&lt;/code&gt; and then &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git merge lulu&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;another-scenario&quot;&gt;Another scenario:&lt;/h4&gt;
-
-&lt;p&gt;We assign lala  to work on PHP side only&lt;/p&gt;
-
-&lt;h4 id=&quot;tips&quot;&gt;tips&lt;/h4&gt;
-
-&lt;p&gt;If you are tired of commit, add, push, you can try oneliner like this :&lt;/p&gt;
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -a -m &quot;commit&quot; &amp;amp;&amp;amp; git push
+&lt;p&gt;Another coworker creates a new branch called “lala”:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git branch lala
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When “lala” tries to pull and encounters the same error, they need to use “git branch” to find the default branch.&lt;/p&gt;
+
+&lt;p&gt;Since working on the project, “lala” has made many contributions, so the manager wants to make the “lala” branch the default or “master” branch. To do this, “lala” needs to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git add &lt;lala_works&gt;&lt;/lala_works&gt;&lt;/li&gt;
+  &lt;li&gt;git commit -m “what does lala do”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then the manager will:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git checkout master&lt;/li&gt;
+  &lt;li&gt;git merge lulu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another scenario is if we assign “lala” to work on PHP side only.&lt;/p&gt;
+
+&lt;p&gt;Tips:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If you’re tired of typing out commit, add, push separately, you can use a one-liner like this:
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -a -m &quot;commit&quot; &amp;amp;&amp;amp; git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Fri, 25 Sep 2020 00:00:00 -0400</pubDate>
       </item>

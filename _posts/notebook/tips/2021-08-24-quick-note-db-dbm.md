@@ -7,7 +7,7 @@ meta: what are the difference between dbm and db
 description: "what are the difference between dbm and db"
 comments: false
 ---
-Most of us have heard about decibels in our daily life. It can be used to describe the loudness of your speaker, the strength of your antenna. Or can be the signal strength from transceiver. So what is decibel (dB) and dBm?  Let's the neuron roaming!  
+Many of us have heard about decibel unit in our daily lives, as it can be used to describe the loudness of our speakers, the strength of our antennas, or the signal strength from a transceiver. But what exactly are decibels (dB) and dBm? In this discussion, let's explore these concepts and expand our understanding.
  
 ## Explanation
 Deci-bel is ten time of a Bel (10 x Bel)  

@@ -10,20 +10,18 @@ comments: false
 
 
 
-Couple days ago when browsing on MS Edge, my laptop suddenly shutdown. I did not aware of anything except the fan was running fast and the room temperature was over 85.   
+A few days ago, while browsing on MS Edge, my laptop suddenly shut down. I didn't notice anything out of the ordinary except that the fan was running loudly and the room temperature was over 85 degrees Fahrenheit.  
+  
+After rebooting my laptop and checking the hard drive and RAM, everything seemed to be fine. I opened MS Edge again and restored the tabs that were open. However, I quickly realized that the fan was running faster and the laptop shut down again suddenly.  
+  
+I suspected there was an issue with MS Edge, so I conducted some research and found a solution by following these steps:  
 
-So I rebooted my laptop, checked hard drive and rams, everything was fine. Then, I opened MS Edge again restored tabs that were open. I noticed the fan ran faster; laptop was shutdown suddenly.  
-
-Something was wrong with MS Edge, so I did a little research and solved problem with these steps.  
-
-1. On MS Edge access `edge://settings/system`
+1. On MS Edge, access `edge://settings/system`
 2. Disable `Use hardware accleration when available`  
   
-The laptop was running well, but I thought CPU's temps causing the laptop to shutdown. So, I installed Open Hardware Monitor [here]([Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)). This is an open source software, and has great features such as gadget.  
-
-With Gadget, you can add all temperature sensor like this  
+After making these changes, my laptop was running well. However, I still thought that the CPU's temperature was causing the laptop to shut down. So, I installed Open Hardware Monitor [here]([Open Hardware Monitor - Core temp, fan speed and voltages in a free software gadget](https://openhardwaremonitor.org/)), an open source software with great features such as a gadget that allows you to add all temperature sensors. Open Hardware Monitor also lets you to `Run a remote server` and monitor over the internet.  
 
 ![Gadget 1](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/OHM_gadget_1.png)
 
-Open Hardware Monitor also lets you to `Run a remote server` and monitor over the internet.
+
 
