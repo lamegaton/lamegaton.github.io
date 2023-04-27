@@ -5,15 +5,14 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Wed, 26 Apr 2023 23:14:23 -0400</pubDate>
+    <pubDate>Thu, 27 Apr 2023 10:46:18 -0400</pubDate>
     
       <item>
         <title>R Notebook - dplyr</title>
         <link>/r/2021/10/25/R-notebook-Dplyr.html</link>
         <guid isPermaLink="true">/r/2021/10/25/R-notebook-Dplyr.html</guid>
         <description>&lt;h1 id=&quot;dplyr&quot;&gt;Dplyr&lt;/h1&gt;
-&lt;p&gt;We are gonna go through filter(), arrange(), select(), mutate(), summarise(),&lt;br /&gt;
-group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()&lt;/p&gt;
+&lt;p&gt;We are gonna go through filter(), arrange(), select(), mutate(), summarise(), group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()&lt;/p&gt;
 
 &lt;p&gt;dplyr:&lt;/p&gt;
 &lt;ul&gt;
@@ -1133,11 +1132,7 @@ $(document).ready(function () {
         <title>Quick Note - Decibel dB vs dBm</title>
         <link>/tips/2021/08/24/quick-note-db-dbm.html</link>
         <guid isPermaLink="true">/tips/2021/08/24/quick-note-db-dbm.html</guid>
-        <description>&lt;p&gt;Most of us have heard about decibels in our daily life. It can be used to describe
- the loudness of your speaker, the strength of your antenna. Or can be the signal strength from
- transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!&lt;/p&gt;
-
-&lt;hr /&gt;
+        <description>&lt;p&gt;Most of us have heard about decibels in our daily life. It can be used to describe the loudness of your speaker, the strength of your antenna. Or can be the signal strength from transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!&lt;/p&gt;
 
 &lt;h2 id=&quot;explanation&quot;&gt;Explanation&lt;/h2&gt;
 &lt;p&gt;Deci-bel is ten time of a Bel (10 x Bel)&lt;br /&gt;

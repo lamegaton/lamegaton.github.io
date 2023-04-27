@@ -7,12 +7,8 @@ meta: what are the difference between dbm and db
 description: "what are the difference between dbm and db"
 comments: false
 ---
-Most of us have heard about decibels in our daily life. It can be used to describe
- the loudness of your speaker, the strength of your antenna. Or can be the signal strength from
- transceiver. So what is decibel (dB) and dBm?  Let's the neuron roaming!
+Most of us have heard about decibels in our daily life. It can be used to describe the loudness of your speaker, the strength of your antenna. Or can be the signal strength from transceiver. So what is decibel (dB) and dBm?  Let's the neuron roaming!  
  
-----
-
 ## Explanation
 Deci-bel is ten time of a Bel (10 x Bel)  
 Bel is named after an inventor Alexander Graham Bell, in Bell Lab.  

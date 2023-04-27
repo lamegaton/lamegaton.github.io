@@ -1,6 +1,6 @@
 .site-header {
   @extend %padding-small;
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, #ff81000f 100%);
+  background: linear-gradient(90deg, #f9981605 0%, #5050500f 100%);
   //background: $brand-color;
   //border-bottom: 1px solid $border-color;
   display: inline-block;
@@ -86,7 +86,8 @@
         button {
            border: none;
            font-size: 0.9em;
-           background-color: $brand-color;
+           //background-color: $brand-color;
+           background: inherit;
            color: $search-color;
         }
     }

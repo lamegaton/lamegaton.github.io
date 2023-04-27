@@ -198,8 +198,7 @@
       </header>
       <div class="excerpt">
         <h1 id="dplyr">Dplyr</h1>
-<p>We are gonna go through filter(), arrange(), select(), mutate(), summarise(),<br />
-group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()</p>
+<p>We are gonna go through filter(), arrange(), select(), mutate(), summarise(), group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()</p>
 
 <p>dplyr:</p>
 <ul>
@@ -295,11 +294,32 @@ group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()</p>
         </p>
       </header>
       <div class="excerpt">
-        <p>Most of us have heard about decibels in our daily life. It can be used to describe
- the loudness of your speaker, the strength of your antenna. Or can be the signal strength from
- transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!</p>
+        <p>Most of us have heard about decibels in our daily life. It can be used to describe the loudness of your speaker, the strength of your antenna. Or can be the signal strength from transceiver. So what is decibel (dB) and dBm?  Let’s the neuron roaming!</p>
 
-<hr />
+<h2 id="explanation">Explanation</h2>
+<p>Deci-bel is ten time of a Bel (10 x Bel)<br />
+Bel is named after an inventor Alexander Graham Bell, in Bell Lab.<br />
+It is an unit of a ratio on base 10 logarithm scale<br />
+Bel is defined as \(X = \log\frac{P2}{P1}\)</p>
+<ul>
+  <li>P1: Reference Power</li>
+  <li>P2: Measured Power</li>
+</ul>
+
+<p>Now we have 
+\(Decibel = 10 Bel = 10\log\frac{P2}{P1}\)</p>
+
+<p>So what is the difference between dB and dBm?</p>
+
+<p>dBm stands for decibel in miliwat. That means, our Reference Power will be 1 mW</p>
+
+\[Y = 10 \log\frac{P2}{P1} = 10 \log\frac{P2}{1 mW}\]
+
+<p>We can find Y by raise them to the power of 10</p>
+
+\[10^{\frac{Y}{10}} = 10^{\log\frac{P2}{1 mW}} =&gt; P2 = 10^{\frac{Y}{10}} 1 mW\]
+
+<p>So in communication, we usually use dBm because we know the reference power which is 1 mW.</p>
 
 
         <a class="button" href="/tips/2021/08/24/quick-note-db-dbm.html">

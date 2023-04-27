@@ -10,8 +10,7 @@ comments: false
 
 
 # Dplyr
-We are gonna go through filter(), arrange(), select(), mutate(), summarise(),  
-group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()  
+We are gonna go through filter(), arrange(), select(), mutate(), summarise(), group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()  
   
 dplyr:  
 * first argument is a data frame  
