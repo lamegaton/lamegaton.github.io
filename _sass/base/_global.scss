@@ -35,17 +35,21 @@ h1, h2, h3, h4, h5, h6 {
     color: $text-color;
   }
 }
+
+// reduce size 
+$minus-padding: 0.15em;
+
 h1 {
-  font-size: 2.5em;
+  font-size: 2.5em - $minus-padding;
 }
 h2 {
-  font-size: 2em;
+  font-size: 2em - $minus-padding;
 }
 h3 {
-  font-size: 1.5em;
+  font-size: 1.5em - $minus-padding;
 }
 h4 {
-  font-size: 1.15em;
+  font-size: 1.15em - $minus-padding;
 }
 blockquote {
     border-left: 2px solid;

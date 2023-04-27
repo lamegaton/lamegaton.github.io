@@ -5,6 +5,7 @@ categories: javascript
 author: "Son Pham"
 meta: Javascript tutorial
 description: "Basic javascript for a simple dynamic or static website"
+tags: [javascript]
 comments: false
 ---
 
