@@ -36,5 +36,6 @@ Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl…<br>
 <strong>[24-25]</strong> : Left my job at Samsung and kept learning to find a more challenging one.<br>
 <strong>[25-27]</strong> : Took a few quiet years to live.<br>
 <strong>[28]</strong> : Went back to school again!!<br>
-That's a quick summary of my life so far. I'm excited to see what the future holds!</p>
+
+</p>
 </div>
