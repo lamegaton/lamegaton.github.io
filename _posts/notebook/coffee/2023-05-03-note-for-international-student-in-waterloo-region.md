@@ -7,6 +7,7 @@ comments: false
 author: "Son Pham"
 meta: International Student in Waterloo Region
 description: "Note for International Student in Waterloo Region"
+feature-img: "https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/assets/note_for_international_student.png"
 tags: [coffee, study abroad, canada]
 ---
 
@@ -16,7 +17,7 @@ Today I will summarize the process of becoming an international student in Canad
 {:toc}
 
 ## Prep before the trip
- Firstly, I obtained a bachelor's degree from a university in the US. While working, I prepared my application for a study permit and applied for graduate school in Canada. After submitting my biometric information, paying the required fee, and providing supporting documents, the embassy sent me a letter of introduction. This allowed me to obtain my study permit and begin my studies in Canada. And don't forget to bring some cash before your flight. Next, I will talk about the process at the airport.
+ Firstly, I obtained a bachelor's degree from a university in the US. While working, I prepared my application for a study permit and applied for graduate school in Canada. After submitting my biometric information, paying the required fee, and providing supporting documents, the embassy sent me a letter of introduction. This allowed me to obtain my study permit and begin my studies in Canada. Before you book an airplane ticket please note that if you transit in the US, you must have a transit visa or travel visa. And don't forget to bring some cash before your flight. Next, I will talk about the process at the airport.
 
 ## At the airport
 After arriving at the airport, you will need to proceed to an automated booth. Here, you will be required to scan your passport and answer some declaration questions. The booth will also capture your photo, after which it will print out a piece of paper that you must keep with you. If you're a new student, you will have to join the queue for an interview with an officer. During your turn, the officer will request your letter of introduction, school offer letter, and proof of payment for your first term/semester. If everything is in order, the officer will print out a Study Permit for you, and you will be free to leave. At the Toronto International Airport, near the luggage carousel, there is a SIN office where you can queue up to obtain a SIN for future employment.
