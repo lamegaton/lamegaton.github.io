@@ -7,11 +7,12 @@ comments: false
 author: "Son Pham"
 meta: International Student in Waterloo Region
 description: "Note for International Student in Waterloo Region"
-feature-img: "https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/assets/note_for_international_student.png"
 tags: [coffee, study abroad, canada]
 ---
 
 Today I will summarize the process of becoming an international student in Canada. And I hope you will have a great experience here!
+
+![Note](/assets/img/coffee/note_for_international_student.png)
 
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
@@ -19,13 +20,13 @@ Today I will summarize the process of becoming an international student in Canad
 ## Prep before the trip
  Firstly, I obtained a bachelor's degree from a university in the US. While working, I prepared my application for a study permit and applied for graduate school in Canada. After submitting my biometric information, paying the required fee, and providing supporting documents, the embassy sent me a letter of introduction. This allowed me to obtain my study permit and begin my studies in Canada. Before you book an airplane ticket please note that if you transit in the US, you must have a transit visa or travel visa. And don't forget to bring some cash before your flight. Next, I will talk about the process at the airport.
 
-## At the airport
+## At the airport 🛫
 After arriving at the airport, you will need to proceed to an automated booth. Here, you will be required to scan your passport and answer some declaration questions. The booth will also capture your photo, after which it will print out a piece of paper that you must keep with you. If you're a new student, you will have to join the queue for an interview with an officer. During your turn, the officer will request your letter of introduction, school offer letter, and proof of payment for your first term/semester. If everything is in order, the officer will print out a Study Permit for you, and you will be free to leave. At the Toronto International Airport, near the luggage carousel, there is a SIN office where you can queue up to obtain a SIN for future employment.
 
 ## Phone servive
 The next requirement would be to acquire a phone number. In Canada, there are numerous carriers to choose from. It is worth noting that mobile plans offered by major corporations like Rogers and Telus are usually costly. Nevertheless, you can explore alternative options such as affordable plans or promotional offers available on Facebook Marketplace.
 
-## Public transportation
+## Public transportation 🚍
 Now, you are able to live in Canada. Let's go shopping and get some stuff for your room. Let's delve into the public transportation options available in Waterloo. There are several modes of transportation you can choose from, including the GRT bus, ION bus, inter-city bus services such as Flix Bus and OneX, GO bus, train, and VIA Rail train.
 
 For traveling within the city limits, I find the GRT bus to be a convenient and affordable option. Each trip costs approximately $3, and you can continue traveling for 90 minutes without being charged again. 
@@ -64,10 +65,10 @@ The list of a few stores that you can check out is below. Some stores in Canada 
 - Princess Auto: is known for Habor Freight in Canada
 - Canadian Tire
 
-## Library is fanstatic
+## Library is fanstatic 📖
 If you need to print documents, you can visit a local library. They will ask you to provide an ID and proof of your address and name. Usually, you will be given a free library card. The cost for printing is 0.25 cents for grayscale and 0.50 cents for color prints. Waterloo library has many great online services such as Practicing IELTs, access to O'Realy books,...
 
-## Best wishes for all
+## Best wishes for all ❤️
 Feeling comfortable in your room is key to helping you settle into your new environment and minimizing homesickness. By creating a cozy and inviting space, you'll be able to relax and feel more at home. Not only will this contribute to your overall well-being, but it can also improve your productivity.
 
 I hope you have a fantastic trip or stay in Canada!
