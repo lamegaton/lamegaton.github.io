@@ -14,10 +14,12 @@ img[src*="#centerImg"] {
 }
 .centerAboutMe {
   border: 1px solid;
+  border-color: #e2e2e2;
   border-radius: 25px;
   display: flex;
   justify-content: center;
   padding: 3% 5%;
+  box-shadow: 2px 2px 0px 2px #7e7e7e30;
 }
 </style>
 

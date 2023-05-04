@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Note for International Student in Waterloo Region"
+title: "Note for International Students in Waterloo Region"
 published: yes
 categories: coffee
 comments: false
 author: "Son Pham"
-meta: International Student in Waterloo Region
-description: "Note for International Student in Waterloo Region"
+meta: International Students in Waterloo Region
+description: "Note for International Students in Waterloo Region"
 tags: [coffee, study abroad, canada]
 ---
 
