@@ -5,7 +5,65 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Wed, 03 May 2023 21:21:05 -0400</pubDate>
+    <pubDate>Thu, 04 May 2023 18:02:20 -0400</pubDate>
+    
+      <item>
+        <title>Testing Mermaid</title>
+        <link>/tips/2023/05/04/testing-mermaid.html</link>
+        <guid isPermaLink="true">/tips/2023/05/04/testing-mermaid.html</guid>
+        <description>&lt;script type=&quot;module&quot;&gt;
+    import mermaid from &apos;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs&apos;;
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid.init(undefined, document.querySelectorAll(&apos;.language-mermaid&apos;));
+&lt;/script&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here is one mermaid diagram:
+&amp;lt;pre class=&quot;mermaid&quot;&amp;gt;
+        graph TD 
+        A[Client] --&amp;gt; B[Load Balancer] 
+        B --&amp;gt; C[Server1] 
+        B --&amp;gt; D[Server2]
+&amp;lt;/pre&amp;gt;
+
+And here is another:
+&amp;lt;pre class=&quot;mermaid&quot;&amp;gt;
+        graph TD 
+        A[Client] --&amp;gt;|tcp_123| B
+        B(Load Balancer) 
+        B --&amp;gt;|tcp_456| C[Server1] 
+        B --&amp;gt;|tcp_456| D[Server2]
+&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;flowchart LR
+    ROOT[Connectives] --&amp;gt; A &amp;amp; B &amp;amp; C &amp;amp; D &amp;amp; E &amp;amp; F &amp;amp; G &amp;amp; H
+    A[contrast] --&amp;gt; 
+        AA[but, in contrast, conversely, however, still,&amp;lt;br&amp;gt; nevertheless, yet, on the other hand, &amp;lt;br&amp;gt; on the contrary, or, in spite of this, actually, in fact]
+    B[addition] --&amp;gt; 
+        BB[and, also, besides, furthermore, too, &amp;lt;br&amp;gt; moreover, then, equally important, another]
+    C[comparison] --&amp;gt; 
+        CC[like, in the same manner, as so, similarly]
+    D[order or sequence] --&amp;gt; 
+        DD[first, second, finally, next, then, &amp;lt;br&amp;gt; to begin with, after, before, as soon as, in the end, gradually]
+    E[results] --&amp;gt; 
+        EE[as a result, so, accordingly, consequently, &amp;lt;br&amp;gt; thus, since, therefore, for this reason, because of this]
+    F[purpose] --&amp;gt; 
+        FF[for this purpose, with this in mind, for this reason]
+    G[example] --&amp;gt; 
+        GG[for example, to illustrate, for instance,&amp;lt;br&amp;gt; to be specific, such as, especially]    
+    H[conclude] --&amp;gt; 
+        HH[in summary, to sum up, to repeat, briefly,&amp;lt;br&amp;gt; in short, finally, on the whole, &amp;lt;br&amp;gt; therefore, as I have said, in conclusion, as you can see]
+    click A &quot;(#but)&quot; &quot;This is a tooltip for a link&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;example&quot;&gt;example&lt;/h2&gt;
+&lt;h3 id=&quot;contrast&quot;&gt;contrast&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a name=&quot;but&quot;&gt;&lt;/a&gt; it is raining but the sun still shines.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Note for International Students in Waterloo Region</title>
@@ -18,7 +76,7 @@
 &lt;ul id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#prep-before-the-trip&quot; id=&quot;markdown-toc-prep-before-the-trip&quot;&gt;Prep before the trip&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#at-the-airport-&quot; id=&quot;markdown-toc-at-the-airport-&quot;&gt;At the airport 🛫&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#phone-servive&quot; id=&quot;markdown-toc-phone-servive&quot;&gt;Phone servive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#phone-service&quot; id=&quot;markdown-toc-phone-service&quot;&gt;Phone service&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#public-transportation-&quot; id=&quot;markdown-toc-public-transportation-&quot;&gt;Public transportation 🚍&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#stores-in-town&quot; id=&quot;markdown-toc-stores-in-town&quot;&gt;Stores in town&lt;/a&gt;    &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;#grocery&quot; id=&quot;markdown-toc-grocery&quot;&gt;Grocery&lt;/a&gt;&lt;/li&gt;
@@ -33,26 +91,26 @@
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;prep-before-the-trip&quot;&gt;Prep before the trip&lt;/h2&gt;
-&lt;p&gt;Firstly, I obtained a bachelor’s degree from a university in the US. While working, I prepared my application for a study permit and applied for graduate school in Canada. After submitting my biometric information, paying the required fee, and providing supporting documents, the embassy sent me a letter of introduction. This allowed me to obtain my study permit and begin my studies in Canada. Before you book an airplane ticket please note that if you transit in the US, you must have a transit visa or travel visa. And don’t forget to bring some cash before your flight. Next, I will talk about the process at the airport.&lt;/p&gt;
+&lt;p&gt;Firstly, I obtained a bachelor’s degree from a university in the US. While working, I prepared my application for a study permit and applied for graduate school in Canada. After submitting my biometric information, paying the required fee, and providing supporting documents, the embassy sent me a letter of introduction. This allowed me to obtain my study permit and begin my studies in Canada. Now you are relieved with paperwork. Let’s pack up and go. Before you book an airplane ticket please note that if you transit in the US, you must have a transit visa or travel visa. And don’t forget to bring some cash before your flight. Next, I will talk about the process at the airport.&lt;/p&gt;
 
 &lt;h2 id=&quot;at-the-airport-&quot;&gt;At the airport 🛫&lt;/h2&gt;
-&lt;p&gt;After arriving at the airport, you will need to proceed to an automated booth. Here, you will be required to scan your passport and answer some declaration questions. The booth will also capture your photo, after which it will print out a piece of paper that you must keep with you. If you’re a new student, you will have to join the queue for an interview with an officer. During your turn, the officer will request your letter of introduction, school offer letter, and proof of payment for your first term/semester. If everything is in order, the officer will print out a Study Permit for you, and you will be free to leave. At the Toronto International Airport, near the luggage carousel, there is a SIN office where you can queue up to obtain a SIN for future employment.&lt;/p&gt;
+&lt;p&gt;After arriving at the airport, you will need to proceed to an automated booth. Here, you will be required to scan your passport and answer some declaration questions. The booth will capture your photo, and it will print out a declaration paper that must kept. If you’re a new student, you will have to join the queue for an interview. During your turn, the officer will request your letter of introduction, school offer letter, and proof of payment for your first term/semester. If everything is in order, the officer will hand out a Study Permit, and you will be free to leave. At the Toronto International Airport, near the luggage carousel, there is a SIN office where you can queue up to obtain a SIN for future employment.&lt;/p&gt;
 
-&lt;h2 id=&quot;phone-servive&quot;&gt;Phone servive&lt;/h2&gt;
-&lt;p&gt;The next requirement would be to acquire a phone number. In Canada, there are numerous carriers to choose from. It is worth noting that mobile plans offered by major corporations like Rogers and Telus are usually costly. Nevertheless, you can explore alternative options such as affordable plans or promotional offers available on Facebook Marketplace.&lt;/p&gt;
+&lt;h2 id=&quot;phone-service&quot;&gt;Phone service&lt;/h2&gt;
+&lt;p&gt;The next requirement would be to acquire a phone number. In Canada, there are numerous carriers to choose from. It is worth noting that mobile plans offered by major corporations like Rogers and Tellus are usually costly. Nevertheless, there are alternative options such as affordable plans or promotional offers available on Facebook Marketplace.&lt;/p&gt;
 
 &lt;h2 id=&quot;public-transportation-&quot;&gt;Public transportation 🚍&lt;/h2&gt;
-&lt;p&gt;Now, you are able to live in Canada. Let’s go shopping and get some stuff for your room. Let’s delve into the public transportation options available in Waterloo. There are several modes of transportation you can choose from, including the GRT bus, ION bus, inter-city bus services such as Flix Bus and OneX, GO bus, train, and VIA Rail train.&lt;/p&gt;
+&lt;p&gt;Now, you are able to live in Canada. Let’s go shopping and get some stuff for your room. There are a few public transportation options available in Waterloo such as GRT bus, ION bus, inter-city bus services (Flix Bus and OneX), GO bus, train, and VIA Rail train.&lt;/p&gt;
 
-&lt;p&gt;For traveling within the city limits, I find the GRT bus to be a convenient and affordable option. Each trip costs approximately $3, and you can continue traveling for 90 minutes without being charged again.&lt;/p&gt;
+&lt;p&gt;For traveling within the city limits, GRT bus is a convenient and affordable option. Each trip costs approximately $3, and you can continue traveling for 90 minutes without being charged again.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;1-minute break… “Coffee does taste better after you warm it up!”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;If you’re already familiar with how to take public transportation, I’ll briefly summarize the process. First, enter the bus through the front door. Next, tap your GRT card (easyGo) on the dashboard to pay your fare. It’s important to note that buses typically don’t accept credit cards, so make sure to have your easyGo handy.&lt;/p&gt;
+&lt;p&gt;If you’re already familiar with how to take public transportation, I’ll briefly summarize the process. First, enter the bus through the front door. Second, tap your GRT card (easyGo) on the dashboard to pay your fare. It’s important to note that buses typically don’t accept credit cards, so make sure to have your easyGo handy.&lt;/p&gt;
 
-&lt;p&gt;To help navigate your route, you can use Google Maps to plan your journey and track your progress. When it’s time to leave the bus, simply press the stop button or pull the yellow cord located by the windows to signal the driver.&lt;/p&gt;
+&lt;p&gt;You can use Google Maps to help navigate your route and plan your journey. When it’s time to leave the bus, simply press the stop button or pull the yellow cord located by the windows to signal the driver.&lt;/p&gt;
 
 &lt;h2 id=&quot;stores-in-town&quot;&gt;Stores in town&lt;/h2&gt;
 &lt;p&gt;The list of a few stores that you can check out is below. Some stores in Canada are similar to ones in the US. Here we have:&lt;/p&gt;
@@ -83,17 +141,17 @@
 
 &lt;h3 id=&quot;chain-restaurants&quot;&gt;Chain Restaurants&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;A&amp;amp;W Burger: this is similar to McDonalds&lt;/li&gt;
+  &lt;li&gt;A&amp;amp;W Burger: this is similar to McDonald’s&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;hardware-store&quot;&gt;Hardware store&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Princess Auto: is known for Habor Freight in Canada&lt;/li&gt;
+  &lt;li&gt;Princess Auto: is known for Harbour Freight in Canada&lt;/li&gt;
   &lt;li&gt;Canadian Tire&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;library-is-fantastic-&quot;&gt;Library is fantastic 📖&lt;/h2&gt;
-&lt;p&gt;If you need to print documents, you can visit a local library. They will ask you to provide an ID and proof of your address and name. Usually, you will be given a free library card. The cost for printing is 0.25 cents for grayscale and 0.50 cents for color prints. Waterloo library has many great online services such as Practicing IELTs, access to O’Realy books,…&lt;/p&gt;
+&lt;p&gt;If you need to print documents, you can visit a local library. They will ask you to provide an ID and proof of your address and name. Usually, you will be given a free library card. The cost for printing is 0.25 cents for grayscale and 0.50 cents for color prints. Waterloo library has many great online services such as Practicing IELTs, access to O’Reilly books,…&lt;/p&gt;
 
 &lt;h2 id=&quot;best-wishes-for-all-️&quot;&gt;Best wishes for all ❤️&lt;/h2&gt;
 &lt;p&gt;Feeling comfortable in your room is key to helping you settle into your new environment and minimizing homesickness. By creating a cozy and inviting space, you’ll be able to relax and feel more at home. Not only will this contribute to your overall well-being, but it can also improve your productivity.&lt;/p&gt;
