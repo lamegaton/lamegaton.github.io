@@ -33,7 +33,7 @@ flowchart LR
     click A "{{page.url}}#contrast" _blank
     click B "{{page.url}}#addition" _blank
     click C "{{page.url}}#comparison" _blank
-    click D "{{page.url}}#order or sequence" _blank
+    click D "{{page.url}}#order-or-sequence" _blank
     click E "{{page.url}}#results" _blank
     click F "{{page.url}}#purpose" _blank
     click G "{{page.url}}#example" _blank

@@ -5,7 +5,7 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Thu, 04 May 2023 19:30:14 -0400</pubDate>
+    <pubDate>Thu, 04 May 2023 19:31:38 -0400</pubDate>
     
       <item>
         <title>[English] Connectives</title>
@@ -37,7 +37,7 @@ flowchart LR
     click A &quot;/tips/2023/05/04/testing-mermaid.html#contrast&quot; _blank
     click B &quot;/tips/2023/05/04/testing-mermaid.html#addition&quot; _blank
     click C &quot;/tips/2023/05/04/testing-mermaid.html#comparison&quot; _blank
-    click D &quot;/tips/2023/05/04/testing-mermaid.html#order or sequence&quot; _blank
+    click D &quot;/tips/2023/05/04/testing-mermaid.html#order-or-sequence&quot; _blank
     click E &quot;/tips/2023/05/04/testing-mermaid.html#results&quot; _blank
     click F &quot;/tips/2023/05/04/testing-mermaid.html#purpose&quot; _blank
     click G &quot;/tips/2023/05/04/testing-mermaid.html#example&quot; _blank
