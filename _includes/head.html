@@ -62,4 +62,10 @@
 		ga('send', 'pageview');
 	</script>
 	{% endif %}
+	
+	<!-- Adding Mermaid -->
+	{% if page.mermaid %}
+		{% include mermaid.html %}
+  	{% endif %}
+
 </head>

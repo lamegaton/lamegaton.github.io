@@ -5,62 +5,143 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description>notes on PHP, Batch, shell, web development, test engineer by Son Pham/Lamegaton</description>
-    <pubDate>Thu, 04 May 2023 18:02:20 -0400</pubDate>
+    <pubDate>Thu, 04 May 2023 19:30:14 -0400</pubDate>
     
       <item>
-        <title>Testing Mermaid</title>
+        <title>[English] Connectives</title>
         <link>/tips/2023/05/04/testing-mermaid.html</link>
         <guid isPermaLink="true">/tips/2023/05/04/testing-mermaid.html</guid>
-        <description>&lt;script type=&quot;module&quot;&gt;
-    import mermaid from &apos;https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs&apos;;
-    mermaid.initialize({ startOnLoad: true });
-    window.mermaid.init(undefined, document.querySelectorAll(&apos;.language-mermaid&apos;));
-&lt;/script&gt;
+        <description>&lt;p&gt;After many hours of googling, mermaid is finally run on Github Page, thanks to &lt;a href=&quot;https://jojozhuang.github.io/tutorial/jekyll-diagram-with-mermaid/&quot;&gt;Jojozhuang&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Here is one mermaid diagram:
-&amp;lt;pre class=&quot;mermaid&quot;&amp;gt;
-        graph TD 
-        A[Client] --&amp;gt; B[Load Balancer] 
-        B --&amp;gt; C[Server1] 
-        B --&amp;gt; D[Server2]
-&amp;lt;/pre&amp;gt;
+&lt;h2 id=&quot;connectives&quot;&gt;connectives&lt;/h2&gt;
 
-And here is another:
-&amp;lt;pre class=&quot;mermaid&quot;&amp;gt;
-        graph TD 
-        A[Client] --&amp;gt;|tcp_123| B
-        B(Load Balancer) 
-        B --&amp;gt;|tcp_456| C[Server1] 
-        B --&amp;gt;|tcp_456| D[Server2]
-&amp;lt;/pre&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-mermaid&quot;&gt;flowchart LR
+&lt;div class=&quot;mermaid&quot;&gt;
+flowchart LR
     ROOT[Connectives] --&amp;gt; A &amp;amp; B &amp;amp; C &amp;amp; D &amp;amp; E &amp;amp; F &amp;amp; G &amp;amp; H
     A[contrast] --&amp;gt; 
-        AA[but, in contrast, conversely, however, still,&amp;lt;br&amp;gt; nevertheless, yet, on the other hand, &amp;lt;br&amp;gt; on the contrary, or, in spite of this, actually, in fact]
+        AA[but, in contrast, conversely, however, still,&lt;br /&gt; nevertheless, yet, on the other hand, &lt;br /&gt; on the contrary, or, in spite of this, actually, in fact]
     B[addition] --&amp;gt; 
-        BB[and, also, besides, furthermore, too, &amp;lt;br&amp;gt; moreover, then, equally important, another]
+        BB[and, also, besides, furthermore, too, &lt;br /&gt; moreover, then, equally important, another]
     C[comparison] --&amp;gt; 
         CC[like, in the same manner, as so, similarly]
     D[order or sequence] --&amp;gt; 
-        DD[first, second, finally, next, then, &amp;lt;br&amp;gt; to begin with, after, before, as soon as, in the end, gradually]
+        DD[first, second, finally, next, then, &lt;br /&gt; to begin with, after, before, as soon as, in the end, gradually]
     E[results] --&amp;gt; 
-        EE[as a result, so, accordingly, consequently, &amp;lt;br&amp;gt; thus, since, therefore, for this reason, because of this]
+        EE[as a result, so, accordingly, consequently, &lt;br /&gt; thus, since, therefore, for this reason, because of this]
     F[purpose] --&amp;gt; 
         FF[for this purpose, with this in mind, for this reason]
     G[example] --&amp;gt; 
-        GG[for example, to illustrate, for instance,&amp;lt;br&amp;gt; to be specific, such as, especially]    
+        GG[for example, to illustrate, for instance,&lt;br /&gt; to be specific, such as, especially]    
     H[conclude] --&amp;gt; 
-        HH[in summary, to sum up, to repeat, briefly,&amp;lt;br&amp;gt; in short, finally, on the whole, &amp;lt;br&amp;gt; therefore, as I have said, in conclusion, as you can see]
-    click A &quot;(#but)&quot; &quot;This is a tooltip for a link&quot;
-&lt;/code&gt;&lt;/pre&gt;
+        HH[in summary, to sum up, to repeat, briefly,&lt;br /&gt; in short, finally, on the whole, &lt;br /&gt; therefore, as I have said, in conclusion, as you can see]
+    click A &quot;/tips/2023/05/04/testing-mermaid.html#contrast&quot; _blank
+    click B &quot;/tips/2023/05/04/testing-mermaid.html#addition&quot; _blank
+    click C &quot;/tips/2023/05/04/testing-mermaid.html#comparison&quot; _blank
+    click D &quot;/tips/2023/05/04/testing-mermaid.html#order or sequence&quot; _blank
+    click E &quot;/tips/2023/05/04/testing-mermaid.html#results&quot; _blank
+    click F &quot;/tips/2023/05/04/testing-mermaid.html#purpose&quot; _blank
+    click G &quot;/tips/2023/05/04/testing-mermaid.html#example&quot; _blank
+    click H &quot;/tips/2023/05/04/testing-mermaid.html#conclude&quot; _blank
+&lt;/div&gt;
 
-&lt;h2 id=&quot;example&quot;&gt;example&lt;/h2&gt;
+&lt;h2 id=&quot;examples&quot;&gt;examples&lt;/h2&gt;
 &lt;h3 id=&quot;contrast&quot;&gt;contrast&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;&lt;a name=&quot;but&quot;&gt;&lt;/a&gt; it is raining but the sun still shines.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;but&lt;/strong&gt;: She loves to cook, but she hates doing dishes.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;in contrast&lt;/strong&gt;: The first half of the book is dark and serious, in contrast, the second half is light and funny.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;conversely&lt;/strong&gt;: Some people believe that technology is the key to a better future, conversely, others believe that technology is the source of many problems.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;however&lt;/strong&gt;: I really want to go on vacation, however, I can’t afford to take time off work right now.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;still&lt;/strong&gt;: It’s been raining all day, but I still want to go for a walk outside.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;nevertheless&lt;/strong&gt;: The movie got terrible reviews, nevertheless, I still want to see it because I like the actors.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;yet&lt;/strong&gt;: I’ve been studying for hours, yet I still feel like I haven’t learned enough.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;on the other hand&lt;/strong&gt;: Some people love to travel, on the other hand, some people prefer to stay close to home.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;on the contrary&lt;/strong&gt;: Many people believe that technology is making us more isolated. On the contrary, technology can actually help us connect with others around the world.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;or&lt;/strong&gt;: Would you like to go to the beach or go hiking in the mountains?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;in spite of this&lt;/strong&gt;: I’m not a big fan of spicy food, in spite of this, I ordered the extra spicy curry.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;actually&lt;/strong&gt;: I thought I was going to fail the test, but actually, I got an A.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;in fact&lt;/strong&gt;: I always thought that he was the older sibling, in fact, he’s younger than I am.&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h3 id=&quot;addition&quot;&gt;addition&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;and&lt;/strong&gt;: And then we went to the store to buy some groceries.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;also&lt;/strong&gt;: Also, she’s an amazing artist in addition to being a talented musician.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;besides&lt;/strong&gt;: Besides studying, I also work part-time to pay for my expenses.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;furthermore&lt;/strong&gt;: Furthermore, the new software update includes several new features that make it easier to use.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;too&lt;/strong&gt;: Too, I enjoy spending time with my friends and family.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;moreover&lt;/strong&gt;: Moreover, the restaurant not only has great food, but also has excellent service.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;then&lt;/strong&gt;: Then, I realized I had left my phone at home and had to go back to get it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;equally important&lt;/strong&gt;: Equally important, we need to make sure that we stay within our budget when planning our trip.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;another&lt;/strong&gt;: Another factor to consider is the environmental impact of our choices.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;comparison&quot;&gt;comparison&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Like&lt;/strong&gt;: Like his father, he’s a great athlete.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In the same manner&lt;/strong&gt;: In the same manner as her sister, she’s also a talented musician.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As so&lt;/strong&gt;: She was late for the meeting, as so, the other attendees had to wait for her.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Similarly&lt;/strong&gt;: Similarly to her brother, she excels in math and science.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;order-or-sequence&quot;&gt;order or sequence&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;First&lt;/strong&gt;, I’m going to make a list of all the things I need to do today.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Second&lt;/strong&gt;, I’ll prioritize the items on the list based on their importance.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Finally&lt;/strong&gt;, I’ll start working on the tasks and check them off the list as I go.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Next&lt;/strong&gt;, I’ll focus on completing the most urgent tasks on the list.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Then&lt;/strong&gt;, I’ll take a break and grab some lunch before continuing with my work.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;To begin with&lt;/strong&gt;, I’d like to thank everyone for coming to the meeting today.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;After&lt;/strong&gt; the meeting, we can discuss any follow-up tasks that need to be completed.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Before&lt;/strong&gt; we get started, let’s review the agenda for today’s meeting.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As soon as&lt;/strong&gt; I finish this project, I’ll be able to take some time off and go on vacation.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In the end&lt;/strong&gt;, I was able to finish all of the tasks on my list and feel a great sense of accomplishment.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gradually&lt;/strong&gt;, I’ve been making progress towards my goal and feel more confident each day.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;results&quot;&gt;results&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;As a result&lt;/strong&gt;, he missed his flight and had to reschedule for the next day.&lt;/li&gt;
+  &lt;li&gt;I am busy today, &lt;strong&gt;so&lt;/strong&gt; I won’t be able to join you for lunch.&lt;/li&gt;
+  &lt;li&gt;The project is behind schedule, &lt;strong&gt;accordingly&lt;/strong&gt;, we need to increase our efforts to catch up.&lt;/li&gt;
+  &lt;li&gt;She didn’t study for the exam, &lt;strong&gt;consequently&lt;/strong&gt;, she failed it.&lt;/li&gt;
+  &lt;li&gt;He forgot his phone at home, &lt;strong&gt;thus&lt;/strong&gt;, he couldn’t check his emails.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Since&lt;/strong&gt; it’s raining outside, we’ll have to cancel the outdoor picnic.&lt;/li&gt;
+  &lt;li&gt;He didn’t wear a helmet while riding his bike, &lt;strong&gt;therefore&lt;/strong&gt;, he was injured in the accident.&lt;/li&gt;
+  &lt;li&gt;The software crashed repeatedly, &lt;strong&gt;for this reason&lt;/strong&gt;, we need to update it.&lt;/li&gt;
+  &lt;li&gt;He couldn’t attend the meeting, &lt;strong&gt;because of this&lt;/strong&gt;, he missed important information.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;purpose&quot;&gt;purpose&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;For this purpose&lt;/strong&gt;, I have prepared a detailed plan of action.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;With this in mind&lt;/strong&gt;, we need to consider all the possible outcomes before making a decision.&lt;/li&gt;
+  &lt;li&gt;I cannot attend the meeting today. &lt;strong&gt;For this reason&lt;/strong&gt;, I will be sending my colleague in my place.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;example&quot;&gt;example&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;I have several hobbies, &lt;strong&gt;such as&lt;/strong&gt; painting, playing guitar, and hiking.&lt;/li&gt;
+  &lt;li&gt;I enjoy traveling to different countries, &lt;strong&gt;for instance&lt;/strong&gt;, I recently went to Japan and fell in love with the culture.&lt;/li&gt;
+  &lt;li&gt;There are many reasons why people should exercise, &lt;strong&gt;to illustrate&lt;/strong&gt;, it can improve physical and mental health, boost energy levels, and reduce stress.&lt;/li&gt;
+  &lt;li&gt;I need a new laptop, &lt;strong&gt;for example&lt;/strong&gt;, I need it to have a long battery life and be lightweight for easy portability.&lt;/li&gt;
+  &lt;li&gt;I want to make sure I’m being &lt;strong&gt;specific&lt;/strong&gt; when I describe the project requirements to my team, so they can fully understand what is expected of them.&lt;/li&gt;
+  &lt;li&gt;I love all kinds of music, but &lt;strong&gt;especially&lt;/strong&gt; enjoy listening to jazz and classical music.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;conclude&quot;&gt;conclude&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;In summary&lt;/strong&gt;, the project was a success and achieved all of its objectives.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;To sum up&lt;/strong&gt;, the main points of the presentation are that we need to increase sales and improve customer satisfaction.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;To repeat&lt;/strong&gt;, we cannot proceed with the project until we receive further instructions from management.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Briefly&lt;/strong&gt;, the report highlights the main challenges facing our industry and suggests potential solutions.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In short&lt;/strong&gt;, we need to cut costs and increase productivity if we want to remain competitive.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Finally&lt;/strong&gt;, I would like to thank everyone who contributed to the success of this project.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;On the whole&lt;/strong&gt;, the feedback from customers has been positive, but there are some areas for improvement.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Therefore&lt;/strong&gt;, we recommend that the company invest in new technology to improve efficiency.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As I have said&lt;/strong&gt;, the proposal has the potential to generate significant revenue for the company.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In conclusion&lt;/strong&gt;, the evidence presented supports the hypothesis that climate change is caused by human activity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;As you can see&lt;/strong&gt;, the chart clearly illustrates the upward trend in sales over the past year.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 04 May 2023 00:00:00 -0400</pubDate>
       </item>
