@@ -65,7 +65,7 @@ The list of a few stores that you can check out is below. Some stores in Canada 
 - Princess Auto: is known for Habor Freight in Canada
 - Canadian Tire
 
-## Library is fanstatic 📖
+## Library is fantastic 📖
 If you need to print documents, you can visit a local library. They will ask you to provide an ID and proof of your address and name. Usually, you will be given a free library card. The cost for printing is 0.25 cents for grayscale and 0.50 cents for color prints. Waterloo library has many great online services such as Practicing IELTs, access to O'Realy books,...
 
 ## Best wishes for all ❤️
