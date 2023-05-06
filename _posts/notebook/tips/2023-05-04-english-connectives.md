@@ -14,22 +14,22 @@ After many hours of googling, mermaid is finally run on Github Page, thanks to [
 <div class="mermaid">
 flowchart LR
     ROOT[Connectives] --> A & B & C & D & E & F & G & H
-    A[contrast] --> 
+    A[to show contrast] --> 
         AA[but, in contrast, conversely, however, still,<br> nevertheless, yet, on the other hand, <br> on the contrary, or, in spite of this, actually, in fact]
-    B[addition] --> 
+    B[to extend or amplify] --> 
         BB[and, also, besides, furthermore, too, <br> moreover, then, equally important, another]
-    C[comparison] --> 
-        CC[like, in the same manner, as so, similarly]
+    C[to show similarity] --> 
+        CC[like, in the same manner, as so, similarly, likewise, coupled with this]
     D[order or sequence] --> 
         DD[first, second, finally, next, then, <br> to begin with, after, before, as soon as, in the end, gradually]
-    E[results] --> 
+    E[to show results] --> 
         EE[as a result, so, accordingly, consequently, <br> thus, since, therefore, for this reason, because of this]
     F[purpose] --> 
         FF[for this purpose, with this in mind, for this reason]
     G[example] --> 
         GG[for example, to illustrate, for instance,<br> to be specific, such as, especially]    
-    H[conclude] --> 
-        HH[in summary, to sum up, to repeat, briefly,<br> in short, finally, on the whole, <br> therefore, as I have said, in conclusion, as you can see]
+    H[to draw conclusion] --> 
+        HH[in summary, to sum up, to repeat, briefly,<br> in short, finally, on the whole, <br> therefore, as I have said, in conclusion, as you can see, to reiterate, to summarise]
     click A "{{page.url}}#contrast" _blank
     click B "{{page.url}}#addition" _blank
     click C "{{page.url}}#comparison" _blank
