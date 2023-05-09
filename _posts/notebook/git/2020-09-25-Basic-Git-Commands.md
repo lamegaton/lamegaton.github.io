@@ -88,6 +88,8 @@ git commit -a -m "commit" && git push
 ```
 
 - What if you has add a new commit and want to revert it?
+
+
 ```bash
 #let check the log
 git log
