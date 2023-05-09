@@ -81,7 +81,7 @@ git merge lulu
 ```
 Another scenario is if we assign "lala" to work on PHP side only.
 
-Tips:
+## Tips:
 - If you're tired of typing out commit, add, push separately, you can use a one-liner like this:
 ```
 git commit -a -m "commit" && git push
@@ -89,7 +89,7 @@ git commit -a -m "commit" && git push
 
 - What if you has add a new commit and want to revert it?
 ```bash
-# let check the log
+#let check the log
 git log
 commit c1797e762814de3863284b5827b92358f26f74c5 (HEAD -> lamegaton)
 Author: Son Pham <sonpham995@gmail.com>
@@ -103,11 +103,11 @@ Date:   Fri May 5 12:37:02 2023 -0400
 
     add TOC
 
-# I want to go back to 
+#I want to go back to 
 git revert --no-commit c1797e762814de3863284b5827b92358f26f74c5..HEAD
 git commit
 
-# or you can try short version
+#or you can try short version
 git log --graph --oneline --decorate
 ```
 https://stackoverflow.com/a/21718540
