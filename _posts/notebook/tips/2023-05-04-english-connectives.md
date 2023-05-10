@@ -9,6 +9,17 @@ mermaid: true
 
 After many hours of googling, mermaid is finally run on Github Page, thanks to [Jojozhuang](https://jojozhuang.github.io/tutorial/jekyll-diagram-with-mermaid/). 
 
+I may not write another note for mermaid so I put the info here. First, we need to add `mermaid: true` into our post layout. Second, we need to use div tag as below.
+```html
+<!--
+    to use mermaid in Jekyll we need to wrap it with <div>
+-->
+<div class="mermaid">
+    your_mermaid_chart
+</div>
+
+```
+
 ## connectives
 
 <div class="mermaid">

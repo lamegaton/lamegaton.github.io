@@ -7,6 +7,8 @@ meta: "batch dos cmd shell useful command"
 comments: false
 ---
 
+
+### Find task name
 ```
 TASKLIST /v /fo list /fi "imagename eq QXDM.exe" | find "Window Title:"
 ```
