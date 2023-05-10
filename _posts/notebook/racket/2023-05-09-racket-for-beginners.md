@@ -118,4 +118,4 @@ hello, i'm lamda function, i don't need a name for each func to keep it simple.
 
 ## References
 1. [Racket in CS60 (youtube)](https://www.youtube.com/playlist?list=PLHqz-wcqDQIEThNEXViEb1iFh9vbOtUD_)
-2. 
+2. Racket Programming the Fun Way - James W. Stelly
