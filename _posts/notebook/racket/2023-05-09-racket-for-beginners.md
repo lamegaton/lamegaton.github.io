@@ -10,25 +10,14 @@ description: "easy to understand racket tutorial for beginner"
 tags: [racket]
 ---
 
+Racket, why racket? I don't know the main reason, but it is interesting and importantly my professor requires it for our Psychology course. I have never learned Racket before but I have a bit of experience in Erlang. In Erlang we cannot assign a value to a variable like Racket because `=` operator is a pattern matching that is similar to `car` and `cdr`. The game is totally changed in Racket. Now we can just `define whatever value` we want. 
+
 * Placeholder for Table of Content (Must not be removed)
 {:toc}
 
 ## Placeholder for mindmap
 
 ## Basic Stuff
-### Atomic data
-- number
-    - ex: 123  
-- string
-    - ex: "hello world"  
-- identifiers
-    - ex: pi  
-
-        ```scheme  
-        > pi  
-        3.141592653589793  
-        ```  
-
 ### List
 
 ### Define, assign, variables
@@ -47,6 +36,15 @@ There is the difference between `define` and `set!` in racket. We will go over t
 2
 > z
 3
+
+;; you can also bind multiple lists to variables
+(define-values (point-a point-b)
+  (values (list 122 3123) '(123 222)))
+point-a 
+point-b 
+
+'(122 3123)
+'(123 222)
 
 ;; Now, we can change value of x by using define again
 (define x 123)
@@ -80,9 +78,36 @@ However, you will see error because variable y is not defined before. Its memory
 ```
 
 
-
-
 ### Function
+#### Simple function
+a function is a funnel that take arguments and map it to its parameters  
+```scheme
+#lang racket
+;;function name: add  
+;;arguments: 1 2  
+;;parameter: x y 
+(define (add x y)(+ x y))
+(add 1 3)
+> 4
+```
+
+#### Helper function 
+Personally, I'm intrigued with philosophical idea,  
+DRY - don't repeat yourself philosophy  
+oh and talking about philosophy, there is another one but not related. It is [no-hello](https://www.nohello.com/). I found this on one of my colleague and that remind me that our time are important.
+
+Alright, let's talk about helper function. We use it to first avoid repeating code. Second, to make a useful name. If you want to learn how to write code in calligraphy style you definitely can checkout this [Style Guide](https://docs.racket-lang.org/style/index.html)
+
+```scheme
+(define (distance x y)
+  (let ((dx (- (car y) (car x)))
+        (dy (- (car(cdr y)) (car(cdr x))))) ; (cdr y) will return list
+    (sqrt (+ (* dx dx) (* dy dy)))))
+
+; Example:
+(distance '(1 2) '(4 6)) ; returns 5
+```
+
 #### Lambda function
 hello, i'm lamda function, i don't need a name for each func to keep it simple.
 
@@ -113,9 +138,22 @@ hello, i'm lamda function, i don't need a name for each func to keep it simple.
     ```
 
 
+
+### Atomic data
+- number: 123  
+- string: "hello world"  
+- identifiers: pi  
+    ```scheme  
+    > pi  
+    3.141592653589793  
+    ```  
+
+
 ### 
 
 
 ## References
 1. [Racket in CS60 (youtube)](https://www.youtube.com/playlist?list=PLHqz-wcqDQIEThNEXViEb1iFh9vbOtUD_)
 2. Racket Programming the Fun Way - James W. Stelly
+3. https://beautifulracket.com/
+4. 
