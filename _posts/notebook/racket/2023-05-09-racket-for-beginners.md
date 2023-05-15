@@ -18,6 +18,15 @@ Racket, why racket? I don't know the main reason, but it is interesting and impo
 ## Placeholder for mindmap
 
 ## Basic Stuff
+### Atomic data
+- number: 123  
+- string: "hello world"  
+- identifiers: pi  
+    ```scheme  
+    > pi  
+    3.141592653589793  
+    ```  
+
 ### List
 
 ### Define, assign, variables
@@ -92,9 +101,7 @@ a function is a funnel that take arguments and map it to its parameters
 ```
 
 #### Helper function 
-Personally, I'm intrigued with philosophical idea,  
-DRY - don't repeat yourself philosophy  
-oh and talking about philosophy, there is another one but not related. It is [no-hello](https://www.nohello.com/). I found this on one of my colleague and that remind me that our time are important.
+Personally, I'm intrigued with philosophical idea. Helper function reduce DRY - don't repeat yourself. Oh and talking about philosophy, there is another one but not related. It is [no-hello](https://www.nohello.com/). I found it on my colleague's status and that reminds me that our time are important.
 
 Alright, let's talk about helper function. We use it to first avoid repeating code. Second, to make a useful name. If you want to learn how to write code in calligraphy style you definitely can checkout this [Style Guide](https://docs.racket-lang.org/style/index.html)
 
@@ -138,22 +145,8 @@ hello, i'm lamda function, i don't need a name for each func to keep it simple.
     ```
 
 
-
-### Atomic data
-- number: 123  
-- string: "hello world"  
-- identifiers: pi  
-    ```scheme  
-    > pi  
-    3.141592653589793  
-    ```  
-
-
-### 
-
-
 ## References
 1. [Racket in CS60 (youtube)](https://www.youtube.com/playlist?list=PLHqz-wcqDQIEThNEXViEb1iFh9vbOtUD_)
 2. Racket Programming the Fun Way - James W. Stelly
-3. https://beautifulracket.com/
+3. [Beautiful Racket](https://beautifulracket.com/)
 4. 
