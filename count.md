@@ -75,6 +75,7 @@ meta:
 
 </style>
 
+<p style="font-family:'Courier New'">Time is a valuable thing</p>
 
 <div id="day" class="day">
   <!-- Blocks representing each hour -->
