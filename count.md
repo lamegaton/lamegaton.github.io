@@ -75,8 +75,6 @@ meta:
 
 </style>
 
-![Moutain Tree](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/tree_n_mt.png#centerImg)
-
 
 <div id="day" class="day">
   <!-- Blocks representing each hour -->
