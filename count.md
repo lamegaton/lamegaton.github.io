@@ -2,8 +2,7 @@
 layout: page
 title: CountDown
 permalink: /count/
-description: Hi, my name is Son Pham. One of my hobby is learning new things. 
-I make this blog to share with you my long journey.
+description: Hi, my name is Son Pham. One of my hobby is learning new things. I make this blog to share with you my long journey.
 meta: 
 ---
 <style>
