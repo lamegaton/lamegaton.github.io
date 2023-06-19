@@ -7,19 +7,73 @@ I make this blog to share with you my long journey.
 meta: 
 ---
 <style>
-<div id="day" class="day">
-  <!-- Blocks representing each hour -->
-</div>
-<br>
-<div id="hour" class="hour">
-  <!-- Blocks representing each minute -->
-</div>
-<br>
-<div id="minute" class="minute">
-  <!-- Blocks representing each second -->
-</div>
-<br>
-<div id="countdown"></div>
+.day {
+  display: flex;
+}
+
+.hour-block {
+  width: 20px;
+  height: 30px;
+  background-color: gray;
+  margin-right: 1px;
+}
+
+.hour-block.passing {
+  background-color: orange;
+}
+
+.hour {
+  display: flex;
+}
+
+.minute-block {
+  width: 5px;
+  height: 20px;
+  background-color: gray;
+  margin-right: 1px;
+}
+
+.minute-block.passing {
+  background-color: orange;
+}
+
+.minute {
+  display: flex;
+}
+
+.second-block {
+  width: 3px;
+  height: 20px;
+  background-color: gray;
+  margin-right: 1px;
+}
+
+.second-block.passing {
+  background-color: orange;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.day-block {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  margin: 1px;
+}
+
+.passed {
+  background-color: lightsalmon;
+}
+
+.remaining {
+  background-color: whitesmoke;
+}
+
 </style>
 
 ![Moutain Tree](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/assets/tree_n_mt.png#centerImg)
