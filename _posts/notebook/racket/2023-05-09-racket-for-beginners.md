@@ -27,6 +27,19 @@ Racket, why racket? I don't know the main reason, but it is interesting and impo
     3.141592653589793  
     ```  
 
+### Math operation
+```scheme
+> (sqrt 4/9)
+2/3
+
+```
+
+I was listening to a TED talk on how to build muscle and this is the last line in that video "*meaningful growth requires challenge and stress*"
+
+error: run-pdflatex: could not find a `pdflatex' executable
+
+
+
 ### List
 
 ### Define, assign, variables
