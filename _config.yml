@@ -16,7 +16,7 @@ theme_settings:
   #   <p>Notebook 2020 - 2021</p>
   #header_text_feature_image:
   footer_text: >
-   Great! go back home <a href="https://lamegaton.github.io/">Son's Noteboko</a>
+   Go back to homepage <a href="https://lamegaton.github.io/">Son's Notebook</a>
 
   # Icons
   rss: false
