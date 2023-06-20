@@ -9,73 +9,61 @@ meta:
 .day {
   display: flex;
 }
-
 .hour-block {
   width: 20px;
   height: 30px;
   background-color: gray;
   margin-right: 1px;
 }
-
 .hour-block.passing {
   background-color: orange;
 }
-
 .hour {
   display: flex;
 }
-
 .minute-block {
   width: 5px;
   height: 20px;
   background-color: gray;
   margin-right: 1px;
 }
-
 .minute-block.passing {
   background-color: orange;
 }
-
 .minute {
   display: flex;
 }
-
 .second-block {
   width: 3px;
   height: 20px;
   background-color: gray;
   margin-right: 1px;
 }
-
 .second-block.passing {
   background-color: orange;
 }
-
 #countdown {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
-
 .day-block {
   width: 10px;
   height: 10px;
   background-color: #ddd;
   margin: 1px;
 }
-
 .passed {
   background-color: lightsalmon;
 }
-
 .remaining {
   background-color: whitesmoke;
 }
 
 </style>
 
-<p style="font-family:'Courier New'">"Time is a valuable thing. Live your life. "</p>
+<p style="font-family:'Courier New'">"Time is a valuable thing."</p>
 
 <div id="day" class="day">
   <!-- Blocks representing each hour -->
