@@ -75,8 +75,7 @@ meta:
 
 </style>
 
-<p style="font-family:'Courier New'">"Time is a valuable thing, don't waste it 
-for things you don't like, and a life you don't want to be"</p>
+<p style="font-family:'Courier New'">"Time is a valuable thing. Live your life. "</p>
 
 <div id="day" class="day">
   <!-- Blocks representing each hour -->
