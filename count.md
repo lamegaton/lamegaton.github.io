@@ -79,7 +79,7 @@ meta:
 <br>
 <div id="countdown"></div>
 
-<p id="ps" style="font-family:'Courier New'">"Lastly, thanks friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. "</p>
+<p id="ps" style="font-family:'Courier New'">P/s: Thanks family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. We die every night and reborn the day after."</p>
 
 
 <script>
