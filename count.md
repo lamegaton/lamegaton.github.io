@@ -79,6 +79,8 @@ meta:
 <br>
 <div id="countdown"></div>
 
+<p id="ps" style="font-family:'Courier New'">"Lastly, thanks friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. "</p>
+
 
 <script>
   const url = 'https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json';
