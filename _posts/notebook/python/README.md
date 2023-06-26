@@ -5,3 +5,6 @@
 
 `unravel index`
 https://stackoverflow.com/a/48136499/6733817
+- given 3x4 matrix
+- input: 6,(3,4) -- 6 is the index
+- output: (1,2)
