@@ -28,4 +28,3 @@
 | `np.meshgrid()`              | Create coordinate matrices from coordinate vectors     | `x = [1, 2, 3], y = [4, 5]`        | `X`, `Y` coordinate matrices     |
 | `np.stack()`                 | Stack arrays along a new axis                          | `(arr1, arr2)`                     | Stacked array                    |
 
-Remember, these examples are simplified to make them easier to understand for a 6th grader. You can explore more about each method and their functionalities as you continue to learn and gain programming skills!
