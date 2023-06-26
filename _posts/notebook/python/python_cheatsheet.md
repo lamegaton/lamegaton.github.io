@@ -19,8 +19,6 @@
 | `np.add()`                   | Add two arrays element by element                      | `(arr1, arr2)`                     | Element-wise sum                 |
 | `np.subtract()`              | Subtract elements of one array from another            | `(arr1, arr2)`                     | Element-wise subtraction         |
 | `np.multiply()`              | Multiply two arrays element by element                 | `(arr1, arr2)`                     | Element-wise multiplication      |
-
-
 | `np.divide()`                | Divide elements of one array by another                | `(arr1, arr2)`                     | Element-wise division            |
 | `ndarray[start:end:step]`    | Extract a portion of the array with a step size        | `arr[1:5:2]`                       | Extracted sub-array              |
 | `ndarray[condition]`         | Use a condition to select specific elements            | `arr[arr > 5]`                     | Filtered array                   |
