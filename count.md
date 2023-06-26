@@ -63,7 +63,7 @@ meta:
 
 </style>
 
-<p style="font-family:'Courier New'">"Time is a valuable thing."</p>
+<p id="quote" style="font-family:'Courier New'">"Time is a valuable thing."</p>
 
 <div id="day" class="day">
   <!-- Blocks representing each hour -->
@@ -81,6 +81,29 @@ meta:
 
 
 <script>
+  const url = 'https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json';
+
+function getQuote(url) {
+  return fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      return data;
+    });
+}
+
+let quote;
+let i;
+
+getQuote(url)
+  .then(data => {
+    quote = data;
+		i = Math.floor(Math.random() * quote.length);
+		document.getElementById('quote').innerHTML = `${quote[i].quoteText} - ${quote[i].quoteAuthor}`;
+  })
+  .catch(error => {
+    console.log('An error occurred:', error);
+  });
+
 function updateClock() {
   const currentTime = new Date();
   const currentHour = currentTime.getHours();
