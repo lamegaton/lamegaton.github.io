@@ -7,6 +7,12 @@ meta: example of axis in numpy
 description: "example of axis in numpy"
 ---
 
+While working on the Kohonen Self Organizing Map, I encountered difficulties in understanding how the axis parameter in NumPy works. Initially, in a 2-dimensional scenario, we have coordinates (x, y), where x represents the width or number of rows, and y represents the height or number of columns in the matrix. However, things become more complex when we introduce another dimension.
+
+For instance, let's consider an array of pixels with a size of 10x10 and three color channels: Red, Green, and Blue. This array would be represented as (10, 10, 3), indicating the dimensions of width, height, and depth respectively. Here's my understanding of it:
+
+Imagine you have three sheets of paper stacked on top of each other. The first sheet corresponds to (:,:,0), the second sheet to (:,:,1), and the third sheet to (:,:,2). Each sheet represents one of the color channels. If we wanted to sum up the values across all three channels, we can use the np.sum(matrix, axis=2) function. In this case, we can visualize it as the z-axis.
+
 ```
 import numpy as np
 import matplotlib.pyplot as plt
