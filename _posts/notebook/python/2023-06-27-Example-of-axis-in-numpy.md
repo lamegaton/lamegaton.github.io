@@ -55,7 +55,7 @@ plt.show()
 
 ```
     
-![png](output_0_0.png)
+![cube](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/python/output_0_0.png)
     
 ```
 # x=0; y=0, z=0
