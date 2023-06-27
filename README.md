@@ -10,6 +10,9 @@ https://github.com/jekyll/jekyll/issues/8523#issuecomment-751409319
 add share buttons
 https://jekyllcodex.org/without-plugin/share-buttons/#
 
+to insert image to post, use raw
+
+
 ## Usage
 
 1. Fork and clone the [Type Theme repo](https://github.com/rohanchandra/type-theme): `git clone https://github.com/rohanchandra/type-theme`
