@@ -13,7 +13,7 @@ For instance, let's consider an array of pixels with a size of 10x10 and three c
 
 Imagine you have three sheets of paper stacked on top of each other. The first sheet corresponds to (:,:,0), the second sheet to (:,:,1), and the third sheet to (:,:,2). Each sheet represents one of the color channels. If we wanted to sum up the values across all three channels, we can use the np.sum(matrix, axis=2) function. In this case, we can visualize it as the z-axis.
 
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
