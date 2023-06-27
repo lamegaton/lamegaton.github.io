@@ -30,10 +30,12 @@ for z in range(depth):
             number = w[x, y, z]
             
             # Plot a cube with the number as the label
-            ax.text(x + 0.7, y + 0.25, z + 0.5, str(number), color='red', ha='center', va='center', fontsize=12)
+            ax.text(x + 0.7, y + 0.25, z + 0.5, str(number), color='red', 
+						ha='center', va='center', fontsize=12)
             
             # Plot the edges of the cube with a line width of 2
-            ax.plot([x, x+1, x+1, x, x], [y, y, y+1, y+1, y], [z, z, z, z, z], 'grey', linewidth=0.05)
+            ax.plot([x, x+1, x+1, x, x], [y, y, y+1, y+1, y], 
+						[z, z, z, z, z], 'grey', linewidth=0.05)
 
 # Set the labels for the axes
 ax.set_xlabel('X')
