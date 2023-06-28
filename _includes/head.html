@@ -1,4 +1,3 @@
-{% seo %}
 <head>
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
@@ -67,5 +66,5 @@
 	{% if page.mermaid %}
 		{% include mermaid.html %}
   	{% endif %}
-
+	{% seo %}
 </head>
