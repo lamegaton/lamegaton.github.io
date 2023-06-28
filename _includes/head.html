@@ -1,4 +1,15 @@
 <head>
+	<!-- Google Analytics -->
+	{% if site.theme_settings.google_analytics %}
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', '{{ site.theme_settings.google_analytics }}');
+	</script>
+	{% endif %}
 	<meta charset="utf-8">
 	<title>{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}</title>
 	<meta name="description"
@@ -46,18 +57,6 @@
 	
 	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
-	{% endif %}
-
-	<!-- Google Analytics -->
-	{% if site.theme_settings.google_analytics %}
-	<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.theme_settings.google_analytics }}"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', '{{ site.theme_settings.google_analytics }}');
-	</script>
 	{% endif %}
 	
 	<!-- Adding Mermaid -->
