@@ -15,7 +15,6 @@ permalink: /categories/
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
       <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-				<span style="float:right">{{ post.date | date: "%m/%d/%Y" }}</span>
 			</p>
     {% endfor %}
   </div>
