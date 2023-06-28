@@ -10,7 +10,7 @@ description: "Note for International Students in Waterloo Region"
 tags: [coffee, study abroad, canada]
 ---
 
-Today I will summarize the process of becoming an international student in Canada. And I hope you will have a great experience here!
+Congrats to all of you that already here in Waterloo Region. Today I will summarize the process of becoming an international student in Canada. And I hope you will have a great experience here!
 
 ![Note](/assets/img/coffee/note_for_international_student.png)
 
