@@ -2,9 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-description: Hi, my name is Son Pham. One of my hobby is learning new things. I make this blog to share with you my long journey.
-meta: 
+description: Hi, my name is Son Pham. One of my hobbies is learning new things. I make this blog to share with you my long journey.
+keywords: lamegaton, son pham, son pham uwaterloo
 ---
+
 <style>
 img[src*="#centerImg"] {
   display:block;
