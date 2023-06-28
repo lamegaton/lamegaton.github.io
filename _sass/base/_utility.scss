@@ -21,6 +21,8 @@
   display: inline-block;
   margin: 1em 0;
   padding: 0.5em 0.75em;
+	background: #000000;
+	color: white;
 }
 a.button {
   @extend .button-link;
