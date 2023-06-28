@@ -2,9 +2,11 @@
 layout: page
 title: CountDown
 permalink: /count/
-description: Hi, my name is Son Pham. One of my hobby is learning new things. I make this blog to share with you my long journey.
-meta: 
+description: Hi, my name is Son Pham. This is a countdown for my goal. It is 10000 hours.
+author: Son Pham
+keywords: son pham, lamegaton, countdown, js
 ---
+
 <style>
 .day {
   display: flex;
