@@ -68,7 +68,7 @@ theme_settings:
   post_navigation: false
   
   # Generate Page Exert
-  page_excerpts: true
+  page_excerpts: false
 
 # PAGINATION
 paginate: 8
