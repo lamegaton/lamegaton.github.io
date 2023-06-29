@@ -1,4 +1,5 @@
 # SITE CONFIGURATION
+theme: minima
 baseurl: ""
 url: "https://lamegaton.github.io"
 
