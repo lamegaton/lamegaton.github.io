@@ -80,7 +80,7 @@ keywords: son pham, lamegaton, countdown, js
 </div>
 <br>
 <div id="countdown"></div>
-</br>
+<br>
 <p id="ps" style="font-family:'Courier New'">P/s: Many thanks to my family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. We die every night and reborn the day after. We cannot let the small things in life burry our hope, our solidarity. Let's stand up and start again, shall we?"</p>
 
 
