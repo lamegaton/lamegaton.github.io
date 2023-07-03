@@ -7,6 +7,7 @@ meta: what are the difference between dbm and db
 description: "what are the difference between dbm and db"
 comments: false
 ---
+
 Many of us have heard about decibel unit in our daily lives, as it can be used to describe the loudness of our speakers, the strength of our antennas, or the signal strength from a transceiver. But what exactly are decibels (dB) and dBm? In this discussion, let's explore these concepts and expand our understanding.
  
 ## Explanation
@@ -43,6 +44,7 @@ Sometime, you will see SNR = 20*log10(RMS(signal)/RMS(noise))
 So why do we have 20 here instead of 10?
 - As I understand, RMS is an amplitude value, and in this case we want to see the ratio in power.
 - Because power proportional to amplitude square so if we square both (RMS(signal)/RMS(noise)) we will get 20
+
 ## In Summary:
 dB, decibel is any ratio in term of base-10-logarithm, dimensionless unit.  
 dBm, decibel-milliwatt is any ratio with 1 mW as a reference power, dimensioned unit.
