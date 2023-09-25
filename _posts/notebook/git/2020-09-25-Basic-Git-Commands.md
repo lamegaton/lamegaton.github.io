@@ -122,13 +122,13 @@ If you're thinking of creating a project for your class, you'll need to create a
   #let check the log
   git log
   commit c1797e762814de3863284b5827b92358f26f74c5 (HEAD -> lamegaton)
-  Author: Son Pham <sonpham995@gmail.com>
+  Author: Son Pham <testing@gmail.com>
   Date:   Fri May 5 12:43:59 2023 -0400
 
       change name
 
   commit 99728dc46e3798cb5a7164697df62fbcdb2dc264 (origin/lamegaton)
-  Author: Son Pham <sonpham995@gmail.com>
+  Author: Son Pham <testing@gmail.com>
   Date:   Fri May 5 12:37:02 2023 -0400
 
       add TOC
