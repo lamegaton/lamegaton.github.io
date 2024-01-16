@@ -184,26 +184,29 @@ function updateSeconds(currentSecond) {
 
 function updateCountdown() {
   const startDate = new Date("2023-04-18");
-  const endDate = new Date("2024-09-01");
+  const endDate = new Date("2024-09-1");
   const countdownContainer = document.getElementById("countdown");
   const currentDate = new Date();
 
-  const remainingDays = Math.ceil((endDate - currentDate) / (1000 * 60 * 60 * 24));
+  let totaldays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
+  
 
   countdownContainer.innerHTML = "";
 
-  for (let i = 0; i < remainingDays; i++) {
+  for (let i = 0; i <= totaldays; i++) {
     const dayBlock = document.createElement("div");
     dayBlock.classList.add("day-block");
 
-    if (startDate <= currentDate) {
+    let iterDate = new Date(endDate);
+    iterDate.setDate(iterDate.getDate() - i);
+
+    if (iterDate > currentDate) {
       dayBlock.classList.add("passed");
     } else {
       dayBlock.classList.add("remaining");
     }
 
     countdownContainer.appendChild(dayBlock);
-    currentDate.setDate(currentDate.getDate() - 1);
   }
 }
 
