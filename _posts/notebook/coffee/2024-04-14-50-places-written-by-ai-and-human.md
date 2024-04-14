@@ -103,26 +103,23 @@ Now, we have real images, map images and content. To make it more concise, I use
 | Map                                             | Img                                     |
 |:-----------------------------------------------:|:---------------------------------------:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Blue_Mosque.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Blue_Mosque.png) |
+
 1. **Geographical Location on Map**
 The Blue Mosque, or Sultan Ahmed Mosque, is located in Istanbul, Turkey. The mosque is situated in the Sultanahmet district, which is the historical heart of the city, facing the Hagia Sophia, another magnificent historical site. Here are the approximate coordinates: 41.0054° N, 28.9768° E.
-
 2. **Construction Date**
 The construction of the Blue Mosque started in 1609 and was completed in 1617 during the reign of Ottoman Sultan Ahmed I.
-
 3. **Purpose of Construction**
 The mosque was built to reassert Ottoman power and serve as a rival to the Hagia Sophia, which faces it directly. It was intended to demonstrate the strength and the artistic achievements of the Ottoman Empire during a period when it was beginning to lose its dominance in various spheres.
-
 4. **Method of Construction**
 The Blue Mosque was constructed using traditional Ottoman architecture techniques. It features a large main dome with a diameter of 23.5 meters, flanked by four semi-domes, all supported by four massive piers. The structure is made primarily from cut stone and masonry. The mosque is notable for its six minarets, a number that was originally controversial because it equaled the number at the Mosque of the Kaaba in Mecca. However, a seventh minaret was later added to the Kaaba mosque to resolve the issue.
-
 5. **Special Features**  
 Iznik Tiles: The mosque’s interior gleams with the blue of the tens of thousands of intricately designed blue Iznik tiles, which cover its galleries and walls.  
 Minarets: The mosque has six minarets, more than any other mosque in Istanbul at the time of its construction, which was a bold statement of the sultan’s religious and political authority.  
 Architectural Layout: Its design is the culmination of two centuries of Ottoman mosque development and is a synthesis of the Hagia Sophia and traditional Islamic architecture.  
 Lighting: The mosque originally had many lamps that were covered in gold and gems. Among the glass bowls one could find ostrich eggs and crystal balls. All these decorations have been removed or pillaged for museums.  
-
 6. **Summary**
 The Blue Mosque (Sultan Ahmed Mosque) in Istanbul is an iconic symbol of Ottoman architecture and Islamic art. Constructed over the span of eight years, it not only functions as a place of worship but also stands as a major tourist attraction, drawing visitors with its majestic design and beautifully intricate decorations. The mosque's design features a blend of Byzantine Christian elements and traditional Islamic architecture, making it one of the most photographed sites in Turkey. Its inclusion in the UNESCO World Heritage Site list emphasizes its historical and cultural significance.
+
 ### 7. Bodiam Castle
 
 | Map                                                              | Img                                                      |
@@ -194,29 +191,24 @@ The Blue Mosque (Sultan Ahmed Mosque) in Istanbul is an iconic symbol of Ottoman
 |:---------------------------------------------------------------:|:-------------------------------------------------------:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Chichen_Itza_Yucatan_Mexico.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Chichen_Itza_Yucatan_Mexico.png) |
 
-1. **Geographical Location on Map**
-Chichén Itzá is located in the Tinúm Municipality, Yucatán State, Mexico. It lies in the northern center of the Yucatán Peninsula, about 120 km east of Mérida, the capital of Yucatán. The site is in the northern Maya lowlands region. Here are the approximate coordinates: 20.6843° N, 88.5678° W.  
+1. **Geographical Location on Map**:Chichén Itzá is located in the Tinúm Municipality, Yucatán State, Mexico. It lies in the northern center of the Yucatán Peninsula, about 120 km east of Mérida, the capital of Yucatán. The site is in the northern Maya lowlands region. Here are the approximate coordinates: 20.6843° N, 88.5678° W.  
 
-2. **Construction Date**
-Chichén Itzá was constructed in phases starting from the Late Classic period (around 600 AD) through the Terminal Classic (around 800 to 900 AD) and into the early Postclassic period (up to around 1200 AD).  
+2. **Construction Date**:Chichén Itzá was constructed in phases starting from the Late Classic period (around 600 AD) through the Terminal Classic (around 800 to 900 AD) and into the early Postclassic period (up to around 1200 AD).  
 
-3. **Purpose of Construction**
-Chichén Itzá was built as a city that served as a major focal point and urban center in the Northern Maya Lowlands. It played a significant role in the political, economic, and ceremonial life of the Maya. It was likely one of the great cities, or Tollans, referenced in Mesoamerican literature and mythology.  
+3. **Purpose of Construction**:Chichén Itzá was built as a city that served as a major focal point and urban center in the Northern Maya Lowlands. It played a significant role in the political, economic, and ceremonial life of the Maya. It was likely one of the great cities, or Tollans, referenced in Mesoamerican literature and mythology.  
 
-4. **Method of Construction**  
-The city exhibits a variety of architectural styles:  
+4. **Method of Construction**:The city exhibits a variety of architectural styles:  
 Puuc Style: Characterized by highly decorative masonry and motifs.  
 Chenes Style: Known for its intricate facades and zoomorphic masks.  
 Central Mexican Style: This influence suggests cultural diffusion, possibly through trade, rather than direct migration or conquest. The buildings were typically constructed using stone masonry techniques, with large plazas surrounded by tall step pyramids and palaces.  
 
-5. **Special Features**
+5. **Special Features**:  
 El Castillo (The Kukulkan Pyramid): A massive step pyramid that dominates the center of Chichén Itzá. It serves as a temple to the god Kukulkan and is famous for the phenomenon of the serpent-shadow during the equinoxes.  
 The Great Ball Court: The largest and best-preserved ball court in ancient Mesoamerica, used for the Mesoamerican ballgame.  
 The Temple of the Warriors: An impressive temple complex with a large stepped pyramid, surrounded by rows of carved columns depicting warriors.  
 Cenotes: Two large natural sinkholes, the Sacred Cenote and the Cenote Xtoloc, which were used for water supply and religious rituals, including human sacrifices.  
 
-6. **Summary**
-Chichén Itzá, a UNESCO World Heritage Site, is one of the most significant and visited archaeological sites in Mexico, attracting millions of tourists annually. This pre-Columbian city showcases a fusion of architectural styles indicative of a rich cultural exchange over centuries. Notably, the site was a major urban center that influenced the economic and ceremonial life in the Maya lowlands. Chichén Itzá's structures, such as the Kukulkan Pyramid, the Great Ball Court, and the Temple of the Warriors, highlight the technological and artistic advancements of the Maya. Its diverse population contributed to the variety of architectural styles observed, from local Puuc and Chenes styles to Central Mexican influences, reflecting a complex socio-economic network and cultural diffusion rather than direct political control by external forces.  
+6. **Summary**: Chichén Itzá, a UNESCO World Heritage Site, is one of the most significant and visited archaeological sites in Mexico, attracting millions of tourists annually. This pre-Columbian city showcases a fusion of architectural styles indicative of a rich cultural exchange over centuries. Notably, the site was a major urban center that influenced the economic and ceremonial life in the Maya lowlands. Chichén Itzá's structures, such as the Kukulkan Pyramid, the Great Ball Court, and the Temple of the Warriors, highlight the technological and artistic advancements of the Maya. Its diverse population contributed to the variety of architectural styles observed, from local Puuc and Chenes styles to Central Mexican influences, reflecting a complex socio-economic network and cultural diffusion rather than direct political control by external forces.  
 
 ### 13. Christ the Redeemer
 
