@@ -14,6 +14,8 @@ After final exam, I decide to do something fun. I know a friend who can remember
 
 The pipe line is quite simple. We are given a folder of 50_places with sub-folders are the name of each place and a few images. We then create a list of places, parse to geopy to get coordinate. Next, to visualize the location of the place on the map we need to run through cartopy. Now, for content part, we will get the summary from wikipedia. And this task can easily be done by a request from wikiapi. 
 
+![Note](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/50_places_pipe.png)
+
 Now, we have real images, map images and content. To make it more concise, I use chatGPT to reformat it. Finally, we can write a script to put images and content together. And the result are shown below.
 
 ![Note](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/50_places.png)
@@ -22,7 +24,7 @@ Now, we have real images, map images and content. To make it more concise, I use
 
 | Map                                                         | Img                                                 |
 |:-----------------------------------------------------------:|:---------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Acropolis_Athens_Greece.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Acropolis_Athens_Greece.png) |
+| ![Acropolis of Athens map](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Acropolis_Athens_Greece.png) | ![Acropolis of Athens real images](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Acropolis_Athens_Greece.png) |
 
 1. **Geographical Location**: Athens, Greece, atop a rocky outcrop above the city.
 2. **Construction Date**: Inhabited since the 4th millennium BC, major buildings by Pericles in the 5th century BC.
@@ -35,7 +37,7 @@ Now, we have real images, map images and content. To make it more concise, I use
 
 | Map                                                     | Img                                             |
 |:-------------------------------------------------------:|:-----------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Angkor_Wat_Cambodia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Angkor_Wat_Cambodia.png) |
+| ![Angkor Wat](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/wiki_images/test/Angkor_Wat_Cambodia.png) | ![Angkor Wat real images](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Angkor_Wat_Cambodia.png) |
 
 1. **Geographical Location**: Angkor, Cambodia, within the ancient Khmer Empire capital.
 2. **Construction Date**: Early 12th century.
