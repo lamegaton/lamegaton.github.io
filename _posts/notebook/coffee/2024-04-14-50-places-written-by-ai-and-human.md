@@ -18,10 +18,6 @@ Now, we have real images, map images and content. To make it more concise, I use
 
 ![Note](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/50_places.png)
 
-* Placeholder for Table of Content (Must not be removed)
-{:toc}
-
-
 ### 1. Acropolis of Athens
 
 | Map                                                         | Img                                                 |
