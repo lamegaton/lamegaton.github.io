@@ -12,7 +12,7 @@ tags: [coffee, travel]
 
 Let's explore the world!
 
-![Note](./place_image/50_places.png)
+![Note](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/50_places.png)
 
 * Placeholder for Table of Content (Must not be removed)
   {:toc}
@@ -21,7 +21,7 @@ Let's explore the world!
 
 | Map                                                         | Img                                                 |
 |:-----------------------------------------------------------:|:---------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Acropolis_Athens_Greece.png) | ![](./place_image/test/Acropolis_Athens_Greece.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Acropolis_Athens_Greece.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Acropolis_Athens_Greece.png) |
 
 1. **Geographical Location**: Athens, Greece, atop a rocky outcrop above the city.
 2. **Construction Date**: Inhabited since the 4th millennium BC, major buildings by Pericles in the 5th century BC.
@@ -34,7 +34,7 @@ Let's explore the world!
 
 | Map                                                     | Img                                             |
 |:-------------------------------------------------------:|:-----------------------------------------------:|
-| ![Alt text](./wiki_images/test/Angkor_Wat_Cambodia.png) | ![](./place_image/test/Angkor_Wat_Cambodia.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Angkor_Wat_Cambodia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Angkor_Wat_Cambodia.png) |
 
 1. **Geographical Location**: Angkor, Cambodia, within the ancient Khmer Empire capital.
 2. **Construction Date**: Early 12th century.
@@ -47,7 +47,7 @@ Let's explore the world!
 
 | Map                                                              | Img                                                      |
 |:----------------------------------------------------------------:|:--------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Arc_de_Triomphe_Paris_France.png) | ![](./place_image/test/Arc_de_Triomphe_Paris_France.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Arc_de_Triomphe_Paris_France.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Arc_de_Triomphe_Paris_France.png) |
 
 1. **Geographical Location**: Center of Place Charles de Gaulle, Paris, France.
 2. **Construction Date**: Designed in 1806 and completed in 1836.
@@ -60,7 +60,7 @@ Let's explore the world!
 
 | Map                                                          | Img                                                  |
 |:------------------------------------------------------------:|:----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Atomium_Brussels_Belgium.png) | ![](./place_image/test/Atomium_Brussels_Belgium.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Atomium_Brussels_Belgium.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Atomium_Brussels_Belgium.png) |
 
 1. **Geographical Location**: Brussels, Belgium, specifically at Heysel Park.
 2. **Construction Date**: Built in 1958 for the Brussels World's Fair.
@@ -73,7 +73,7 @@ Let's explore the world!
 
 | Map                                                      | Img                                              |
 |:--------------------------------------------------------:|:------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Berlin_Museum_Island.png) | ![](./place_image/test/Berlin_Museum_Island.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Berlin_Museum_Island.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Berlin_Museum_Island.png) |
 
 1. **Geographical Location**: Part of the Spree Island in the heart of Berlin, Germany.
 2. **Construction Date**: Developed from 1830 to 1930.
@@ -86,7 +86,7 @@ Let's explore the world!
 
 | Map                                                   | Img                                           |
 |:-----------------------------------------------------:|:---------------------------------------------:|
-| ![Alt text](./wiki_images/test/Big_Ben_London_UK.png) | ![](./place_image/test/Big_Ben_London_UK.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Big_Ben_London_UK.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Big_Ben_London_UK.png) |
 
 1. **Geographical Location**: At the north end of the Palace of Westminster in London, England.
 2. **Construction Date**: Completed in 1859.
@@ -99,13 +99,13 @@ Let's explore the world!
 
 | Map                                             | Img                                     |
 |:-----------------------------------------------:|:---------------------------------------:|
-| ![Alt text](./wiki_images/test/Blue_Mosque.png) | ![](./place_image/test/Blue_Mosque.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Blue_Mosque.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Blue_Mosque.png) |
 
 ### 7. Bodiam Castle
 
 | Map                                                              | Img                                                      |
 |:----------------------------------------------------------------:|:--------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Bodiam_Castle_East_Sussex_UK.png) | ![](./place_image/test/Bodiam_Castle_East_Sussex_UK.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Bodiam_Castle_East_Sussex_UK.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Bodiam_Castle_East_Sussex_UK.png) |
 
 1. **Geographical Location**: Near Robertsbridge, East Sussex, England.
 2. **Construction Date**: Built in 1385.
@@ -118,7 +118,7 @@ Let's explore the world!
 
 | Map                                                                 | Img                                                         |
 |:-------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Brandenburg_Gate_Berlin_Germany.png) | ![](./place_image/test/Brandenburg_Gate_Berlin_Germany.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Brandenburg_Gate_Berlin_Germany.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Brandenburg_Gate_Berlin_Germany.png) |
 
 1. **Geographical Location**: Pariser Platz, Berlin, Germany.
 2. **Construction Date**: Constructed between 1788-1791.
@@ -131,7 +131,7 @@ Let's explore the world!
 
 | Map                                                        | Img                                                |
 |:----------------------------------------------------------:|:--------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Burj_Khalifa_Dubai_UAE.png) | ![](./place_image/test/Burj_Khalifa_Dubai_UAE.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Burj_Khalifa_Dubai_UAE.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Burj_Khalifa_Dubai_UAE.png) |
 
 1. **Geographical Location**: Dubai, United Arab Emirates.
 2. **Construction Date**: Construction started in 2004, completed in 2010.
@@ -144,7 +144,7 @@ Let's explore the world!
 
 | Map                                                           | Img                                                   |
 |:-------------------------------------------------------------:|:-----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Casa_Mila_Barcelona_Spain.png) | ![](./place_image/test/Casa_Mila_Barcelona_Spain.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Casa_Mila_Barcelona_Spain.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Casa_Mila_Barcelona_Spain.png) |
 
 1. **Geographical Location**: Barcelona, Catalonia, Spain.
 2. **Construction Date**: Built between 1906-1912.
@@ -157,7 +157,7 @@ Let's explore the world!
 
 | Map                                                                      | Img                                                              |
 |:------------------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Chateau_Frontenac_Quebec_City_Canada.png) | ![](./place_image/test/Chateau_Frontenac_Quebec_City_Canada.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Chateau_Frontenac_Quebec_City_Canada.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Chateau_Frontenac_Quebec_City_Canada.png) |
 
 1. **Geographical Location**: Quebec City, Quebec, Canada.
 2. **Construction Date**: Opened in 1893, expanded in 1993.
@@ -170,13 +170,13 @@ Let's explore the world!
 
 | Map                                                             | Img                                                     |
 |:---------------------------------------------------------------:|:-------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Chichen_Itza_Yucatan_Mexico.png) | ![](./place_image/test/Chichen_Itza_Yucatan_Mexico.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Chichen_Itza_Yucatan_Mexico.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Chichen_Itza_Yucatan_Mexico.png) |
 
 ### 13. Christ the Redeemer
 
 | Map                                                                           | Img                                                                   |
 |:-----------------------------------------------------------------------------:|:---------------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Christ_the_Redeemer_Rio_de_Janeiro_Brazil.png) | ![](./place_image/test/Christ_the_Redeemer_Rio_de_Janeiro_Brazil.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Christ_the_Redeemer_Rio_de_Janeiro_Brazil.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Christ_the_Redeemer_Rio_de_Janeiro_Brazil.png) |
 
 1. **Geographical Location**: Rio de Janeiro, Brazil, atop Corcovado Mountain.
 2. **Construction Date**: Constructed between 1922 and 1931.
@@ -189,7 +189,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Dancing_House_Prague_Czech_Republic.png) | ![](./place_image/test/Dancing_House_Prague_Czech_Republic.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Dancing_House_Prague_Czech_Republic.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Dancing_House_Prague_Czech_Republic.png) |
 
 1. **Geographical Location**: Prague, Czech Republic, on the Rašínovo nábřeží (embankment).
 2. **Construction Date**: Completed in 1996.
@@ -202,7 +202,7 @@ Let's explore the world!
 
 | Map                                                                      | Img                                                              |
 |:------------------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Dresden_Frauenkirche_Dresden_Germany.png) | ![](./place_image/test/Dresden_Frauenkirche_Dresden_Germany.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Dresden_Frauenkirche_Dresden_Germany.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Dresden_Frauenkirche_Dresden_Germany.png) |
 
 1. **Geographical Location**: Dresden, Germany, at the Neumarkt.
 2. **Construction Date**: Originally built in the 18th century and reconstructed from 1994 to 2005.
@@ -215,7 +215,7 @@ Let's explore the world!
 
 | Map                                                           | Img                                                   |
 |:-------------------------------------------------------------:|:-----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Eiffel_Tower_Paris_France.png) | ![](./place_image/test/Eiffel_Tower_Paris_France.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Eiffel_Tower_Paris_France.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Eiffel_Tower_Paris_France.png) |
 
 1. **Geographical Location**: Champ de Mars, Paris, France.
 2. **Construction Date**: Constructed from 1887 to 1889 for the 1889 Exposition Universelle (World's Fair).
@@ -228,7 +228,7 @@ Let's explore the world!
 
 | Map                                                      | Img                                              |
 |:--------------------------------------------------------:|:------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Ephesus_Izmir_Turkey.png) | ![](./place_image/test/Ephesus_Izmir_Turkey.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Ephesus_Izmir_Turkey.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Ephesus_Izmir_Turkey.png) |
 
 1. **Geographical Location**: Near present-day Selçuk, İzmir Province, Turkey.
 2. **Construction Date**: Established in the 10th century BC, with significant Roman contributions from the 1st century BC.
@@ -241,7 +241,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Flatiron_Building_New_York_City_USA.png) | ![](./place_image/test/Flatiron_Building_New_York_City_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Flatiron_Building_New_York_City_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Flatiron_Building_New_York_City_USA.png) |
 
 1. **Geographical Location**: Manhattan, New York City, at the intersection of Fifth Avenue, Broadway, and East 22nd Street.
 2. **Construction Date**: Completed in 1902.
@@ -254,7 +254,7 @@ Let's explore the world!
 
 | Map                                                            | Img                                                    |
 |:--------------------------------------------------------------:|:------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Gateway_Arch_St._Louis_USA.png) | ![](./place_image/test/Gateway_Arch_St._Louis_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Gateway_Arch_St._Louis_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Gateway_Arch_St._Louis_USA.png) |
 
 1. **Geographical Location**: St. Louis, Missouri, United States, on the west bank of the Mississippi River.
 2. **Construction Date**: Constructed from 1963 to 1965.
@@ -267,7 +267,7 @@ Let's explore the world!
 
 | Map                                                                                 | Img                                                                         |
 |:-----------------------------------------------------------------------------------:|:---------------------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Giant's_Causeway_County_Antrim_Northern_Ireland.png) | ![](./place_image/test/Giant's_Causeway_County_Antrim_Northern_Ireland.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Giant's_Causeway_County_Antrim_Northern_Ireland.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Giant's_Causeway_County_Antrim_Northern_Ireland.png) |
 
 1. **Geographical Location**: County Antrim, Northern Ireland.
 2. **Construction Date**: Formed 50 to 60 million years ago during volcanic activity.
@@ -280,7 +280,7 @@ Let's explore the world!
 
 | Map                                                                      | Img                                                              |
 |:------------------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Golden_Gate_Bridge_San_Francisco_USA.png) | ![](./place_image/test/Golden_Gate_Bridge_San_Francisco_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Golden_Gate_Bridge_San_Francisco_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Golden_Gate_Bridge_San_Francisco_USA.png) |
 
 1. **Geographical Location**: Spans the Golden Gate, the strait connecting San Francisco Bay to the Pacific Ocean.
 2. **Construction Date**: Constructed from 1933 to 1937.
@@ -293,7 +293,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Guggenheim_Museum_New_York_City_USA.png) | ![](./place_image/test/Guggenheim_Museum_New_York_City_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Guggenheim_Museum_New_York_City_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Guggenheim_Museum_New_York_City_USA.png) |
 
 1. **Geographical Location**: Originally in New York, with subsequent museums in Bilbao, Venice, and Abu Dhabi.
 2. **Construction Date**: The original New York museum opened in 1959.
@@ -306,7 +306,7 @@ Let's explore the world!
 
 | Map                                                              | Img                                                      |
 |:----------------------------------------------------------------:|:--------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Hagia_Sophia_Istanbul_Turkey.png) | ![](./place_image/test/Hagia_Sophia_Istanbul_Turkey.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Hagia_Sophia_Istanbul_Turkey.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Hagia_Sophia_Istanbul_Turkey.png) |
 
 1. **Geographical Location**: Istanbul, Turkey.
 2. **Construction Date**: Completed in 537 AD under the reign of Byzantine Emperor Justinian I.
@@ -319,7 +319,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Helsinki_Cathedral_Helsinki_Finland.png) | ![](./place_image/test/Helsinki_Cathedral_Helsinki_Finland.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Helsinki_Cathedral_Helsinki_Finland.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Helsinki_Cathedral_Helsinki_Finland.png) |
 
 1. **Geographical Location**: Helsinki, Finland.
 2. **Construction Date**: Built from 1830 to 1852 as a tribute to Tsar Nicholas I of Russia, who was the Grand Duke of Finland.
@@ -332,7 +332,7 @@ Let's explore the world!
 
 | Map                                                       | Img                                               |
 |:---------------------------------------------------------:|:-------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Kremlin_Moscow_Russia.png) | ![](./place_image/test/Kremlin_Moscow_Russia.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Kremlin_Moscow_Russia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Kremlin_Moscow_Russia.png) |
 
 1. **Geographical Location**: Moscow, Russia, overlooking the Moskva River.
 2. **Construction Date**: The current citadel was founded by Ivan III in the late 15th century.
@@ -345,13 +345,13 @@ Let's explore the world!
 
 | Map                                                                 | Img                                                         |
 |:-------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Le_Centre_Pompidou_Paris_France.png) | ![](./place_image/test/Le_Centre_Pompidou_Paris_France.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Le_Centre_Pompidou_Paris_France.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Le_Centre_Pompidou_Paris_France.png) |
 
 ### 27. Leaning Tower of Pisa
 
 | Map                                                                  | Img                                                          |
 |:--------------------------------------------------------------------:|:------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Leaning_Tower_of_Pisa_Pisa_Italy.png) | ![](./place_image/test/Leaning_Tower_of_Pisa_Pisa_Italy.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Leaning_Tower_of_Pisa_Pisa_Italy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Leaning_Tower_of_Pisa_Pisa_Italy.png) |
 
 1. **Geographical Location**: Pisa, Italy, in the Piazza dei Miracoli.
 2. **Construction Date**: Construction began in 1173 and was completed in the 14th century.
@@ -364,7 +364,7 @@ Let's explore the world!
 
 | Map                                                                  | Img                                                          |
 |:--------------------------------------------------------------------:|:------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Lincoln_Center_New_York_City_USA.png) | ![](./place_image/test/Lincoln_Center_New_York_City_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Lincoln_Center_New_York_City_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Lincoln_Center_New_York_City_USA.png) |
 
 1. **Geographical Location**: Manhattan, New York City, USA.
 2. **Construction Date**: Developed during Robert Moses' urban renewal campaign of the 1950s and 60s.
@@ -377,7 +377,7 @@ Let's explore the world!
 
 | Map                                                   | Img                                           |
 |:-----------------------------------------------------:|:---------------------------------------------:|
-| ![Alt text](./wiki_images/test/Machu_Picchu_Peru.png) | ![](./place_image/test/Machu_Picchu_Peru.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Machu_Picchu_Peru.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Machu_Picchu_Peru.png) |
 
 1. **Geographical Location**: Cusco Region, Peru, above the Sacred Valley.
 2. **Construction Date**: Built in the 15th century, during the reign of Inca emperor Pachacuti.
@@ -390,7 +390,7 @@ Let's explore the world!
 
 | Map                                                             | Img                                                     |
 |:---------------------------------------------------------------:|:-------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Milan_Cathedral_Milan_Italy.png) | ![](./place_image/test/Milan_Cathedral_Milan_Italy.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Milan_Cathedral_Milan_Italy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Milan_Cathedral_Milan_Italy.png) |
 
 1. **Geographical Location**: Milan, Italy.
 2. **Construction Date**: Construction began in 1386 and continued sporadically until 1965.
@@ -403,7 +403,7 @@ Let's explore the world!
 
 | Map                                               | Img                                       |
 |:-------------------------------------------------:|:-----------------------------------------:|
-| ![Alt text](./wiki_images/test/Millau_Bridge.png) | ![](./place_image/test/Millau_Bridge.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Millau_Bridge.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Millau_Bridge.png) |
 
 1. **Geographical Location**: Near Millau in southern France, crossing the River Tarn.
 2. **Construction Date**: Opened in 2004.
@@ -416,7 +416,7 @@ Let's explore the world!
 
 | Map                                                                   | Img                                                           |
 |:---------------------------------------------------------------------:|:-------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Mont_Saint-Michel_Normandy_France.png) | ![](./place_image/test/Mont_Saint-Michel_Normandy_France.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Mont_Saint-Michel_Normandy_France.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Mont_Saint-Michel_Normandy_France.png) |
 
 1. **Geographical Location**: Normandy, France.
 2. **Construction Date**: The abbey was founded in the 10th century; the current Gothic structure primarily dates from the 13th century.
@@ -429,7 +429,7 @@ Let's explore the world!
 
 | Map                                                           | Img                                                   |
 |:-------------------------------------------------------------:|:-----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Musee_dOrsay_Paris_France.png) | ![](./place_image/test/Musee_dOrsay_Paris_France.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Musee_dOrsay_Paris_France.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Musee_dOrsay_Paris_France.png) |
 
 1. **Geographical Location**: Paris, France, along the banks of the Seine River.
 2. **Construction Date**: The original station was built in 1900 and converted to a museum which opened in 1986.
@@ -442,7 +442,7 @@ Let's explore the world!
 
 | Map                                                              | Img                                                      |
 |:----------------------------------------------------------------:|:--------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Museum_Island_Berlin_Germany.png) | ![](./place_image/test/Museum_Island_Berlin_Germany.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Museum_Island_Berlin_Germany.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Museum_Island_Berlin_Germany.png) |
 
 1. **Geographical Location**: Paris, France, on the Right Bank of the Seine.
 2. **Construction Date**: Originally a fortress built in the late 12th century under Philip II; the present structure has evolved since then with significant additions and alterations over the centuries.
@@ -455,7 +455,7 @@ Let's explore the world!
 
 | Map                                                                       | Img                                                               |
 |:-------------------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Neuschwanstein_Castle_Bavaria_Germany.png) | ![](./place_image/test/Neuschwanstein_Castle_Bavaria_Germany.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Neuschwanstein_Castle_Bavaria_Germany.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Neuschwanstein_Castle_Bavaria_Germany.png) |
 
 1. **Geographical Location**: Bavaria, Germany, near Füssen.
 2. **Construction Date**: Construction started in 1869 but the castle was never fully completed.
@@ -468,7 +468,7 @@ Let's explore the world!
 
 | Map                                                          | Img                                                  |
 |:------------------------------------------------------------:|:----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Osaka_Castle_Osaka_Japan.png) | ![](./place_image/test/Osaka_Castle_Osaka_Japan.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Osaka_Castle_Osaka_Japan.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Osaka_Castle_Osaka_Japan.png) |
 
 1. **Geographical Location**: Osaka, Japan.
 2. **Construction Date**: Originally built in 1583 by Toyotomi Hideyoshi.
@@ -481,7 +481,7 @@ Let's explore the world!
 
 | Map                                                             | Img                                                     |
 |:---------------------------------------------------------------:|:-------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Oxford_University_Oxford_UK.png) | ![](./place_image/test/Oxford_University_Oxford_UK.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Oxford_University_Oxford_UK.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Oxford_University_Oxford_UK.png) |
 
 1. **Geographical Location**: Oxford, England.
 2. **Construction Date**: Teaching existed at Oxford in some form in 1096 and developed rapidly from 1167 when Henry II banned English students from attending the University of Paris.
@@ -494,7 +494,7 @@ Let's explore the world!
 
 | Map                                                                 | Img                                                         |
 |:-------------------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Sagrada_Familia_Barcelona_Spain.png) | ![](./place_image/test/Sagrada_Familia_Barcelona_Spain.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sagrada_Familia_Barcelona_Spain.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sagrada_Familia_Barcelona_Spain.png) |
 
 1. **Geographical Location**: Barcelona, Catalonia, Spain.
 2. **Construction Date**: Construction began in 1882 and is ongoing, with completion targeted for 2026.
@@ -507,7 +507,7 @@ Let's explore the world!
 
 | Map                                                          | Img                                                  |
 |:------------------------------------------------------------:|:----------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Space_Needle_Seattle_USA.png) | ![](./place_image/test/Space_Needle_Seattle_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Space_Needle_Seattle_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Space_Needle_Seattle_USA.png) |
 
 1. **Geographical Location**: Seattle, Washington, USA.
 2. **Construction Date**: Built for the 1962 World’s Fair.
@@ -520,7 +520,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Statue_of_Liberty_New_York_City_USA.png) | ![](./place_image/test/Statue_of_Liberty_New_York_City_USA.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Statue_of_Liberty_New_York_City_USA.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Statue_of_Liberty_New_York_City_USA.png) |
 
 1. **Geographical Location**: Liberty Island, New York Harbor, USA.
 2. **Construction Date**: Dedicated on October 28, 1886.
@@ -533,7 +533,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Sultan_Ahmed_Mosque_Istanbul_Turkey.png) | ![](./place_image/test/Sultan_Ahmed_Mosque_Istanbul_Turkey.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sultan_Ahmed_Mosque_Istanbul_Turkey.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sultan_Ahmed_Mosque_Istanbul_Turkey.png) |
 
 1. **Geographical Location**: Istanbul, Turkey.
 2. **Construction Date**: Built between 1609 and 1617 during the rule of Ahmed I.
@@ -546,7 +546,7 @@ Let's explore the world!
 
 | Map                                                                        | Img                                                                |
 |:--------------------------------------------------------------------------:|:------------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Sydney_Harbour_Bridge_Sydney_Australia.png) | ![](./place_image/test/Sydney_Harbour_Bridge_Sydney_Australia.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sydney_Harbour_Bridge_Sydney_Australia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sydney_Harbour_Bridge_Sydney_Australia.png) |
 
 1. **Geographical Location**: Sydney, New South Wales, Australia, spanning Sydney Harbour.
 2. **Construction Date**: Constructed from 1923 to 1932.
@@ -559,7 +559,7 @@ Let's explore the world!
 
 | Map                                                                     | Img                                                             |
 |:-----------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/Sydney_Opera_House_Sydney_Australia.png) | ![](./place_image/test/Sydney_Opera_House_Sydney_Australia.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sydney_Opera_House_Sydney_Australia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Sydney_Opera_House_Sydney_Australia.png) |
 
 1. **Geographical Location**: Sydney, New South Wales, Australia, on Bennelong Point in Sydney Harbour.
 2. **Construction Date**: Designed by Jørn Utzon and opened in 1973.
@@ -572,7 +572,7 @@ Let's explore the world!
 
 | Map                                                             | Img                                                     |
 |:---------------------------------------------------------------:|:-------------------------------------------------------:|
-| ![Alt text](./wiki_images/test/The_Great_Sphinx_Giza_Egypt.png) | ![](./place_image/test/The_Great_Sphinx_Giza_Egypt.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/The_Great_Sphinx_Giza_Egypt.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/The_Great_Sphinx_Giza_Egypt.png) |
 
 1. **Geographical Location**: Giza, Egypt.
 2. **Construction Date**: Believed to have been built by Pharaoh Khafre around 2558–2532 BC.
@@ -585,13 +585,13 @@ Let's explore the world!
 
 | Map                                                      | Img                                              |
 |:--------------------------------------------------------:|:------------------------------------------------:|
-| ![Alt text](./wiki_images/test/The_Pyramids_of_Giza.png) | ![](./place_image/test/The_Pyramids_of_Giza.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/The_Pyramids_of_Giza.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/The_Pyramids_of_Giza.png) |
 
 ### 47. Tian Tan Buddha
 
 | Map                                                 | Img                                         |
 |:---------------------------------------------------:|:-------------------------------------------:|
-| ![Alt text](./wiki_images/test/Tian_Tan_Buddha.png) | ![](./place_image/test/Tian_Tan_Buddha.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Tian_Tan_Buddha.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Tian_Tan_Buddha.png) |
 
 1. **Geographical Location**: Ngong Ping, Lantau Island, Hong Kong.
 2. **Construction Date**: Completed in 1993.
@@ -604,7 +604,7 @@ Let's explore the world!
 
 | Map                                              | Img                                      |
 |:------------------------------------------------:|:----------------------------------------:|
-| ![Alt text](./wiki_images/test/Tower_Bridge.png) | ![](./place_image/test/Tower_Bridge.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Tower_Bridge.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Tower_Bridge.png) |
 
 1. **Geographical Location**: London, England, spanning the River Thames near the Tower of London.
 2. **Construction Date**: Constructed from 1886 to 1894.
@@ -617,7 +617,7 @@ Let's explore the world!
 
 | Map                                                     | Img                                             |
 |:-------------------------------------------------------:|:-----------------------------------------------:|
-| ![Alt text](./wiki_images/test/Washington_Monument.png) | ![](./place_image/test/Washington_Monument.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Washington_Monument.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/Washington_Monument.png) |
 
 1. **Geographical Location**: National Mall in Washington, D.C., USA.
 2. **Construction Date**: Construction began in 1848 and was completed in 1884.
@@ -630,7 +630,7 @@ Let's explore the world!
 
 | Map                                             | Img                                     |
 |:-----------------------------------------------:|:---------------------------------------:|
-| ![Alt text](./wiki_images/test/White_House.png) | ![](./place_image/test/White_House.png) |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/White_House.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/place_image/test/White_House.png) |
 
 1. **Geographical Location**: 1600 Pennsylvania Avenue NW, Washington, D.C., USA.
 2. **Construction Date**: Built between 1792 and 1800; has been the residence of every U.S. president since John Adams.
