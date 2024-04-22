@@ -14,10 +14,9 @@ tags: [coffee, travel]
 # 50 Places to Visit in Canada
 
 ### Algonquin Provincial Park, Ontario
-
-| Map                                                                          | Img                                                                          |
-|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/algonquin_provincial_park-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/algonquin provincial park-ontario.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/algonquin_provincial_park-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/algonquin_provincial_park-ontario.jpg) |
 
 1. **Geographical Location**: Ontario, Canada; between Georgian Bay and the Ottawa River.
 2. **Establishment Date**: Established in 1893.
@@ -29,10 +28,9 @@ tags: [coffee, travel]
 5. **Summary**: Algonquin Provincial Park is not only the oldest provincial park in Canada but also one of the most popular, due to its extensive size, variety of lakes and rivers, and its location near major urban centers like Toronto and Ottawa.
 
 ### Auyuittuq National Park, Nunavut
-
-| Map                                                                        | Img                                                                        |
-|:--------------------------------------------------------------------------:|:--------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/auyuittuq_national_park-nunavut.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/auyuittuq national park-nunavut.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/auyuittuq_national_park-nunavut.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/auyuittuq_national_park-nunavut.jpg) |
 
 1. **Geographical Location**: Baffin Island's Cumberland Peninsula, Qikiqtaaluk Region, Nunavut, Canada.
 2. **Establishment Date**: Originally established in 1972 and became a full national park in 2000.
@@ -43,10 +41,9 @@ tags: [coffee, travel]
 5. **Summary**: Auyuittuq National Park offers a glimpse into the vast, unspoiled Arctic wilderness, embodying the extreme climate and challenging geography that define the northern parts of Canada.
 
 ### Baffin Island, Nunavut
-
-| Map                                                              | Img                                                              |
-|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/baffin_island-nunavut.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/baffin island-nunavut.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/baffin_island-nunavut.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/baffin_island-nunavut.jpg) |
 
 1. **Geographical Location**: Nunavut, Canada.
 2. **Notable Date**: Area settled as of the 2021 Canadian census.
@@ -57,10 +54,9 @@ tags: [coffee, travel]
 5. **Summary**: Baffin Island is a cornerstone of Canadian geography and culture, known for its expansive arctic tundra and as a central hub for the Inuit culture and community.
 
 ### Banff National Park, Alberta
-
-| Map                                                                    | Img                                                                    |
-|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/banff_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/banff national park-alberta.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/banff_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/banff_national_park-alberta.jpg) |
 
 1. **Geographical Location**: Alberta's Rocky Mountains, Canada.
 2. **Establishment Date**: Established in 1885 as Canada’s first national park.
@@ -71,9 +67,8 @@ tags: [coffee, travel]
 5. **Summary**: Banff National Park is renowned for its stunning landscape, diverse wildlife, and its status as a major global destination for natural beauty and outdoor activity.
 
 ### Calgary, Alberta
-
-| Map                                                        | Img                                                        |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/calgary-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/calgary-alberta.jpg) |
 
 1. **Geographical Location**: Alberta, Canada.
@@ -85,10 +80,9 @@ tags: [coffee, travel]
 5. **Summary**: Calgary is a vibrant city that combines a strong business environment with a rich cultural heritage and numerous recreational opportunities.
 
 ### Cape Breton Highlands National Park, Nova Scotia
-
-| Map                                                                                        | Img                                                                                        |
-|:------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/cape_breton_highlands_national_park-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/cape breton highlands national park-nova scotia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/cape_breton_highlands_national_park-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/cape_breton_highlands_national_park-nova_scotia.jpg) |
 
 1. **Geographical Location**: Northern Cape Breton Island, Nova Scotia, Canada.
 2. **Establishment Date**: First national park in the Atlantic provinces of Canada.
@@ -99,10 +93,9 @@ tags: [coffee, travel]
 5. **Summary**: Cape Breton Highlands National Park is celebrated for its dramatic coastal and mountain landscapes, which offer extensive trails for hiking and a variety of habitats that contribute significantly to the biodiversity of the region.
 
 ### Charlottetown, Prince Edward Island
-
-| Map                                                                           | Img                                                                           |
-|:-----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/charlottetown-prince_edward_island.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/charlottetown-prince edward island.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/charlottetown-prince_edward_island.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/charlottetown-prince_edward_island.jpg) |
 
 1. **Geographical Location**: Prince Edward Island, Canada.
 2. **Significant Date**: Incorporated as a city in 1855.
@@ -113,9 +106,8 @@ tags: [coffee, travel]
 5. **Summary**: Charlottetown is a historic city with a charming blend of old-world charm and modern convenience, making it a pivotal location in Canada’s development and heritage.
 
 ### Churchill, Manitoba
-
-| Map                                                           | Img                                                           |
-|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/churchill-manitoba.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/churchill-manitoba.jpg) |
 
 1. **Geographical Location**: Located on the west shore of Hudson Bay in Manitoba, Canada
@@ -129,10 +121,9 @@ tags: [coffee, travel]
 5. **Summary**: Churchill is a unique and remote town in Manitoba, known for its stunning natural beauty, diverse wildlife, and cultural attractions. It is often referred to as the "Polar Bear Capital of the World".
 
 ### Dawson City, Yukon
-
-| Map                                                          | Img                                                          |
-|:------------------------------------------------------------:|:------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/dawson_city-yukon.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/dawson city-yukon.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/dawson_city-yukon.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/dawson_city-yukon.jpg) |
 
 1. **Geographical Location**: Yukon, Canada.
 2. **Significant Date**: Linked with the Klondike Gold Rush (1896-1899).
@@ -143,10 +134,9 @@ tags: [coffee, travel]
 5. **Summary**: Dawson City captures the adventurous spirit of the north with its well-preserved heritage buildings and stories of the gold rush era, offering visitors a glimpse into the past.
 
 ### Dempster Highway
-
-| Map                                                     | Img                                                     |
-|:-------------------------------------------------------:|:-------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/dempster_hwy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/dempster hwy.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/dempster_hwy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/dempster_hwy.jpg) |
 
 1. **Geographical Location**: Connects the Klondike Highway in Yukon to Inuvik, Northwest Territories, Canada.
 2. **Significant Date**: Completed in November 2017 to Tuktoyaktuk, creating the first all-weather road to the Arctic Ocean.
@@ -157,9 +147,8 @@ tags: [coffee, travel]
 5. **Summary**: The Dempster Highway is not only a critical infrastructure project but also a route of stunning natural beauty, offering unprecedented access to the Arctic and showcasing the resilience and determination of Canada in connecting its remote regions.
 
 ### Drumheller, Alberta
-
-| Map                                                           | Img                                                           |
-|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/drumheller-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/drumheller-alberta.jpg) |
 
 1. **Geographical Location**: East-Central Alberta, Canada.
@@ -171,9 +160,8 @@ tags: [coffee, travel]
 5. **Summary**: Drumheller is renowned worldwide for its rich deposits of dinosaur bones, leading to its nickname "Dinosaur Valley." The city is a prime destination for scientists and tourists alike, drawn by its unique landscape and paleontological treasures.
 
 ### Edmonton, Alberta
-
-| Map                                                         | Img                                                         |
-|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/edmonton-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/edmonton-alberta.jpg) |
 
 1. **Geographical Location**: Capital city of Alberta, Canada, along the North Saskatchewan River.
@@ -185,10 +173,9 @@ tags: [coffee, travel]
 5. **Summary**: Edmonton is a dynamic city with a robust economy based on festivals, retail, and education. It plays a crucial role in the political landscape of Alberta and Canada, providing a home for key governmental and cultural institutions.
 
 ### Fogo Island, Newfoundland and Labrador
-
-| Map                                                                              | Img                                                                              |
-|:--------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/fogo_island-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/fogo island-newfoundland and labrador.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/fogo_island-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/fogo_island-newfoundland_and_labrador.jpg) |
 
 1. **Geographical Location**: Off the northeast coast of Newfoundland, Canada.
 2. **Purpose**: Fogo Island combines traditional and modern aspects of Newfoundland culture and economics.
@@ -198,10 +185,9 @@ tags: [coffee, travel]
   4. **Summary**: Fogo Island represents a unique blend of contemporary art and traditional Newfoundland culture, making it a compelling destination for cultural tourism and community-driven economic revival.
 
 ### Fundy National Park, New Brunswick
-
-| Map                                                                          | Img                                                                          |
-|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/fundy_national_park-new_brunswick.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/fundy national park-new brunswick.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/fundy_national_park-new_brunswick.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/fundy_national_park-new_brunswick.jpg) |
 
 1. **Geographical Location**: Located on the Bay of Fundy, near the village of Alma, New Brunswick, Canada.
 2. **Establishment Date**: Officially opened on July 29, 1950.
@@ -214,10 +200,9 @@ tags: [coffee, travel]
 Continuing from Fundy National Park, New Brunswick:
 
 ### Gaspé Peninsula, Quebec
-
-| Map                                                               | Img                                                               |
-|:-----------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/gaspe_peninsula-quebec.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/gaspe peninsula-quebec.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/gaspe_peninsula-quebec.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/gaspe_peninsula-quebec.jpg) |
 
 1. **Geographical Location**: Extends into the Gulf of St. Lawrence from Quebec, Canada.
 2. **Establishment Date**: Known since the time of European exploration for its distinct geography.
@@ -228,10 +213,9 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: The Gaspé Peninsula, with its stunning natural beauty and rich history, offers a unique blend of outdoor adventures and historical sites, including several national parks and the famous Percé Rock.
 
 ### Great Bear Rainforest, British Columbia
-
-| Map                                                                               | Img                                                                               |
-|:---------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/great_bear_rainforest-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/great bear rainforest-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/great_bear_rainforest-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/great_bear_rainforest-british_columbia.jpg) |
 
 1. **Geographical Location**: Pacific coast of British Columbia, Canada.
 2. **Establishment Date**: Legally established in February 2016.
@@ -242,10 +226,9 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: The Great Bear Rainforest is a globally recognized conservation area known for its vast biodiversity, including a significant population of grizzly bears, wolves, and cougars, alongside the unique Spirit bear.
 
 ### Gros Morne National Park, Newfoundland and Labrador
-
-| Map                                                                                           | Img                                                                                           |
-|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/gros_morne_national_park-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/gros morne national park-newfoundland and labrador.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/gros_morne_national_park-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/gros_morne_national_park-newfoundland_and_labrador.jpg) |
 
 1. **Geographical Location**: West coast of Newfoundland, Canada.
 2. **Establishment Date**: Became a national park on October 1, 2005.
@@ -256,10 +239,9 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: Gros Morne National Park is celebrated not only for its dramatic landscape and biodiversity but also for its geological importance, offering striking scenery and a wide range of outdoor activities.
 
 ### Haida Gwaii, British Columbia
-
-| Map                                                                     | Img                                                                     |
-|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/haida_gwaii-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/haida gwaii-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/haida_gwaii-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/haida_gwaii-british_columbia.jpg) |
 
 1. **Geographical Location**: An archipelago off the northern Pacific coast of Canada.
 2. **Establishment Date**: Known historically, renamed on June 3, 2010, to reflect the Haida heritage.
@@ -270,10 +252,9 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: Haida Gwaii, often called Canada's Galapagos, is a remote set of islands renowned for their ecological diversity and as the cultural heartland of the Haida Nation, reflecting a profound connection between the people and the land.
 
 ### Halifax, Nova Scotia
-
-| Map                                                            | Img                                                            |
-|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/halifax-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/halifax-nova scotia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/halifax-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/halifax-nova_scotia.jpg) |
 
 1. **Geographical Location**: Capital of Nova Scotia, Canada.
 2. **Establishment Date**: Founded in 1749.
@@ -284,9 +265,8 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: Halifax is a vibrant port city known for its maritime history, diverse culture, and as a key gateway to exploring Atlantic Canada, providing a dynamic mix of old-world charm and modern energy.
 
 ### Iqaluit, Nunavut
-
-| Map                                                        | Img                                                        |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/iqaluit-nunavut.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/iqaluit-nunavut.jpg) |
 
 1. **Geographical Location**: Capital of the Canadian territory of Nunavut, located on Baffin Island.
@@ -298,10 +278,9 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**: Iqaluit, formerly known as Frobisher Bay, is vital for its administrative role and its unique Arctic environment, providing essential services and a cultural gateway to eastern Arctic Canada.
 
 ### Jasper National Park, Alberta
-
-| Map                                                                     | Img                                                                     |
-|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/jasper_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/jasper national park-alberta.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/jasper_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/jasper_national_park-alberta.jpg) |
 
 1. **Geographical Location**: Alberta’s Rocky Mountains, Canada.
 
@@ -321,10 +300,9 @@ Continuing from Fundy National Park, New Brunswick:
 Continuing from Jasper National Park, Alberta:
 
 ### Kluane National Park and Reserve, Yukon
-
-| Map                                                                   | Img                                                                   |
-|:---------------------------------------------------------------------:|:---------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/kluane_national_park-yukon.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/kluane national park-yukon.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/kluane_national_park-yukon.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/kluane_national_park-yukon.jpg) |
 
 1. **Geographical Location**: Southwest corner of the Yukon, Canada.
 2. **Establishment Date**: Established as a park reserve in 1972, became a national park in 1993.
@@ -335,10 +313,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Kluane National Park and Reserve is recognized for its stunning rugged landscapes, significant glacial systems, and diverse fauna, including grizzly bears and Dall sheep. It is a key area for scientific research on glacial and ecological processes.
 
 ### L'Anse aux Meadows, Newfoundland and Labrador
-
-| Map                                                                                     | Img                                                                                     |
-|:---------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/l'anse_aux_meadows-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/l'anse aux meadows-newfoundland and labrador.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/l'anse_aux_meadows-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/l'anse_aux_meadows-newfoundland_and_labrador.jpg) |
 
 1. **Geographical Location**: Northern tip of Newfoundland, Canada.
 2. **Significant Date**: Archaeologically dated to around 1,000 years ago.
@@ -349,10 +326,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: L'Anse aux Meadows is pivotal in understanding pre-Columbian European exploration and settlement, offering a glimpse into Viking expeditions and their life in North America well before other European arrivals.
 
 ### Laurentian Mountains, Quebec
-
-| Map                                                             | Img                                                             |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/laurentian_mountains.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/laurentian mountains.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/laurentian_mountains.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/laurentian_mountains.jpg) |
 
 1. **Geographical Location**: Extending through Quebec, Canada.
 2. **Establishment Date**: Known and inhabited for thousands of years; significant development during the 1800s.
@@ -363,10 +339,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: The Laurentian Mountains are not just a natural barrier and climatic divide; they are a cultural and recreational heartland in Quebec, cherished for their beauty and the plethora of outdoor activities they offer.
 
 ### Lunenburg, Nova Scotia
-
-| Map                                                              | Img                                                              |
-|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/lunenburg-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/lunenburg-nova scotia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/lunenburg-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/lunenburg-nova_scotia.jpg) |
 
 1. **Geographical Location**: Located on the South Shore of Nova Scotia, Canada
 
@@ -379,9 +354,8 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Lunenburg is a historic town in Nova Scotia, known for its rich cultural heritage, stunning architecture, and maritime history. It is a popular tourist destination and a significant example of a British colonial settlement in North America.
 
 ### Montreal, Quebec
-
-| Map                                                        | Img                                                        |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/montreal-quebec.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/montreal-quebec.jpg) |
 
 1. **Geographical Location**: Province of Quebec, Canada.
@@ -393,10 +367,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Montreal is celebrated for its diverse and rich cultural landscape, blending its French colonial history with a modern, dynamic North American character. The city is a leader in cultural trends and innovation in various sectors.
 
 ### Nahanni National Park Reserve, Northwest Territories
-
-| Map                                                                                            | Img                                                                                            |
-|:----------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/nahanni_national_park_reserve-northwest_territories.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/nahanni national park reserve-northwest territories.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/nahanni_national_park_reserve-northwest_territories.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/nahanni_national_park_reserve-northwest_territories.jpg) |
 
 1. **Geographical Location**: Dehcho Region of the Northwest Territories, Canada.
 2. **Establishment Date**: Inscribed as a UNESCO World Heritage Site in 1978.
@@ -407,10 +380,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Nahanni National Park Reserve is famed for its mysterious and wild beauty, offering one of the most pristine natural adventures in Canada. It is an iconic wilderness area known for its spectacular landscapes and geothermal activity.
 
 ### Niagara Falls, Ontario
-
-| Map                                                              | Img                                                              |
-|:----------------------------------------------------------------:|:----------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/niagara_falls-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/niagara falls-ontario.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/niagara_falls-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/niagara_falls-ontario.jpg) |
 
 1. **Geographical Location**: Border of Ontario, Canada, and New York, USA.
 2. **Significant Date**: Long-standing as a major natural landmark.
@@ -421,9 +393,8 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Niagara Falls is not only a testament to natural beauty and power but also a pivotal industrial and cultural landmark, attracting millions of visitors worldwide and playing a critical role in the regional economy.
 
 ### Ottawa, Ontario
-
-| Map                                                       | Img                                                       |
-|:---------------------------------------------------------:|:---------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/ottawa-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/ottawa-ontario.jpg) |
 
 1. **Geographical Location**: Capital city of Canada, in southern Ontario.
@@ -442,10 +413,9 @@ Continuing from Jasper National Park, Alberta:
    a blend of French and English heritages.
 
 ### Prince Edward Island National Park, Prince Edward Island
-
-| Map                                                                                                | Img                                                                                                |
-|:--------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/prince_edward_island_national_park-prince_edward_island.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/prince edward island national park-prince edward island.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/prince_edward_island_national_park-prince_edward_island.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/prince_edward_island_national_park-prince_edward_island.jpg) |
 
 1. **Geographical Location**: North shore of Prince Edward Island, Canada.
 2. **Establishment Date**: Established in 1937.
@@ -456,10 +426,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Prince Edward Island National Park is a place of extraordinary natural beauty and cultural significance, offering a picturesque landscape that has inspired literature and attracted visitors seeking its serene beachfronts and unique ecosystems.
 
 ### Quebec City, Quebec
-
-| Map                                                           | Img                                                           |
-|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/quebec_city-quebec.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/quebec city-quebec.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/quebec_city-quebec.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/quebec_city-quebec.jpg) |
 
 1. **Geographical Location**: Capital of the province of Quebec, Canada.
 2. **Establishment Date**: Founded in 1608.
@@ -471,10 +440,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: Quebec City stands as a living museum of New France history, adorned with its fortifications and old-world European charm. It's a focal point of French Canadian culture, offering rich experiences from historical tours to vibrant festivals.
 
 ### Rideau Canal, Ontario
-
-| Map                                                             | Img                                                             |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/rideau_canal-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/rideau canal-ontario.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/rideau_canal-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/rideau_canal-ontario.jpg) |
 
 1. **Geographical Location**: Connects Ottawa, Ontario to Lake Ontario and the Saint Lawrence River at Kingston, Ontario.
 2. **Establishment Date**: Opened in 1832.
@@ -485,10 +453,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: The Rideau Canal is celebrated for its historic significance and recreational value, providing a scenic waterway for boating in the summer and skating in the winter, connecting multiple communities along its path.
 
 ### Royal Tyrrell Museum of Palaeontology, Alberta
-
-| Map                                                                     | Img                                                                     |
-|:-----------------------------------------------------------------------:|:-----------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/royal_tyrrell_museum-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/royal tyrrell museum-alberta.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/royal_tyrrell_museum-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/royal_tyrrell_museum-alberta.jpg) |
 
 1. **Geographical Location**: Drumheller, Alberta, Canada.
 2. **Establishment Date**: Opened in 1985.
@@ -499,10 +466,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: The Royal Tyrrell Museum is a leading center for paleontological research and education, featuring dynamic displays of dinosaurs and fossil collections that attract scientists and tourists from around the globe.
 
 ### St. John’s, Newfoundland and Labrador
-
-| Map                                                                             | Img                                                                             |
-|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/st._john's-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/st. john's-newfoundland and labrador.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/st._john's-newfoundland_and_labrador.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/st._john's-newfoundland_and_labrador.jpg) |
 
 1. **Geographical Location**: Easternmost city in North America, Newfoundland and Labrador, Canada.
 2. **Establishment Date**: Legally became a city in 1921.
@@ -513,10 +479,9 @@ Continuing from Jasper National Park, Alberta:
 5. **Summary**: St. John's is characterized by its bright cityscape, historic sites like Signal Hill, its role in maritime history, and as a gateway to exploring the rugged beauty of Newfoundland.
 
 ### The Arctic Circle
-
-| Map                                                          | Img                                                          |
-|:------------------------------------------------------------:|:------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_arctic_circle.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the arctic circle.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_arctic_circle.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_arctic_circle.jpg) |
 
 1. **Geographical Location**: Encircles the globe at approximately 66°33′ North latitude.
 2. **Purpose**: Defines the boundary of the "Land of the Midnight Sun," where the sun is visible at midnight near the summer solstice and does not rise near the winter solstice.
@@ -525,10 +490,9 @@ Continuing from Jasper National Park, Alberta:
 4. **Summary**: The Arctic Circle is not only a geographic boundary but also a climatic frontier, hosting unique ecosystems and cultures adapted to extreme conditions and offering unique phenomena like the Aurora Borealis.
 
 ### The Bay of Fundy, Nova Scotia/New Brunswick
-
-| Map                                                         | Img                                                         |
-|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_bay_of_fundy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the bay of fundy.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_bay_of_fundy.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_bay_of_fundy.jpg) |
 
 1. **Geographical Location**: Between Nova Scotia and New Brunswick, Canada.
 2. **Purpose**: Known for having the highest tidal range in the world.
@@ -538,10 +502,9 @@ Continuing from Jasper National Park, Alberta:
 4. **Summary**: The Bay of Fundy is renowned for its spectacular tides, unique coastal rock formations, and its ecological diversity, making it a key site for both scientific research and tourism.
 
 ### The Bruce Peninsula, Ontario
-
-| Map                                                                    | Img                                                                    |
-|:----------------------------------------------------------------------:|:----------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_bruce_peninsula-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the bruce peninsula-ontario.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_bruce_peninsula-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_bruce_peninsula-ontario.jpg) |
 
 1. **Geographical Location**: Ontario, Canada, between Georgian Bay and the main basin of Lake Huron.
 2. **Purpose**: Popular for outdoor recreation and contains part of the Niagara Escarpment.
@@ -551,10 +514,9 @@ Continuing from Jasper National Park, Alberta:
 4. **Summary**: The Bruce Peninsula is celebrated for its rugged landscape and scenic beauty, offering numerous trails, diverse flora and fauna, and clear waters ideal for diving.
 
 ### The Canadian Rockies, Alberta/British Columbia
-
-| Map                                                             | Img                                                             |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_canadian_rockies.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the canadian rockies.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_canadian_rockies.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_canadian_rockies.jpg) |
 
 1. **Geographical Location**: Stretch across British Columbia and Alberta, Canada.
 2. **Purpose**: To preserve the natural landscape and provide recreational activities.
@@ -566,10 +528,9 @@ Continuing from Jasper National Park, Alberta:
 Continuing from The Canadian Rockies:
 
 ### The Muskoka Lakes, Ontario
-
-| Map                                                                  | Img                                                                  |
-|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_muskoka_lakes-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the muskoka lakes-ontario.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_muskoka_lakes-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_muskoka_lakes-ontario.jpg) |
 
 1. **Geographical Location**: Central Ontario, Canada.
 2. **Purpose**: Known for being a major summer cottage destination for residents of Ontario.
@@ -579,10 +540,9 @@ Continuing from The Canadian Rockies:
 4. **Summary**: The Muskoka Lakes region, often referred to simply as Muskoka, is celebrated for its stunning natural beauty and as a haven for vacationers seeking relaxation and recreational activities in a picturesque setting.
 
 ### The Okanagan, British Columbia
-
-| Map                                                                      | Img                                                                      |
-|:------------------------------------------------------------------------:|:------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_okanagan-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the okanagan-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_okanagan-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_okanagan-british_columbia.jpg) |
 
 1. **Geographical Location**: Southern British Columbia, Canada.
 2. **Purpose**: Famous for its wineries and fruit orchards, making it a key part of Canada’s wine industry.
@@ -592,10 +552,9 @@ Continuing from The Canadian Rockies:
 4. **Summary**: The Okanagan is a vibrant agricultural and recreational hub known for its dry, sunny climate, scenic landscapes, and as a prolific wine-producing region, attracting both tourists and connoisseurs alike.
 
 ### The Yukon River
-
-| Map                                                        | Img                                                        |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_yukon_river.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the yukon river.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_yukon_river.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_yukon_river.jpg) |
 
 1. **Geographical Location**: Flows from British Columbia, through the Yukon Territory and Alaska, USA.
 2. **Purpose**: Historically significant as a transportation route during the Klondike Gold Rush.
@@ -605,10 +564,9 @@ Continuing from The Canadian Rockies:
 4. **Summary**: The Yukon River is not only a geographical landmark but also a cultural icon, reflecting the historical human endeavors in the region and serving as a critical natural habitat for various species.
 
 ### Thousand Islands National Park
-
-| Map                                                                       | Img                                                                       |
-|:-------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/thousand_islands_national_park.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/thousand islands national park.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/thousand_islands_national_park.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/thousand_islands_national_park.jpg) |
 
 1. **Geographical Location**: Saint Lawrence River, along the border of Ontario, Canada, and New York, USA.
 2. **Establishment Date**: Established in 1904 as Canada’s first national park east of the Rockies.
@@ -619,10 +577,9 @@ Continuing from The Canadian Rockies:
 5. **Summary**: Thousand Islands National Park is a key conservation area, offering a mosaic of unique ecosystems and historic sites, alongside popular recreational activities like boating and fishing in a scenic river setting.
 
 ### Tofino, British Columbia
-
-| Map                                                                | Img                                                                |
-|:------------------------------------------------------------------:|:------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/tofino-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/tofino-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/tofino-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/tofino-british_columbia.jpg) |
 
 1. **Geographical Location**: West coast of Vancouver Island, British Columbia, Canada.
 2. **Purpose**: Popular for surfing, nature walks, and storm watching.
@@ -632,9 +589,8 @@ Continuing from The Canadian Rockies:
 4. **Summary**: Tofino is renowned for its rugged coastline and natural beauty, attracting outdoor enthusiasts with its extensive opportunities for surfing, hiking, and cultural experiences with the local First Nations communities.
 
 ### Toronto, Ontario
-
-| Map                                                        | Img                                                        |
-|:----------------------------------------------------------:|:----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/toronto-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/toronto-ontario.jpg) |
 
 1. **Geographical Location**: Southeastern Ontario, Canada.
@@ -646,10 +602,9 @@ Continuing from The Canadian Rockies:
 5. **Summary**: Toronto is a dynamic, multicultural metropolis known for its high standard of living, vibrant arts scene, and as a global center of business, finance, and culture.
 
 ### Vancouver, British Columbia
-
-| Map                                                                   | Img                                                                   |
-|:---------------------------------------------------------------------:|:---------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/vancouver-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/vancouver-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/vancouver-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/vancouver-british_columbia.jpg) |
 
 1. **Geographical Location**: Lower Mainland region of British Columbia, Canada.
 2. **Establishment Date**: Incorporated in 1886.
@@ -660,10 +615,9 @@ Continuing from The Canadian Rockies:
 5. **Summary**: Vancouver stands out for its scenic views and mild climate, making it one of the most desirable living locations in Canada, celebrated for its cultural diversity and outdoor lifestyle.
 
 ### Victoria, British Columbia
-
-| Map                                                                  | Img                                                                  |
-|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/victoria-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/victoria-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/victoria-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/victoria-british_columbia.jpg) |
 
 1. **Geographical Location**: Southern tip of Vancouver Island, British Columbia, Canada.
 2. **Establishment Date**: Incorporated as a city in 1862.
@@ -674,10 +628,9 @@ Continuing from The Canadian Rockies:
   5. **Summary**: Victoria is a picturesque city with a relaxed pace and a rich colonial history. It's known for its charming marinas, heritage architecture, and as a pioneering city in eco-tourism and green policy initiatives.
 
 ### Waterton Lakes National Park, Alberta
-
-| Map                                                                             | Img                                                                             |
-|:-------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/waterton_lakes_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/waterton lakes national park-alberta.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/waterton_lakes_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/waterton_lakes_national_park-alberta.jpg) |
 
 1. **Geographical Location**: Southwest corner of Alberta, Canada, bordering Montana’s Glacier National Park.
 2. **Establishment Date**: Established in 1895.
@@ -688,10 +641,9 @@ Continuing from The Canadian Rockies:
 5. **Summary**: Waterton Lakes National Park is not only a place of profound natural beauty but also a monument to peace and cooperation between nations, offering visitors breathtaking landscapes and a wide variety of outdoor recreational activities.
 
 ### Whistler, British Columbia
-
-| Map                                                                  | Img                                                                  |
-|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/whistler-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/whistler-british columbia.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/whistler-british_columbia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/whistler-british_columbia.jpg) |
 
 1. **Geographical Location**: In the Southern Pacific Ranges of the Coast Mountains in British Columbia, Canada.
 2. **Purpose**: Known for being one of the largest ski resorts in North America.
@@ -701,9 +653,8 @@ Continuing from The Canadian Rockies:
 4. **Summary**: Whistler is a world-renowned ski destination and a vibrant village that offers various recreational and cultural activities, making it an ultimate resort town for all seasons.
 
 ### Whitehorse, Yukon
-
-| Map                                                         | Img                                                         |
-|:-----------------------------------------------------------:|:-----------------------------------------------------------:|
+| Map           | Img |
+|:-------------:|:---:|
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/whitehorse-yukon.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/whitehorse-yukon.jpg) |
 
 1. **Geographical Location**: Along the Alaska Highway, as the capital and largest city of the Yukon, Canada.
@@ -714,10 +665,9 @@ Continuing from The Canadian Rockies:
 4. **Summary**: Whitehorse is a gateway to the Yukon’s wilderness, providing a blend of cultural heritage and nature experiences, renowned for its friendly community and the stunning beauty of the surrounding landscapes.
 
 ### Yellowknife, Northwest Territories
-
-| Map                                                                          | Img                                                                          |
-|:----------------------------------------------------------------------------:|:----------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/yellowknife-northwest_territories.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/yellowknife-northwest territories.jpg) |
+| Map           | Img |
+|:-------------:|:---:|
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/yellowknife-northwest_territories.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/yellowknife-northwest_territories.jpg) |
 
 1. **Geographical Location**: On the northern shore of Great Slave Lake, capital of the Northwest Territories, Canada.
 2. **Establishment Date**: Became the capital in 1967.
