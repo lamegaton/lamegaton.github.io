@@ -11,7 +11,7 @@ tags: [coffee, travel]
 ---
 
 
-# 50 Places to Visit in Canada
+I learned many new thing from this list, especially the Kermode bear.
 
 ### Algonquin Provincial Park, Ontario
 
@@ -119,13 +119,9 @@ tags: [coffee, travel]
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/churchill-manitoba.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/churchill-manitoba.jpg) |
 
 1. **Geographical Location**: Located on the west shore of Hudson Bay in Manitoba, Canada
-
 2. **Established**: 1717 (as a Hudson's Bay Company trading post)
-
 3. **Purpose**: Founded as a fur trading post and later grew into a town
-
 4. **Special Features**: Known for its polar bear sightings, beluga whale watching, and aurora borealis displays; also a significant cultural and historical site for the Indigenous Cree people
-
 5. **Summary**: Churchill is a unique and remote town in Manitoba, known for its stunning natural beauty, diverse wildlife, and cultural attractions. It is often referred to as the "Polar Bear Capital of the World".
 
 ### Dawson City, Yukon
@@ -304,18 +300,12 @@ Continuing from Fundy National Park, New Brunswick:
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/jasper_national_park-alberta.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/jasper_national_park-alberta.jpg) |
 
 1. **Geographical Location**: Alberta’s Rocky Mountains, Canada.
-
 2. **Establishment Date**: Established as a national park in 1930.
-
 3. **Purpose**: To preserve the area's natural beauty and biodiversity.
-
 4. **Special Features**:
-   
    - Contains part of the Columbia Icefield.
    - Noted for its extensive network of trails, diverse wildlife, and hot springs.
-
 5. **Summary**:
-   
    Jasper National Park is a prime example of Alberta’s natural wealth, offering stunning alpine landscapes and a variety of wildlife, making it a top destination for nature lovers and adventure seekers alike.
 
 Continuing from Jasper National Park, Alberta:
@@ -369,13 +359,9 @@ Continuing from Jasper National Park, Alberta:
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/lunenburg-nova_scotia.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/lunenburg-nova_scotia.jpg) |
 
 1. **Geographical Location**: Located on the South Shore of Nova Scotia, Canada
-
 2. **Established**: 1753
-
 3. **Purpose**: Founded as a British colonial settlement for Protestant settlers from Germany, Switzerland, and France
-
 4. **Special Features**: Known for its well-preserved 18th-century architecture, UNESCO World Heritage Site, historic shipbuilding industry, and traditional marine culture
-
 5. **Summary**: Lunenburg is a historic town in Nova Scotia, known for its rich cultural heritage, stunning architecture, and maritime history. It is a popular tourist destination and a significant example of a British colonial settlement in North America.
 
 ### Montreal, Quebec
@@ -427,19 +413,12 @@ Continuing from Jasper National Park, Alberta:
 | ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/ottawa-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/ottawa-ontario.jpg) |
 
 1. **Geographical Location**: Capital city of Canada, in southern Ontario.
-
 2. **Establishment Date**: Founded in 1826; designated as the capital in 1857.
-
 3. **Purpose**: To serve as the administrative center of Canada.
-
 4. **Special Features**:
-   
    - Home to Parliament Hill, numerous national museums, and cultural institutions.
    - Hosts several major international festivals and events.
-
-5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing
-   
-   a blend of French and English heritages.
+5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing a blend of French and English heritages.
 
 ### Prince Edward Island National Park, Prince Edward Island
 
