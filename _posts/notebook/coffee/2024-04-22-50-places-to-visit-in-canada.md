@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "50 Places to Visit in Canada"
-published: no
+published: yes
 categories: coffee
 comments: false
 author: "Son Pham"
