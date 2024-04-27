@@ -52,27 +52,27 @@ Different mountains:
 - Fleming
 - Sigurd
 
-Videos about Nunavut:
-https://www.youtube.com/watch?v=CHZI9Pr2B8E
+Videos about Nunavut:  
+https://www.youtube.com/watch?v=CHZI9Pr2B8E  
 The Arctic | Why Some Love Living There
 - cost for housing and food are lower than other provinces
 
-https://www.youtube.com/watch?v=1L7EI0vKVuU
+https://www.youtube.com/watch?v=1L7EI0vKVuU  
 How An Igloo Keeps You Warm
 - convection, conduction and radiation
 - a person will radiate heat. That heat circulates int he igloo. Which is also call convection. Then the heat will lost by conduction.
 - secret of insulation is the texture (check the difference between otter and human)
 - snow house has different level, high and low. High is where the heat flow to. So, human will stay there.
 - 
-https://www.youtube.com/watch?v=ky57HCQPSNk
+https://www.youtube.com/watch?v=ky57HCQPSNk  
 Building My First Igloo | A Boy Among Polar Bears | BBC Earth
 - get the best snow from one single storm
 - build in 30 minutes to avoid storm.
 
-https://www.youtube.com/watch?v=BWKfJQpZtaM
+https://www.youtube.com/watch?v=BWKfJQpZtaM  
 Tuktu- 4- The Snow Palace (How to build a REAL Inuit igloo)
 
-https://www.youtube.com/watch?v=K3pd-wxNEKQ
+https://www.youtube.com/watch?v=K3pd-wxNEKQ  
 How to Build an Igloo
 - igloo means snow house "The term igloo, or iglu, from Eskimo igdlu (“house”)"
 - the depth is one block
