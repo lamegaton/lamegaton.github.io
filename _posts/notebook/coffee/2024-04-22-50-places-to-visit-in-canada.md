@@ -329,7 +329,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: The Great Bear Rainforest is a globally recognized conservation area known for its vast biodiversity, including a significant population of grizzly bears, wolves, and cougars, alongside the unique Spirit bear.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Gros Morne National Park, Newfoundland and Labrador
 
@@ -346,7 +346,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Gros Morne National Park is celebrated not only for its dramatic landscape and biodiversity but also for its geological importance, offering striking scenery and a wide range of outdoor activities.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Haida Gwaii, British Columbia
 
@@ -363,7 +363,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Haida Gwaii, often called Canada's Galapagos, is a remote set of islands renowned for their ecological diversity and as the cultural heartland of the Haida Nation, reflecting a profound connection between the people and the land.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Halifax, Nova Scotia
 
@@ -394,7 +394,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Iqaluit, formerly known as Frobisher Bay, is vital for its administrative role and its unique Arctic environment, providing essential services and a cultural gateway to eastern Arctic Canada.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Jasper National Park, Alberta
 
@@ -412,7 +412,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
    Jasper National Park is a prime example of Alberta’s natural wealth, offering stunning alpine landscapes and a variety of wildlife, making it a top destination for nature lovers and adventure seekers alike.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Kluane National Park and Reserve, Yukon
 
@@ -429,7 +429,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Kluane National Park and Reserve is recognized for its stunning rugged landscapes, significant glacial systems, and diverse fauna, including grizzly bears and Dall sheep. It is a key area for scientific research on glacial and ecological processes.
 
 **Note from son:**
-- 
+- placeholder
 
 ### L'Anse aux Meadows, Newfoundland and Labrador
 
@@ -446,7 +446,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: L'Anse aux Meadows is pivotal in understanding pre-Columbian European exploration and settlement, offering a glimpse into Viking expeditions and their life in North America well before other European arrivals.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Laurentian Mountains, Quebec
 
@@ -463,7 +463,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: The Laurentian Mountains are not just a natural barrier and climatic divide; they are a cultural and recreational heartland in Quebec, cherished for their beauty and the plethora of outdoor activities they offer.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Lunenburg, Nova Scotia
 
@@ -478,7 +478,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Lunenburg is a historic town in Nova Scotia, known for its rich cultural heritage, stunning architecture, and maritime history. It is a popular tourist destination and a significant example of a British colonial settlement in North America.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Montreal, Quebec
 
@@ -495,7 +495,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Montreal is celebrated for its diverse and rich cultural landscape, blending its French colonial history with a modern, dynamic North American character. The city is a leader in cultural trends and innovation in various sectors.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Nahanni National Park Reserve, Northwest Territories
 
@@ -512,7 +512,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Nahanni National Park Reserve is famed for its mysterious and wild beauty, offering one of the most pristine natural adventures in Canada. It is an iconic wilderness area known for its spectacular landscapes and geothermal activity.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Niagara Falls, Ontario
 
@@ -529,7 +529,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Niagara Falls is not only a testament to natural beauty and power but also a pivotal industrial and cultural landmark, attracting millions of visitors worldwide and playing a critical role in the regional economy.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Ottawa, Ontario
 
@@ -546,7 +546,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing a blend of French and English heritages.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Prince Edward Island National Park, Prince Edward Island
 
@@ -563,7 +563,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Prince Edward Island National Park is a place of extraordinary natural beauty and cultural significance, offering a picturesque landscape that has inspired literature and attracted visitors seeking its serene beachfronts and unique ecosystems.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Quebec City, Quebec
 
@@ -581,7 +581,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Quebec City stands as a living museum of New France history, adorned with its fortifications and old-world European charm. It's a focal point of French Canadian culture, offering rich experiences from historical tours to vibrant festivals.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Rideau Canal, Ontario
 
@@ -598,7 +598,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: The Rideau Canal is celebrated for its historic significance and recreational value, providing a scenic waterway for boating in the summer and skating in the winter, connecting multiple communities along its path.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Royal Tyrrell Museum of Palaeontology, Alberta
 
@@ -615,7 +615,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: The Royal Tyrrell Museum is a leading center for paleontological research and education, featuring dynamic displays of dinosaurs and fossil collections that attract scientists and tourists from around the globe.
 
 **Note from son:**
-- 
+- placeholder
 
 ### St. John’s, Newfoundland and Labrador
 
@@ -632,7 +632,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: St. John's is characterized by its bright cityscape, historic sites like Signal Hill, its role in maritime history, and as a gateway to exploring the rugged beauty of Newfoundland.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Arctic Circle
 
@@ -647,7 +647,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Arctic Circle is not only a geographic boundary but also a climatic frontier, hosting unique ecosystems and cultures adapted to extreme conditions and offering unique phenomena like the Aurora Borealis.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Bay of Fundy, Nova Scotia/New Brunswick
 
@@ -663,7 +663,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Bay of Fundy is renowned for its spectacular tides, unique coastal rock formations, and its ecological diversity, making it a key site for both scientific research and tourism.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Bruce Peninsula, Ontario
 
@@ -679,7 +679,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Bruce Peninsula is celebrated for its rugged landscape and scenic beauty, offering numerous trails, diverse flora and fauna, and clear waters ideal for diving.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Canadian Rockies, Alberta/British Columbia
 
@@ -695,7 +695,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Canadian Rockies are not only a major mountain range offering breathtaking views and numerous recreational opportunities but also a critical habitat for a wide range of wildlife, making it a key destination for nature lovers worldwide.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Muskoka Lakes, Ontario
 
@@ -711,7 +711,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Muskoka Lakes region, often referred to simply as Muskoka, is celebrated for its stunning natural beauty and as a haven for vacationers seeking relaxation and recreational activities in a picturesque setting.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Okanagan, British Columbia
 
@@ -727,7 +727,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Okanagan is a vibrant agricultural and recreational hub known for its dry, sunny climate, scenic landscapes, and as a prolific wine-producing region, attracting both tourists and connoisseurs alike.
 
 **Note from son:**
-- 
+- placeholder
 
 ### The Yukon River
 
@@ -743,7 +743,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: The Yukon River is not only a geographical landmark but also a cultural icon, reflecting the historical human endeavors in the region and serving as a critical natural habitat for various species.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Thousand Islands National Park
 
@@ -760,7 +760,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Thousand Islands National Park is a key conservation area, offering a mosaic of unique ecosystems and historic sites, alongside popular recreational activities like boating and fishing in a scenic river setting.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Tofino, British Columbia
 
@@ -776,7 +776,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: Tofino is renowned for its rugged coastline and natural beauty, attracting outdoor enthusiasts with its extensive opportunities for surfing, hiking, and cultural experiences with the local First Nations communities.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Toronto, Ontario
 
@@ -793,7 +793,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Toronto is a dynamic, multicultural metropolis known for its high standard of living, vibrant arts scene, and as a global center of business, finance, and culture.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Vancouver, British Columbia
 
@@ -810,7 +810,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Vancouver stands out for its scenic views and mild climate, making it one of the most desirable living locations in Canada, celebrated for its cultural diversity and outdoor lifestyle.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Victoria, British Columbia
 
@@ -827,7 +827,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Victoria is a picturesque city with a relaxed pace and a rich colonial history. It's known for its charming marinas, heritage architecture, and as a pioneering city in eco-tourism and green policy initiatives.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Waterton Lakes National Park, Alberta
 
@@ -844,7 +844,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Waterton Lakes National Park is not only a place of profound natural beauty but also a monument to peace and cooperation between nations, offering visitors breathtaking landscapes and a wide variety of outdoor recreational activities.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Whistler, British Columbia
 
@@ -860,7 +860,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: Whistler is a world-renowned ski destination and a vibrant village that offers various recreational and cultural activities, making it an ultimate resort town for all seasons.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Whitehorse, Yukon
 
@@ -876,7 +876,7 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 4. **Summary**: Whitehorse is a gateway to the Yukon’s wilderness, providing a blend of cultural heritage and nature experiences, renowned for its friendly community and the stunning beauty of the surrounding landscapes.
 
 **Note from son:**
-- 
+- placeholder
 
 ### Yellowknife, Northwest Territories
 
@@ -893,4 +893,4 @@ https://www.youtube.com/watch?v=_hCCQYK54vo
 5. **Summary**: Yellowknife is a dynamic small city with a strong sense of community, set in a remarkable northern landscape that offers a unique lifestyle and direct access to an unspoiled wilderness.
 
 **Note from son:**
-- 
+- placeholder
