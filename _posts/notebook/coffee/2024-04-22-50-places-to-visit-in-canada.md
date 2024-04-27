@@ -28,6 +28,9 @@ I learned many new thing from this list, especially the Kermode bear.
    - Home to diverse plant and animal species due to its unique location at the transition between northern coniferous forest and southern deciduous forest.
 5. **Summary**: Algonquin Provincial Park is not only the oldest provincial park in Canada but also one of the most popular, due to its extensive size, variety of lakes and rivers, and its location near major urban centers like Toronto and Ottawa.
 
+**Note from son:**
+Algonquian peoples are group of North American Native. 
+
 ### Auyuittuq National Park, Nunavut
 
 | Map           | Img |
@@ -39,8 +42,44 @@ I learned many new thing from this list, especially the Kermode bear.
 3. **Purpose**: The park preserves the Arctic wilderness and natural environment of the region.
 4. **Special Features**: 
    - Known for its rugged terrain featuring fjords, glaciers, and ice fields.
-   - The park’s name, "Auyuittuq," means "the land that never melts" in Inuktitut, emphasizing its perennially frozen state.
+   - The park’s name, "AuyBaffin Island, Nunavutuittuq," means "the land that never melts" in Inuktitut, emphasizing its perennially frozen state.
 5. **Summary**: Auyuittuq National Park offers a glimpse into the vast, unspoiled Arctic wilderness, embodying the extreme climate and challenging geography that define the northern parts of Canada.
+
+**Note from son:**
+Different mountains:
+- Asgard
+- Thor
+- Fleming
+- Sigurd
+
+Videos about Nunavut:
+https://www.youtube.com/watch?v=CHZI9Pr2B8E
+The Arctic | Why Some Love Living There
+- cost for housing and food are lower than other provinces
+
+https://www.youtube.com/watch?v=1L7EI0vKVuU
+How An Igloo Keeps You Warm
+- convection, conduction and radiation
+- a person will radiate heat. That heat circulates int he igloo. Which is also call convection. Then the heat will lost by conduction.
+- secret of insulation is the texture (check the difference between otter and human)
+- snow house has different level, high and low. High is where the heat flow to. So, human will stay there.
+- 
+https://www.youtube.com/watch?v=ky57HCQPSNk
+Building My First Igloo | A Boy Among Polar Bears | BBC Earth
+- get the best snow from one single storm
+- build in 30 minutes to avoid storm.
+
+https://www.youtube.com/watch?v=BWKfJQpZtaM
+Tuktu- 4- The Snow Palace (How to build a REAL Inuit igloo)
+
+https://www.youtube.com/watch?v=K3pd-wxNEKQ
+How to Build an Igloo
+- igloo means snow house "The term igloo, or iglu, from Eskimo igdlu (“house”)"
+- the depth is one block
+- the size of depth is about 0.5-0.7m.
+- they build houses as they go.
+
+
 
 ### Baffin Island, Nunavut
 
@@ -56,6 +95,11 @@ I learned many new thing from this list, especially the Kermode bear.
    - Features the city of Iqaluit, the capital of Nunavut, with a low population density emphasizing its vast, open landscapes.
 5. **Summary**: Baffin Island is a cornerstone of Canadian geography and culture, known for its expansive arctic tundra and as a central hub for the Inuit culture and community.
 
+**Note from son:**
+https://www.youtube.com/watch?v=_hCCQYK54vo
+- largest island in canada
+- Nettilling Lake is the world's largest lake on an island
+
 ### Banff National Park, Alberta
 
 | Map           | Img |
@@ -69,6 +113,14 @@ I learned many new thing from this list, especially the Kermode bear.
    - Encompasses 6,641 square kilometers of mountainous terrain, numerous glaciers and ice fields, dense forest, and alpine landscapes.
    - Significant for its history with the Canadian Pacific Railway and early promotional efforts to create a tourist destination.
 5. **Summary**: Banff National Park is renowned for its stunning landscape, diverse wildlife, and its status as a major global destination for natural beauty and outdoor activity.
+
+**Note from son:**
+- grizzly bear (brown)
+- what to do when grizzly bear attacks:
+  - don't run. playing dead, protect head, neck, and stomach.
+- black bear is less aggressive compared to grizzly.
+- white bear: you are prey by default.
+- in case you need to attack: eyes, nose
 
 ### Calgary, Alberta
 
@@ -98,6 +150,10 @@ I learned many new thing from this list, especially the Kermode bear.
    - Features diverse ecosystems including Acadian and Boreal forests.
 5. **Summary**: Cape Breton Highlands National Park is celebrated for its dramatic coastal and mountain landscapes, which offer extensive trails for hiking and a variety of habitats that contribute significantly to the biodiversity of the region.
 
+**Note from son:**
+- feel like san diego
+
+
 ### Charlottetown, Prince Edward Island
 
 | Map           | Img |
@@ -124,6 +180,13 @@ I learned many new thing from this list, especially the Kermode bear.
 4. **Special Features**: Known for its polar bear sightings, beluga whale watching, and aurora borealis displays; also a significant cultural and historical site for the Indigenous Cree people
 5. **Summary**: Churchill is a unique and remote town in Manitoba, known for its stunning natural beauty, diverse wildlife, and cultural attractions. It is often referred to as the "Polar Bear Capital of the World".
 
+**Note from son:**
+- polar bears city
+- beluga whale
+- tourist city
+- harsh weather
+- aurora borealis (uh·raw·ruh baw·ree·a·luhs)
+
 ### Dawson City, Yukon
 
 | Map           | Img |
@@ -137,6 +200,10 @@ I learned many new thing from this list, especially the Kermode bear.
    - Home to many preserved buildings from the late 19th century and the cultural heritage of the gold rush era.
    - The second largest city in Yukon, offering a snapshot of the historical economic activities that shaped northern Canada.
 5. **Summary**: Dawson City captures the adventurous spirit of the north with its well-preserved heritage buildings and stories of the gold rush era, offering visitors a glimpse into the past.
+
+**Note from son:**
+- gold rush
+- vast landscape
 
 ### Dempster Highway
 
@@ -152,6 +219,10 @@ I learned many new thing from this list, especially the Kermode bear.
    - Named after William Dempster, a North-West Mounted Police officer known for his rescue missions.
 5. **Summary**: The Dempster Highway is not only a critical infrastructure project but also a route of stunning natural beauty, offering unprecedented access to the Arctic and showcasing the resilience and determination of Canada in connecting its remote regions.
 
+**Note from son:**
+- cross Arctic circle
+- dalton, dempster
+
 ### Drumheller, Alberta
 
 | Map           | Img |
@@ -165,6 +236,12 @@ I learned many new thing from this list, especially the Kermode bear.
    - Home to the Royal Tyrrell Museum of Palaeontology, one of the premier dinosaur museums in the world.
    - Features unique badland topographies and extensive coal mining history.
 5. **Summary**: Drumheller is renowned worldwide for its rich deposits of dinosaur bones, leading to its nickname "Dinosaur Valley." The city is a prime destination for scientists and tourists alike, drawn by its unique landscape and paleontological treasures.
+
+**Note from son:**
+- dinosaur
+- horseshoes canyon
+- why most of dinosaur skeletons are found here?
+  - it was different back then. I was a coastal plain. In another words, it is a flat lands with vegetation that can feed life. Additionally, floods and storm killed large number of living species. It also help to burry them in a good condition. [Source from BBC](https://www.bbc.com/travel/article/20240220-drumheller-canadas-tiny-town-of-huge-monsters)
 
 ### Edmonton, Alberta
 
@@ -191,7 +268,13 @@ I learned many new thing from this list, especially the Kermode bear.
 3. **Special Features**:
    - Known for its distinctive artist residencies and avant-garde architecture.
 - A strong community focused on preserving cultural heritage while embracing sustainable development.
-  4. **Summary**: Fogo Island represents a unique blend of contemporary art and traditional Newfoundland culture, making it a compelling destination for cultural tourism and community-driven economic revival.
+4. **Summary**: Fogo Island represents a unique blend of contemporary art and traditional Newfoundland culture, making it a compelling destination for cultural tourism and community-driven economic revival.
+
+**Note from son:**
+- fisherman
+- industrial destroy old lifestyle
+- good at hospitality
+  - hospitality: love of strangers
 
 ### Fundy National Park, New Brunswick
 
@@ -207,7 +290,11 @@ I learned many new thing from this list, especially the Kermode bear.
    - Features more than 25 waterfalls and a variety of sea life visible during low tide.
 5. **Summary**: Fundy National Park showcases the natural wonders of the Bay of Fundy, from its dramatic coastal cliffs and deep forests to the unique phenomenon of high tidal ranges, offering visitors both recreational opportunities and a chance to observe unique ecological phenomena.
 
-Continuing from Fundy National Park, New Brunswick:
+**Note from son:**
+- hiking place
+- like grand canyon
+- waterfall with trees ❤️
+- beach
 
 ### Gaspé Peninsula, Quebec
 
@@ -223,6 +310,10 @@ Continuing from Fundy National Park, New Brunswick:
    - Historically significant as a landing site of Jacques Cartier and a critical area during the Battle of the St. Lawrence in WWII.
 5. **Summary**: The Gaspé Peninsula, with its stunning natural beauty and rich history, offers a unique blend of outdoor adventures and historical sites, including several national parks and the famous Percé Rock.
 
+**Note from son:**
+- location: cap mont joli [see it here](https://www.google.com/maps/place/Cap+Mont+Joli/@48.5251012,-64.2118633,15z/data=!4m15!1m8!3m7!1s0x4c9bf88ef953debb:0x72621590b295b5ab!2sLe+Cimeti%C3%A8re,+QC+G0C+2L0!3b1!8m2!3d48.49799!4d-64.1749441!16s%2Fg%2F1tn05d54!3m5!1s0x4c9bf9b1f30bebe3:0x5064ea1a663c163f!8m2!3d48.5247666!4d-64.2052424!16s%2Fg%2F11f52mz635?entry=ttu)
+- 
+
 ### Great Bear Rainforest, British Columbia
 
 | Map           | Img |
@@ -236,6 +327,9 @@ Continuing from Fundy National Park, New Brunswick:
    - Encompasses 6.4 million hectares of protected land.
    - Home to the rare white Kermode ("Spirit") bear.
 5. **Summary**: The Great Bear Rainforest is a globally recognized conservation area known for its vast biodiversity, including a significant population of grizzly bears, wolves, and cougars, alongside the unique Spirit bear.
+
+**Note from son:**
+- 
 
 ### Gros Morne National Park, Newfoundland and Labrador
 
@@ -251,6 +345,9 @@ Continuing from Fundy National Park, New Brunswick:
    - Features the second highest peak in Newfoundland, Gros Morne Mountain.
 5. **Summary**: Gros Morne National Park is celebrated not only for its dramatic landscape and biodiversity but also for its geological importance, offering striking scenery and a wide range of outdoor activities.
 
+**Note from son:**
+- 
+
 ### Haida Gwaii, British Columbia
 
 | Map           | Img |
@@ -264,6 +361,9 @@ Continuing from Fundy National Park, New Brunswick:
    - Known for its endemic species and significant cultural sites.
    - Part of the area is protected under the Gwaii Haanas National Park Reserve and Haida Heritage Site.
 5. **Summary**: Haida Gwaii, often called Canada's Galapagos, is a remote set of islands renowned for their ecological diversity and as the cultural heartland of the Haida Nation, reflecting a profound connection between the people and the land.
+
+**Note from son:**
+- 
 
 ### Halifax, Nova Scotia
 
@@ -293,6 +393,9 @@ Continuing from Fundy National Park, New Brunswick:
    - Experiences a polar climate with extreme variations in daylight.
 5. **Summary**: Iqaluit, formerly known as Frobisher Bay, is vital for its administrative role and its unique Arctic environment, providing essential services and a cultural gateway to eastern Arctic Canada.
 
+**Note from son:**
+- 
+
 ### Jasper National Park, Alberta
 
 | Map           | Img |
@@ -308,7 +411,8 @@ Continuing from Fundy National Park, New Brunswick:
 5. **Summary**:
    Jasper National Park is a prime example of Alberta’s natural wealth, offering stunning alpine landscapes and a variety of wildlife, making it a top destination for nature lovers and adventure seekers alike.
 
-Continuing from Jasper National Park, Alberta:
+**Note from son:**
+- 
 
 ### Kluane National Park and Reserve, Yukon
 
@@ -324,6 +428,9 @@ Continuing from Jasper National Park, Alberta:
    - Contains extensive ice fields and is part of the Saint Elias Mountains.
 5. **Summary**: Kluane National Park and Reserve is recognized for its stunning rugged landscapes, significant glacial systems, and diverse fauna, including grizzly bears and Dall sheep. It is a key area for scientific research on glacial and ecological processes.
 
+**Note from son:**
+- 
+
 ### L'Anse aux Meadows, Newfoundland and Labrador
 
 | Map           | Img |
@@ -337,6 +444,9 @@ Continuing from Jasper National Park, Alberta:
    - Site of a Norse village, evidence of the first European settlers in the New World.
    - UNESCO World Heritage site.
 5. **Summary**: L'Anse aux Meadows is pivotal in understanding pre-Columbian European exploration and settlement, offering a glimpse into Viking expeditions and their life in North America well before other European arrivals.
+
+**Note from son:**
+- 
 
 ### Laurentian Mountains, Quebec
 
@@ -352,6 +462,9 @@ Continuing from Jasper National Park, Alberta:
    - Offers a diverse range of outdoor activities year-round.
 5. **Summary**: The Laurentian Mountains are not just a natural barrier and climatic divide; they are a cultural and recreational heartland in Quebec, cherished for their beauty and the plethora of outdoor activities they offer.
 
+**Note from son:**
+- 
+
 ### Lunenburg, Nova Scotia
 
 | Map           | Img |
@@ -363,6 +476,9 @@ Continuing from Jasper National Park, Alberta:
 3. **Purpose**: Founded as a British colonial settlement for Protestant settlers from Germany, Switzerland, and France
 4. **Special Features**: Known for its well-preserved 18th-century architecture, UNESCO World Heritage Site, historic shipbuilding industry, and traditional marine culture
 5. **Summary**: Lunenburg is a historic town in Nova Scotia, known for its rich cultural heritage, stunning architecture, and maritime history. It is a popular tourist destination and a significant example of a British colonial settlement in North America.
+
+**Note from son:**
+- 
 
 ### Montreal, Quebec
 
@@ -378,6 +494,9 @@ Continuing from Jasper National Park, Alberta:
    - Home to several major universities and is a hub of aerospace, technology, and design industries.
 5. **Summary**: Montreal is celebrated for its diverse and rich cultural landscape, blending its French colonial history with a modern, dynamic North American character. The city is a leader in cultural trends and innovation in various sectors.
 
+**Note from son:**
+- 
+
 ### Nahanni National Park Reserve, Northwest Territories
 
 | Map           | Img |
@@ -391,6 +510,9 @@ Continuing from Jasper National Park, Alberta:
    - Features the South Nahanni River and Virginia Falls.
    - Known for its deep river canyons, hot springs, and rich wildlife.
 5. **Summary**: Nahanni National Park Reserve is famed for its mysterious and wild beauty, offering one of the most pristine natural adventures in Canada. It is an iconic wilderness area known for its spectacular landscapes and geothermal activity.
+
+**Note from son:**
+- 
 
 ### Niagara Falls, Ontario
 
@@ -406,6 +528,9 @@ Continuing from Jasper National Park, Alberta:
    - Has the highest flow rate of any waterfall in North America.
 5. **Summary**: Niagara Falls is not only a testament to natural beauty and power but also a pivotal industrial and cultural landmark, attracting millions of visitors worldwide and playing a critical role in the regional economy.
 
+**Note from son:**
+- 
+
 ### Ottawa, Ontario
 
 | Map           | Img |
@@ -420,6 +545,9 @@ Continuing from Jasper National Park, Alberta:
    - Hosts several major international festivals and events.
 5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing a blend of French and English heritages.
 
+**Note from son:**
+- 
+
 ### Prince Edward Island National Park, Prince Edward Island
 
 | Map           | Img |
@@ -433,6 +561,9 @@ Continuing from Jasper National Park, Alberta:
    - Includes Green Gables, part of the setting for "Anne of Green Gables."
    - Features red sandstone cliffs and extensive beach systems.
 5. **Summary**: Prince Edward Island National Park is a place of extraordinary natural beauty and cultural significance, offering a picturesque landscape that has inspired literature and attracted visitors seeking its serene beachfronts and unique ecosystems.
+
+**Note from son:**
+- 
 
 ### Quebec City, Quebec
 
@@ -449,6 +580,9 @@ Continuing from Jasper National Park, Alberta:
    - Home to the famous Château Frontenac and hosts the annual Winter Carnival.
 5. **Summary**: Quebec City stands as a living museum of New France history, adorned with its fortifications and old-world European charm. It's a focal point of French Canadian culture, offering rich experiences from historical tours to vibrant festivals.
 
+**Note from son:**
+- 
+
 ### Rideau Canal, Ontario
 
 | Map           | Img |
@@ -462,6 +596,9 @@ Continuing from Jasper National Park, Alberta:
    - A UNESCO World Heritage Site.
    - In winter, it becomes the world's largest skating rink.
 5. **Summary**: The Rideau Canal is celebrated for its historic significance and recreational value, providing a scenic waterway for boating in the summer and skating in the winter, connecting multiple communities along its path.
+
+**Note from son:**
+- 
 
 ### Royal Tyrrell Museum of Palaeontology, Alberta
 
@@ -477,6 +614,9 @@ Continuing from Jasper National Park, Alberta:
    - Offers interactive exhibits and educational programs focusing on Earth’s geological and paleontological history.
 5. **Summary**: The Royal Tyrrell Museum is a leading center for paleontological research and education, featuring dynamic displays of dinosaurs and fossil collections that attract scientists and tourists from around the globe.
 
+**Note from son:**
+- 
+
 ### St. John’s, Newfoundland and Labrador
 
 | Map           | Img |
@@ -491,6 +631,9 @@ Continuing from Jasper National Park, Alberta:
    - Rich maritime history and close ties to transatlantic shipping.
 5. **Summary**: St. John's is characterized by its bright cityscape, historic sites like Signal Hill, its role in maritime history, and as a gateway to exploring the rugged beauty of Newfoundland.
 
+**Note from son:**
+- 
+
 ### The Arctic Circle
 
 | Map           | Img |
@@ -502,6 +645,9 @@ Continuing from Jasper National Park, Alberta:
 3. **Special Features**:
    - The region inside the Arctic Circle is characterized by arctic conditions, significant ice cover, and extreme variations in daylight.
 4. **Summary**: The Arctic Circle is not only a geographic boundary but also a climatic frontier, hosting unique ecosystems and cultures adapted to extreme conditions and offering unique phenomena like the Aurora Borealis.
+
+**Note from son:**
+- 
 
 ### The Bay of Fundy, Nova Scotia/New Brunswick
 
@@ -516,6 +662,9 @@ Continuing from Jasper National Park, Alberta:
    - Home to a variety of marine species and significant fossil discoveries.
 4. **Summary**: The Bay of Fundy is renowned for its spectacular tides, unique coastal rock formations, and its ecological diversity, making it a key site for both scientific research and tourism.
 
+**Note from son:**
+- 
+
 ### The Bruce Peninsula, Ontario
 
 | Map           | Img |
@@ -528,6 +677,9 @@ Continuing from Jasper National Park, Alberta:
    - Home to Bruce Peninsula National Park and Fathom Five National Marine Park.
    - Features unique dolomite rock formations and diverse ecosystems.
 4. **Summary**: The Bruce Peninsula is celebrated for its rugged landscape and scenic beauty, offering numerous trails, diverse flora and fauna, and clear waters ideal for diving.
+
+**Note from son:**
+- 
 
 ### The Canadian Rockies, Alberta/British Columbia
 
@@ -542,7 +694,8 @@ Continuing from Jasper National Park, Alberta:
    - Known for dramatic mountain peaks and extensive outdoor activities.
 4. **Summary**: The Canadian Rockies are not only a major mountain range offering breathtaking views and numerous recreational opportunities but also a critical habitat for a wide range of wildlife, making it a key destination for nature lovers worldwide.
 
-Continuing from The Canadian Rockies:
+**Note from son:**
+- 
 
 ### The Muskoka Lakes, Ontario
 
@@ -557,6 +710,9 @@ Continuing from The Canadian Rockies:
    - Offers a wide array of outdoor recreational activities, such as boating, golfing, and luxury resorts.
 4. **Summary**: The Muskoka Lakes region, often referred to simply as Muskoka, is celebrated for its stunning natural beauty and as a haven for vacationers seeking relaxation and recreational activities in a picturesque setting.
 
+**Note from son:**
+- 
+
 ### The Okanagan, British Columbia
 
 | Map           | Img |
@@ -570,6 +726,9 @@ Continuing from The Canadian Rockies:
    - Hosts several cultural events and festivals, including wine festivals.
 4. **Summary**: The Okanagan is a vibrant agricultural and recreational hub known for its dry, sunny climate, scenic landscapes, and as a prolific wine-producing region, attracting both tourists and connoisseurs alike.
 
+**Note from son:**
+- 
+
 ### The Yukon River
 
 | Map           | Img |
@@ -582,6 +741,9 @@ Continuing from The Canadian Rockies:
    - One of the longest rivers in North America at 3,190 kilometers (1,980 miles).
    - Known for its salmon runs and wildlife along its banks.
 4. **Summary**: The Yukon River is not only a geographical landmark but also a cultural icon, reflecting the historical human endeavors in the region and serving as a critical natural habitat for various species.
+
+**Note from son:**
+- 
 
 ### Thousand Islands National Park
 
@@ -597,6 +759,9 @@ Continuing from The Canadian Rockies:
    - Known for its rich biodiversity and recreational boating.
 5. **Summary**: Thousand Islands National Park is a key conservation area, offering a mosaic of unique ecosystems and historic sites, alongside popular recreational activities like boating and fishing in a scenic river setting.
 
+**Note from son:**
+- 
+
 ### Tofino, British Columbia
 
 | Map           | Img |
@@ -609,6 +774,9 @@ Continuing from The Canadian Rockies:
    - Located in the Clayoquot Sound Biosphere Reserve.
    - Features long sandy beaches and a temperate rainforest.
 4. **Summary**: Tofino is renowned for its rugged coastline and natural beauty, attracting outdoor enthusiasts with its extensive opportunities for surfing, hiking, and cultural experiences with the local First Nations communities.
+
+**Note from son:**
+- 
 
 ### Toronto, Ontario
 
@@ -624,6 +792,9 @@ Continuing from The Canadian Rockies:
    - Hosts numerous international events, including the Toronto International Film Festival (TIFF).
 5. **Summary**: Toronto is a dynamic, multicultural metropolis known for its high standard of living, vibrant arts scene, and as a global center of business, finance, and culture.
 
+**Note from son:**
+- 
+
 ### Vancouver, British Columbia
 
 | Map           | Img |
@@ -638,6 +809,9 @@ Continuing from The Canadian Rockies:
    - Features Stanley Park, one of the largest urban parks in North America.
 5. **Summary**: Vancouver stands out for its scenic views and mild climate, making it one of the most desirable living locations in Canada, celebrated for its cultural diversity and outdoor lifestyle.
 
+**Note from son:**
+- 
+
 ### Victoria, British Columbia
 
 | Map           | Img |
@@ -650,7 +824,10 @@ Continuing from The Canadian Rockies:
 4. **Special Features**:
    - Known for its historic architecture and the Butchart Gardens.
 - Has a vibrant cultural scene with a focus on the arts, community, and sustainability.
-  5. **Summary**: Victoria is a picturesque city with a relaxed pace and a rich colonial history. It's known for its charming marinas, heritage architecture, and as a pioneering city in eco-tourism and green policy initiatives.
+5. **Summary**: Victoria is a picturesque city with a relaxed pace and a rich colonial history. It's known for its charming marinas, heritage architecture, and as a pioneering city in eco-tourism and green policy initiatives.
+
+**Note from son:**
+- 
 
 ### Waterton Lakes National Park, Alberta
 
@@ -666,6 +843,9 @@ Continuing from The Canadian Rockies:
    - Features diverse flora and fauna, including large carnivores like bears and cougars.
 5. **Summary**: Waterton Lakes National Park is not only a place of profound natural beauty but also a monument to peace and cooperation between nations, offering visitors breathtaking landscapes and a wide variety of outdoor recreational activities.
 
+**Note from son:**
+- 
+
 ### Whistler, British Columbia
 
 | Map           | Img |
@@ -678,6 +858,9 @@ Continuing from The Canadian Rockies:
    - Hosted many events during the 2010 Winter Olympics.
    - Features two majestic mountains, Whistler and Blackcomb, which provide year-round outdoor activities including skiing, mountain biking, and hiking.
 4. **Summary**: Whistler is a world-renowned ski destination and a vibrant village that offers various recreational and cultural activities, making it an ultimate resort town for all seasons.
+
+**Note from son:**
+- 
 
 ### Whitehorse, Yukon
 
@@ -692,6 +875,9 @@ Continuing from The Canadian Rockies:
    - Offers access to several outdoor activities, including the Yukon Quest dog sled race.
 4. **Summary**: Whitehorse is a gateway to the Yukon’s wilderness, providing a blend of cultural heritage and nature experiences, renowned for its friendly community and the stunning beauty of the surrounding landscapes.
 
+**Note from son:**
+- 
+
 ### Yellowknife, Northwest Territories
 
 | Map           | Img |
@@ -705,3 +891,6 @@ Continuing from The Canadian Rockies:
    - The city is known for its diamond mines, the spectacular Aurora Borealis, and the vibrant indigenous culture.
    - Features a unique northern environment with activities such as ice fishing and dog sledding.
 5. **Summary**: Yellowknife is a dynamic small city with a strong sense of community, set in a remarkable northern landscape that offers a unique lifestyle and direct access to an unspoiled wilderness.
+
+**Note from son:**
+- 
