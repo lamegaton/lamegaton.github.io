@@ -81,8 +81,7 @@ keywords: son pham, lamegaton, countdown, js
 <br>
 <div id="countdown"></div>
 <br>
-<p id="ps" style="font-family:'Courier New'">P/s: Many thanks to my family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. We die every night and reborn the day after. We cannot let the small things in life burry our hope, our solidarity. Let's stand up and start again, shall we?"</p>
-
+<p id="ps" style="font-family:'Courier New'">P/s: Many thanks to my family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. We die every night and reborn the day after. We cannot let the small things in life burry our hope, our solidarity. Let's stand up and start again, shall we?</p>
 
 <script>
   const url = 'https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json';
@@ -101,8 +100,8 @@ let i;
 getQuote(url)
   .then(data => {
     quote = data;
-		i = Math.floor(Math.random() * quote.length);
-		document.getElementById('quote').innerHTML = `${quote[i].quoteText} - ${quote[i].quoteAuthor}`;
+        i = Math.floor(Math.random() * quote.length);
+        document.getElementById('quote').innerHTML = `${quote[i].quoteText} - ${quote[i].quoteAuthor}`;
   })
   .catch(error => {
     console.log('An error occurred:', error);
@@ -184,12 +183,12 @@ function updateSeconds(currentSecond) {
 
 function updateCountdown() {
   const startDate = new Date("2023-04-18");
-  const endDate = new Date("2024-09-1");
+  const endDate = new Date("2025-09-1");
   const countdownContainer = document.getElementById("countdown");
   const currentDate = new Date();
 
   let totaldays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
-  
+
 
   countdownContainer.innerHTML = "";
 
