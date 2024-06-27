@@ -2,24 +2,29 @@
 layout: post
 title: R Notebook - dplyr 
 categories: R
-author: "Son Pham, Truc Pham"
+author: "Son Pham"
 meta: R
 description: "Essential R"
 comments: false
+public: true
 ---
 
-
 # Dplyr
+
 We are gonna go through filter(), arrange(), select(), mutate(), summarise(), group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()  
-  
+
 dplyr:  
+
 * first argument is a data frame  
 * function  
 * result is a new data frame  
-## Pipe
-`%>%` is pronounced THEN
+  
+  ## Pipe
+  
+  `%>%` is pronounced THEN
 
 ## All-in-one Example
+
 ```r
 manager <- c(1, 2, 3, 4, 5) 
 date <- c("10/24/08", "10/28/08", "10/1/08", "10/12/08", "5/1/09") 
@@ -35,7 +40,7 @@ leadership <- data.frame(manager, date, country, gender, age,
                          q1, q2, q3, q4, q5, stringsAsFactors=FALSE)
 > leadership
 leadership <- leadership %>%
-	mutate()
+    mutate()
 
   manager     date country gender age q1 q2 q3 q4 q5
 1       1 10/24/08      US      M  32  5  4  5  5  5
@@ -65,7 +70,7 @@ leadership$gender <- recode(leadership$gender, #C
 2       2 10/28/08      US female  45  3  5  2  5  5          20        4.0
 3       3  10/1/08      UK female  25  3  5  5  5  2          20        4.0
 4       4 10/12/08      UK   male  39  3  3  4 NA NA          NA         NA
-5       5   5/1/09      UK female  99  2  2  1  2  1           8        1.6														
+5       5   5/1/09      UK female  99  2  2  1  2  1           8        1.6                                                        
 # recode is similar to renaming the row, and rename is for columns
 # right to left
 leadership <- rename(leadership, ID = "manager", sex = "gender")#D
@@ -108,10 +113,11 @@ leadership_men_high <- filter(leadership, #G
 +                               sex == "male" & total_score > 10) #G
 > leadership_men_high
   ID     date country  sex age q1 q2 q3 q4 q5 total_score mean_score
-1  1 10/24/08      US male  32  5  4  5  5  5          24        4.8															
+1  1 10/24/08      US male  32  5  4  5  5  5          24        4.8                                                            
 ```
 
 ## filter()
+
 ```r
 library('nycflights13')
 library('dplyr')
@@ -123,32 +129,42 @@ flights[flights$month == 1 & flights$day == 1 & flights$dep_delay >= 15, ]
 subset(flights, month == 1 & day == 1 & dep_delay >= 15)
 # better 
 ```
+
 filter(), with %in%, select specific values in a col 
 
 ```r
 filter(flights, month %in% c(6,7,8))
 ```
-## slice()  
+
+## slice()
+
 slice() will cut by user input  
+
 ```r
 slice(flights, c(1:3, 5200, 9000:9100))
 ```
 
 ## arrange(): order data
+
 ```r
 arrange(flights, year, month, day)
 ```
+
 ### arrange in descending order
+
 ```r
 arrange(flights, desc(dep_delay))
 ```
 
 ### sorting missing value
+
 ```r
 df <- tibble(x = c(5, 2, NA))
 arrange(df, x)
 ```
+
 ### select()
+
 ```r
 # select columns by name
 select(flights, year, month, day)
@@ -163,10 +179,10 @@ head(dplyr::select(flights, year:day),2)
 # Select all columns except those from year to day (inclusive)
 head(dplyr::select(flights, -(year:day)),3)
 ```
+
 If the column names are stored quoted in a variable, they should be passed to the one_of argument.
 
 ```r
-
 theCols <- c('flights', 'year', 'month','day')
 select(flights, one_of(theCols))
 ```
@@ -186,7 +202,9 @@ select(flights, time_hour, day, month, year, everything())
  3 2013-01-01 05:00:00     1     1  2013      542            540         2
  4 2013-01-01 05:00:00     1     1  2013      544            545        -1
 ```
+
 ### Rename a variable (column)
+
 select(df, something, name_to_be_change = current_name)  
 Lets change tailnum to tail_num
 
@@ -200,9 +218,10 @@ select(flights, flight, tail_num = tailnum)
  4    725 N804JB
  5    461 N668DN
 ```
+
 Or if you want to keep every variable, you can use rename() function
 rename(df, name_to_be_change = current_name) 
- 
+
 ```r
 rename(flights, tail_num = tailnum)
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
@@ -211,12 +230,14 @@ rename(flights, tail_num = tailnum)
  2  2013     1     1      533            529         4      850            830
  3  2013     1     1      542            540         2      923            850
 ```
+
 ### Select with other helper functions
+
 - starts_with("abc"): matches names that begin with “abc”.
 - ends_with("xyz"): matches names that end with “xyz”.
 - contains("ijk"): matches names that contain “ijk”.
 - matches("(.)\\1"): selects variables that match a regular expression. This
-one matches any variables that contain repeated characters.
+  one matches any variables that contain repeated characters.
 - num_range("x", 1:3) matches x1, x2 and x3.
 
 ```r
@@ -229,6 +250,7 @@ select(flights, contains(arr))
 ```
 
 ## Group_by()
+
 - .by_group = TRUE for arrange()
 - sample_n(), sample_frac()  
 
@@ -244,11 +266,11 @@ Then, we use
    <int> <int> <int>    <int>          <int>     <dbl>    <int>          <int>
  1  2013     1     1      517            515         2      830            819
  2  2013     1     1      533            529         4      850            830
- 
+
 > delay <- summarise(by_dest,
-+ 	count = n(),
-+ 	dist = mean(distance, na.rm = TRUE),
-+ 	delay = mean(arr_delay, na.rm = TRUE))
++     count = n(),
++     dist = mean(distance, na.rm = TRUE),
++     delay = mean(arr_delay, na.rm = TRUE))
 > delay
 # A tibble: 105 x 4
    dest  count  dist delay
@@ -260,7 +282,7 @@ Then, we use
  5 ATL   17215  757. 11.3
  6 AUS    2439 1514.  6.02
  7 AVL     275  584.  8.00
- 
+
 # Subset the data to only include frequently flown planes
 # and distances < 3000
 delay <- filter(delay, count > 20, dist < 3000)
@@ -275,6 +297,7 @@ delay
 ```
 
 ## Other useful functions for R
+
 - n(): number of items in a group (observations)
 - n_distinct(x): find distinct value in x
 - first(x) = x[1]
@@ -293,10 +316,10 @@ delay
  5  2013     1     1      554            600        -6      812            837
  6  2013     1     1      554            558        -4      740            728
  7  2013     1     1      555            600        -5      913            854
- 
+
 > summarise(destinations,
-+ 	planes = n_distinct(tailnum),
-+ 	flights = n() # this will count how many thing in a group
++     planes = n_distinct(tailnum),
++     flights = n() # this will count how many thing in a group
 + )
    dest  planes flights
    <chr>  <int>   <int>
@@ -319,8 +342,8 @@ count(filter(destinations, dest == "AUS"))
 1 AUS    2439
 ```
 
-
 ## Merging (base R)
+
 ```r
 # merge option
 flights.df <- merge(flights.df, cor, by.x=c("origin"), by.y=c("faa"))
@@ -328,6 +351,7 @@ flights.df <- merge(flights.df, cor, by.x=c("dest"), by.y=c("faa"),suffixes=c(".
 ```
 
 ## remove col/s in R
+
 ```r
 N0EGMQ         
 #find value in a col
@@ -355,13 +379,14 @@ cor(select(planes_delay,!(arr_delay)), select(planes_delay,!(year)))
 cor(arrange(select(planes,c(tailnum,year)),tailnum), arrange(select(flights,c(tailnum,arr_delay)),tailnum))
 
 planes.delay <- planes.delay %>%   filter(across(everything(),~ !is.na(.)))
-
 ```
 
 # Pull all of the departure-related columns
+
 select(flights, contains("dep"))
 
 # Pull all of the arrival and departure related columns
+
 select(flights, 
        contains("dep"),
        contains("arr"))
@@ -386,6 +411,7 @@ head(delay,3)
 ```
 
 ## inner_join
+
 Joining three tables with the same variable
 
 ```r
@@ -395,7 +421,7 @@ sets
  1 700.3-1   Medium Gift Set (ABB)                                 1949      365
  2 700.1.1-1 Single 2 x 4 Brick (ABB)                              1950      371
  3 700.B.2-1 Single 1 x 2 x 3 Window without Glass (ABB)           1950      371
- 
+
 inventories
       id version set_num 
    <dbl>   <dbl> <chr>   
@@ -408,10 +434,10 @@ inventory_parts
  2           25 21019c00pat004pr1033       15        1
  3           25 24629pr0002                78        1
  4           25 24634pr0001                 5        1
- 
+
 sets %>%
-	inner_join(inventories, by = "set_num") %>%
-	inner_join(inventory_parts, by = c("id" = "inventory_id"))
+    inner_join(inventories, by = "set_num") %>%
+    inner_join(inventory_parts, by = c("id" = "inventory_id"))
 
 sets
    set_num name           year theme_id    id version part_num color_id quantity
@@ -458,9 +484,12 @@ inner_join(part_categories, by = c("part_cat_id" = "id"))
  2 0902       Baseplate 16 x 24 with Set 080 Small W~           1 Baseplates    
  3 0903       Baseplate 16 x 24 with Set 080 Red Hou~           1 Baseplates    
 ```
+
 ## left_join
+
 In this example we merge star_destroyer to millennium_falcon by both  
 color_id and part_num
+
 ```r
 millennium_falcon
 # A tibble: 263 x 4
@@ -477,7 +506,7 @@ star_destroyer
  1 75190-1 6141           72       66
  2 75190-1 3020            0       38
  3 75190-1 2780            0       36
- 
+
 millennium_falcon %>%
 left_join(star_destroyer, by = c("color_id", "part_num"), suffix = c("_falcon", "_star_destroyer"))
 
@@ -487,10 +516,10 @@ left_join(star_destroyer, by = c("color_id", "part_num"), suffix = c("_falcon", 
  1 7965-1         63868          71              62 NA                    
  2 7965-1         3023            0              60 NA                    
  3 7965-1         3021           72              46 75190-1  
- 
 ```
 
 # group_by() and summarise()
+
 In this example we will count how many thing in a group
 
 ```r
@@ -506,7 +535,7 @@ millennium_falcon
 millennium_falcon_colors <- millennium_falcon %>%
   group_by(color_id) %>%
   summarize(total_quantity = sum(quantity))
-	
+
 millennium_falcon_colors 
 
 # A tibble: 21 x 2
@@ -520,6 +549,7 @@ millennium_falcon_colors
 ```
 
 # left_join and filter to find na value
+
 Na is important for statistic because sometime our function will not work if we 
 dont treat or ignore NA values
 
@@ -552,19 +582,22 @@ sets %>%
 ```
 
 # right_join
+
 This is similar to left join but it will merge into table on the right side
 
 # count()
+
 count(x, ..., wt = NULL, sort = FALSE, name = NULL)  
+
 - wt stands for weight  
 
-In 	#A, it will count how many occurrence for each carrier in a dataset  
-		#B, it will count how many flights for each carrier  
+In     #A, it will count how many occurrence for each carrier in a dataset  
+        #B, it will count how many flights for each carrier  
 
 ```r
 # using lego sets
 # we can download and read_csv function
-count(flights, carrier) 													#A
+count(flights, carrier)                                                     #A
 # A tibble: 16 x 2
    carrier     n
    <chr>   <int>
@@ -574,7 +607,7 @@ count(flights, carrier) 													#A
  4 B6      54635
  5 DL      48110
  6 EV      54173
- 
+
 count(flights, carrier, wt = flight, sort = TRUE) #B
 # A tibble: 16 x 2
    carrier         n
@@ -588,23 +621,25 @@ count(flights, carrier, wt = flight, sort = TRUE) #B
 ```
 
 # joining their children
+
 We can represent hirachy in table format by using number  
 example:  
 
 Car- Honda  
-	|- Toyota  
-	|- Ford - Bronco  
-				 |- F150  
-```r 
-			id name           parent_id
+    |- Toyota  
+    |- Ford - Bronco  
+                 |- F150  
+
+```r
+            id name           parent_id
    <dbl> <chr>              <dbl>
- 1     1 Car           		    NA
- 2     2 Honda								1
- 3     3 Toyota								1
- 4     4 Ford									1
- 5     5 Bronco								4
- 6     6 F150									4
-``` 
+ 1     1 Car                       NA
+ 2     2 Honda                                1
+ 3     3 Toyota                                1
+ 4     4 Ford                                    1
+ 5     5 Bronco                                4
+ 6     6 F150                                    4
+```
 
 ## nycflights13
 
@@ -617,8 +652,8 @@ Car- Honda
  2  2013     1     1      533            529         4      850            830        20 UA        1714 N24211  LGA    IAH        227     1416     5     29 2013-01-01 05:00:00
  3  2013     1     1      542            540         2      923            850        33 AA        1141 N619AA  JFK    MIA        160     1089     5     40 2013-01-01 05:00:00
  4  2013     1     1      544            545        -1     1004           1022       -18 B6         725 N804JB  JFK    BQN        183     1576     5     45 2013-01-01 05:00:00
- 
- 
+
+
 > nycflights13::weather
 # A tibble: 26,115 x 15
    origin  year month   day  hour  temp  dewp humid wind_dir wind_speed wind_gust precip pressure visib time_hour          
@@ -627,4 +662,3 @@ Car- Honda
  2 EWR     2013     1     1     2  39.0  27.0  61.6      250       8.06        NA      0    1012.    10 2013-01-01 02:00:00
  3 EWR     2013     1     1     3  39.0  28.0  64.4      240      11.5         NA      0    1012.    10 2013-01-01 03:00:00
 ```
-	
