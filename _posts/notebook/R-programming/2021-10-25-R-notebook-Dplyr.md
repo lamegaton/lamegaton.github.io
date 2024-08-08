@@ -13,15 +13,10 @@ public: true
 
 We are gonna go through filter(), arrange(), select(), mutate(), summarise(), group_by(), slice(), rename(), transmute(), sample_n(), sample_frac()  
 
-dplyr:  
+  
+## Pipe
 
-* first argument is a data frame  
-* function  
-* result is a new data frame  
-  
-  ## Pipe
-  
-  `%>%` is pronounced THEN
+`%>%` is pronounced THEN
 
 ## All-in-one Example
 

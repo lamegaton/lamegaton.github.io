@@ -182,8 +182,8 @@ function updateSeconds(currentSecond) {
 }
 
 function updateCountdown() {
-  const startDate = new Date("2023-04-18");
-  const endDate = new Date("2025-09-1");
+  const startDate = new Date("2023-08-08");
+  const endDate = new Date("2024-12-1");
   const countdownContainer = document.getElementById("countdown");
   const currentDate = new Date();
 

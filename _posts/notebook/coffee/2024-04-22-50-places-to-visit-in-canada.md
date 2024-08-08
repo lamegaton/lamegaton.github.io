@@ -10,8 +10,7 @@ description: "50 Places to Visit in Canada"
 tags: [coffee, travel]
 ---
 
-
-I learned many new thing from this list, especially the Kermode bear.
+I continued to work with the code from the previous post. I made a list of beautiful places in Canada and learned many new things from it, especially about the Kermode bear.
 
 ### Algonquin Provincial Park, Ontario
 
