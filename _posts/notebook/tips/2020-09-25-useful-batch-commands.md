@@ -5,6 +5,7 @@ categories: tips
 author: "Son Pham"
 meta: "batch dos cmd shell useful command"
 comments: false
+public: false
 ---
 
 
