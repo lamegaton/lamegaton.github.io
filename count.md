@@ -81,7 +81,7 @@ keywords: son pham, lamegaton, countdown, js
 <br>
 <div id="countdown"></div>
 <br>
-<p id="ps" style="font-family:'Courier New'">P/s: Many thanks to my family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences. I wish you well.</p>
+<p id="ps" style="font-family:'Courier New'">P/s: Many thanks to my family, friends, relatives and strangers who give me warm hugs, hot meals, and great experiences.</p>
 
 <script>
   const url = 'https://raw.githubusercontent.com/JamesFT/Database-Quotes-JSON/master/quotes.json';
