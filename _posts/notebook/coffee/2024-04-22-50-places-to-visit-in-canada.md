@@ -30,6 +30,87 @@ I continued to work with the code from the previous post. I made a list of beaut
 **Note from son:**
 Algonquian peoples are group of North American Native. 
 
+
+
+### Niagara Falls, Ontario ✅
+
+| Map                                                                                                                                                            | Img                                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/niagara_falls-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/niagara_falls-ontario.jpg) |
+
+1. **Geographical Location**: Border of Ontario, Canada, and New York, USA.
+2. **Significant Date**: Long-standing as a major natural landmark.
+3. **Purpose**: Serves as a major source of hydroelectric power and a monumental tourist attraction.
+4. **Special Features**:
+   - Consists of three different waterfalls: Horseshoe Falls, the American Falls, and the Bridal Veil Falls.
+   - Has the highest flow rate of any waterfall in North America.
+5. **Summary**: Niagara Falls is not only a testament to natural beauty and power but also a pivotal industrial and cultural landmark, attracting millions of visitors worldwide and playing a critical role in the regional economy.
+
+
+
+### Toronto, Ontario ✅
+
+| Map                                                                                                                                                      | Img                                                                                                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/toronto-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/toronto-ontario.jpg) |
+
+1. **Geographical Location**: Southeastern Ontario, Canada.
+2. **Establishment Date**: Incorporated as a city in 1834.
+3. **Purpose**: Serves as the financial and cultural capital of Canada.
+4. **Special Features**:
+   - Home to the CN Tower, one of the world's tallest freestanding structures.
+   - Hosts numerous international events, including the Toronto International Film Festival (TIFF).
+5. **Summary**: Toronto is a dynamic, multicultural metropolis known for its high standard of living, vibrant arts scene, and as a global center of business, finance, and culture.
+
+
+
+### The Muskoka Lakes, Ontario
+
+| Map                                                                                                                                                                | Img                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_muskoka_lakes-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_muskoka_lakes-ontario.jpg) |
+
+1. **Geographical Location**: Central Ontario, Canada.
+2. **Purpose**: Known for being a major summer cottage destination for residents of Ontario.
+3. **Special Features**:
+   - Comprised of numerous lakes, including Lake Muskoka, Lake Rosseau, and Lake Joseph.
+   - Offers a wide array of outdoor recreational activities, such as boating, golfing, and luxury resorts.
+4. **Summary**: The Muskoka Lakes region, often referred to simply as Muskoka, is celebrated for its stunning natural beauty and as a haven for vacationers seeking relaxation and recreational activities in a picturesque setting.
+
+
+
+### Rideau Canal, Ontario
+
+| Map                                                                                                                                                           | Img                                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/rideau_canal-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/rideau_canal-ontario.jpg) |
+
+1. **Geographical Location**: Connects Ottawa, Ontario to Lake Ontario and the Saint Lawrence River at Kingston, Ontario.
+2. **Establishment Date**: Opened in 1832.
+3. **Purpose**: Initially used for military purposes, now a significant recreational and tourism site.
+4. **Special Features**:
+   - A UNESCO World Heritage Site.
+   - In winter, it becomes the world's largest skating rink.
+5. **Summary**: The Rideau Canal is celebrated for its historic significance and recreational value, providing a scenic waterway for boating in the summer and skating in the winter, connecting multiple communities along its path.
+
+
+
+### Ottawa, Ontario ✅
+
+| Map                                                                                                                                                     | Img                                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/ottawa-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/ottawa-ontario.jpg) |
+
+1. **Geographical Location**: Capital city of Canada, in southern Ontario.
+2. **Establishment Date**: Founded in 1826; designated as the capital in 1857.
+3. **Purpose**: To serve as the administrative center of Canada.
+4. **Special Features**:
+   - Home to Parliament Hill, numerous national museums, and cultural institutions.
+   - Hosts several major international festivals and events.
+5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing a blend of French and English heritages.
+
+
+
 ### Auyuittuq National Park, Nunavut
 
 | Map                                                                                                                                                                      | Img                                                                                                                                                                      |
@@ -44,8 +125,6 @@ Algonquian peoples are group of North American Native.
    - The park’s name, "AuyBaffin Island, Nunavutuittuq," means "the land that never melts" in Inuktitut, emphasizing its perennially frozen state.
 5. **Summary**: Auyuittuq National Park offers a glimpse into the vast, unspoiled Arctic wilderness, embodying the extreme climate and challenging geography that define the northern parts of Canada.
 
-
-
 **Note from Son:**
 There are four mountains in the areas:
 
@@ -56,11 +135,11 @@ There are four mountains in the areas:
 
 You can check out video about Nunavut [here](https://www.youtube.com/watch?v=CHZI9Pr2B8E) 
 
-
 I get hooked by the landscape and history of the area. As I read on, I found interesting facts about Eskimos and their house, Igloo. You can watch a video of how to build an ice house, igloo [here](https://www.youtube.com/watch?v=1L7EI0vKVuU)
 
-
 An igloo is a fascinating example of natural engineering that uses physics to maintain warmth in extremely cold environments. It employs three main principles: convection, conduction, and radiation. A person inside an igloo radiates body heat, which circulates in the enclosed space through convection, warming the air. However, heat is also gradually lost through conduction, as it transfers from the warmer inside air to the cooler snow walls. The key to an igloo's insulation lies in the texture of the snow, similar to how otters have dense fur for insulation. The walls of an igloo are thick but still allow some air pockets, trapping warmth. Igloos often have different levels inside, with people staying on the higher levels, as heat naturally rises. Constructing an igloo requires specific conditions, such as using snow from a single storm, and can be done quickly, typically within 30 minutes, to avoid exposure to harsh weather. The word "igloo," or "iglu," comes from the Eskimo word for "house," highlighting its primary function as a shelter against the elements.
+
+
 
 ### Baffin Island, Nunavut
 
@@ -96,6 +175,8 @@ An igloo is a fascinating example of natural engineering that uses physics to ma
 
 When encountering a grizzly bear (brown bear), it is crucial not to run. Running may trigger the bear's instinct to chase. Instead, playing dead is often the best strategy—lie flat on your stomach, protect your head and neck with your hands, and spread your legs to make it harder for the bear to flip you over. Grizzly bears are typically more aggressive than black bears, which are less likely to attack. In the case of black bears, standing your ground, making noise, and appearing large can often scare them away. However, if you encounter a polar bear (white bear), it views humans as prey by default, making the situation much more dangerous. If you must defend yourself, aim for the bear’s sensitive areas, particularly the eyes and nose, to maximize your chances of deterring an attack.
 
+
+
 ### Calgary, Alberta
 
 | Map                                                                                                                                                      | Img                                                                                                                                                      |
@@ -109,6 +190,8 @@ When encountering a grizzly bear (brown bear), it is crucial not to run. Running
    - Known for its high number of corporate headquarters and a large number of millionaires per capita.
    - Hosts the famous Calgary Stampede, an annual rodeo, exhibition, and festival.
 5. **Summary**: Calgary is a vibrant city that combines a strong business environment with a rich cultural heritage and numerous recreational opportunities.
+
+
 
 ### Cape Breton Highlands National Park, Nova Scotia
 
@@ -128,7 +211,9 @@ When encountering a grizzly bear (brown bear), it is crucial not to run. Running
 
 - feel like san diego
 
-### Charlottetown, Prince Edward Island
+
+
+### Charlottetown (shaar·luht·town), Prince Edward Island
 
 | Map                                                                                                                                                                         | Img                                                                                                                                                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -141,6 +226,8 @@ When encountering a grizzly bear (brown bear), it is crucial not to run. Running
    - Host of the 1864 Charlottetown Conference, which led to the formation of the Canadian Confederation.
    - Known as the "Birthplace of Confederation."
 5. **Summary**: Charlottetown is a historic city with a charming blend of old-world charm and modern convenience, making it a pivotal location in Canada’s development and heritage.
+
+
 
 ### Churchill, Manitoba
 
@@ -157,6 +244,8 @@ When encountering a grizzly bear (brown bear), it is crucial not to run. Running
 **Note from son:**
 
 Churchill, Manitoba, is a quiet little place known for polar bears. Folks call it the "Polar Bear Capital of the World," and if you visit in the fall, you might just see one up close. In the summer, the beluga whales come by, and it's quite a sight. Even though the weather can be tough, people still come from all over to enjoy the peaceful beauty and maybe catch the northern lights dancing in the sky. It’s a special kind of town.
+
+
 
 ### Dawson City, Yukon
 
@@ -175,6 +264,8 @@ Churchill, Manitoba, is a quiet little place known for polar bears. Folks call i
 **Note from son:**
 
 - Dawson City, Yukon, is famous for the Klondike Gold Rush. Surrounded by vast, rugged landscapes.
+
+
 
 ### Dempster Highway
 
@@ -224,6 +315,8 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - Home to the largest mall in North America, West Edmonton Mall, and a vibrant arts scene.
 5. **Summary**: Edmonton is a dynamic city with a robust economy based on festivals, retail, and education. It plays a crucial role in the political landscape of Alberta and Canada, providing a home for key governmental and cultural institutions.
 
+
+
 ### Fogo Island, Newfoundland and Labrador
 
 | Map                                                                                                                                                                            | Img                                                                                                                                                                            |
@@ -239,10 +332,9 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 
 **Note from son:**
 
-- fisherman
-- industrial destroy old lifestyle
-- good at hospitality
-  - hospitality: love of strangers
+Fogo Island is a place where the old fishing lifestyle once thrived but was nearly lost to industrial changes. Despite this, the island is known for its warm hospitality, embracing the "love of strangers" and making visitors feel welcome in its unique, beautiful setting.
+
+
 
 ### Fundy National Park, New Brunswick
 
@@ -260,10 +352,9 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 
 **Note from son:**
 
-- hiking place
-- like grand canyon
-- waterfall with trees ❤️
-- beach
+Fundy National Park in New Brunswick is a beautiful spot for hiking, with trails that offer views similar to a smaller Grand Canyon. It features stunning waterfalls surrounded by lush trees and a peaceful beach, making it a perfect place for nature lovers.
+
+
 
 ### Gaspé Peninsula, Quebec
 
@@ -281,7 +372,9 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 
 **Note from son:**
 
-- location: cap mont joli [see it here](https://www.google.com/maps/place/Cap+Mont+Joli/@48.5251012,-64.2118633,15z/data=!4m15!1m8!3m7!1s0x4c9bf88ef953debb:0x72621590b295b5ab!2sLe+Cimeti%C3%A8re,+QC+G0C+2L0!3b1!8m2!3d48.49799!4d-64.1749441!16s%2Fg%2F1tn05d54!3m5!1s0x4c9bf9b1f30bebe3:0x5064ea1a663c163f!8m2!3d48.5247666!4d-64.2052424!16s%2Fg%2F11f52mz635?entry=ttu)
+- Location: cap mont joli [see it here](https://www.google.com/maps/place/Cap+Mont+Joli/@48.5251012,-64.2118633,15z/data=!4m15!1m8!3m7!1s0x4c9bf88ef953debb:0x72621590b295b5ab!2sLe+Cimeti%C3%A8re,+QC+G0C+2L0!3b1!8m2!3d48.49799!4d-64.1749441!16s%2Fg%2F1tn05d54!3m5!1s0x4c9bf9b1f30bebe3:0x5064ea1a663c163f!8m2!3d48.5247666!4d-64.2052424!16s%2Fg%2F11f52mz635?entry=ttu)
+
+
 
 ### Great Bear Rainforest, British Columbia
 
@@ -345,6 +438,8 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - Rich maritime history displayed through its numerous museums and the waterfront.
 5. **Summary**: Halifax is a vibrant port city known for its maritime history, diverse culture, and as a key gateway to exploring Atlantic Canada, providing a dynamic mix of old-world charm and modern energy.
 
+
+
 ### Iqaluit, Nunavut
 
 | Map                                                                                                                                                      | Img                                                                                                                                                      |
@@ -392,8 +487,6 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - Contains extensive ice fields and is part of the Saint Elias Mountains.
 5. **Summary**: Kluane National Park and Reserve is recognized for its stunning rugged landscapes, significant glacial systems, and diverse fauna, including grizzly bears and Dall sheep. It is a key area for scientific research on glacial and ecological processes.
 
-
-
 ### L'Anse aux Meadows, Newfoundland and Labrador
 
 | Map                                                                                                                                                                                   | Img                                                                                                                                                                                   |
@@ -438,9 +531,7 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 4. **Special Features**: Known for its well-preserved 18th-century architecture, UNESCO World Heritage Site, historic shipbuilding industry, and traditional marine culture
 5. **Summary**: Lunenburg is a historic town in Nova Scotia, known for its rich cultural heritage, stunning architecture, and maritime history. It is a popular tourist destination and a significant example of a British colonial settlement in North America.
 
-
-
-### Montreal, Quebec
+### Montreal, Quebec ✅
 
 | Map                                                                                                                                                      | Img                                                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -472,37 +563,7 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 
 
 
-### Niagara Falls, Ontario
-
-| Map                                                                                                                                                            | Img                                                                                                                                                            |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/niagara_falls-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/niagara_falls-ontario.jpg) |
-
-1. **Geographical Location**: Border of Ontario, Canada, and New York, USA.
-2. **Significant Date**: Long-standing as a major natural landmark.
-3. **Purpose**: Serves as a major source of hydroelectric power and a monumental tourist attraction.
-4. **Special Features**:
-   - Consists of three different waterfalls: Horseshoe Falls, the American Falls, and the Bridal Veil Falls.
-   - Has the highest flow rate of any waterfall in North America.
-5. **Summary**: Niagara Falls is not only a testament to natural beauty and power but also a pivotal industrial and cultural landmark, attracting millions of visitors worldwide and playing a critical role in the regional economy.
-
-
-
-### Ottawa, Ontario
-
-| Map                                                                                                                                                     | Img                                                                                                                                                     |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/ottawa-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/ottawa-ontario.jpg) |
-
-1. **Geographical Location**: Capital city of Canada, in southern Ontario.
-2. **Establishment Date**: Founded in 1826; designated as the capital in 1857.
-3. **Purpose**: To serve as the administrative center of Canada.
-4. **Special Features**:
-   - Home to Parliament Hill, numerous national museums, and cultural institutions.
-   - Hosts several major international festivals and events.
-5. **Summary**: Ottawa stands out for its historical significance and vibrant cultural scene, encapsulated within its role as the political heart of Canada, showcasing a blend of French and English heritages.
-
-
+### 
 
 ### Prince Edward Island National Park, Prince Edward Island
 
@@ -534,22 +595,6 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - The only city in North America with its original city walls still intact.
    - Home to the famous Château Frontenac and hosts the annual Winter Carnival.
 5. **Summary**: Quebec City stands as a living museum of New France history, adorned with its fortifications and old-world European charm. It's a focal point of French Canadian culture, offering rich experiences from historical tours to vibrant festivals.
-
-
-
-### Rideau Canal, Ontario
-
-| Map                                                                                                                                                           | Img                                                                                                                                                           |
-|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/rideau_canal-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/rideau_canal-ontario.jpg) |
-
-1. **Geographical Location**: Connects Ottawa, Ontario to Lake Ontario and the Saint Lawrence River at Kingston, Ontario.
-2. **Establishment Date**: Opened in 1832.
-3. **Purpose**: Initially used for military purposes, now a significant recreational and tourism site.
-4. **Special Features**:
-   - A UNESCO World Heritage Site.
-   - In winter, it becomes the world's largest skating rink.
-5. **Summary**: The Rideau Canal is celebrated for its historic significance and recreational value, providing a scenic waterway for boating in the summer and skating in the winter, connecting multiple communities along its path.
 
 
 
@@ -614,7 +659,7 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
 
 
 
-### The Bruce Peninsula, Ontario
+### The Bruce Peninsula, Ontario ✅
 
 | Map                                                                                                                                                                  | Img                                                                                                                                                                  |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -641,21 +686,6 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - Home to five national parks: Banff, Jasper, Kootenay, Yoho, and Waterton.
    - Known for dramatic mountain peaks and extensive outdoor activities.
 4. **Summary**: The Canadian Rockies are not only a major mountain range offering breathtaking views and numerous recreational opportunities but also a critical habitat for a wide range of wildlife, making it a key destination for nature lovers worldwide.
-
-
-
-### The Muskoka Lakes, Ontario
-
-| Map                                                                                                                                                                | Img                                                                                                                                                                |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/the_muskoka_lakes-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/the_muskoka_lakes-ontario.jpg) |
-
-1. **Geographical Location**: Central Ontario, Canada.
-2. **Purpose**: Known for being a major summer cottage destination for residents of Ontario.
-3. **Special Features**:
-   - Comprised of numerous lakes, including Lake Muskoka, Lake Rosseau, and Lake Joseph.
-   - Offers a wide array of outdoor recreational activities, such as boating, golfing, and luxury resorts.
-4. **Summary**: The Muskoka Lakes region, often referred to simply as Muskoka, is celebrated for its stunning natural beauty and as a haven for vacationers seeking relaxation and recreational activities in a picturesque setting.
 
 
 
@@ -717,22 +747,6 @@ Drumheller, Alberta, is famous for its rich history of dinosaurs. It's home to H
    - Located in the Clayoquot Sound Biosphere Reserve.
    - Features long sandy beaches and a temperate rainforest.
 4. **Summary**: Tofino is renowned for its rugged coastline and natural beauty, attracting outdoor enthusiasts with its extensive opportunities for surfing, hiking, and cultural experiences with the local First Nations communities.
-
-
-
-### Toronto, Ontario
-
-| Map                                                                                                                                                      | Img                                                                                                                                                      |
-|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| ![Alt text](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/map/toronto-ontario.png) | ![](https://raw.githubusercontent.com/lamegaton/lamegaton.github.io/gh-pages/_posts/notebook/coffee/50_places_in_canada/place_image/toronto-ontario.jpg) |
-
-1. **Geographical Location**: Southeastern Ontario, Canada.
-2. **Establishment Date**: Incorporated as a city in 1834.
-3. **Purpose**: Serves as the financial and cultural capital of Canada.
-4. **Special Features**:
-   - Home to the CN Tower, one of the world's tallest freestanding structures.
-   - Hosts numerous international events, including the Toronto International Film Festival (TIFF).
-5. **Summary**: Toronto is a dynamic, multicultural metropolis known for its high standard of living, vibrant arts scene, and as a global center of business, finance, and culture.
 
 
 
