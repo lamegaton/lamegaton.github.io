@@ -182,24 +182,24 @@ function updateSeconds(currentSecond) {
 }
 
 function updateCountdown() {
-  const startDate = new Date("2023-08-08");
-  const endDate = new Date("2024-12-1");
+  const startDate = new Date("2024-09-24");
+  const endDate = new Date("2024-12-15");
   const countdownContainer = document.getElementById("countdown");
   const currentDate = new Date();
 
-  let totaldays = Math.ceil((endDate - startDate) / (1000 * 60 * 60 * 24));
+  let totaldays = Math.ceil((endDate - startDate + 1) / (1000 * 60 * 60 * 24));
 
 
   countdownContainer.innerHTML = "";
 
-  for (let i = 0; i <= totaldays; i++) {
+  for (let i = 1; i <= totaldays; i++) {
     const dayBlock = document.createElement("div");
     dayBlock.classList.add("day-block");
 
-    let iterDate = new Date(endDate);
-    iterDate.setDate(iterDate.getDate() - i);
-
-    if (iterDate > currentDate) {
+    let iterDate = new Date(startDate);
+    iterDate.setDate(iterDate.getDate() + i);
+	
+    if (iterDate < currentDate) {
       dayBlock.classList.add("passed");
     } else {
       dayBlock.classList.add("remaining");
@@ -208,6 +208,7 @@ function updateCountdown() {
     countdownContainer.appendChild(dayBlock);
   }
 }
+
 
 // Update clock immediately
 updateClock();
