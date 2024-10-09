@@ -40,7 +40,7 @@ people such as Ms. Beyer and Mr. Meyer.<br>
 University and met people from different walks of life. Also worked at a 
 company for the first time.<br>
 Continue learning new skills: JavaScript, Angularjs, Bash, Shell, Perl…<br>
-<strong>[24-25]</strong> : Left my job at Samsung and kept learning to 
+<strong>[24-25]</strong> : Left my job and kept learning to 
 find a more challenging one.<br>
 <strong>[25-27]</strong> : Took a few quiet years to live.<br>
 <strong>[28]</strong> : Went back to school again!!<br>
